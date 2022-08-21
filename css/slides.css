@@ -1,0 +1,155 @@
+.slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slides {
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide img {
+    width: 800px;
+    height: 400px;
+}
+
+.btn-visualizar-projeto-jogoDaForca {
+    position: absolute;
+    top: 220em;
+    left: 40px;
+    transform: rotate(-3deg);
+    width: 15%;
+    height: 5%;
+    border-radius: 10px;
+    background: linear-gradient(30deg, #111113, #0f4ea1);
+}
+
+.btn-visualizar-projeto-jogoDaForca:hover {
+    width: 16%;
+    height: 6%;
+}
+
+.ancora-btn-projeto-jogoDaForca {
+    text-decoration: none;
+    color: rgb(192, 185, 173);
+}
+
+.manual-navigation {
+    position: absolute;
+    margin-top: 280px;
+    margin-left: calc(36% - 274px);
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid rgb(50, 83, 146);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 100px;
+}
+
+.manual-btn:hover {
+    background-color: rgb(59, 82, 117);
+}
+
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: -100%;
+}
+
+#radio3:checked~.first {
+    margin-left: -200%;
+}
+
+#radio4:checked~.first {
+    margin-left: -300%;
+}
+
+.btn-visualizar-projeto-encriptador {
+    position: absolute;
+    top: 255em;
+    right: 40px;
+    transform: rotate(3deg);
+    width: 15%;
+    height: 5%;
+    border-radius: 10px;
+    background: linear-gradient(30deg, #111113, #0f4ea1);
+}
+
+.btn-visualizar-projeto-encriptador:hover {
+    width: 16%;
+    height: 6%;
+}
+
+.ancora-btn-projeto-encriptador {
+    text-decoration: none;
+    color: rgb(192, 185, 173);
+}
+
+.segmanual-navigation {
+    position: absolute;
+    margin-left: calc(27% - 274px);
+    margin-top: 340px;
+    display: flex;
+    justify-content: center;
+}
+
+.segmanual-btn {
+    border: 2px solid rgb(50, 83, 146);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.segmanual-btn:not(:last-child) {
+    margin-right: 100px;
+}
+
+.segmanual-btn:hover {
+    background-color: rgb(59, 82, 117);
+}
+
+#radio5:checked~.segfirst {
+    margin-left: 0;
+}
+
+#radio6:checked~.segfirst {
+    margin-left: -100%;
+
+}
+
+#radio7:checked~.segfirst {
+    margin-left: -200%;
+}
+
+#radio8:checked~.segfirst {
+    margin-left: -300%;
+}
+
+#radio9:checked~.segfirst {
+    margin-left: -400%;
+}
+
+#radio10:checked~.segfirst {
+    margin-left: -500%;
+}

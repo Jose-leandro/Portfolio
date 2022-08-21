@@ -1,0 +1,110 @@
+.formulario {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contato {
+    font-size: 20px;
+    margin-left: 11px;
+}
+
+.campo-nome-do-individuo {
+    margin: 20px;
+    width: 30em;
+    height: 25px;
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: #000;
+    background-color: #484574;
+}
+
+.erro-nome {
+    border-color: #7c1b1f;
+}
+
+.campo-email {
+    width: 30em;
+    height: 35px;
+    margin: 20px;
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: #000;
+    background-color: #484574;
+}
+
+#email {
+    border-color: #7c1b1f;
+}
+
+.campo-motivo {
+    width: 30em;
+    height: 5em;
+    margin: 10px 0 10px 10px;
+    border-radius: 6px;
+    border-color: #000;
+    background-color: #484574;
+    border: 1px solid;
+}
+
+label {
+    width: 30%;
+    margin-bottom: 3em;
+}
+
+.contener-inputs-labels-btn-span {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    height: 20em;
+    padding: 20px 100px 10px 20px;
+    background: linear-gradient(50deg, #2d134e, #213744);
+}
+
+.enviar {
+    margin: 8px 20px 20px 35px;
+    width: 9em;
+    height: 2em;
+    border-radius: 6px;
+    background-color: #1a5aa3;
+}
+
+.enviar:hover {
+    font-size: 15px;
+}
+
+.span-erro {
+    font-size: 20px;
+    color: #7c1b1f;
+    visibility: hidden;
+    padding-right: 33%;
+    margin-top: 2em;
+}
+
+.contenerdocontato {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    width: 100%;
+    height: 200px;
+    margin-top: 1em;
+}
+
+.contenercontatoinfo {
+    margin-right: 2em;
+    width: 14em;
+    height: 11em;
+    border-radius: 5px;
+    background-color: #235246;
+}
+
+.contato {
+    padding: 20px;
+}
+
+.informacaoes {
+    padding: 10px 20px 20px 20px;
+}

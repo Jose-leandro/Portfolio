@@ -1,0 +1,98 @@
+.contenernomerede {
+    width: 100%;
+}
+
+.contenersocial {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 25em;
+}
+
+.rede {
+    display: inline-block;
+    margin: 2% 1% 8% 9%;
+    font-size: 27px;
+    font-weight: bold;
+    color: #8b5e25;
+}
+
+.rede:hover {
+    font-size: 33px;
+}
+
+.g {
+    font-family: 'Advent Pro', sans-serif;
+    color: #003989;
+    text-decoration: none;
+    font-size: 100px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.g:hover {
+    font-size: 105px;
+}
+
+.contenergithub {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contenergit {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 14px;
+    width: 8em;
+    height: 14em;
+    background: linear-gradient(#2f1864, #4b2121);
+}
+
+.github {
+    margin-left: 1rem;
+    width: 20px;
+    height: 20px;
+}
+
+.redesociagit {
+    font-size: 25px;
+    margin-left: 1.6rem;
+}
+
+.contener-linkedin {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.linkedin {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 14px;
+    width: 8em;
+    height: 14em;
+    background: linear-gradient(#2a1a63, #03234b);
+}
+
+.linkedin-nome {
+    font-family: 'Advent Pro', sans-serif;
+    color: #003989;
+    text-decoration: none;
+    font-size: 100px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.linkedin-nome:hover {
+    font-size: 105px;
+}
+
+.redesocial-linkedin {
+    font-size: 25px;
+    margin-left: 1.6rem;
+}

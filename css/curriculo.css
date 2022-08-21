@@ -1,0 +1,43 @@
+
+.contener-meu-curriculo {
+    height: 10em;
+    margin-top: 5rem;
+}
+
+.curriculo {
+    font-size: 27px;
+    font-weight: bold;
+    margin-left: 5%;
+    color: #1f275a;
+}
+
+.curriculo:hover {
+    font-size: 29px;
+}
+
+.contener-veja {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3em;
+}
+
+.btncurriculo {
+    border-radius: 4px;
+    font-size: 20px;
+    background: linear-gradient(20deg,#8b3d25, #4b2121);
+}
+
+.btncurriculo:hover  {
+    font-size: 21px;
+}
+
+.baixar {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14x;
+}
+
+h2 {
+    font-size: 20px;
+}

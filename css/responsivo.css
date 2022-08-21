@@ -1,0 +1,15 @@
+
+@media screen and   (max-width: 480px) {
+    .contenercontatoinfo {
+        width: 5em;
+        height: 5em;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+
+    .contenerinputs {
+        width: 100%;
+    }
+}

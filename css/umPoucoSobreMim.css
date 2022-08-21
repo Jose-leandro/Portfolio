@@ -1,0 +1,68 @@
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 20em;
+    margin: 5em 2em 5em 2em;
+}
+
+.container-sobre-all {
+    height: 10em;
+}
+
+.contenerumpoucosobremim {
+    height: 4em; 
+    display: flex;
+}
+
+.sobre .sobremim {
+    font-size: 16px;
+}
+
+.sobre  .um {
+    cursor: default;
+    display: inline-block;
+    color: #282d3b;
+    font-size: 27px;
+    font-weight: bolder;
+    margin-left: 8%;
+} 
+
+.sobre .pouco {
+    cursor: default;
+    display: inline-block;
+    color: #282d3b;
+    font-size: 27px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.sobre  .sobrer {
+    cursor: default;
+    display: inline-block;
+    color: #282d3b;
+    font-size: 27px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.sobre  .mim {
+    cursor: default;
+    display: inline-block;
+    color: #282d3b;
+    font-size: 27px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.sobre .frase {
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.sobremim {
+    font-family: 'Oswald', sans-serif;
+    font-size: small;
+}

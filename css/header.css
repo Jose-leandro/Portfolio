@@ -1,0 +1,47 @@
+header {
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    margin-top: 0.3rem;
+    background-color: rgb(12, 12, 12);
+    border-bottom-color: #000;
+}
+
+.menu {
+    
+}
+
+.itens {
+    text-align: center;
+    width: 170px;
+}
+
+.menu-ancora {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(192, 185, 173);
+}
+
+.icone-menu {
+  width: 50px;
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  cursor: pointer;
+  visibility: visible;
+}
+
+.icone-menu:hover {
+    width: 52px;
+}
+
+.menus-esconde {
+    visibility: hidden;
+}

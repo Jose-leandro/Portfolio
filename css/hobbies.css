@@ -1,0 +1,113 @@
+.contenerhobbies {
+    height: 500px;
+    margin: 4em 0;
+}
+
+.contenerlestrashobbies {
+    width: 100%;
+    height: 60px;
+}
+
+.h {
+    cursor: default;
+    display: inline-block;
+    font-size: 27px;
+    color: #504d2b;
+    font-weight: bold;
+    margin-left: 9%;
+}
+
+.o {
+    cursor: default;
+    display: inline-block;
+    font-size: 27px;
+    color: #504d2b;
+    font-weight: bold;
+}
+
+.primeirob {
+    cursor: default;
+    display: inline-block;
+    font-size: 27px;
+    color: #504d2b;
+    font-weight: bold;
+}
+
+.segundob {
+    cursor: default;
+    display: inline-block;
+    font-size: 27px;
+    color: #504d2b;
+    font-weight: bold;
+}
+
+.i {
+    cursor: default;
+    display: inline-block;
+    font-size: 27px;
+    color: #504d2b;
+    font-weight: bold;
+}
+
+.e {
+    cursor: default;
+    display: inline-block;
+    font-size: 27px;
+    color: #504d2b;
+    font-weight: bold;
+}
+
+.s {
+    cursor: default;
+    display: inline-block;
+    font-size: 27px;
+    color: #504d2b;
+    font-weight: bold;
+}
+
+.contenermeushobbies {
+    display: flex;
+    margin-top: 1em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 430px;
+}
+
+.contenertv {
+    
+}
+
+.assitir {
+    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Arima', cursive;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    padding: 20px 100px;
+    background: linear-gradient(60deg,#a1772200, #483e83);
+    border-radius: 10px;
+}
+
+.contenerler {
+
+}
+
+.ler {
+    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Arima', cursive;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    padding: 20px 80px;
+    background: linear-gradient(60deg,#a1772200, rgb(68, 40, 7));
+    border-radius: 10px;
+}
+
+.cultiva {
+    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Arima', cursive;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    padding: 20px 120px;
+    background: linear-gradient(60deg,#a1772200, #2b534f);
+    border-radius: 10px;
+}

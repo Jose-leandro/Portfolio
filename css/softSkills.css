@@ -1,0 +1,88 @@
+
+.conternersoftskills {
+    height: 12em;
+}
+
+.contenerletrasskills {
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 9%;
+}
+
+.segundos {
+    cursor: default;
+    font-weight: bold;
+    font-size: 27px;
+    color: #404a66;
+}
+
+.segundoo {
+    cursor: default;
+    font-weight: bold;
+    font-size: 27px;
+    color: #404a66;
+}
+
+.f {
+    cursor: default;
+    font-weight: bold;
+    font-size: 27px;
+    color: #404a66;
+}
+
+.t {
+    cursor: default;
+    font-weight: bold;
+    font-size: 27px;
+    color: #404a66;
+    margin-right: 12px;
+}
+
+.terceiros {
+    cursor: default;
+    font-weight: bold;
+    font-size: 27px;
+    color: #404a66;
+}
+
+.k {
+    cursor: default;
+    font-weight: bold;
+    font-size: 27px;
+    color: #404a66;
+}
+
+.segundoi { 
+    cursor: default;
+    font-weight: bold;
+    font-size: 27px;
+    color: #404a66;
+}
+
+.l {
+    cursor: default;
+    font-weight: bold;
+    font-size: 27px;
+    color: #404a66;
+}
+
+.segundol {
+    cursor: default;
+    font-weight: bold;
+    font-size: 27px;
+    color: #404a66;
+}
+
+.quartos {
+    cursor: default;
+    font-weight: bold;
+    font-size: 29px;
+    color: #404a66;
+}
+
+.cursosskills {
+    display: flex;
+    justify-content: center;
+}
