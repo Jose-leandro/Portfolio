@@ -83,37 +83,34 @@ setInterval(function () {
     bordar();
 }, 15000);
 
+var menu = document.querySelector(".menu");
 var ul = document.querySelector("ul");
 var iconeMenu = document.querySelector(".icone-menu");
-iconeMenu.addEventListener("click", function() {
+iconeMenu.addEventListener("click", function () {
 
-    var menus = ul.classList;
-    var resultado = menus.toggle("menu");
+    var menus = ul.classList.toggle("menu-visible");
 
-    if(resultado) {
-        alert("certo")
-        menu();    
-    setInterval(function () {
-        escondermenu();
-    }, 14000);
+    console.log(menus)
 
-    }else {
-        alert("erro")
-        var menu = document.querySelector(".menu");
-        menu.classList.remove("menus-esconde");
+    if (menus) {
+        alert("menu esta")
+        ul.classList.remove("esconder-menu");
+        ul.classList.remove("menu");
+        ul.classList.add("menu-visible");
+
+
+    } else {
+        alert("menu nao esta")
+        ul.classList.remove("mostar-visible");
+        ul.classList.remove("menu");
+        ul.classList.add("animation-menu");
+
+        setInterval(function () {
+            escondermenu();
+        }, 6000);
     }
-
 });
 
-function menu() {
-    var menu = document.querySelector(".menu");
-   
-       menu.classList.add("animation-menu");
-
-}
-
 function escondermenu() {
-    var menu = document.querySelector(".menu");
-    menu.classList.add("menus-esconde");
+    ul.classList.add("esconder-menu");
 }
-

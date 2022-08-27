@@ -1,5 +1,5 @@
 
-const inputs = document.querySelectorAll('input');
+const inputs = document.querySelectorAll("input");
 console.log(inputs)
 
 inputs.forEach(input => {
@@ -7,28 +7,38 @@ inputs.forEach(input => {
     input.addEventListener('blur', (evento) => {
         valida(evento.target)
         console.log(evento)
+        evento.cl
+        console.log(evento.validity)
+
     })
 });
 
 var span = document.querySelector(".span-erro");
     console.log(span);
     
-function valida(input, nomeDaClass) {
-    const tipoDeInput = input.dataset.tipo
+    var classNome = document.querySelector(".campo-nome-do-individuo");
+
+    var lableNome = document.querySelector(".lable-nome");
+
+function valida(input) {
+    const tipoDeInput = input.dataset.tipo;
     console.log(tipoDeInput)
-    console.log(nomeDaClass)
     
-    if(validadores[tipoDeInput]) {
-        validadores[tipoDeInput](input)
-    }
+    // if(validadores[tipoDeInput]) {
+    //     validadores[tipoDeInput](input)
+    // }
 
     if(input.validity.valid) {
+      
     span.innerHTML = " ";
+
 
     } else {
         
         span.style.visibility="visible";
         span.innerHTML = mostraMensagemDeErro(tipoDeInput, input);
+
+        
     }
 }
 
@@ -58,10 +68,11 @@ const mensagensDeErro = {
 
 }
 
-const validadores = {
-    nome:input => validandoInputNome(input)
-   
-}
+// const validadores = {
+//     nome:input => validandoInputNome(input),
+//     email:input => validandoInputEmail(input)
+
+// }
 
 function mostraMensagemDeErro(tipoDeInput, input) {
     let mensagem = '';
@@ -77,13 +88,56 @@ function mostraMensagemDeErro(tipoDeInput, input) {
 
 
 function validandoInputNome() {
-    var inputNome = document.querySelector("[data-tipo='email']");
-    console.log(inputNome);
+    var inputNome = document.querySelector("[data-tipo='nome']");
+
   
-    var classDoInputNome = document.getElementById("email"); 
+    valida(inputNome);
+}
+
+
+
+function validandoInputEmail() {
+    var inputEmail = document.querySelector("[data-tipo='email']");
+  
+    var classDoInputEmail = document.getElementById("email"); 
+
+    valida(inputEmail);
+}
+
+
+function validandoInputMotivo() {
+    var inputMotivo = document.querySelector("[data-tipo='motivo']");
+    console.log(inputMotivo);
+  
+    var classDoInputMotivo = document.getElementById("nome"); 
     console.log(classDoInputNome)
-    valida(inputNome, classDoInputNome);
-}validandoInputNome();
+    valida(inputMotivo);
+}
+
+function email() {
+    var html = new XMLHttpRequest();
+    html.open("GET", "leandojose124leandro@gmail.com");
+
+  
+    html.addEventListener("load", function(){
+
+      
+        if(html.status == 200){
+          
+         alert("certo")
+          
+        }else{
+            alert("erro")
+        //     console.log(xhr.status);
+        //     console.log(xhr.responseText);
+        //    var erroAjax =  document.querySelector("#erro-ajax");
+        //    erroAjax.classList.remove("invisivel");
+        }
+
+      
+    });
+    // xhr.send();
+}email()
 
 // export function valida(input) {
 //     const tipoDeInput = input.dataset.tipo

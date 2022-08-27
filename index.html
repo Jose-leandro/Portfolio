@@ -344,9 +344,9 @@
                         pattern="(?!.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,30}" class="campo-nome-do-individuo"
                         placeholder="Digite seu nome" required
                         title="O seu nome nao ter números ou caracteres especiais">
-                    <label for="nome">Nome</label>
+                    <label for="nome" class="lable-nome">Nome</label>
 
-                    <input name="email" type="email" id="email" data-tipo="email" class="campo-email erro-email"
+                    <input name="email" type="email" id="email" data-tipo="email" class="campo-email"
                         pattern="(?!*.[\s!#$%^&*_=+-]).{6,30}" placeholder="exmplo@provedor.com" required
                         title="Digite um email válido ex: seunome@seuprovedor.com">
                     <label for="email">Email</label>
@@ -362,6 +362,8 @@
                 </div>
             </form>
         </section>
+       <input type="email">
+       <button type="submit" onclick="">Email</button>
     </main>
     <footer class="rodape">
         <p class="desenvolvedor">&copy; Construido e desenvolvido por josé leandro do nascimento</p>

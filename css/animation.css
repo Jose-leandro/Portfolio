@@ -1,31 +1,83 @@
-
 @keyframes encolhermenu {
     25% {
-        transform: translatex(200px);
+        visibility: visible;
         font-size: 15px;
 
     }
 
     50% {
-        transform: translatex(300px);
+
         font-size: 14px;
-       
+
     }
 
     75% {
-        transform: translatex(400px);
+
         font-size: 13px;
     }
 
     100% {
-        transform: translatex(1040px);
+        transform: translatex(1350px);
     }
 }
 
+
 .animation-menu {
-    animation: encolhermenu 12s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    margin-top: 0.3rem;
+    background-color: rgb(12, 12, 12);
+    border-bottom-color: #000;
+    animation: encolhermenu 6s ease-in;
+
 }
 
+
+@keyframes mostarmenu {
+    0% {
+        font-size: 13px;
+        transform: translatex(1350px);
+    }
+
+    75% {
+        font-size: 14px;
+    }
+
+    100% {
+        font-size: 15px;
+        visibility: hidden;
+    }
+}
+
+.menu-visible {
+    visibility: visible;
+    animation: mostarmenu 6s ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    margin-top: 0.3rem;
+    background-color: rgb(12, 12, 12);
+    border-bottom-color: #000;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    margin-top: 0.3rem;
+    background-color: rgb(12, 12, 12);
+    border-bottom-color: #000;
+}
 
 .menu-ancora:hover {
     text-decoration: underline;

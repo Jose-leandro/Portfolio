@@ -34,7 +34,7 @@
     background-color: #484574;
 }
 
-#email {
+.erro-email {
     border-color: #7c1b1f;
 }
 
@@ -46,6 +46,10 @@
     border-color: #000;
     background-color: #484574;
     border: 1px solid;
+}
+
+.erro-motivo {
+    border-color: #7c1b1f;
 }
 
 label {
@@ -98,7 +102,7 @@ label {
     width: 14em;
     height: 11em;
     border-radius: 5px;
-    background-color: #235246;
+    background: linear-gradient( 40deg,#235246, #000);
 }
 
 .contato {
