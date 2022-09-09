@@ -1,88 +1,54 @@
 
-.conternersoftskills {
-    height: 12em;
+.skills {
+    height: 400px;
+    margin: 2em 0;
 }
 
-.contenerletrasskills {
-    height: 4em;
+.skills__titulo {
+    height: 70px;
+    width: 100%;
+}
+
+.titulo__nome--color {
+    color: #4b5d8d; 
+    cursor: default;
+    font-size: 27px;
+    font-weight: bold;
+    margin-left: 9%; 
+}
+
+.titulo__nome--color:hover {
+    font-size: 28px;
+}
+
+.skills__descrevendo {
+    align-items: center;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-left: 9%;
+    flex-direction: column;
+    height: 300px;
 }
 
-.segundos {
-    cursor: default;
-    font-weight: bold;
-    font-size: 27px;
-    color: #404a66;
-}
-
-.segundoo {
-    cursor: default;
-    font-weight: bold;
-    font-size: 27px;
-    color: #404a66;
-}
-
-.f {
-    cursor: default;
-    font-weight: bold;
-    font-size: 27px;
-    color: #404a66;
-}
-
-.t {
-    cursor: default;
-    font-weight: bold;
-    font-size: 27px;
-    color: #404a66;
-    margin-right: 12px;
-}
-
-.terceiros {
-    cursor: default;
-    font-weight: bold;
-    font-size: 27px;
-    color: #404a66;
-}
-
-.k {
-    cursor: default;
-    font-weight: bold;
-    font-size: 27px;
-    color: #404a66;
-}
-
-.segundoi { 
-    cursor: default;
-    font-weight: bold;
-    font-size: 27px;
-    color: #404a66;
-}
-
-.l {
-    cursor: default;
-    font-weight: bold;
-    font-size: 27px;
-    color: #404a66;
-}
-
-.segundol {
-    cursor: default;
-    font-weight: bold;
-    font-size: 27px;
-    color: #404a66;
-}
-
-.quartos {
-    cursor: default;
-    font-weight: bold;
-    font-size: 29px;
-    color: #404a66;
-}
-
-.cursosskills {
+.descrevendo__lista {
+    align-items: center;
     display: flex;
-    justify-content: center;
+    height: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 3em;
+    width: 100%;
 }
+
+.descrevendo__item {
+    background: linear-gradient(50deg, #4b5d8d, #612d3d);
+    border-radius: 20px;
+    font-weight: 200;
+    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Arima', cursive;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    padding: 15px 40px;
+}
+
+.descrevendo__informacoes {
+    margin-bottom: 3em;
+}
+

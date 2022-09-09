@@ -1,36 +1,66 @@
-header {
+.cabecalho__menu {
     height: 60px;
     position: fixed;
+    width: 100%;
 }
 
-.menu {
-   visibility: hidden;
+.menu__lista {
+    align-items: center;
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    height: 50px;
+    justify-content: space-evenly;
+    margin-top: 0.3rem;
+    position: fixed;
+    visibility: hidden;
+    width: 100%;
 }
 
-.esconder-menu {
+.lista__itens {
+    font-size: 18px;
+}
+
+.lista-ancora {
+    color: #c0b9ad;
+    text-decoration: none;
+}
+
+.lista-ancora:hover {
+    text-decoration: underline;
+    font-size: 19px;
+}
+
+.esconder__menu {
     visibility: hidden;
 }
 
-.itens {
+.lista__itens {
     text-align: center;
     width: 170px;
 }
 
-.menu-ancora {
+.lista__ancora {
+    color: rgb(192, 185, 173);
     display: inline-block;
     text-decoration: none;
-    color: rgb(192, 185, 173);
 }
 
-.icone-menu {
-  width: 50px;
-  position: fixed;
-  top: 3px;
-  right: 2px;
-  cursor: pointer;
-  visibility: visible;
+.icone__menu {
+    cursor: pointer;
+    height: 50px;
+    position: fixed;
+    right: 2px;
+    top: 3px;
+    visibility: visible;
+    width: 50px;
 }
 
-.icone-menu:hover {
+.icone__menu:hover {
+    height: 52px;
     width: 52px;
+}
+
+.icone__menu:active {
+    height: 49px;
+    width: 49px;
 }

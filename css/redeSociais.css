@@ -1,98 +1,79 @@
-.contenernomerede {
+.redesociais {
+   height: 400px;
+   margin: 2em 0;
+}
+
+.redesociais__contener {
+    margin: 2em 0;
     width: 100%;
 }
 
-.contenersocial {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 25em;
-}
-
-.rede {
+.contener__redesociais {
     display: inline-block;
-    margin: 2% 1% 8% 9%;
+    color: #8b5e25;
     font-size: 27px;
     font-weight: bold;
-    color: #8b5e25;
+    margin-left: 9%;
 }
 
-.rede:hover {
-    font-size: 33px;
+.contener__redesociais:hover {
+    cursor: default;
+    font-size: 28px;
 }
 
-.g {
-    font-family: 'Advent Pro', sans-serif;
-    color: #003989;
-    text-decoration: none;
-    font-size: 100px;
-    margin-left: 2rem;
-    margin-top: 1rem;
-}
-
-.g:hover {
-    font-size: 105px;
-}
-
-.contenergithub {
-    display: flex;
+.redesociais__nomes {
     align-items: center;
-    justify-content: space-around;
+    display: flex;
+    height: 85%;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    width: 100%;
 }
 
-.contenergit {
-    display: flex;
+.redesociais__github {
     align-items: center;
-    flex-wrap: wrap;
-    border-radius: 14px;
-    width: 8em;
-    height: 14em;
     background: linear-gradient(#2f1864, #4b2121);
+    border-radius: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 14em;
+    width: 8em;
 }
 
-.github {
-    margin-left: 1rem;
-    width: 20px;
-    height: 20px;
-}
-
-.redesociagit {
+.github__descricao {
     font-size: 25px;
     margin-left: 1.6rem;
 }
 
-.contener-linkedin {
-    display: flex;
+.redesociais__linkedin {
     align-items: center;
-    justify-content: space-around;
-}
-
-.linkedin {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
     border-radius: 14px;
-    width: 8em;
-    height: 14em;
     background: linear-gradient(#2a1a63, #03234b);
+    display: flex;
+    flex-wrap: wrap;
+    height: 14em;
+    width: 8em;
 }
 
-.linkedin-nome {
-    font-family: 'Advent Pro', sans-serif;
+.redesociais__letras {
     color: #003989;
-    text-decoration: none;
+    font-family: 'Advent Pro', sans-serif;
     font-size: 100px;
+    height: 110px;
     margin-left: 2rem;
     margin-top: 1rem;
+    text-decoration: none;
 }
 
-.linkedin-nome:hover {
+.redesociais__letras:hover {
     font-size: 105px;
 }
 
-.redesocial-linkedin {
+.redesociais__letras:active {
+    font-size: 98px;
+}
+ 
+.linkedin__descricao {
     font-size: 25px;
     margin-left: 1.6rem;
 }

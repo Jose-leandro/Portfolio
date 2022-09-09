@@ -1,64 +1,88 @@
 body {
     background-color: #000000;
     color: rgb(192, 185, 173);
-}
-
-.conteneroi {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    height: 15em;
-    background: linear-gradient(50deg,#000000 ,#003989 ,#993399);
-}
-
-.contenerfont {
-    margin-top: 4em;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.dev {
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin-left: 2em;
-    margin-right: 4em;
-    font-size: 22px;
-    font-family: 'Fredericka the Great', cursive;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
 }
 
 .ola {
-    width: 2em;
+    height: 15em;
+    width: 100%;
+}
+
+.ola__contener {
+    background: linear-gradient(50deg, #000000, #003989, #993399);
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.contener__informacoes {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.informacoes__dev {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 22px;
+    flex-wrap: nowrap;
+    margin-left: 2em;
+    margin-right: 4em;
+    width: 50%;
+}
+
+.iformacoes__descricao {
     display: inline-block;
     font-family: 'Fredericka the Great', cursive;
     font-size: 5em;
+    width: 2em;
 }
 
-.contenerimagensminha {
-    display: flex;
+.ola__foto {
     align-items: center;
+    display: flex;
     width: 6em;
 }
 
-.foto {
-    display: inline-block;
-    width: 10em;
-    height: 10em;
+.foto__autor {
     border-radius: 80px;
-}
-
-.desenvolvedor {
-
+    display: inline-block;
+    height: 10em;
+    width: 10em;
 }
 
 .rodape {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
+    align-items: center;
+    background: linear-gradient(50deg, #191024, #101e25);
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+    height: 160px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.desenvolvedor {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.imagens__autorais {
+    margin-top: 1em;
+    text-decoration: underline;
+}
+
+.rodape__ancora {
+    color: rgb(192, 185, 173);
+}
+
+.rodape__ancora:hover {
+    font-size: 19px;
 }

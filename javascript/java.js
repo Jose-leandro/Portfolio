@@ -7,38 +7,59 @@ inputs.forEach(input => {
     input.addEventListener('blur', (evento) => {
         valida(evento.target)
         console.log(evento)
-        evento.cl
+        
         console.log(evento.validity)
 
     })
 });
 
-var span = document.querySelector(".span-erro");
+var span = document.querySelector(".span__erro");
     console.log(span);
     
-    var classNome = document.querySelector(".campo-nome-do-individuo");
+    var inputNome = document.querySelector("[data-tipo='nome']");
+    
+    var inputEmail = document.querySelector("[data-tipo='email']");
 
-    var lableNome = document.querySelector(".lable-nome");
+    var inputMotivo = document.querySelector("[data-tipo='motivo']");
+
+    var lableNome = document.querySelector(".label__nome");
+
+    var lableEmail = document.querySelector(".label__email");
+
+    var lableMotivo = document.querySelector(".label__motivo");
 
 function valida(input) {
     const tipoDeInput = input.dataset.tipo;
     console.log(tipoDeInput)
-    
-    // if(validadores[tipoDeInput]) {
-    //     validadores[tipoDeInput](input)
-    // }
-
+ 
     if(input.validity.valid) {
       
     span.innerHTML = " ";
 
-
+    inputNome.classList.remove("erro__nome");
+    inputEmail.classList.remove("erro__email");
+    inputMotivo.classList.remove("erro__motivo");
+    lableNome.classList.remove("contener__nome");
+    lableEmail.classList.remove("contener__email");
+    lableMotivo.classList.remove("contener__motivo");
+   
     } else {
-        
+        if(input == inputNome) {
+            inputNome.classList.add("erro__nome");
+            lableNome.classList.add("contener__nome");
+        }
+        if(input == inputEmail) {
+            inputEmail.classList.add("erro__email");
+            lableEmail.classList.add("contener__email");
+        }
+        if(input == inputMotivo) {
+            inputMotivo.classList.add("erro__motivo");
+            lableMotivo.classList.add("contener__motivo");
+        }
+
         span.style.visibility="visible";
         span.innerHTML = mostraMensagemDeErro(tipoDeInput, input);
-
-        
+      
     }
 }
 
@@ -61,7 +82,7 @@ const mensagensDeErro = {
         patternMismatch: "o seu email não e valido"
     },
     motivo: {
-        valueMissing: 'O campo de email não pode estar vazio.',
+        valueMissing: 'O campo de motivo não pode estar vazio.',
         typeMismatch: 'O email digitado não é válido.',
         patternMismatch: "o motivo não mim parecer exato"
     }
@@ -83,61 +104,24 @@ function mostraMensagemDeErro(tipoDeInput, input) {
     })
     console.log(mensagem)
     return mensagem;
-    
 }
-
 
 function validandoInputNome() {
     var inputNome = document.querySelector("[data-tipo='nome']");
-
   
     valida(inputNome);
 }
 
-
-
 function validandoInputEmail() {
     var inputEmail = document.querySelector("[data-tipo='email']");
-  
-    var classDoInputEmail = document.getElementById("email"); 
 
     valida(inputEmail);
 }
 
-
 function validandoInputMotivo() {
     var inputMotivo = document.querySelector("[data-tipo='motivo']");
-    console.log(inputMotivo);
-  
-    var classDoInputMotivo = document.getElementById("nome"); 
-    console.log(classDoInputNome)
     valida(inputMotivo);
 }
-
-function email() {
-    var html = new XMLHttpRequest();
-    html.open("GET", "leandojose124leandro@gmail.com");
-
-  
-    html.addEventListener("load", function(){
-
-      
-        if(html.status == 200){
-          
-         alert("certo")
-          
-        }else{
-            alert("erro")
-        //     console.log(xhr.status);
-        //     console.log(xhr.responseText);
-        //    var erroAjax =  document.querySelector("#erro-ajax");
-        //    erroAjax.classList.remove("invisivel");
-        }
-
-      
-    });
-    // xhr.send();
-}email()
 
 // export function valida(input) {
 //     const tipoDeInput = input.dataset.tipo

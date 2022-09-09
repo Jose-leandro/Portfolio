@@ -1,15 +1,296 @@
+@media screen and (max-width: 480px) {
 
-@media screen and   (max-width: 480px) {
-    .contenercontatoinfo {
-        width: 5em;
-        height: 5em;
+
+    .cabecalho__menu {
+        height: 450px;
+        width: 150px;
+       display: flex;
+       justify-content: center;
     }
 
-    .formulario {
+    .menu__lista {
+        width: 150px;
+    }
+
+    .lista__itens {
+        width: 70px;
+    }
+
+        
+    .ola {
+        height: 6em;
+        width: 100%;
+    }  
+        
+        
+    .contener__informacoes {
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+        
+    .informacoes__dev {
+        font-size: 14px;
+        margin-left: 2em;
+        margin-right: 1em;
+        width: 100%;
+    }
+        
+    .iformacoes__descricao {
+        font-size: 2em;
+        width: 2em;
+        margin-left: 1em;
+    }
+        
+    .ola__foto {
+        height: 100%;
+        width: 7em;
+    }
+        
+    .foto__autor {
+        height: 4em;
+        width: 4em;
+    }
+
+    .sobre {
+        height: 1000px;
+        margin: 2em 0;
+    }
+
+        
+    .contener__paragrafo {
+        font-size: 17px;
+        margin-left: 9%;
+    }
+
+    .redesociais {
+        height: 220px;
+        margin: 2em 0;
+    }
+
+        
+    .contener__redesociais {
+        font-size: 17px;
+        margin-left: 9%;
+    }
+
+            
+    .redesociais__contener {
+        margin: 1em 0;
+    }
+     
+    .redesociais__nomes {
+        margin-top: 0;
+        margin-bottom: 2em;
+    }
+            
+    .redesociais__linkedin {
+       
+        height: 6em;
+        width: 4em;
+    }
+        
+    .redesociais__letras {
+       
+        font-size: 50px;
+        height: 50px;
+        margin-left: 1rem;
+        text-align: center;
+        text-decoration: none;
+       
+    }
+
+    .redesociais__github {
+        height: 6em;
+        width: 4em;
+    }
+        
+    .github__descricao {
+        font-size: 12px;
+        margin-left: 1rem;
+    }
+            
+    .redesociais__linkedin {
+       
+        height: 6em;
+        width: 4em;
+    }
+        
+    .linkedin__descricao {
+        font-size: 12px;
+        margin-left: 1rem;
+    }
+
+    .hobbies {
+        height: 350px;
+        margin: 2em 0;
+    }
+
+        
+    .contener__titulo {
+        height: 40px;
+        margin: 1em 0;
+    }
+            
+    .titulo__nome {
+        font-size: 17px;
+        margin-left: 9%;
+    }
+ 
+    .hobbies__tipo {
+        width: 100%;
+        height: 230px;
+        margin-bottom: 1em;
+    }   
+        
+    .tipo__assitir {
+        font-size: 18px;
+        padding: 20px 40px;
+    }
+      
+    .tipo__ler {
+        font-size: 18px;
+        padding: 20px 40px;
+    }
+
+    .tipo__cultiva {
+        font-size: 18px;
+        padding: 20px 40px;
+    }
+
+    .skills {
+        height: 300px;
+        margin: 2em 0;
+    }
+        
+    .skills__descrevendo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+        
+    .descrevendo__lista {
+        display: flex;
+        height: 50%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+        
+    .descrevendo__item {
+        font-weight: 200;
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+        
+    .descrevendo__informacoes {
+        width: 80%;
+        margin-bottom: 2em;
+    }
+
+    .slider__encriptador {
+       
+        height: 200px;
+        width: 400px;
+    }
+   
+    .encriptador__contener {
+        display: flex;
+        height: 200px;
         width: 100%;
     }
 
-    .contenerinputs {
-        width: 100%;
+    .encriptador__labels {
+        display: flex;
+        justify-content: center;
+        margin-left: 118px;
+        margin-top: 160px;
+        position: absolute;
     }
+
+    .slide__imagem {
+        border-radius: 10px;
+        height: 200px;
+        width: 200px;
+    }
+
+    @keyframes tornarMenuVisivelParaMobile {
+        0% {
+
+            font-size: 13px;
+            transform: translatey(1350px);
+        }
+
+        75% {
+
+            font-size: 14px;
+        }
+
+        100% {
+
+            font-size: 15px;
+        }
+    }
+
+    .menu__visivel--width {
+        animation: tornarMenuVisivel 6s ease-in;
+        align-items: center;
+        background-color: rgb(12, 12, 12);
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+        justify-content: space-evenly;
+        margin-top: 0.3rem;
+        position: fixed;
+        visibility: visible;
+        width: 10%;
+    }
+
+    @keyframes tornarMenuNaoVisivel {
+        25% {
+
+            font-size: 15px;
+        }
+
+        50% {
+
+            font-size: 14px;
+        }
+
+        75% {
+
+            font-size: 13px;
+        }
+
+        100% {
+
+            transform: translatey(1350px);
+        }
+    }
+
+    .menu__escondido--width {
+        animation: tornarMenuNaoVisivel 6s ease-in;
+        align-items: center;
+        background-color: rgb(12, 12, 12);
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+        justify-content: space-evenly;
+        margin-top: 0.3rem;
+        position: fixed;
+        visibility: visible;
+        width: 10%;
+
+    }
+
+
 }
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (min-width: 1025px) {}

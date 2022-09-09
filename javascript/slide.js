@@ -1,43 +1,62 @@
 let quanto = 1;
 
-document.getElementById("radio5").checked = true;
+document.getElementById("radio1").checked = true;
 setInterval(function () {
     passarimagdojogo();
 }, 5000);
 
 function passarimagdojogo() {
     quanto++;
-    if (quanto > 10) {
+    if (quanto > 12) {
         quanto = 1;
     }
 
     document.getElementById("radio" + quanto).checked = true;
 }
 
-var soudev = document.querySelector(".dev");
-animaction(soudev);
+var souDevJunior = document.querySelector(".informacoes__dev");
+animaction(souDevJunior);
 function animaction(elemento) {
-    var textodoh = elemento.innerHTML.split("");
+    var textoDaClassSouDevJunior = elemento.innerHTML.split("");
     elemento.innerHTML = "";
-    textodoh.forEach((letra, i) => {
+    textoDaClassSouDevJunior.forEach((letra, i) => {
         setTimeout(function () {
             elemento.innerHTML += letra;
         }, 200 * i);
     });
 }
 
-
 setInterval(function () {
-    animaction(soudev);
+    animaction(souDevJunior);
 }, 10000);
 
 
-var redesocial = document.querySelector(".redesociagit");
-animactioncomgit(redesocial);
+var redeSocialGithub = document.querySelector(".github__descricao");
+animaction(redeSocialGithub);
+
+function animaction(elemento) {
+    var textoDaClassGithubDescricao = elemento.innerHTML.split("");
+
+    elemento.innerHTML = "";
+    textoDaClassGithubDescricao.forEach((letra, i) => {
+        setTimeout(function () {
+            elemento.innerHTML += letra;
+        }, 200 * i);
+    });
+}
+
+setInterval(function () {
+    animaction(redeSocialGithub);
+}, 10000);
+
+
+var redeSocialLinkedin = document.querySelector(".linkedin__descricao");
+animactioncomgit(redeSocialLinkedin);
+
 function animactioncomgit(elemento) {
-    var textodogit = elemento.innerHTML.split("");
+    var textoDaClassLinkedinDescricao = elemento.innerHTML.split("");
     elemento.innerHTML = "";
-    textodogit.forEach((letra, i) => {
+    textoDaClassLinkedinDescricao.forEach((letra, i) => {
         setTimeout(function () {
             elemento.innerHTML += letra;
         }, 200 * i);
@@ -45,72 +64,83 @@ function animactioncomgit(elemento) {
 }
 
 setInterval(function () {
-    animaction(redesocial);
+    animaction(redeSocialLinkedin);
 }, 10000);
 
+var foto = document.querySelector(".foto__autor");
+function aumentarTamnhoDaFotoDePerfil() {
+    setInterval(function () {
+        foto.classList.add("foto__animacao");
+    }, 8000);
+    setInterval(function () {
+        foto.classList.remove("foto__animacao");
+        foto.style.transition = "1s";
+    }, 12000);
 
-var redesocial = document.querySelector(".redesocial-linkedin");
-animactioncomgit(redesocial);
-function animactioncomgit(elemento) {
-    var textodogit = elemento.innerHTML.split("");
-    elemento.innerHTML = "";
-    textodogit.forEach((letra, i) => {
-        setTimeout(function () {
-            elemento.innerHTML += letra;
-        }, 200 * i);
-    });
-}
+} aumentarTamnhoDaFotoDePerfil();
 
 setInterval(function () {
-    animaction(redesocial);
-}, 10000);
-
-
-
-var foto = document.querySelector(".foto");
-function bordar() {
-    setInterval(function () {
-        foto.classList.add("animacaocomfoto");
-    }, 5000);
-    setInterval(function () {
-        foto.classList.remove("animacaocomfoto");
-        foto.style.transition = "2s";
-    }, 10000);
-
-} bordar();
-
-setInterval(function () {
-    bordar();
+    aumentarTamnhoDaFotoDePerfil();
 }, 15000);
 
-var menu = document.querySelector(".menu");
-var ul = document.querySelector("ul");
-var iconeMenu = document.querySelector(".icone-menu");
+
+var larguraDoDispositivo = window.screen.width;
+console.log(larguraDoDispositivo);
+
+var menu = document.querySelector(".menu__lista");
+
+
+var iconeMenu = document.querySelector(".icone__menu");
 iconeMenu.addEventListener("click", function () {
 
-    var menus = ul.classList.toggle("menu-visible");
+    var resultadoDaBuscar = menu.classList.toggle("menu__visible");
 
-    console.log(menus)
+    if(larguraDoDispositivo >= 1025) {
+        if (resultadoDaBuscar) {
 
-    if (menus) {
-        alert("menu esta")
-        ul.classList.remove("esconder-menu");
-        ul.classList.remove("menu");
-        ul.classList.add("menu-visible");
+            menu.classList.remove("menu__escondido");
+            menu.classList.remove("menu__lista");
+            menu.classList.add("menu__visivel");
+    
+    
+        } else {
+            menu.classList.remove("menu__visivel");
+            menu.classList.remove("menu__lista");
+            menu.classList.add("menu__escondido");
+    
+            setInterval(function () {
+                esconderMenu();
+            }, 6000);
+        }
+    }
+    
+        
+    if(larguraDoDispositivo <= 480) {
+        if (resultadoDaBuscar) {
 
-
-    } else {
-        alert("menu nao esta")
-        ul.classList.remove("mostar-visible");
-        ul.classList.remove("menu");
-        ul.classList.add("animation-menu");
-
-        setInterval(function () {
-            escondermenu();
-        }, 6000);
+            menu.classList.remove("menu__escondido--width");
+            menu.classList.remove("menu__lista");
+            menu.classList.add("menu__visivel--width");
+    
+    
+        } else {
+            menu.classList.remove("menu__visivel--width");
+            menu.classList.remove("menu__lista");
+            menu.classList.add("menu__escondido--width");
+    
+            setInterval(function () {
+                esconderMenu();
+            }, 6000);
+        }
+    }else {
+        return 
     }
 });
 
-function escondermenu() {
-    ul.classList.add("esconder-menu");
+function esconderMenu() {
+    menu.classList.remove("menu__escondido");
+    menu.classList.add("esconder__menu");
 }
+
+
+

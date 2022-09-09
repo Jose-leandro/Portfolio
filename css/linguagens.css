@@ -1,0 +1,49 @@
+.linguagens {
+    height: 350px;
+    margin-bottom: 3em;
+    margin-top: 2em;
+}
+
+.linguagens__contener {
+    height: 70px;
+}
+
+.contener__titulo--size {
+    color: #326d5a;
+    cursor: default;
+    font-size: 27px;
+    font-weight: bold;
+    margin-left: 9%;
+}
+
+.contener__imagens {
+    align-items: center;
+    display: flex;
+    height: 60%;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.imagens__contener--size {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagens__linguagem {
+    height: 100px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    width: 100px;
+}
+
+.imagens__nome {
+    color: #b8892d;
+    font-family: 'Arima', cursive;
+    font-size: 25px;
+    height: 40px;
+}
+
+.imagens__nome:hover {
+    font-size: 27px;
+}

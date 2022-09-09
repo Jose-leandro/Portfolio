@@ -1,0 +1,55 @@
+.cursos {
+    height: 500px;
+    margin: 2em 0;
+    width: 100%;
+}
+
+.cursos__titulo {
+    height: 30px;
+    margin: 2em 0;
+    width: 100%;
+}
+
+.titulo__descricao {
+    color: #a31818;
+    font-size: 27px;
+    font-weight: bolder;
+    margin-left: 9%;
+}
+
+.titulo__descricao:hover {
+    font-size: 28px;
+}
+
+.cursos__lista {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.lista__nome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.nome__curso {
+    background: linear-gradient(70deg, rgb(49, 45, 45), #000);
+    border-radius: 50px;
+    height: 25px;
+    margin-top: 2em;
+    padding: 15px;
+    text-align: center;
+    text-decoration: underline;
+    width: 200px;
+}
+
+.lista__informacoes {
+    font-size: 25px;
+    height: 40px;
+    text-align: center;
+    width: 350px;
+}

@@ -1,113 +1,63 @@
-.contenerhobbies {
-    height: 500px;
-    margin: 4em 0;
+.hobbies {
+    height: 450px;
+    margin: 2em 0;
 }
 
-.contenerlestrashobbies {
+.contener__titulo {
+    height: 50px;
+    margin: 2em 0;
     width: 100%;
-    height: 60px;
 }
 
-.h {
+.titulo__nome {
+    color: #504d2b;
     cursor: default;
     display: inline-block;
     font-size: 27px;
-    color: #504d2b;
     font-weight: bold;
     margin-left: 9%;
 }
 
-.o {
-    cursor: default;
-    display: inline-block;
-    font-size: 27px;
-    color: #504d2b;
-    font-weight: bold;
+.titulo__nome:hover {
+    font-size: 29px;
 }
 
-.primeirob {
-    cursor: default;
-    display: inline-block;
-    font-size: 27px;
-    color: #504d2b;
-    font-weight: bold;
-}
-
-.segundob {
-    cursor: default;
-    display: inline-block;
-    font-size: 27px;
-    color: #504d2b;
-    font-weight: bold;
-}
-
-.i {
-    cursor: default;
-    display: inline-block;
-    font-size: 27px;
-    color: #504d2b;
-    font-weight: bold;
-}
-
-.e {
-    cursor: default;
-    display: inline-block;
-    font-size: 27px;
-    color: #504d2b;
-    font-weight: bold;
-}
-
-.s {
-    cursor: default;
-    display: inline-block;
-    font-size: 27px;
-    color: #504d2b;
-    font-weight: bold;
-}
-
-.contenermeushobbies {
-    display: flex;
-    margin-top: 1em;
-    flex-direction: column;
+.hobbies__tipo {
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 330px;
     justify-content: space-around;
-    height: 430px;
+    margin-bottom: 1em;
+    width: 100%;
 }
 
-.contenertv {
-    
-}
-
-.assitir {
+.tipo__assitir {
+    background: linear-gradient(60deg,#a1772200, #483e83);
+    border-radius: 10px;
     font-family: 'Advent Pro', sans-serif;
     font-family: 'Arima', cursive;
     font-family: 'Caveat', cursive;
     font-size: 30px;
     padding: 20px 100px;
-    background: linear-gradient(60deg,#a1772200, #483e83);
+}
+
+.tipo__ler {
+    background: linear-gradient(60deg,#a1772200, rgb(68, 40, 7));
     border-radius: 10px;
-}
-
-.contenerler {
-
-}
-
-.ler {
     font-family: 'Advent Pro', sans-serif;
     font-family: 'Arima', cursive;
     font-family: 'Caveat', cursive;
     font-size: 30px;
     padding: 20px 80px;
-    background: linear-gradient(60deg,#a1772200, rgb(68, 40, 7));
-    border-radius: 10px;
 }
 
-.cultiva {
+.tipo__cultiva {
+    background: linear-gradient(60deg,#a1772200, #2b534f);
+    border-radius: 10px;
     font-family: 'Advent Pro', sans-serif;
     font-family: 'Arima', cursive;
     font-family: 'Caveat', cursive;
     font-size: 30px;
     padding: 20px 120px;
-    background: linear-gradient(60deg,#a1772200, #2b534f);
-    border-radius: 10px;
 }

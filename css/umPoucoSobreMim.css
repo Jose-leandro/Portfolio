@@ -1,68 +1,57 @@
-
 .sobre {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 20em;
-    margin: 5em 2em 5em 2em;
+    height: 410px;
+    margin: 2em 0;
 }
 
-.container-sobre-all {
-    height: 10em;
+.sobre__contener {
+    margin: 2em 0;
+    width: 100%;
 }
 
-.contenerumpoucosobremim {
-    height: 4em; 
-    display: flex;
-}
-
-.sobre .sobremim {
-    font-size: 16px;
-}
-
-.sobre  .um {
-    cursor: default;
+.contener__paragrafo {
     display: inline-block;
     color: #282d3b;
+    cursor: default;
     font-size: 27px;
     font-weight: bolder;
     margin-left: 8%;
-} 
-
-.sobre .pouco {
-    cursor: default;
-    display: inline-block;
-    color: #282d3b;
-    font-size: 27px;
-    font-weight: bolder;
-    margin-left: 10px;
 }
 
-.sobre  .sobrer {
-    cursor: default;
-    display: inline-block;
-    color: #282d3b;
-    font-size: 27px;
-    font-weight: bolder;
-    margin-left: 10px;
+.contener__paragrafo:hover {
+    font-size: 28px;
 }
 
-.sobre  .mim {
-    cursor: default;
-    display: inline-block;
-    color: #282d3b;
-    font-size: 27px;
-    font-weight: bolder;
-    margin-left: 10px;
+.sobre__contener--height {
+    margin-top: 3em;
 }
 
-.sobre .frase {
+.contener__descricao {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 1rem;
+    margin-left: 4em;
+    margin-right: 3em;
+    text-align: start;
+}
+
+.cotener__destacar {
+    margin-left: 5em;
+    margin-top: 2em;
+    text-align: start;
+}
+
+.contener__autor {
     font-family: 'Fredericka the Great', cursive;
     font-family: 'Oswald', sans-serif;
     font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
+    margin-left: 5em;
+    margin-top: 1em;
+    text-align: start;
 }
 
-.sobremim {
-    font-family: 'Oswald', sans-serif;
-    font-size: small;
+.frase {
+    font-size: 18px;
+    margin-left: 5em;
+    margin-top: 1em;
 }
