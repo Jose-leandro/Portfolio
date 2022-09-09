@@ -31,7 +31,7 @@
     }
         
     .informacoes__dev {
-        font-size: 14px;
+        font-size: 25px;
         margin-left: 2em;
         margin-right: 1em;
         width: 100%;
@@ -57,10 +57,9 @@
         height: 1000px;
         margin: 2em 0;
     }
-
         
     .contener__paragrafo {
-        font-size: 17px;
+        font-size: 25px;
         margin-left: 9%;
     }
 
@@ -68,13 +67,11 @@
         height: 220px;
         margin: 2em 0;
     }
-
-        
+   
     .contener__redesociais {
         font-size: 17px;
         margin-left: 9%;
     }
-
             
     .redesociais__contener {
         margin: 1em 0;
@@ -98,7 +95,6 @@
         margin-left: 1rem;
         text-align: center;
         text-decoration: none;
-       
     }
 
     .redesociais__github {
@@ -111,8 +107,7 @@
         margin-left: 1rem;
     }
             
-    .redesociais__linkedin {
-       
+    .redesociais__linkedin { 
         height: 6em;
         width: 4em;
     }
@@ -126,7 +121,6 @@
         height: 350px;
         margin: 2em 0;
     }
-
         
     .contener__titulo {
         height: 40px;
@@ -134,7 +128,7 @@
     }
             
     .titulo__nome {
-        font-size: 17px;
+        font-size: 25px;
         margin-left: 9%;
     }
  
@@ -164,6 +158,10 @@
         margin: 2em 0;
     }
         
+    .titulo__nome--color { 
+        font-size: 25px;
+    }
+            
     .skills__descrevendo {
         display: flex;
         flex-direction: column;
@@ -184,11 +182,86 @@
         font-size: 18px;
         padding: 10px 20px;
     }
-
         
     .descrevendo__informacoes {
         width: 80%;
         margin-bottom: 2em;
+    }
+
+    .formacao {
+        height: 600px;
+        margin: 2em 0;
+    }
+ 
+    .nome__formacoes {
+        font-size: 25px;
+    }
+        
+    .formacao__onde {  
+        align-items: center;    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 1em;
+        width: 100%;
+        height: 400px;
+    }
+        
+    .onde__nome {
+        height: 200px;
+        width: 30%;
+    }
+ 
+    .nome__one {
+        font-size: 20px;
+    }
+    
+    .formacao__descricao {
+        width: 70%;
+    }
+        
+    .descricao__empresas {
+        height: 40px;
+    }
+    
+    .empresas__oracle {
+        font-size: 28px;
+        height: 30px;
+        width: 100px;
+    }
+        
+    .empresas__simbolo {
+        font-size: 28px;
+    }
+        
+    .empresas__alura {
+        font-size: 28px;
+        height: 30px;
+        width: 100px;
+    }
+
+    .cursos {
+        height: 540px;
+        margin: 2em 0;
+        width: 100%;
+    }
+    
+    .titulo__descricao {
+        font-size: 25px;
+    }
+        
+    .nome__curso {
+        height: 25px;
+        margin-top: 1em;
+        padding: 10px;
+        width: 120px;
+    }
+
+        
+    .lista__informacoes {
+        font-size: 22px;
+        height: 20px;
+        width: 100%;
     }
 
     .slider__encriptador {
