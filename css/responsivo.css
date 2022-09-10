@@ -63,13 +63,25 @@
         margin-left: 9%;
     }
 
+    .sobre__contener--height {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+  
+    .contener__descricao {  
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
     .redesociais {
         height: 220px;
         margin: 2em 0;
     }
    
     .contener__redesociais {
-        font-size: 17px;
+        font-weight: bold;
+        font-size: 25px;
         margin-left: 9%;
     }
             
@@ -256,39 +268,306 @@
         padding: 10px;
         width: 120px;
     }
-
         
     .lista__informacoes {
         font-size: 22px;
         height: 20px;
         width: 100%;
     }
+        
+    .curriculo {
+        height: 300px;
+    }
+        
+    .curriculo__titulo {
+        height: 30px;
+        margin: 2em 0;
+    }
+        
+    .titulo__descricao--color {
+        font-size: 25px;
+    }
+                
+    .curriculo__meu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 150px;
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+        
+    .curriculo__btn {
+        font-size: 20px;
+        padding: 6px;
+        width: 150px;
+    }
+        
+    .curriculo__ancora {
+        font-size: 14px;
+    }
+        
+    .projetos__titulo {
+        height: 30px;
+    }
+
+    .titulo__projetos--color {
+        font-size: 25px;
+    }
 
     .slider__encriptador {
-       
-        height: 200px;
-        width: 400px;
+        align-items: center;
+        display: flex;
+        height: 150px;
+        margin: 2em 1em;
+        margin-bottom: 300px;
+        width: 250px;
     }
    
     .encriptador__contener {
         display: flex;
-        height: 200px;
+        height: 150px;
         width: 100%;
+    }
+  
+    .resumo__encriptador {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        left: 45px;
+        top: 3950px;
+    }
+        
+    .encriptador__btn {
+        height: 40px;
+        position: absolute;
+        left: 40px;
+        top: 308em;
+        width: 200px;
     }
 
     .encriptador__labels {
         display: flex;
         justify-content: center;
-        margin-left: 118px;
-        margin-top: 160px;
+        margin-left: 6px;
+        margin-top: 110px;
         position: absolute;
+    }
+        
+    .labels__btn:not(:last-child) {
+        margin-right: 30px;
     }
 
     .slide__imagem {
         border-radius: 10px;
-        height: 200px;
-        width: 200px;
+        height: 150px;
+        width: 250px;
     }
+  
+    .slider__jogo {
+        height: 150px;
+        margin: 3em 1em;
+        width: 250px;
+    }
+        
+    .jogo__contener {
+        display: flex;
+        height: 150px;
+    }
+
+        
+    .jogo__labels {
+        margin-left: 6px;
+        margin-top: 120px;
+        position: absolute;
+    }
+  
+    .resumo__jogo {
+        display: flex;
+        flex-wrap: wrap;
+        left: 45px;
+        position: absolute;
+        top: 4400px;
+        width: 100%;
+    }
+  
+    .jogo__btn {
+        height: 45px;
+        left: 80px;
+        position: absolute;
+        top: 340em;
+        width: 220px;
+    }
+
+    .linguagens {
+        height: 750px;
+    }
+    
+    .linguagens__contener {
+        height: 40px;
+    }
+
+    .contener__titulo--size {
+        font-size: 25px;
+    }
+
+    .contener__imagens {
+        height: 60%;
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .imagens__contener--size {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagens__linguagem {
+        height: 50px;
+        margin-bottom: 2em;
+        margin-top: 2em;
+        width: 50px;
+    }
+
+    .imagens__nome {
+        font-size: 22px;
+        height: 40px;
+    }
+
+    .contato {
+        height: 750px;
+        width: 100%;
+    }
+    
+    .contato__formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .formulario__contener {
+        align-items: center;
+        display: flex;
+        height: 170px;
+        justify-content: center;
+        margin-top: 4em;
+        width: 100%;
+    }
+    
+    .contener__informacao {
+        height: 8em;
+        width: 11em;
+    }
+        
+    .informacao__titulo {
+        font-size: 22px;  
+        margin-top: 0;
+    }
+    
+    .informacao__descricao {
+        font-size: 18px;
+    }
+    
+    .formulario__preencher {
+        height: 100%;
+    }
+    
+    .preencher__contener {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .preencher__nome {
+        height: 45px;
+        margin: 42px 20px 10px 20px;
+        text-align: center;
+        width: 90%;
+    }
+    
+    .label__nome {
+        font-size: 18px;
+        margin-left: 2em;
+        margin-top: 1em;
+        text-align: left;
+        width: 30%;
+    }
+    
+    .preencher__email {
+        height: 60px;
+        margin-top: 2em;
+        padding: 0 10px;
+        width: 95%;
+    }
+    
+    .label__email {
+        margin-left: 1em;
+        margin-top: 1em;
+        text-align: left;
+        width: 30%;
+    }
+    
+    .preencher__contener--left {
+        margin-top: 1em;
+        margin-left: 19%;
+        width: 100%;
+    }
+    
+    .preencher__motivo {
+        height: 70px;
+        width: 70%;
+    }
+    
+    .erro__motivo {
+        border-color: #7c1b1f;
+    }
+    
+    .label__motivo {
+        font-size: 18px;
+        margin: 20px;
+        text-align: left;
+        width: 30%;
+    }
+    
+    .contener__motivo {
+       color: #7c1b1f;
+    }
+    
+    .preencher__btn {
+        background-color: #1a5aa3;
+        border-radius: 6px;
+        font-size: 18px;
+        height: 2em;
+        position: absolute;
+        right: 17%;
+        top: 5317px;
+        width: 9em;
+    }
+    
+    .preencher__btn:hover {
+        font-size: 19px;
+    }
+    
+    .preencher__btn:active {
+        font-size: 17px;
+    }
+    
+    .span__erro {
+        color: #7c1b1f;
+        font-size: 20px;
+        font-size: 25px;
+        position: absolute;
+        text-align: center;
+        top: 5400px;
+        visibility: hidden;
+    }
+    
+
 
     @keyframes tornarMenuVisivelParaMobile {
         0% {
