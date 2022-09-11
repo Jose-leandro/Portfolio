@@ -1,0 +1,42 @@
+
+@media screen and (max-width: 768px) {
+    
+    .ola {
+        height: 150px;
+    }
+
+    .contener__informacoes {
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .informacoes__dev {
+        font-size: 20px;
+        margin-left: 0;
+        margin-right: 1em;
+        width: 100%;
+    }
+
+    .iformacoes__descricao {
+        font-size: 3em;
+        width: 4em;
+        margin-left: 1em;
+    }
+
+    .ola__foto {
+        height: 100%;
+        width: 5em;
+    }
+
+    .foto__autor {
+        height: 5em;
+        width: 5em;
+    }
+
+    .sobre {
+        height: 800px;
+
+    }
+}
