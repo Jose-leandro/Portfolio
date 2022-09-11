@@ -2,6 +2,7 @@ body {
     background-color: #000000;
     color: rgb(192, 185, 173);
     font-size: 18px;
+    width: 100%;
 }
 
 .ola {

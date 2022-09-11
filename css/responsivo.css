@@ -1,11 +1,28 @@
 @media screen and (max-width: 480px) {
-
-
     .cabecalho__menu {
         height: 450px;
         width: 150px;
-       display: flex;
-       justify-content: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .icone__menu {
+        height: 25px;
+        position: fixed;
+        right: 4px;
+        top: 3px;
+        visibility: visible;
+        width: 25px;
+    }
+
+    .icone__menu:hover {
+        height: 26px;
+        width: 26px;
+    }
+
+    .icone__menu:active {
+        height: 24px;
+        width: 24px;
     }
 
     .menu__lista {
@@ -16,38 +33,36 @@
         width: 70px;
     }
 
-        
     .ola {
         height: 6em;
         width: 100%;
-    }  
-        
-        
+    }
+
     .contener__informacoes {
         align-items: center;
         display: flex;
         justify-content: space-around;
         width: 100%;
     }
-        
+
     .informacoes__dev {
-        font-size: 25px;
+        font-size: 18px;
         margin-left: 2em;
         margin-right: 1em;
         width: 100%;
     }
-        
+
     .iformacoes__descricao {
         font-size: 2em;
         width: 2em;
         margin-left: 1em;
     }
-        
+
     .ola__foto {
         height: 100%;
         width: 7em;
     }
-        
+
     .foto__autor {
         height: 4em;
         width: 4em;
@@ -57,7 +72,7 @@
         height: 1000px;
         margin: 2em 0;
     }
-        
+
     .contener__paragrafo {
         font-size: 25px;
         margin-left: 9%;
@@ -68,40 +83,50 @@
         flex-direction: column;
         flex-wrap: wrap;
     }
-  
-    .contener__descricao {  
+
+    .contener__descricao {
         margin-left: 1em;
         margin-right: 1em;
+    }
+
+    .cotener__destacar {
+        margin-left: 2em;
+    }
+
+    .contener__autor {
+        margin-left: 2em;
+    }
+
+    .frase {
+        margin-left: 2em;
     }
 
     .redesociais {
         height: 220px;
         margin: 2em 0;
     }
-   
+
     .contener__redesociais {
         font-weight: bold;
         font-size: 25px;
         margin-left: 9%;
     }
-            
+
     .redesociais__contener {
         margin: 1em 0;
     }
-     
+
     .redesociais__nomes {
         margin-top: 0;
         margin-bottom: 2em;
     }
-            
+
     .redesociais__linkedin {
-       
         height: 6em;
         width: 4em;
     }
-        
+
     .redesociais__letras {
-       
         font-size: 50px;
         height: 50px;
         margin-left: 1rem;
@@ -109,204 +134,257 @@
         text-decoration: none;
     }
 
+    .redesociais__letras:hover {
+        font-size: 51px;
+    }
+
+    .redesociais__letras:active {
+        font-size: 45px;
+    }
+
     .redesociais__github {
         height: 6em;
         width: 4em;
     }
-        
+
     .github__descricao {
         font-size: 12px;
         margin-left: 1rem;
     }
-            
-    .redesociais__linkedin { 
+
+    .redesociais__linkedin {
         height: 6em;
         width: 4em;
     }
-        
+
     .linkedin__descricao {
         font-size: 12px;
         margin-left: 1rem;
     }
 
     .hobbies {
-        height: 350px;
+        height: 300px;
         margin: 2em 0;
     }
-        
+
     .contener__titulo {
         height: 40px;
         margin: 1em 0;
     }
-            
+
     .titulo__nome {
         font-size: 25px;
         margin-left: 9%;
     }
- 
+
     .hobbies__tipo {
         width: 100%;
         height: 230px;
         margin-bottom: 1em;
-    }   
-        
+    }
+
     .tipo__assitir {
         font-size: 18px;
-        padding: 20px 40px;
+        padding: 10px 20px;
     }
-      
+
     .tipo__ler {
         font-size: 18px;
-        padding: 20px 40px;
+        padding: 10px 35px;
     }
 
     .tipo__cultiva {
         font-size: 18px;
-        padding: 20px 40px;
+        padding: 10px 35px;
     }
 
     .skills {
-        height: 300px;
+        height: 350px;
         margin: 2em 0;
     }
-        
-    .titulo__nome--color { 
+
+    .titulo__nome--color {
         font-size: 25px;
     }
-            
+
     .skills__descrevendo {
+        align-items: center;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 100%;
+        margin-left: 20px;
+        width: 90%;
     }
-        
+
     .descrevendo__lista {
+        align-items: center;
         display: flex;
         height: 50%;
         flex-wrap: wrap;
         justify-content: space-around;
         width: 100%;
     }
-        
+
     .descrevendo__item {
         font-weight: 200;
         font-size: 18px;
-        padding: 10px 20px;
+        padding: 10px 30px;
     }
-        
+
     .descrevendo__informacoes {
         width: 80%;
         margin-bottom: 2em;
     }
 
     .formacao {
-        height: 600px;
+        height: 550px;
         margin: 2em 0;
     }
- 
+
+    .formacao__nome {
+        height: 35px;
+    }
+
     .nome__formacoes {
         font-size: 25px;
     }
-        
-    .formacao__onde {  
-        align-items: center;    
+
+    .formacao__onde {
+        align-items: center;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        margin-top: 1em;
+        justify-content: space-between;
+        margin-top: 0;
         width: 100%;
-        height: 400px;
+        height: 100%;
     }
-        
+
     .onde__nome {
-        height: 200px;
+        height: 180px;
         width: 30%;
     }
- 
+
     .nome__one {
+        font-weight: 100;
+        font-size: 19px;
+    }
+
+    .nome__one:hover {
         font-size: 20px;
     }
-    
+
+    .nome__one:active {
+        font-size: 18px;
+    }
+
     .formacao__descricao {
-        width: 70%;
+        width: 90%;
+        text-align: left;
+        margin-bottom: 100px;
     }
-        
+
     .descricao__empresas {
-        height: 40px;
+        height: 70px;
     }
-    
+
     .empresas__oracle {
         font-size: 28px;
         height: 30px;
         width: 100px;
     }
-        
+
+    .empresas__oracle:hover {
+        font-size: 29px;
+    }
+
+    .empresas__oracle:active {
+        font-size: 27px;
+    }
+
     .empresas__simbolo {
         font-size: 28px;
     }
-        
+
     .empresas__alura {
         font-size: 28px;
         height: 30px;
         width: 100px;
     }
 
+    .empresas__alura:hover {
+        font-size: 29px;
+    }
+
+    .empresas__alura:active {
+        font-size: 27px;
+    }
+
     .cursos {
-        height: 540px;
+        height: 700px;
         margin: 2em 0;
         width: 100%;
     }
-    
+
     .titulo__descricao {
         font-size: 25px;
     }
-        
+
     .nome__curso {
+        font-size: 14px;
         height: 25px;
         margin-top: 1em;
-        padding: 10px;
+        padding: 20px 10px;
+        text-align: center;
         width: 120px;
     }
-        
+
     .lista__informacoes {
-        font-size: 22px;
+        font-size: 18px;
         height: 20px;
         width: 100%;
     }
-        
+
+    .lista__informacoes:last-child {
+        margin-bottom: 2em;
+    }
+
     .curriculo {
         height: 300px;
     }
-        
+
     .curriculo__titulo {
         height: 30px;
         margin: 2em 0;
     }
-        
+
     .titulo__descricao--color {
         font-size: 25px;
     }
-                
+
     .curriculo__meu {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        height: 150px;
+        justify-content: space-between;
+        height: 70%;
         margin-top: 1em;
         margin-bottom: 2em;
     }
-        
+
     .curriculo__btn {
-        font-size: 20px;
+        border-radius: 30px;
+        font-size: 18px;
         padding: 6px;
         width: 150px;
     }
-        
+
     .curriculo__ancora {
         font-size: 14px;
     }
-        
+
+    .projetos {
+        height: 970px;
+    }
+
     .projetos__titulo {
         height: 30px;
     }
@@ -320,30 +398,53 @@
         display: flex;
         height: 150px;
         margin: 2em 1em;
-        margin-bottom: 300px;
+        margin-left: 60px;
+        margin-bottom: 360px;
         width: 250px;
     }
-   
+
     .encriptador__contener {
         display: flex;
         height: 150px;
         width: 100%;
     }
-  
+
     .resumo__encriptador {
         display: flex;
         flex-wrap: wrap;
         position: absolute;
         left: 45px;
-        top: 3950px;
+        top: 4070px;
     }
-        
+
     .encriptador__btn {
-        height: 40px;
+        height: 35px;
         position: absolute;
-        left: 40px;
-        top: 308em;
-        width: 200px;
+        left: 100px;
+        top: 316em;
+        width: 150px;
+    }
+
+    .encriptador__btn:hover {
+        height: 36px;
+        width: 151px;
+    }
+
+    .encriptador__btn:active {
+        height: 34px;
+        width: 149px;
+    }
+
+    .encriptador__ancora {
+        font-size: 14px;
+    }
+
+    .encriptador__ancora:hover {
+        font-size: 15px;
+    }
+
+    .encriptador__ancora:active {
+        font-size: 13px;
     }
 
     .encriptador__labels {
@@ -353,7 +454,7 @@
         margin-top: 110px;
         position: absolute;
     }
-        
+
     .labels__btn:not(:last-child) {
         margin-right: 30px;
     }
@@ -363,60 +464,84 @@
         height: 150px;
         width: 250px;
     }
-  
+
     .slider__jogo {
         height: 150px;
         margin: 3em 1em;
+        margin-left: 60px;
         width: 250px;
     }
-        
+
     .jogo__contener {
         display: flex;
         height: 150px;
     }
 
-        
     .jogo__labels {
         margin-left: 6px;
         margin-top: 120px;
         position: absolute;
     }
-  
+
     .resumo__jogo {
         display: flex;
         flex-wrap: wrap;
         left: 45px;
         position: absolute;
-        top: 4400px;
-        width: 100%;
+        top: 4580px;
     }
-  
+
     .jogo__btn {
-        height: 45px;
-        left: 80px;
+        height: 35px;
+        left: 100px;
         position: absolute;
-        top: 340em;
-        width: 220px;
+        top: 354em;
+        width: 150px;
+    }
+
+    .jogo__btn:hover {
+        height: 36px;
+        width: 151px;
+    }
+
+    .jogo__btn:active {
+        height: 34px;
+        width: 149px;
+    }
+
+    .jogo__ancora {
+        font-size: 14px;
+    }
+
+    .jogo__ancora:hover {
+        font-size: 15px;
+    }
+
+    .jogo__ancora:active {
+        font-size: 13px;
     }
 
     .linguagens {
-        height: 750px;
+        height: 550px;
+        margin-top: 2em;
+        margin-bottom: 3em;
     }
-    
+
     .linguagens__contener {
-        height: 40px;
+        height: 30px;
+        margin: 1em 0;
     }
 
     .contener__titulo--size {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .contener__imagens {
-        height: 60%;
-        margin-top: 2em;
+        height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        margin-top: 0;
         width: 100%;
     }
 
@@ -427,10 +552,10 @@
     }
 
     .imagens__linguagem {
-        height: 50px;
-        margin-bottom: 2em;
-        margin-top: 2em;
-        width: 50px;
+        height: 70px;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        width: 70px;
     }
 
     .imagens__nome {
@@ -439,141 +564,148 @@
     }
 
     .contato {
-        height: 750px;
+        height: 650px;
         width: 100%;
     }
-    
+
     .contato__formulario {
         display: flex;
         flex-direction: column;
         justify-content: center;
         width: 100%;
+        height: 100%;
     }
-    
+
     .formulario__contener {
         align-items: center;
         display: flex;
-        height: 170px;
+        height: 140px;
         justify-content: center;
         margin-top: 4em;
         width: 100%;
     }
-    
+
     .contener__informacao {
-        height: 8em;
-        width: 11em;
+        height: 120px;
+        width: 12em;
     }
-        
+
     .informacao__titulo {
-        font-size: 22px;  
+        font-size: 19px;
         margin-top: 0;
     }
-    
+
     .informacao__descricao {
-        font-size: 18px;
+        font-size: 14px;
     }
-    
+
     .formulario__preencher {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 0;
         height: 100%;
     }
-    
+
     .preencher__contener {
-        align-items: flex-start;
+        align-items: center;
         display: flex;
         flex-direction: column;
-    }
-    
-    .preencher__nome {
-        height: 45px;
-        margin: 42px 20px 10px 20px;
-        text-align: center;
-        width: 90%;
-    }
-    
-    .label__nome {
-        font-size: 18px;
-        margin-left: 2em;
-        margin-top: 1em;
-        text-align: left;
-        width: 30%;
-    }
-    
-    .preencher__email {
-        height: 60px;
-        margin-top: 2em;
-        padding: 0 10px;
-        width: 95%;
-    }
-    
-    .label__email {
-        margin-left: 1em;
-        margin-top: 1em;
-        text-align: left;
-        width: 30%;
-    }
-    
-    .preencher__contener--left {
-        margin-top: 1em;
-        margin-left: 19%;
+        height: 80px;
         width: 100%;
     }
-    
-    .preencher__motivo {
-        height: 70px;
-        width: 70%;
+
+    .preencher__nome {
+        font-size: 14px;
+        height: 45px;
+        margin-top: 1em;
+        text-align: center;
+        width: 200px;
     }
-    
+
+    .label__nome {
+        font-size: 15px;
+        margin-left: 5em;
+        margin-bottom: 0;
+        width: 60%;
+    }
+
+    .preencher__email {
+        font-size: 14px;
+        height: 50px;
+        margin-top: 0;
+        margin-bottom: 2em;
+        width: 200px;
+    }
+
+    .label__email {
+        font-size: 15px;
+        margin-left: 5em;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: left;
+        width: 60%;
+    }
+
+    .preencher__contener--left {
+        margin-top: 1em;
+        margin-left: 24%;
+        margin-bottom: 60px;
+        width: 100%;
+    }
+
+    .preencher__motivo {
+        font-size: 14px;
+        height: 60px;
+        width: 200px;
+    }
+
     .erro__motivo {
         border-color: #7c1b1f;
     }
-    
+
     .label__motivo {
-        font-size: 18px;
-        margin: 20px;
-        text-align: left;
-        width: 30%;
+        font-size: 14px;
+        margin-left: 2em;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        height: 30px;
+        width: 60%;
     }
-    
+
     .contener__motivo {
-       color: #7c1b1f;
+        color: #7c1b1f;
     }
-    
+
     .preencher__btn {
-        background-color: #1a5aa3;
-        border-radius: 6px;
-        font-size: 18px;
-        height: 2em;
-        position: absolute;
-        right: 17%;
-        top: 5317px;
-        width: 9em;
+        border-radius: 15px;
+        font-size: 14px;
+        height: 30px;
+        left: 40%;
+        top: 6030px;
+        width: 7em;
     }
-    
+
     .preencher__btn:hover {
-        font-size: 19px;
+        font-size: 15px;
     }
-    
+
     .preencher__btn:active {
-        font-size: 17px;
+        font-size: 13px;
     }
-    
+
     .span__erro {
         color: #7c1b1f;
-        font-size: 20px;
-        font-size: 25px;
+        font-size: 16px;
         position: absolute;
-        text-align: center;
-        top: 5400px;
-        visibility: hidden;
+        top: 5995px;
     }
-    
-
 
     @keyframes tornarMenuVisivelParaMobile {
         0% {
 
             font-size: 13px;
-            transform: translatey(1350px);
+            transform: translatey(-1350px);
         }
 
         75% {
@@ -588,7 +720,7 @@
     }
 
     .menu__visivel--width {
-        animation: tornarMenuVisivel 6s ease-in;
+        animation: tornarMenuVisivelMobile 6s ease-in;
         align-items: center;
         background-color: rgb(12, 12, 12);
         display: flex;
@@ -598,10 +730,10 @@
         margin-top: 0.3rem;
         position: fixed;
         visibility: visible;
-        width: 10%;
+        width: 20%;
     }
 
-    @keyframes tornarMenuNaoVisivel {
+    @keyframes tornarMenuNaoVisivelMobile {
         25% {
 
             font-size: 15px;
@@ -624,7 +756,7 @@
     }
 
     .menu__escondido--width {
-        animation: tornarMenuNaoVisivel 6s ease-in;
+        animation: tornarMenuNaoVisivelMobile 6s ease-in;
         align-items: center;
         background-color: rgb(12, 12, 12);
         display: flex;
@@ -634,8 +766,30 @@
         margin-top: 0.3rem;
         position: fixed;
         visibility: visible;
-        width: 10%;
+        width: 20%;
+    }
 
+    .contener__icone {
+        display: flex;
+        height: 200px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 2em;
+        margin-top: 4em;
+        width: 100%;
+    }
+
+    .imagens--width {
+        width: 30px;
+    }
+
+    .rodape {
+        text-align: center;
+        height: 100px;
+    }
+        
+    .desenvolvedor {
+       margin-top: 0; 
     }
 
 

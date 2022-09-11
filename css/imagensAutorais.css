@@ -30,7 +30,7 @@ body {
     margin-top: 4em;
 }
 
-.contener__imagens {
+.contener__icone {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -39,7 +39,7 @@ body {
     width: 100%;
 }
 
-.imagens {
+.imagens--width {
     width: 100px;
 }
 

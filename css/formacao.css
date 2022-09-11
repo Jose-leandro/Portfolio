@@ -64,6 +64,7 @@
 .formacao__descricao {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-around;
     width: 400px;
 }

@@ -1,7 +1,6 @@
 
 @keyframes tornarMenuVisivel {
     0% {
-
         font-size: 13px;
         transform: translatex(1350px);
     }
@@ -115,16 +114,16 @@
     }
 
     40% {
-        transform: translatex(40px);
+        transform: translatex(20px);
     }
 
     60% {
-        transform: translatex(80px);
+        transform: translatex(40px);
         transition-delay: 3s;
     }
 
     100% {
-        transform: translatex(320px);
+        transform: translatex(80px);
     }
 }
 
@@ -136,18 +135,18 @@
 
     40% {
 
-        transform: translatex(-40px);
+        transform: translatex(-20px);
     }
 
     60% {
 
-        transform: translatex(-80px);
+        transform: translatex(-40px);
         transition-delay: 3s;
     }
 
     100% {
 
-        transform: translatex(-320px);
+        transform: translatex(-80px);
     }
 }
 
