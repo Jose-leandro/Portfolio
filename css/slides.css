@@ -18,6 +18,10 @@
 .encriptador__contener input {
     display: none;
 }
+   
+.slide__imagem {
+    border-radius: 10px;
+}
 
 .encriptador__labels {
     display: flex;
@@ -94,35 +98,12 @@
 .encriptador__btn {
     background: linear-gradient(60deg, #18184d 20%, #a10f8d);
     border-radius: 10px;
-    height: 45px;
-    position: absolute;
-    right: 80px;
-    top: 280em;
-    width: 220px;
-}
-
-.encriptador__btn:hover {
-    height: 46px;
-    width: 221px;
-}
-
-.encriptador__btn:active {
-    height: 44px;
-    width: 219px;
 }
 
 .encriptador__ancora {
     color: rgb(192, 185, 173);
     text-decoration: none;
     font-size: 18px;
-}
-
-.encriptador__ancora:hover {
-    font-size: 19px;
-}
-
-.encriptador__ancora:active {
-    font-size: 17px;
 }
 
 .slider__jogo {
@@ -155,28 +136,10 @@
     width: 220px;
 }
 
-.jogo__btn:hover {
-    height: 46px;
-    width: 221px;
-}
-
-.jogo__btn:active {
-    height: 44px;
-    width: 219px;
-}
-
 .jogo__ancora {
     color: rgb(192, 185, 173);
     font-size: 18px;
     text-decoration: none;
-}
-
-.jogo__ancora:hover {
-    font-size: 19px;
-}
-
-.jogo__ancora:active {
-    font-size: 17px;
 }
 
 .jogo__labels {

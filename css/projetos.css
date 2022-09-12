@@ -37,17 +37,9 @@
 }
 
 .resumo__encriptador {
-    font-size: 18px;
     line-height: 22px;
-    position: absolute;
-    right: 45px;
-    top: 3580px;
 }
 
 .resumo__jogo {
-    font-size: 18px;
-    left: 45px;
     line-height: 22px;
-    position: absolute;
-    top: 4050px;
 }
