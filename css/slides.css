@@ -19,12 +19,6 @@
     display: none;
 }
 
-.slide__imagem {
-    border-radius: 10px;
-    height: 400px;
-    width: 800px;
-}
-
 .encriptador__labels {
     display: flex;
     justify-content: center;
