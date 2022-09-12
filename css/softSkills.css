@@ -49,6 +49,8 @@
 }
 
 .descrevendo__informacoes {
-    margin-bottom: 3em;
+    position: absolute;
+    top: 2000px;
+    left: 320px;
 }
 

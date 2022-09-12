@@ -241,6 +241,9 @@
     .descrevendo__informacoes {
         width: 80%;
         margin-bottom: 2em;
+        position: absolute;
+        top: 1860px;
+        left: 20px;
     }
 
     .formacao {
@@ -794,9 +797,9 @@
         text-align: center;
         height: 100px;
     }
-        
+
     .desenvolvedor {
-       margin-top: 0; 
+        margin-top: 0;
     }
 
 
