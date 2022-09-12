@@ -142,5 +142,9 @@ function esconderMenu() {
     menu.classList.add("esconder__menu");
 }
 
+function esconderMenuParaMobile() {
+    menu.classList.remove("menu__escondido--width");
+    menu.classList.add("menu__visivel--width");
+}
 
 
