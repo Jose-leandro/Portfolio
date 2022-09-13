@@ -115,7 +115,7 @@ iconeMenu.addEventListener("click", function () {
     }
     
         
-    if(larguraDoDispositivo <= 480) {
+    if(larguraDoDispositivo <= 1024) {
         if (resultadoDaBuscar) {
 
             menu.classList.remove("menu__escondido--width");

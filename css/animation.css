@@ -29,6 +29,11 @@
     width: 100%;
 }
 
+.lista__itens {
+    text-align: center;
+    width: 70px;
+}
+
 @keyframes tornarMenuNaoVisivel {
     25% {
 
@@ -50,7 +55,6 @@
         transform: translatex(1350px);
     }
 }
-
 .menu__escondido {
     animation: tornarMenuNaoVisivel 6s ease-in;
     align-items: center;
@@ -62,7 +66,6 @@
     position: fixed;
     visibility: visible;
     width: 100%;
-
 }
 
 @keyframes piscar {
