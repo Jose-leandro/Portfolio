@@ -143,6 +143,7 @@ function esconderMenu() {
 }
 
 function esconderMenuParaMobile() {
+    menu.classList.remove("menu__lista");
     menu.classList.remove("menu__escondido--width");
     menu.classList.remover("menu__visivel--width");
     menu.classList.add("esconder__menu");
