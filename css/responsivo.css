@@ -865,6 +865,14 @@
 
 }
 
+
+@media screen and (min-width: 400px) {
+    .sobre {
+        height: 740px;
+
+    }
+}
+
 @media screen and (min-width: 480px) {
 
     .ola {
@@ -899,11 +907,6 @@
     .foto__autor {
         height: 5em;
         width: 5em;
-    }
-
-    .sobre {
-        height: 800px;
-
     }
 
     .hobbies {
@@ -957,7 +960,7 @@
 
     .descrevendo__informacoes {
         position: absolute;
-        top: 2200px;
+        top: 2130px;
         left: 30px;
     }
 
@@ -1268,6 +1271,7 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        flex-direction: column;
         margin-top: 0;
         height: 100%;
     }
@@ -1314,9 +1318,9 @@
 
     .preencher__contener--left {
         margin-top: 1em;
-        margin-left: 20%;
+        margin-left: 0;
         margin-bottom: 60px;
-        width: 100%;
+        width: 64%;
     }
 
     .preencher__motivo {
@@ -1347,7 +1351,7 @@
         font-size: 14px;
         height: 30px;
         left: 40%;
-        top: 6070px;
+        top: 6040px;
         width: 7em;
     }
 
@@ -1363,7 +1367,7 @@
         color: #7c1b1f;
         font-size: 20px;
         position: absolute;
-        top: 6030px;
+        top: 6000px;
     }
 
     .rodape {
@@ -1439,12 +1443,215 @@
 
 }
 
+@media screen and (min-width: 500px) {
+    .sobre {
+        height: 770px;
+
+    }
+
+    .descrevendo__informacoes {
+        position: absolute;
+        top: 2180px;
+        left: 30px;
+    }
+}
+
+@media screen and (min-width: 520px) {
+    .sobre {
+        height: 770px;
+
+    }
+
+    .onde__nome {
+        height: 230px;
+        width: 30%;
+    }
+
+
+}
+
+
+@media screen and (min-width: 540px) {
+    .sobre {
+        height: 690px;
+
+    }
+
+    .descrevendo__informacoes {
+        position: absolute;
+        top: 2130px;
+        left: 30px;
+    }
+
+    .onde__nome {
+        height: 230px;
+        width: 30%;
+    }
+
+    .resumo__encriptador {
+        top: 4260px;
+    }
+
+    .encriptador__btn {
+        top: 330em;
+    }
+
+    .resumo__jogo {
+        top: 4780px;
+    }
+
+    .jogo__btn {
+        top: 369em;
+    }
+
+    .preencher__motivo {
+        margin-left: 1em;
+        width: 300px;
+    }
+
+    .label__motivo {
+        margin-left: 3em;
+    }
+
+
+    .preencher__btn {
+        top: 5950px;
+        width: 7em;
+    }
+
+    .span__erro {
+        color: #7c1b1f;
+        font-size: 20px;
+        position: absolute;
+        top: 5910px;
+    }
+
+}
+
+
+@media screen and (min-width: 580px) {
+    .sobre {
+        height: 620px;
+
+    }
+
+    .descrevendo__informacoes {
+        top: 2030px;
+    }
+
+    .onde__nome {
+        height: 230px;
+        width: 30%;
+    }
+}
+
+
+@media screen and (min-width: 620px) {
+    .sobre {
+        height: 600px;
+
+    }
+
+    .onde__nome {
+        height: 250px;
+        width: 30%;
+    }
+
+    .slider__encriptador {
+        margin-left: 110px;
+    }
+
+    .slider__jogo {
+        margin-left: 110px;
+    }
+
+    .resumo__encriptador {
+        top: 4150px;
+    }
+
+    .encriptador__btn {
+        top: 323em;
+    }
+
+    .resumo__jogo {
+        top: 260em;
+    }
+
+    .jogo__btn {
+        top: 363em;
+    }
+
+    .preencher__motivo {
+        margin-left: 3em;
+        width: 300px;
+    }
+
+    .label__nome {
+        margin-left: 7em;
+    }
+
+    .label__email {
+        margin-left: 7em;
+    }
+
+    .label__motivo {
+        margin-left: 5em;
+    }
+
+    .preencher__btn {
+        top: 5870px;
+    }
+
+    .span__erro {
+        top: 5830px;
+    }
+}
+
+
+@media screen and (min-width: 730px) {
+
+    .preencher__nome {
+        width: 500px;
+    }
+
+    .label__nome {
+        margin-left: 2em;
+        width: 60%;
+    }
+
+    .preencher__email {
+        width: 500px;
+    }
+
+    .label__email {
+        margin-left: 2em;
+        margin-top: 0;
+        width: 60%;
+    }
+
+    .preencher__contener--left {
+        margin-left: 0;
+        width: 70%;
+    }
+
+    .preencher__motivo {
+        margin-left: 0;
+        width: 500px;
+    }
+
+
+    .label__motivo {
+        margin-left: 4em;
+    }
+
+}
+
 
 @media screen and (min-width: 768px) {
 
     .onde__nome {
         height: 250px;
-        width: 30%;
+        width: 20%;
     }
 
     .projetos {
@@ -1472,14 +1679,14 @@
         flex-wrap: wrap;
         position: absolute;
         left: 33%;
-        top: 4450px;
+        top: 4250px;
     }
 
     .encriptador__btn {
         height: 40px;
         position: absolute;
         left: 33%;
-        top: 345em;
+        top: 330em;
         width: 180px;
     }
 
@@ -1508,13 +1715,13 @@
     .encriptador__labels {
         display: flex;
         justify-content: center;
-        margin-left: 70px;
-        margin-top: 110px;
+        margin-left: 100px;
+        margin-top: 190px;
         position: absolute;
     }
 
     .labels__btn:not(:last-child) {
-        margin-right: 30px;
+        margin-right: 70px;
     }
 
     .slide__imagem {
@@ -1536,7 +1743,7 @@
 
     .jogo__labels {
         margin-left: 70px;
-        margin-top: 190px;
+        margin-top: 240px;
         position: absolute;
     }
 
@@ -1545,14 +1752,14 @@
         flex-wrap: wrap;
         left: 30%;
         position: absolute;
-        top: 5080px;
+        top: 4870px;
     }
 
     .jogo__btn {
         height: 40px;
         left: 30%;
         position: absolute;
-        top: 393em;
+        top: 376em;
         width: 180px;
     }
 
@@ -1592,12 +1799,13 @@
         height: 100%;
     }
 
+        
     .formulario__contener {
-        align-items: center;
+        align-items: flex-end;
         display: flex;
         height: 180px;
-        justify-content: center;
-        margin-top: 4em;
+        justify-content: end;
+        margin-top: 1em;
         width: 100%;
     }
 
@@ -1607,12 +1815,12 @@
     }
 
     .informacao__titulo {
-        font-size: 19px;
+        font-size: 22px;
         margin-top: 0;
     }
 
     .informacao__descricao {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .formulario__preencher {
@@ -1632,7 +1840,7 @@
     }
 
     .preencher__nome {
-        font-size: 14px;
+        font-size: 18px;
         height: 30px;
         margin-top: 1em;
         text-align: center;
@@ -1640,14 +1848,14 @@
     }
 
     .label__nome {
-        font-size: 15px;
-        margin-left: 5em;
+        font-size: 18px;
+        margin-left: 3em;
         margin-bottom: 0;
         width: 60%;
     }
 
     .preencher__email {
-        font-size: 14px;
+        font-size: 18px;
         height: 45px;
         margin-top: 0;
         margin-bottom: 2em;
@@ -1655,8 +1863,8 @@
     }
 
     .label__email {
-        font-size: 15px;
-        margin-left: 5em;
+        font-size: 18px;
+        margin-left: 3em;
         margin-top: 0;
         margin-bottom: 0;
         text-align: left;
@@ -1665,13 +1873,14 @@
 
     .preencher__contener--left {
         margin-top: 1em;
-        margin-left: 18%;
+        margin-left: 0;
         margin-bottom: 60px;
-        width: 100%;
+        width: 70%;
     }
 
     .preencher__motivo {
-        font-size: 14px;
+        font-size: 18px;
+        margin-left: 2em;
         height: 70px;
         width: 500px;
     }
@@ -1681,8 +1890,8 @@
     }
 
     .label__motivo {
-        font-size: 14px;
-        margin-left: 4em;
+        font-size: 18px;
+        margin-left: 5em;
         margin-top: 2em;
         margin-bottom: 1em;
         height: 30px;
@@ -1695,11 +1904,12 @@
 
     .preencher__btn {
         border-radius: 15px;
-        font-size: 14px;
-        height: 30px;
+        font-size: 18px;
+        height: 40px;
+        text-align: center;
         left: 40%;
-        top: 6370px;
-        width: 7em;
+        top: 6162px;
+        width: 8em;
     }
 
     .preencher__btn:hover {
@@ -1714,7 +1924,7 @@
         color: #7c1b1f;
         font-size: 20px;
         position: absolute;
-        top: 6330px;
+        top: 6130px;
     }
 
     .rodape__autoral {
@@ -1733,7 +1943,243 @@
 
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 920px) {
+    .sobre {
+        height: 500px;
+    }
+
+    .descrevendo__informacoes {
+        top: 1900px;
+        margin-left: 50px;
+    }
+
+    .slider__encriptador {
+        margin-left: 100px;
+    }
+
+    .resumo__encriptador {
+        top: 4160px;
+    }
+
+    .encriptador__btn {
+        top: 323em;
+    }
+
+    .slider__jogo {
+        margin-left: 100px;
+    }
+
+    .resumo__jogo {
+        top: 4760px;
+    }
+
+    .jogo__btn {
+        top: 368em;
+    }
+
+        
+    .formulario__contener {
+        align-items: flex-end;
+        display: flex;
+        height: 180px;
+        justify-content: end;
+        margin-top: 1em;
+        width: 100%;
+    }
+
+    .preencher__motivo {
+        margin-left: 4em;
+    }
+
+    .label__motivo {
+        margin-left: 5em;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .sobre {
+        height: 500px;
+    }
+
+    .descrevendo__informacoes {
+        top: 1900px;
+        margin-left: 5em;
+    }
+
+    .onde__nome {
+        width: 150px;
+    }
+
+    .cursos {
+        height: 600px;
+    }
+
+    .slider__encriptador {
+        margin-left: 120px;
+    }
+
+    .encriptador__labels {
+        display: flex;
+        justify-content: center;
+        margin-left: 100px;
+        margin-top: 240px;
+        position: absolute;
+    }
+
+    .labels__btn:not(:last-child) {
+        margin-right: 100px;
+    }
+
+    .resumo__encriptador {
+        top: 3950px;
+    }
+
+    .encriptador__btn {
+        top: 308em;
+    }
+
+    .slider__jogo {
+        margin-left: 120px;
+    }
+
+    .jogo__labels {
+        margin-left: 90px;
+        margin-top: 330px;
+    }
+
+    .resumo__jogo {
+        top: 4570px;
+    }
+
+    .jogo__btn {
+        top: 354em;
+    }
+
+
+    .formulario__contener {
+        align-items: flex-end;
+        display: flex;
+        height: 180px;
+        justify-content: end;
+        margin-top: 1em;
+        width: 100%;
+    }
+
+    .preencher__btn {
+        top: 5865px;
+    }
+
+    .span__erro {
+        top: 5815px;
+    }
+
+
+    .formulario__contener {
+        align-items: flex-end;
+        display: flex;
+        height: 180px;
+        justify-content: end;
+        margin-top: 1em;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .tipo__assitir {
+        width: 200px;
+    }
+
+    .tipo__ler {
+        width: 100px;
+    }
+
+    .tipo__cultiva {
+        width: 150px;
+    }
+
+    .projetos {
+        height: 1600px;
+    }
+
+    .slider__encriptador {
+        height: 400px;
+        margin-bottom: 400px;
+        width: 800px;
+    }
+
+    .encriptador__contener {
+        display: flex;
+        height: 400px;
+        width: 800px;
+    }
+
+
+    .resumo__encriptador {
+        left: 43%;
+        top: 4050px;
+    }
+
+    .encriptador__btn {
+        left: 43%;
+        top: 315em;
+    }
+
+    .slide__imagem {
+        height: 400px;
+        width: 800px;
+    }
+
+    .slider__jogo {
+        height: 400px;
+        margin-bottom: 400px;
+        width: 800px;
+    }
+
+    .jogo__contener {
+        display: flex;
+        height: 400px;
+        width: 800px;
+    }
+
+    .resumo__jogo {
+        left: 43%;
+        top: 4850px;
+    }
+
+    .jogo__btn {
+        left: 43%;
+        top: 375em;
+    }
+
+    .preencher__nome {
+        width: 700px;
+    }
+
+    .preencher__email {
+        width: 700px;
+    }
+
+    .preencher__motivo {
+        width: 700px;
+        margin-left: 0;
+    }
+
+    .label__motivo {
+        margin-left: 5em;
+    }
+
+    .preencher__btn {
+        top: 6160px;
+    }
+
+    .span__erro {
+        top: 6110px;
+    }
+
+}
+
+@media screen and (min-width: 1300px) {
 
     .ola {
         height: 13em;
@@ -2004,7 +2450,7 @@
     .resumo__encriptador {
         font-size: 18px;
         position: absolute;
-        left: 1020px;
+        left: 1010px;
         top: 3450px;
     }
 
