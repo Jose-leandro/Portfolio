@@ -5,12 +5,12 @@
     }
 
     .icone__menu {
-        height: 25px;
+        height: 30px;
         position: fixed;
         right: 4px;
         top: 3px;
         visibility: visible;
-        width: 25px;
+        width: 30px;
     }
 
     .icone__menu:hover {
@@ -76,7 +76,7 @@
     }
 
     .sobre {
-        height: 1200px;
+        height: 1150px;
         margin: 2em 0;
     }
 
@@ -206,7 +206,7 @@
     }
 
     .skills {
-        height: 350px;
+        height: 380px;
         margin: 2em 0;
     }
 
@@ -226,7 +226,7 @@
     .descrevendo__lista {
         align-items: center;
         display: flex;
-        height: 50%;
+        height: 80%;
         flex-wrap: wrap;
         justify-content: space-around;
         width: 100%;
@@ -408,7 +408,7 @@
         display: flex;
         height: 150px;
         margin: 2em 1em;
-        margin-left: 60px;
+        margin-left: 50px;
         margin-bottom: 320px;
         width: 250px;
     }
@@ -478,7 +478,7 @@
     .slider__jogo {
         height: 150px;
         margin: 3em 1em;
-        margin-left: 60px;
+        margin-left: 50px;
         width: 250px;
     }
 
@@ -667,7 +667,7 @@
     }
 
     .preencher__motivo {
-        margin-left: 2em;
+        margin-left: 0;
         font-size: 14px;
         height: 60px;
         width: 200px;
@@ -675,7 +675,7 @@
 
     .label__motivo {
         font-size: 14px;
-        margin-left: 5em;
+        margin-left: 3em;
         margin-top: 2em;
         margin-bottom: 1em;
         height: 30px;

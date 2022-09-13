@@ -129,7 +129,7 @@ iconeMenu.addEventListener("click", function () {
             menu.classList.add("menu__escondido--width");
     
             setInterval(function () {
-                esconderMenu();
+                esconderMenuParaMobile();
             }, 6000);
         }
     }else {
