@@ -163,10 +163,10 @@
 }
 
 .foto__animacao {
-    border-radius: 70px;
-    height: 11em;
+    border-radius: 50px;
+    height: 12em;
     transition: 4s;
-    width: 11em;
+    width: 12em;
 }
 
 .github__descricao::after {

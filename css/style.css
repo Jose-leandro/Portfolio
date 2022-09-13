@@ -52,10 +52,8 @@ body {
 }
 
 .foto__autor {
-    border-radius: 80px;
+    border-radius: 30px;
     display: inline-block;
-    height: 10em;
-    width: 10em;
 }
 
 .rodape {
