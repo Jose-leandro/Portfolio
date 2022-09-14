@@ -1,5 +1,4 @@
 .contato {
-    height: 550px;
     width: 100%;
 }
 
@@ -7,7 +6,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
 }
 
 .formulario__contener {
@@ -15,7 +13,6 @@
     display: flex;
     height: 180px;
     justify-content: end;
-    margin-top: 1em;
     width: 100%;
 }
 
@@ -25,13 +22,10 @@
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    height: 12em;
     justify-content: space-around;
-    margin-right: 2em;
     opacity: 100%;
     transform: rotate(-13deg);
     transition: 2s;
-    width: 16em;
 }
 
 .contener__informacao:hover {
@@ -40,13 +34,10 @@
 }
 
 .informacao__titulo {
-    font-size: 25px;
-    margin-top: 1em;
-    text-align: center;  
+    font-size: 25px;  
 }
 
 .informacao__descricao {
-    font-size: 18px;
     margin-bottom: 1em;
     text-align: center;
 }
@@ -67,19 +58,13 @@
     border-color: #000;
     background-color: #484574;
     border-radius: 6px;
-    font-size: 18px;
-    height: 35px;
     margin: 52px 20px 10px 20px;
     text-align: center;
     width: 30em;
 }
 
 .label__nome {
-    font-size: 18px;
-    margin-left: 2em;
-    margin-top: 1em;
     text-align: left;
-    width: 30%;
 }
 
 .erro__nome {
@@ -95,9 +80,6 @@
     border-color: #000;
     background-color: #484574;
     border-radius: 6px;
-    font-size: 18px;
-    height: 45px;
-    margin-top: 3em;
     text-align: center;
     width: 30em;
 }
@@ -107,11 +89,7 @@
 }
 
 .label__email {
-    font-size: 18px;
-    margin-left: 1em;
-    margin-top: 1em;
     text-align: left;
-    width: 30%;
 }
 
 .contener__email {
@@ -122,8 +100,6 @@
     align-items: flex-start;
     display: flex;
     flex-direction: column;
-    margin-left: 94px;
-    margin-top: 1em;
     width: 100%;
 }
 
@@ -132,8 +108,6 @@
     border-color: #000;
     background-color: #484574;
     border-radius: 6px;
-    font-size: 18px;
-    height: 5em;
     text-align: center;
     width: 30em;
 }
@@ -143,10 +117,8 @@
 }
 
 .label__motivo {
-    font-size: 18px;
     margin: 20px;
     text-align: left;
-    width: 30%;
 }
 
 .contener__motivo {
@@ -156,11 +128,7 @@
 .preencher__btn {
     background-color: #1a5aa3;
     border-radius: 6px;
-    font-size: 18px;
-    height: 2em;
     position: absolute;
-    right: 17%;
-    top: 5317px;
     width: 9em;
 }
 
@@ -174,10 +142,7 @@
 
 .span__erro {
     color: #7c1b1f;
-    font-size: 20px;
-    font-size: 25px;
     position: absolute;
     text-align: center;
-    top: 5400px;
     visibility: hidden;
 }

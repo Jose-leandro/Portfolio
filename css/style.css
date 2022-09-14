@@ -6,7 +6,6 @@ body {
 }
 
 .ola {
-    height: 15em;
     width: 100%;
 }
 
@@ -14,7 +13,6 @@ body {
     background: linear-gradient(50deg, #000000, #003989, #993399);
     display: flex;
     flex-direction: row;
-    height: 100%;
     justify-content: space-around;
 }
 
@@ -22,7 +20,6 @@ body {
     align-items: center;
     display: flex;
     justify-content: space-around;
-    width: 50%;
 }
 
 .informacoes__dev {
@@ -31,24 +28,17 @@ body {
     font-family: 'Fredericka the Great', cursive;
     font-family: 'Oswald', sans-serif;
     font-family: 'Shadows Into Light', cursive;
-    font-size: 22px;
     flex-wrap: nowrap;
-    margin-left: 2em;
-    margin-right: 4em;
-    width: 50%;
 }
 
-.iformacoes__descricao {
+.informacoes__descricao {
     display: inline-block;
     font-family: 'Fredericka the Great', cursive;
-    font-size: 5em;
-    width: 2em;
 }
 
 .ola__foto {
     align-items: center;
     display: flex;
-    width: 6em;
 }
 
 .foto__autor {
@@ -60,21 +50,17 @@ body {
     align-items: center;
     background: linear-gradient(50deg, #191024, #101e25);
     display: flex;
-    font-size: 18px;
     flex-direction: column;
-    height: 160px;
     justify-content: center;
     text-align: center;
     width: 100%;
 }
 
 .desenvolvedor {
-    margin-top: 2em;
     text-align: center;
 }
 
 .imagens__autorais {
-    margin-top: 1em;
     text-decoration: underline;
 }
 

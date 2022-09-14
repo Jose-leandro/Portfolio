@@ -1,5 +1,4 @@
 .sobre {
-    height: 410px;
     margin: 2em 0;
 }
 
@@ -12,13 +11,7 @@
     display: inline-block;
     color: #282d3b;
     cursor: default;
-    font-size: 27px;
     font-weight: bolder;
-    margin-left: 8%;
-}
-
-.contener__paragrafo:hover {
-    font-size: 28px;
 }
 
 .sobre__contener--height {

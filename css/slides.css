@@ -2,17 +2,12 @@
 .slider__encriptador {
     align-items: center;
     display: flex;
-    height: 400px;
     justify-content: space-between;
-    margin: 2em 7em;
     overflow: hidden;
-    width: 800px;
 }
 
 .encriptador__contener {
     display: flex;
-    height: 400px;
-    width: 100%;
 }
 
 .encriptador__contener input {
@@ -26,8 +21,6 @@
 .encriptador__labels {
     display: flex;
     justify-content: center;
-    margin-left: 118px;
-    margin-top: 360px;
     position: absolute;
 }
 
@@ -103,23 +96,17 @@
 .encriptador__ancora {
     color: rgb(192, 185, 173);
     text-decoration: none;
-    font-size: 18px;
 }
 
 .slider__jogo {
     align-items: center;
     display: flex;
-    height: 400px;
     justify-content: space-between;
-    margin: 2em 25em;
     overflow: hidden;
-    width: 800px;
 }
 
 .jogo__contener {
     display: flex;
-    height: 400px;
-    width: 100%;
 }
 
 .jogo__contener input {
@@ -129,23 +116,16 @@
 .jogo__btn {
     background: linear-gradient(60deg, #18184d 20%, #a10f8d);
     border-radius: 10px;
-    height: 45px;
-    left: 80px;
     position: absolute;
-    top: 314em;
-    width: 220px;
 }
 
 .jogo__ancora {
     color: rgb(192, 185, 173);
-    font-size: 18px;
     text-decoration: none;
 }
 
 .jogo__labels {
     display: flex;
     justify-content: center;
-    margin-left: 118px;
-    margin-top: 360px;
     position: absolute;
 }

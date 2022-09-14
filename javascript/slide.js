@@ -105,7 +105,7 @@ iconeMenu.addEventListener("click", function () {
     
         } else {
             menu.classList.remove("menu__visivel");
-            menu.classList.remove("menu__lista");
+            menu.style.visibility="hidden";
             menu.classList.add("menu__escondido");
     
             setInterval(function () {

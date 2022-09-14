@@ -1,35 +1,15 @@
-
 @media screen and (max-width: 480px) {
     .cabecalho__menu {
         height: 50px;
         width: 100%;
     }
 
-    .icone__menu {
-        height: 30px;
-        position: fixed;
-        right: 4px;
-        top: 3px;
-        visibility: visible;
-        width: 30px;
-    }
-
-    .icone__menu:hover {
-        height: 26px;
-        width: 26px;
-    }
-
-    .icone__menu:active {
-        height: 24px;
-        width: 24px;
-    }
-
     .menu__lista {
         display: flex;
         flex-direction: column;
-        margin-top: 40px;
-        margin-left: 50%;
         height: 400px;
+        margin-left: 50%;
+        margin-top: 40px;
         width: 200px;
     }
 
@@ -39,6 +19,19 @@
 
     .lista__ancora {
         font-size: 14px;
+    }
+
+    .icone__menu {
+        height: 30px;
+        position: absolute;
+        right: 4px;
+        top: 3px;
+        width: 30px;
+    }
+
+    .icone__menu:active {
+        height: 24px;
+        width: 24px;
     }
 
     .ola {
@@ -53,6 +46,12 @@
         width: 100%;
     }
 
+    .informacoes__descricao {
+        font-size: 2em;
+        margin-left: 10px;
+        width: 60px;
+    }
+
     .informacoes__dev {
         font-size: 18px;
         margin-left: 1em;
@@ -60,16 +59,10 @@
         width: 100%;
     }
 
-    .iformacoes__descricao {
-        font-size: 2em;
-        width: 60px;
-        margin-left: 10px;
-    }
-
     .ola__foto {
         height: 100%;
-        width: 8em;
         margin-right: 0;
+        width: 8em;
     }
 
     .foto__autor {
@@ -78,7 +71,7 @@
     }
 
     .sobre {
-        height: 1000px;
+        height: 1060px;
         margin: 2em 0;
     }
 
@@ -115,22 +108,20 @@
         margin: 2em 0;
     }
 
-    .contener__redesociais {
-        font-weight: bold;
-        font-size: 25px;
-        margin-left: 9%;
-    }
-
     .redesociais__contener {
         margin: 1em 0;
     }
 
-    .redesociais__nomes {
-        margin-top: 0;
-        margin-bottom: 2em;
+    .contener__redesociais {
+        font-size: 25px;
     }
 
-    .redesociais__linkedin {
+    .redesociais__nomes {
+        margin-bottom: 2em;
+        margin-top: 0;
+    }
+
+    .redesociais__github {
         height: 6em;
         width: 4em;
     }
@@ -139,21 +130,10 @@
         font-size: 50px;
         height: 50px;
         margin-left: 1rem;
-        text-align: center;
-        text-decoration: none;
-    }
-
-    .redesociais__letras:hover {
-        font-size: 51px;
     }
 
     .redesociais__letras:active {
-        font-size: 45px;
-    }
-
-    .redesociais__github {
-        height: 6em;
-        width: 4em;
+        font-size: 48px;
     }
 
     .github__descricao {
@@ -187,9 +167,9 @@
     }
 
     .hobbies__tipo {
-        width: 100%;
         height: 230px;
         margin-bottom: 1em;
+        width: 100%;
     }
 
     .tipo__assitir {
@@ -235,17 +215,17 @@
     }
 
     .descrevendo__item {
-        font-weight: 200;
         font-size: 18px;
+        font-weight: 200;
         padding: 10px 30px;
     }
 
     .descrevendo__informacoes {
-        width: 80%;
+        left: 40px;
         margin-bottom: 2em;
         position: absolute;
         top: 2100px;
-        left: 20px;
+        width: 80%;
     }
 
     .formacao {
@@ -265,10 +245,10 @@
         align-items: center;
         display: flex;
         flex-direction: column;
+        height: 100%;
         justify-content: space-between;
         margin-top: 0;
         width: 100%;
-        height: 100%;
     }
 
     .onde__nome {
@@ -277,12 +257,8 @@
     }
 
     .nome__one {
-        font-weight: 100;
         font-size: 19px;
-    }
-
-    .nome__one:hover {
-        font-size: 20px;
+        font-weight: 100;
     }
 
     .nome__one:active {
@@ -290,9 +266,9 @@
     }
 
     .formacao__descricao {
-        width: 90%;
-        text-align: left;
         margin-bottom: 100px;
+        text-align: left;
+        width: 90%;
     }
 
     .descricao__empresas {
@@ -303,10 +279,6 @@
         font-size: 28px;
         height: 30px;
         width: 100px;
-    }
-
-    .empresas__oracle:hover {
-        font-size: 29px;
     }
 
     .empresas__oracle:active {
@@ -321,10 +293,6 @@
         font-size: 28px;
         height: 30px;
         width: 100px;
-    }
-
-    .empresas__alura:hover {
-        font-size: 29px;
     }
 
     .empresas__alura:active {
@@ -376,10 +344,10 @@
     .curriculo__meu {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         height: 70%;
-        margin-top: 1em;
+        justify-content: space-between;
         margin-bottom: 2em;
+        margin-top: 1em;
     }
 
     .curriculo__btn {
@@ -410,8 +378,8 @@
         display: flex;
         height: 150px;
         margin: 2em 1em;
-        margin-left: 50px;
         margin-bottom: 320px;
+        margin-left: 50px;
         width: 250px;
     }
 
@@ -421,25 +389,26 @@
         width: 100%;
     }
 
+    .slide__imagem {
+        border-radius: 10px;
+        height: 150px;
+        width: 250px;
+    }
+
     .resumo__encriptador {
         display: flex;
         flex-wrap: wrap;
-        position: absolute;
         left: 45px;
+        position: absolute;
         top: 4120px;
     }
 
     .encriptador__btn {
         height: 35px;
-        position: absolute;
         left: 100px;
+        position: absolute;
         top: 320em;
         width: 150px;
-    }
-
-    .encriptador__btn:hover {
-        height: 36px;
-        width: 151px;
     }
 
     .encriptador__btn:active {
@@ -451,17 +420,13 @@
         font-size: 14px;
     }
 
-    .encriptador__ancora:hover {
-        font-size: 15px;
-    }
-
     .encriptador__ancora:active {
         font-size: 13px;
     }
 
     .encriptador__labels {
-        height: 25px;
         display: flex;
+        height: 25px;
         justify-content: center;
         margin-left: 20px;
         margin-top: 110px;
@@ -470,12 +435,6 @@
 
     .labels__btn:not(:last-child) {
         margin-right: 25px;
-    }
-
-    .slide__imagem {
-        border-radius: 10px;
-        height: 150px;
-        width: 250px;
     }
 
     .slider__jogo {
@@ -488,13 +447,6 @@
     .jogo__contener {
         display: flex;
         height: 150px;
-    }
-
-    .jogo__labels {
-        height: 25px;
-        margin-left: 20px;
-        margin-top: 120px;
-        position: absolute;
     }
 
     .resumo__jogo {
@@ -513,10 +465,6 @@
         width: 150px;
     }
 
-    .jogo__btn:hover {
-        height: 36px;
-        width: 151px;
-    }
 
     .jogo__btn:active {
         height: 34px;
@@ -527,18 +475,21 @@
         font-size: 14px;
     }
 
-    .jogo__ancora:hover {
-        font-size: 15px;
-    }
-
     .jogo__ancora:active {
         font-size: 13px;
     }
 
+    .jogo__labels {
+        height: 25px;
+        margin-left: 20px;
+        margin-top: 120px;
+        position: absolute;
+    }
+
     .linguagens {
         height: 550px;
-        margin-top: 2em;
         margin-bottom: 3em;
+        margin-top: 2em;
     }
 
     .linguagens__contener {
@@ -551,8 +502,8 @@
     }
 
     .contener__imagens {
-        height: 100%;
         display: flex;
+        height: 100%;
         flex-direction: column;
         justify-content: space-between;
         margin-top: 0;
@@ -585,9 +536,9 @@
     .contato__formulario {
         display: flex;
         flex-direction: column;
+        height: 100%;
         justify-content: center;
         width: 100%;
-        height: 100%;
     }
 
     .formulario__contener {
@@ -614,12 +565,12 @@
     }
 
     .formulario__preencher {
+        align-items: center;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-top: 0;
         height: 100%;
+        justify-content: space-evenly;
+        margin-top: 0;
     }
 
     .preencher__contener {
@@ -648,25 +599,24 @@
     .preencher__email {
         font-size: 14px;
         height: 50px;
-        margin-top: 0;
-
         margin-bottom: 2em;
+        margin-top: 0;
         width: 200px;
     }
 
     .label__email {
         font-size: 15px;
+        margin-bottom: 0;
         margin-left: 6em;
         margin-top: 0;
-        margin-bottom: 0;
         text-align: left;
         width: 60%;
     }
 
     .preencher__contener--left {
-        margin-top: 1em;
-        margin-left: 0;
         margin-bottom: 60px;
+        margin-left: 0;
+        margin-top: 1em;
         width: 70%;
     }
 
@@ -679,15 +629,11 @@
 
     .label__motivo {
         font-size: 14px;
+        height: 30px;
+        margin-bottom: 1em;
         margin-left: 3em;
         margin-top: 2em;
-        margin-bottom: 1em;
-        height: 30px;
         width: 60%;
-    }
-
-    .contener__motivo {
-        color: #7c1b1f;
     }
 
     .preencher__btn {
@@ -695,12 +641,8 @@
         font-size: 14px;
         height: 30px;
         left: 40%;
-        top: 6030px;
+        top: 6060px;
         width: 7em;
-    }
-
-    .preencher__btn:hover {
-        font-size: 15px;
     }
 
     .preencher__btn:active {
@@ -708,30 +650,14 @@
     }
 
     .span__erro {
-        color: #7c1b1f;
         font-size: 16px;
         position: absolute;
-        top: 5997px;
-    }
-
-    .contener__icone {
-        display: flex;
-        height: 200px;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin-bottom: 2em;
-        margin-top: 4em;
-        width: 100%;
-    }
-
-    .imagens--width {
-        width: 30px;
+        top: 6004px;
     }
 
     .rodape {
-        display: flex;
         align-items: center;
-        background: linear-gradient(50deg, #191024, #101e25);
+        display: flex;
         text-align: center;
         height: 100px;
     }
@@ -741,7 +667,7 @@
         margin-left: 20px;
         margin-top: 0;
     }
-
+    
     .main__contener {
         height: 1000px;
     }
@@ -750,52 +676,49 @@
         align-items: center;
         display: flex;
         height: 200px;
-        flex-wrap: wrap;
         flex-direction: column;
+        flex-wrap: wrap;
         justify-content: space-around;
         margin-bottom: 2em;
         margin-top: 4em;
-        width: 100%;
         font-size: 14px;
+        width: 100%;
     }
 
     .imagens--width {
-        width: 50px;
+        width: 30px;
+    }
+
+    .imagens--width {
         height: 50px;
+        width: 50px;
     }
 
     .informacoes {
-        margin-top: 2em;
         font-size: 18px;
         margin-bottom: 2em;
+        margin-top: 2em;
     }
 
     .imagens__ancora {
-        color: rgb(192, 185, 173);
         font-size: 18px;
-        width: 100%;
         height: 30px;
         text-align: center;
-    }
-
-    .imagens__ancora:hover {
-        font-size: 19px;
+        width: 100%;
     }
 
     .rodape__autoral {
-        display: flex;
         align-items: center;
         background: linear-gradient(50deg, #191024, #101e25);
-        text-align: center;
+        display: flex;
         height: 100px;
+        text-align: center;
     }
 
     .autoral__desenvolvedor {
-        text-align: center;
         margin-top: 0;
+        text-align: center;
     }
-
-
 }
 
 @media screen and (min-width: 480px) {
@@ -818,10 +741,10 @@
         width: 100%;
     }
 
-    .iformacoes__descricao {
+    .informacoes__descricao {
         font-size: 3em;
-        width: 4em;
         margin-left: 1em;
+        width: 4em;
     }
 
     .ola__foto {
@@ -840,9 +763,9 @@
     }
 
     .hobbies__tipo {
-        width: 100%;
         height: 280px;
         margin-bottom: 1em;
+        width: 100%;
     }
 
     .tipo__assitir {
@@ -878,8 +801,8 @@
     }
 
     .descrevendo__item {
-        font-weight: 200;
         font-size: 22px;
+        font-weight: 200;
         padding: 15px 40px;
     }
 
@@ -898,10 +821,10 @@
         align-items: center;
         display: flex;
         flex-direction: column;
+        height: 100%;
         justify-content: space-between;
         margin-top: 0;
         width: 100%;
-        height: 100%;
     }
 
     .onde__nome {
@@ -914,18 +837,14 @@
         font-size: 19px;
     }
 
-    .nome__one:hover {
-        font-size: 20px;
-    }
-
     .nome__one:active {
         font-size: 18px;
     }
 
     .formacao__descricao {
-        width: 90%;
-        text-align: left;
         margin-bottom: 100px;
+        text-align: left;
+        width: 90%;
     }
 
     .descricao__empresas {
@@ -936,10 +855,6 @@
         font-size: 28px;
         height: 30px;
         width: 60px;
-    }
-
-    .empresas__oracle:hover {
-        font-size: 29px;
     }
 
     .empresas__oracle:active {
@@ -954,10 +869,6 @@
         font-size: 28px;
         height: 30px;
         width: 60px;
-    }
-
-    .empresas__alura:hover {
-        font-size: 29px;
     }
 
     .empresas__alura:active {
@@ -1001,22 +912,17 @@
     .resumo__encriptador {
         display: flex;
         flex-wrap: wrap;
-        position: absolute;
         left: 30%;
+        position: absolute;
         top: 4350px;
     }
 
     .encriptador__btn {
         height: 40px;
-        position: absolute;
         left: 30%;
+        position: absolute;
         top: 337em;
         width: 180px;
-    }
-
-    .encriptador__btn:hover {
-        height: 41px;
-        width: 181px;
     }
 
     .encriptador__btn:active {
@@ -1026,10 +932,6 @@
 
     .encriptador__ancora {
         font-size: 14px;
-    }
-
-    .encriptador__ancora:hover {
-        font-size: 15px;
     }
 
     .encriptador__ancora:active {
@@ -1072,8 +974,6 @@
     }
 
     .resumo__jogo {
-        display: flex;
-        flex-wrap: wrap;
         left: 30%;
         position: absolute;
         top: 4880px;
@@ -1087,11 +987,6 @@
         width: 180px;
     }
 
-    .jogo__btn:hover {
-        height: 41px;
-        width: 181px;
-    }
-
     .jogo__btn:active {
         height: 39px;
         width: 179px;
@@ -1101,18 +996,14 @@
         font-size: 14px;
     }
 
-    .jogo__ancora:hover {
-        font-size: 15px;
-    }
-
     .jogo__ancora:active {
         font-size: 13px;
     }
 
     .linguagens {
         height: 250px;
-        margin-top: 2em;
         margin-bottom: 3em;
+        margin-top: 2em;
     }
 
     .linguagens__contener {
@@ -1125,8 +1016,8 @@
     }
 
     .contener__imagens {
-        height: 100%;
         display: flex;
+        height: 100%;
         justify-content: space-evenly;
         margin-top: 0;
         width: 100%;
@@ -1146,14 +1037,10 @@
     }
 
     .imagens__nome {
-        text-align: center;
         font-size: 20px;
         height: 40px;
+        text-align: center;
         width: 122px;
-    }
-
-    .imagens__nome:hover {
-        font-size: 21px;
     }
 
     .contato {
@@ -1193,9 +1080,9 @@
     }
 
     .formulario__preencher {
+        align-items: center;
         display: flex;
         justify-content: space-evenly;
-        align-items: center;
         flex-direction: column;
         margin-top: 0;
         height: 100%;
@@ -1219,32 +1106,31 @@
 
     .label__nome {
         font-size: 15px;
-        margin-left: 5em;
         margin-bottom: 0;
+        margin-left: 5em;
         width: 60%;
     }
 
     .preencher__email {
         font-size: 14px;
         height: 65px;
-        margin-top: 0;
         margin-bottom: 2em;
+        margin-top: 0;
         width: 300px;
     }
 
     .label__email {
         font-size: 15px;
+        margin-bottom: 0;
         margin-left: 5em;
         margin-top: 0;
-        margin-bottom: 0;
-        text-align: left;
         width: 60%;
     }
 
     .preencher__contener--left {
-        margin-top: 1em;
-        margin-left: 0;
         margin-bottom: 60px;
+        margin-left: 0;
+        margin-top: 1em;
         width: 64%;
     }
 
@@ -1254,21 +1140,13 @@
         width: 300px;
     }
 
-    .erro__motivo {
-        border-color: #7c1b1f;
-    }
-
     .label__motivo {
         font-size: 14px;
+        height: 30px;
+        margin-bottom: 1em;
         margin-left: 2em;
         margin-top: 2em;
-        margin-bottom: 1em;
-        height: 30px;
         width: 60%;
-    }
-
-    .contener__motivo {
-        color: #7c1b1f;
     }
 
     .preencher__btn {
@@ -1280,25 +1158,17 @@
         width: 7em;
     }
 
-    .preencher__btn:hover {
-        font-size: 15px;
-    }
-
     .preencher__btn:active {
         font-size: 13px;
     }
 
     .span__erro {
-        color: #7c1b1f;
         font-size: 20px;
         position: absolute;
         top: 6000px;
     }
 
     .rodape {
-        display: flex;
-        align-items: center;
-        background: linear-gradient(50deg, #191024, #101e25);
         text-align: center;
         height: 100px;
     }
@@ -1316,8 +1186,8 @@
         align-items: center;
         display: flex;
         height: 200px;
-        flex-wrap: wrap;
         flex-direction: column;
+        flex-wrap: wrap;
         justify-content: space-around;
         margin-bottom: 2em;
         margin-top: 4em;
@@ -1326,26 +1196,21 @@
     }
 
     .imagens--width {
-        width: 50px;
         height: 50px;
+        width: 50px;
     }
 
     .informacoes {
-        margin-top: 2em;
         font-size: 18px;
         margin-bottom: 2em;
+        margin-top: 2em;
     }
 
     .imagens__ancora {
-        color: rgb(192, 185, 173);
         font-size: 18px;
-        width: 100%;
         height: 30px;
         text-align: center;
-    }
-
-    .imagens__ancora:hover {
-        font-size: 19px;
+        width: 100%;
     }
 
     .imagens__ancora:active {
@@ -1353,9 +1218,9 @@
     }
 
     .rodape__autoral {
-        display: flex;
         align-items: center;
         background: linear-gradient(50deg, #191024, #101e25);
+        display: flex;
         text-align: center;
         height: 100px;
     }
@@ -1364,48 +1229,40 @@
         margin-left: 30%;
         margin-top: 0;
     }
-
-
 }
 
 @media screen and (min-width: 500px) {
     .sobre {
         height: 770px;
-
     }
 
     .descrevendo__informacoes {
+        left: 30px;
         position: absolute;
         top: 2180px;
-        left: 30px;
     }
 }
 
 @media screen and (min-width: 520px) {
     .sobre {
         height: 770px;
-
     }
 
     .onde__nome {
         height: 230px;
         width: 30%;
     }
-
-
 }
-
 
 @media screen and (min-width: 540px) {
     .sobre {
         height: 690px;
-
     }
 
     .descrevendo__informacoes {
+        left: 30px;
         position: absolute;
         top: 2130px;
-        left: 30px;
     }
 
     .onde__nome {
@@ -1438,26 +1295,21 @@
         margin-left: 3em;
     }
 
-
     .preencher__btn {
         top: 5950px;
         width: 7em;
     }
 
     .span__erro {
-        color: #7c1b1f;
         font-size: 20px;
         position: absolute;
         top: 5910px;
     }
-
 }
-
 
 @media screen and (min-width: 580px) {
     .sobre {
         height: 620px;
-
     }
 
     .descrevendo__informacoes {
@@ -1470,11 +1322,9 @@
     }
 }
 
-
 @media screen and (min-width: 620px) {
     .sobre {
         height: 600px;
-
     }
 
     .onde__nome {
@@ -1532,7 +1382,6 @@
     }
 }
 
-
 @media screen and (min-width: 730px) {
 
     .preencher__nome {
@@ -1564,13 +1413,10 @@
         width: 500px;
     }
 
-
     .label__motivo {
         margin-left: 4em;
     }
-
 }
-
 
 @media screen and (min-width: 768px) {
 
@@ -1588,8 +1434,8 @@
         display: flex;
         height: 300px;
         margin: 2em 1em;
-        margin-left: 60px;
         margin-bottom: 320px;
+        margin-left: 60px;
         width: 600px;
     }
 
@@ -1602,22 +1448,17 @@
     .resumo__encriptador {
         display: flex;
         flex-wrap: wrap;
-        position: absolute;
         left: 33%;
+        position: absolute;
         top: 4250px;
     }
 
     .encriptador__btn {
         height: 40px;
-        position: absolute;
         left: 33%;
+        position: absolute;
         top: 330em;
         width: 180px;
-    }
-
-    .encriptador__btn:hover {
-        height: 41px;
-        width: 181px;
     }
 
     .encriptador__btn:active {
@@ -1627,10 +1468,6 @@
 
     .encriptador__ancora {
         font-size: 14px;
-    }
-
-    .encriptador__ancora:hover {
-        font-size: 15px;
     }
 
     .encriptador__ancora:active {
@@ -1673,8 +1510,6 @@
     }
 
     .resumo__jogo {
-        display: flex;
-        flex-wrap: wrap;
         left: 30%;
         position: absolute;
         top: 4870px;
@@ -1688,11 +1523,6 @@
         width: 180px;
     }
 
-    .jogo__btn:hover {
-        height: 41px;
-        width: 181px;
-    }
-
     .jogo__btn:active {
         height: 39px;
         width: 179px;
@@ -1702,14 +1532,9 @@
         font-size: 14px;
     }
 
-    .jogo__ancora:hover {
-        font-size: 15px;
-    }
-
     .jogo__ancora:active {
         font-size: 13px;
     }
-
 
     .contato {
         height: 750px;
@@ -1720,11 +1545,10 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 100%;
         height: 100%;
+        width: 100%;
     }
 
-        
     .formulario__contener {
         align-items: flex-end;
         display: flex;
@@ -1749,9 +1573,9 @@
     }
 
     .formulario__preencher {
+        align-items: center;
         display: flex;
         justify-content: space-evenly;
-        align-items: center;
         margin-top: 0;
         height: 100%;
     }
@@ -1774,32 +1598,32 @@
 
     .label__nome {
         font-size: 18px;
-        margin-left: 3em;
         margin-bottom: 0;
+        margin-left: 3em;
         width: 60%;
     }
 
     .preencher__email {
         font-size: 18px;
         height: 45px;
-        margin-top: 0;
         margin-bottom: 2em;
+        margin-top: 0;
         width: 500px;
     }
 
     .label__email {
         font-size: 18px;
+        margin-bottom: 0;
         margin-left: 3em;
         margin-top: 0;
-        margin-bottom: 0;
         text-align: left;
         width: 60%;
     }
 
     .preencher__contener--left {
-        margin-top: 1em;
-        margin-left: 0;
         margin-bottom: 60px;
+        margin-left: 0;
+        margin-top: 1em;
         width: 70%;
     }
 
@@ -1810,35 +1634,23 @@
         width: 500px;
     }
 
-    .erro__motivo {
-        border-color: #7c1b1f;
-    }
-
     .label__motivo {
         font-size: 18px;
+        margin-bottom: 1em;
         margin-left: 5em;
         margin-top: 2em;
-        margin-bottom: 1em;
         height: 30px;
         width: 60%;
-    }
-
-    .contener__motivo {
-        color: #7c1b1f;
     }
 
     .preencher__btn {
         border-radius: 15px;
         font-size: 18px;
         height: 40px;
-        text-align: center;
         left: 40%;
+        text-align: center;
         top: 6162px;
         width: 8em;
-    }
-
-    .preencher__btn:hover {
-        font-size: 15px;
     }
 
     .preencher__btn:active {
@@ -1846,16 +1658,15 @@
     }
 
     .span__erro {
-        color: #7c1b1f;
         font-size: 20px;
         position: absolute;
         top: 6130px;
     }
 
     .rodape__autoral {
-        display: flex;
         align-items: center;
         background: linear-gradient(50deg, #191024, #101e25);
+        display: flex;
         text-align: center;
         height: 100px;
     }
@@ -1864,8 +1675,6 @@
         margin-left: 30%;
         margin-top: 0;
     }
-
-
 }
 
 @media screen and (min-width: 920px) {
@@ -1874,8 +1683,8 @@
     }
 
     .descrevendo__informacoes {
-        top: 1900px;
         margin-left: 50px;
+        top: 1900px;
     }
 
     .slider__encriptador {
@@ -1902,7 +1711,6 @@
         top: 368em;
     }
 
-        
     .formulario__contener {
         align-items: flex-end;
         display: flex;
@@ -1927,8 +1735,8 @@
     }
 
     .descrevendo__informacoes {
-        top: 1900px;
         margin-left: 5em;
+        top: 1900px;
     }
 
     .onde__nome {
@@ -1980,7 +1788,6 @@
         top: 354em;
     }
 
-
     .formulario__contener {
         align-items: flex-end;
         display: flex;
@@ -1998,7 +1805,6 @@
         top: 5815px;
     }
 
-
     .formulario__contener {
         align-items: flex-end;
         display: flex;
@@ -2007,7 +1813,6 @@
         margin-top: 1em;
         width: 100%;
     }
-
 }
 
 @media screen and (min-width: 1000px) {
@@ -2038,7 +1843,6 @@
         height: 400px;
         width: 800px;
     }
-
 
     .resumo__encriptador {
         left: 43%;
@@ -2101,14 +1905,12 @@
     .span__erro {
         top: 6110px;
     }
-
 }
 
 @media screen and (min-width: 1300px) {
 
     .ola {
         height: 13em;
-        width: 100%;
     }
 
     .ola__contener {
@@ -2126,7 +1928,7 @@
         width: 50%;
     }
 
-    .iformacoes__descricao {
+    .informacoes__descricao {
         font-size: 5em;
         width: 2em;
     }
@@ -2167,10 +1969,6 @@
         font-size: 27px;
     }
 
-    .titulo__nome:hover {
-        font-size: 29px;
-    }
-
     .hobbies__tipo {
         height: 330px;
         margin-bottom: 1em;
@@ -2194,20 +1992,14 @@
 
     .skills {
         height: 300px;
-        margin: 2em 0;
     }
 
     .skills__titulo {
         height: 70px;
-        width: 100%;
     }
 
     .titulo__nome--color {
         font-size: 27px;
-    }
-
-    .titulo__nome--color:hover {
-        font-size: 28px;
     }
 
     .skills__descrevendo {
@@ -2215,15 +2007,14 @@
     }
 
     .descrevendo__item {
-        font-weight: 300;
         font-size: 25px;
+        font-weight: 300;
         padding: 10px 30px;
     }
 
     .descrevendo__informacoes {
-        position: absolute;
-        top: 1870px;
         left: 320px;
+        top: 1870px;
     }
 
     .formacao {
@@ -2239,11 +2030,9 @@
     }
 
     .formacao__onde {
-        display: flex;
         flex-direction: row;
         height: 300px;
         justify-content: space-evenly;
-
     }
 
     .onde__nome {
@@ -2253,10 +2042,6 @@
 
     .nome__one {
         font-size: 20px;
-    }
-
-    .nome__one:hover {
-        font-size: 21px;
     }
 
     .nome__one:active {
@@ -2279,10 +2064,6 @@
         width: 150px;
     }
 
-    .empresas__oracle:hover {
-        font-size: 51px;
-    }
-
     .empresas__oracle:active {
         font-size: 48px;
     }
@@ -2296,10 +2077,6 @@
         font-size: 50px;
         height: 60px;
         width: 150px;
-    }
-
-    .empresas__alura:hover {
-        font-size: 51px;
     }
 
     .empresas__alura:active {
@@ -2374,8 +2151,8 @@
 
     .resumo__encriptador {
         font-size: 18px;
-        position: absolute;
         left: 1010px;
+        position: absolute;
         top: 3450px;
     }
 
@@ -2408,17 +2185,11 @@
     }
 
     .encriptador__btn {
-        position: absolute;
         height: 45px;
         left: 1020px;
+        position: absolute;
         top: 270em;
         width: 220px;
-    }
-
-
-    .encriptador__btn:hover {
-        height: 46px;
-        width: 221px;
     }
 
     .encriptador__btn:active {
@@ -2430,19 +2201,14 @@
         font-size: 18px;
     }
 
-
-    .encriptador__ancora:hover {
-        font-size: 19px;
-    }
-
     .encriptador__ancora:active {
         font-size: 17px;
     }
 
     .slider__jogo {
         height: 400px;
-        width: 800px;
         margin-left: 32%;
+        width: 800px;
     }
 
     .jogo__contener {
@@ -2457,12 +2223,6 @@
         width: 220px;
     }
 
-
-    .jogo__btn:hover {
-        height: 46px;
-        width: 221px;
-    }
-
     .jogo__btn:active {
         height: 44px;
         width: 219px;
@@ -2470,10 +2230,6 @@
 
     .jogo__ancora {
         font-size: 18px;
-    }
-
-    .jogo__ancora:hover {
-        font-size: 19px;
     }
 
     .jogo__ancora:active {
@@ -2503,8 +2259,6 @@
 
     .imagens__linguagem {
         height: 100px;
-        margin-bottom: 2em;
-        margin-top: 2em;
         width: 100px;
     }
 
@@ -2513,63 +2267,44 @@
         height: 40px;
     }
 
-    .imagens__nome:hover {
-        font-size: 27px;
-    }
-
     .contato {
         height: 650px;
-        width: 100%;
     }
 
     .contato__formulario {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
         width: 100%;
     }
 
     .formulario__contener {
         height: 180px;
-        justify-content: end;
-        margin-top: 4em;
         margin-bottom: 0;
-        width: 100%;
+        margin-top: 4em;
     }
 
     .contener__informacao {
         height: 12em;
-        margin-top: 0;
-        margin-right: 2em;
         margin-bottom: 0;
+        margin-right: 2em;
+        margin-top: 0;
         width: 16em;
     }
 
     .informacao__titulo {
         font-size: 25px;
-        margin-top: 1em;
-        text-align: center;
     }
 
     .informacao__descricao {
         font-size: 18px;
-        margin-bottom: 1em;
-        text-align: center;
     }
 
     .formulario__preencher {
-        background: linear-gradient(50deg, #2d134e, #213744);
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        height: 22em;
         justify-content: space-evenly;
     }
 
     .preencher__contener {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
         width: 50%;
         height: 150px;
     }
@@ -2591,10 +2326,8 @@
     .preencher__email {
         font-size: 18px;
         height: 65px;
-        margin-top: 1em;
         margin-bottom: 0;
-        text-align: center;
-        width: 30em;
+        margin-top: 1em;
     }
 
     .label__email {
@@ -2607,14 +2340,11 @@
     .preencher__contener--left {
         margin-left: 70px;
         margin-top: 1em;
-        width: 100%;
     }
 
     .preencher__motivo {
         font-size: 18px;
         height: 5em;
-        text-align: center;
-        width: 30em;
     }
 
     .label__motivo {
@@ -2629,20 +2359,14 @@
         top: 5204px;
     }
 
-    .preencher__btn:hover {
-        font-size: 19px;
-    }
-
     .preencher__btn:active {
         font-size: 17px;
     }
 
     .span__erro {
         font-size: 25px;
-        text-align: center;
         top: 5300px;
     }
-
 
     .rodape {
         font-size: 18px;
@@ -2651,23 +2375,18 @@
 
     .desenvolvedor {
         margin-top: 1em;
-        text-align: center;
     }
 
     .imagens__autorais {
         margin-top: 1em;
     }
 
-    .rodape__ancora:hover {
-        font-size: 19px;
-    }
-
     .rodape__autoral {
-        display: flex;
         align-items: center;
         background: linear-gradient(50deg, #191024, #101e25);
-        text-align: center;
+        display: flex;
         height: 100px;
+        text-align: center;
     }
 
     .autoral__desenvolvedor {

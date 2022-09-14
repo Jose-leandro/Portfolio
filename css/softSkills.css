@@ -1,7 +1,6 @@
 
 .skills {
     height: 400px;
-    margin: 2em 0;
 }
 
 .skills__titulo {
@@ -12,7 +11,6 @@
 .titulo__nome--color {
     color: #4b5d8d; 
     cursor: default;
-    font-size: 27px;
     font-weight: bold;
     margin-left: 9%; 
 }
@@ -25,7 +23,6 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 300px;
 }
 
 .descrevendo__lista {
@@ -40,12 +37,9 @@
 .descrevendo__item {
     background: linear-gradient(50deg, #4b5d8d, #612d3d);
     border-radius: 20px;
-    font-weight: 200;
     font-family: 'Advent Pro', sans-serif;
     font-family: 'Arima', cursive;
     font-family: 'Caveat', cursive;
-    font-size: 30px;
-    padding: 15px 40px;
 }
 
 .descrevendo__informacoes {

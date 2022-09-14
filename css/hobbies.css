@@ -1,19 +1,11 @@
 .hobbies {
-    height: 450px;
     margin: 2em 0;
-}
-
-.contener__titulo {
-    height: 50px;
-    margin: 2em 0;
-    width: 100%;
 }
 
 .titulo__nome {
     color: #504d2b;
     cursor: default;
     display: inline-block;
-    font-size: 27px;
     font-weight: bold;
     margin-left: 9%;
 }
@@ -26,10 +18,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 330px;
     justify-content: space-around;
-    margin-bottom: 1em;
-    width: 100%;
 }
 
 .tipo__assitir {
@@ -38,8 +27,6 @@
     font-family: 'Advent Pro', sans-serif;
     font-family: 'Arima', cursive;
     font-family: 'Caveat', cursive;
-    font-size: 30px;
-    padding: 20px 100px;
 }
 
 .tipo__ler {
@@ -48,8 +35,6 @@
     font-family: 'Advent Pro', sans-serif;
     font-family: 'Arima', cursive;
     font-family: 'Caveat', cursive;
-    font-size: 30px;
-    padding: 20px 80px;
 }
 
 .tipo__cultiva {
@@ -58,6 +43,4 @@
     font-family: 'Advent Pro', sans-serif;
     font-family: 'Arima', cursive;
     font-family: 'Caveat', cursive;
-    font-size: 30px;
-    padding: 20px 120px;
 }

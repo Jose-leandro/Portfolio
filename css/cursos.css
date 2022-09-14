@@ -1,18 +1,15 @@
 .cursos {
-    height: 500px;
     margin: 2em 0;
     width: 100%;
 }
 
 .cursos__titulo {
-    height: 30px;
     margin: 2em 0;
     width: 100%;
 }
 
 .titulo__descricao {
     color: #a31818;
-    font-size: 27px;
     font-weight: bolder;
     margin-left: 9%;
 }
