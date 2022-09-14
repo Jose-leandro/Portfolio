@@ -92,7 +92,10 @@
     }
 
     .menu__lista {
+        display: flex;
+        flex-direction: column;
         margin-right: 2em;
+        margin-left: 38%;
     }
 
     .ola {
