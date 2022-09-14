@@ -1,3 +1,50 @@
+
+@media screen and (max-width: 400px) {
+    .icone__menu {
+        height: 30px;
+        width: 30px;
+    }
+
+    .icone__menu:hover {
+        height: 31px;
+        width: 31px;
+    }
+
+    .icone__menu:active {
+        height: 29px;
+        width: 29px;
+    }
+
+    .skills {
+        height: 420px;
+    }
+
+    .descrevendo__lista {
+        align-items: center;
+        display: flex;
+        height: 80%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .resumo__encriptador {
+        top: 4220px;
+    }
+
+    .encriptador__btn {
+        top: 329em;
+    }
+
+    .resumo__jogo {
+        top: 7000px;
+    }
+
+    .jogo__btn {
+        top: 365em;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .cabecalho__menu {
         height: 50px;
