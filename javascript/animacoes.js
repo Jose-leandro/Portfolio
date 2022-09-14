@@ -82,8 +82,6 @@ iconeMenu.addEventListener("click", function () {
                 esconderMenuParaMobile();
             }, 6000);
         }
-    }else {
-        return 
     }
 });
 
@@ -98,7 +96,6 @@ function esconderMenu() {
 // mesma função da esconderMenu mas neste caso para telas sensiíeis ao toque
 function esconderMenuParaMobile() {
     menu.classList.remove("menu__escondido--width");
-    menu.classList.remover("menu__visivel--width");
     menu.style.visibility="hidden";
     menu.classList.add("esconder__menu");
 }
