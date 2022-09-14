@@ -185,6 +185,10 @@
         margin-left: 1rem;
     }
 
+    .redesociais__letras:hover {
+        font-size: 51px;
+    }
+
     .redesociais__letras:active {
         font-size: 48px;
     }
@@ -606,10 +610,12 @@
 
     .contener__informacao {
         height: 120px;
+        text-align: center;
         width: 12em;
     }
 
     .informacao__titulo {
+        text-align: center;
         font-size: 19px;
         margin-top: 0;
     }
