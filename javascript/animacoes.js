@@ -105,7 +105,7 @@ iconeMenu.addEventListener("click", function () {
     
         } else {
             menu.classList.remove("menu__visivel");
-            menu.style.visibility="hidden";
+            menu.classList.remove("menu__lista");
             menu.classList.add("menu__escondido");
     
             setInterval(function () {
@@ -125,7 +125,7 @@ iconeMenu.addEventListener("click", function () {
     
         } else {
             menu.classList.remove("menu__visivel--width");
-            menu.classList.remove("menu__lista");
+            menu.style.visibility="hidden";
             menu.classList.add("menu__escondido--width");
     
             setInterval(function () {

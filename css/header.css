@@ -11,7 +11,7 @@
     height: 50px;
     justify-content: space-evenly;
     margin-top: 0.3rem;
-    position: fixed;
+    position: absolute;
     visibility: hidden;
     width: 100%;
 }
@@ -36,7 +36,6 @@
 
 .lista__itens {
     text-align: center;
-    width: 170px;
 }
 
 .lista__ancora {
@@ -48,7 +47,7 @@
 .icone__menu {
     cursor: pointer;
     height: 50px;
-    position: fixed;
+    position: absolute;
     right: 2px;
     top: 3px;
     visibility: visible;

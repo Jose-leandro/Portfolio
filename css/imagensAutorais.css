@@ -39,10 +39,6 @@ body {
     width: 100%;
 }
 
-.imagens--width {
-    width: 100px;
-}
-
 .informacoes {
     font-size: 18px;
 }
@@ -57,10 +53,11 @@ body {
     font-size: 19px;
 }
 
-.rodape {
-    font-size: 18px;
-    height: 60px;
-    margin-top: 2em;
-    text-align: center;
-    width: 100%;
+.rodape__autoral {
+    background: linear-gradient(50deg, #191024, #101e25);
+    display: flex;
+}
+
+.autoral__desenvolvedor {
+    margin-left: 35%;
 }

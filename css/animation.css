@@ -24,7 +24,7 @@
     height: 50px;
     justify-content: space-evenly;
     margin-top: 0.3rem;
-    position: fixed;
+    position: absolute;
     visibility: visible;
     width: 100%;
 }
@@ -63,7 +63,7 @@
     height: 50px;
     justify-content: space-evenly;
     margin-top: 0.3rem;
-    position: fixed;
+    position: absolute;
     visibility: visible;
     width: 100%;
 }

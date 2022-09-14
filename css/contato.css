@@ -11,7 +11,6 @@
 .formulario__contener {
     align-items: flex-end;
     display: flex;
-    height: 180px;
     justify-content: end;
     width: 100%;
 }
@@ -31,10 +30,6 @@
 .contener__informacao:hover {
     transition: 4s;
     transform: rotate(0deg);
-}
-
-.informacao__titulo {
-    font-size: 25px;  
 }
 
 .informacao__descricao {
@@ -59,8 +54,6 @@
     background-color: #484574;
     border-radius: 6px;
     margin: 52px 20px 10px 20px;
-    text-align: center;
-    width: 30em;
 }
 
 .label__nome {
@@ -100,7 +93,6 @@
     align-items: flex-start;
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
 
 .preencher__motivo {
@@ -109,7 +101,6 @@
     background-color: #484574;
     border-radius: 6px;
     text-align: center;
-    width: 30em;
 }
 
 .erro__motivo {
@@ -117,7 +108,6 @@
 }
 
 .label__motivo {
-    margin: 20px;
     text-align: left;
 }
 

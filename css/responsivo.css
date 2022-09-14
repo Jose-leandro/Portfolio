@@ -1,6 +1,7 @@
 @media screen and (max-width: 480px) {
     .cabecalho__menu {
         height: 50px;
+        position: absolute;
         width: 100%;
     }
 
@@ -29,9 +30,14 @@
         width: 30px;
     }
 
+    .icone__menu:hover {
+        height: 31px;
+        width: 31px;
+    }
+
     .icone__menu:active {
-        height: 24px;
-        width: 24px;
+        height: 29px;
+        width: 29px;
     }
 
     .ola {
@@ -48,7 +54,7 @@
 
     .informacoes__descricao {
         font-size: 2em;
-        margin-left: 10px;
+        margin-left: 20px;
         width: 60px;
     }
 
@@ -56,7 +62,7 @@
         font-size: 18px;
         margin-left: 1em;
         margin-right: 10px;
-        width: 100%;
+        width: 50%;
     }
 
     .ola__foto {
@@ -91,7 +97,7 @@
         margin-right: 1em;
     }
 
-    .cotener__destacar {
+    .contener__destacar {
         margin-left: 2em;
     }
 
@@ -199,6 +205,7 @@
     .skills__descrevendo {
         align-items: center;
         display: flex;
+        height: 220px;
         flex-direction: column;
         flex-wrap: wrap;
         margin-left: 20px;
@@ -400,14 +407,14 @@
         flex-wrap: wrap;
         left: 45px;
         position: absolute;
-        top: 4120px;
+        top: 4190px;
     }
 
     .encriptador__btn {
         height: 35px;
         left: 100px;
         position: absolute;
-        top: 320em;
+        top: 326em;
         width: 150px;
     }
 
@@ -447,6 +454,7 @@
     .jogo__contener {
         display: flex;
         height: 150px;
+        width: 100%;
     }
 
     .resumo__jogo {
@@ -454,17 +462,16 @@
         flex-wrap: wrap;
         left: 45px;
         position: absolute;
-        top: 4590px;
+        top: 4660px;
     }
 
     .jogo__btn {
         height: 35px;
         left: 100px;
         position: absolute;
-        top: 355em;
+        top: 362em;
         width: 150px;
     }
-
 
     .jogo__btn:active {
         height: 34px;
@@ -641,7 +648,7 @@
         font-size: 14px;
         height: 30px;
         left: 40%;
-        top: 6060px;
+        top: 6120px;
         width: 7em;
     }
 
@@ -651,8 +658,9 @@
 
     .span__erro {
         font-size: 16px;
+        margin-left: 40px;
         position: absolute;
-        top: 6004px;
+        top: 6075px;
     }
 
     .rodape {
@@ -665,9 +673,10 @@
     .desenvolvedor {
         font-size: 16px;
         margin-left: 20px;
+        margin-bottom: 20px;
         margin-top: 0;
     }
-    
+
     .main__contener {
         height: 1000px;
     }
@@ -734,17 +743,17 @@
         width: 100%;
     }
 
+    .informacoes__descricao {
+        font-size: 3em;
+        margin-left: 1em;
+        width: 4em;
+    }
+
     .informacoes__dev {
         font-size: 20px;
         margin-left: 0;
         margin-right: 1em;
         width: 100%;
-    }
-
-    .informacoes__descricao {
-        font-size: 3em;
-        margin-left: 1em;
-        width: 4em;
     }
 
     .ola__foto {
@@ -757,9 +766,19 @@
         width: 5em;
     }
 
+    .contener__paragrafo {
+        font-size: 27px;
+        margin-left: 9%;
+    }
+
     .hobbies {
         height: 380px;
         margin: 2em 0;
+    }
+
+    .titulo__nome {
+        font-size: 25px;
+        margin-left: 9%;
     }
 
     .hobbies__tipo {
@@ -781,6 +800,11 @@
     .tipo__cultiva {
         font-size: 20px;
         padding: 20px 45px;
+    }
+
+    .titulo__nome--color {
+        font-size: 27px;
+        margin-left: 9%;
     }
 
     .skills__descrevendo {
@@ -817,12 +841,22 @@
         margin: 2em 0;
     }
 
+    .formacao__nome {
+        height: 60px;
+        margin-bottom: 1em;
+    }
+
+    .nome__formacoes {
+        font-size: 27px;
+        margin-left: 9%;
+    }
+
     .formacao__onde {
         align-items: center;
         display: flex;
         flex-direction: column;
         height: 100%;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-top: 0;
         width: 100%;
     }
@@ -879,6 +913,14 @@
         height: 800px;
     }
 
+    .cursos__titulo {
+        height: 30px;
+    }
+
+    .titulo__descricao {
+        font-size: 27px;
+    }
+
     .lista__informacoes {
         font-size: 22px;
         height: 20px;
@@ -889,8 +931,46 @@
         margin-bottom: 2em;
     }
 
+    .curriculo {
+        height: 250px;
+    }
+
+    .curriculo__titulo {
+        height: 60px;
+    }
+
+    .titulo__descricao--color {
+        font-size: 27px;
+    }
+
+    .curriculo__meu {
+        height: 55px;
+    }
+
+    .curriculo__btn {
+        font-size: 20px;
+        padding: 8px;
+        width: 200px;
+    }
+
+    .curriculo__ancora {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
     .projetos {
         height: 1100px;
+    }
+
+    .projetos__titulo {
+        height: 50px;
+    }
+
+    .titulo__projetos--color {
+        font-size: 27px;
     }
 
     .slider__encriptador {
@@ -905,6 +985,11 @@
 
     .encriptador__contener {
         display: flex;
+        height: 200px;
+        width: 400px;
+    }
+
+    .slide__imagem {
         height: 200px;
         width: 400px;
     }
@@ -950,11 +1035,6 @@
         margin-right: 30px;
     }
 
-    .slide__imagem {
-        height: 200px;
-        width: 400px;
-    }
-
     .slider__jogo {
         height: 200px;
         margin: 3em 1em;
@@ -965,12 +1045,7 @@
     .jogo__contener {
         display: flex;
         height: 200px;
-    }
-
-    .jogo__labels {
-        margin-left: 70px;
-        margin-top: 160px;
-        position: absolute;
+        width: 100%;
     }
 
     .resumo__jogo {
@@ -1000,6 +1075,12 @@
         font-size: 13px;
     }
 
+    .jogo__labels {
+        margin-left: 70px;
+        margin-top: 160px;
+        position: absolute;
+    }
+
     .linguagens {
         height: 250px;
         margin-bottom: 3em;
@@ -1012,7 +1093,7 @@
     }
 
     .contener__titulo--size {
-        font-size: 22px;
+        font-size: 27px;
     }
 
     .contener__imagens {
@@ -1178,6 +1259,10 @@
         margin-top: 0;
     }
 
+    .imagens__autorais {
+        margin-top: 1em;
+    }
+
     .main__contener {
         height: 1000px;
     }
@@ -1236,10 +1321,28 @@
         height: 770px;
     }
 
+    .descrevendo__lista {
+        height: 220px;
+    }
+
     .descrevendo__informacoes {
         left: 30px;
         position: absolute;
         top: 2180px;
+    }
+    .preencher__btn:hover {
+        font-size: 15px;
+        height: 31px;
+        width: 99px;
+    }
+
+    .preencher__btn:active {
+        height: 29px;
+        width: 97px;
+    }
+
+    .span__erro {
+        margin-left: 40px;
     }
 }
 
@@ -1309,7 +1412,7 @@
 
 @media screen and (min-width: 580px) {
     .sobre {
-        height: 620px;
+        height: 650px;
     }
 
     .descrevendo__informacoes {
@@ -1319,6 +1422,31 @@
     .onde__nome {
         height: 230px;
         width: 30%;
+    }
+
+    .resumo__encriptador {
+        top: 4200px;
+    }
+
+    .encriptador__btn {
+        top: 327em;
+    }
+
+    .resumo__jogo {
+        top: 4730px;
+    }
+
+    .jogo__btn {
+        top: 368em;
+    }
+
+    .preencher__btn {
+        top: 5920px;
+    }
+
+    .span__erro {
+        margin-left: 55px;
+        top: 5874px;
     }
 }
 
@@ -1336,16 +1464,16 @@
         margin-left: 110px;
     }
 
-    .slider__jogo {
-        margin-left: 110px;
-    }
-
     .resumo__encriptador {
         top: 4150px;
     }
 
     .encriptador__btn {
         top: 323em;
+    }
+
+    .slider__jogo {
+        margin-left: 110px;
     }
 
     .resumo__jogo {
@@ -1356,17 +1484,17 @@
         top: 363em;
     }
 
-    .preencher__motivo {
-        margin-left: 3em;
-        width: 300px;
-    }
-
     .label__nome {
         margin-left: 7em;
     }
 
     .label__email {
         margin-left: 7em;
+    }
+
+    .preencher__motivo {
+        margin-left: 3em;
+        width: 300px;
     }
 
     .label__motivo {
@@ -1383,6 +1511,30 @@
 }
 
 @media screen and (min-width: 730px) {
+
+    .ola {
+        height: 200px;
+    }
+
+    .ola__contener {
+        height: 180px;
+    }
+
+    .resumo__encriptador {
+        top: 4200px;
+    }
+
+    .encriptador__btn {
+        top: 327em;
+    }
+
+    .resumo__jogo {
+        top: 4720px;
+    }
+
+    .jogo__btn {
+        top: 366em;
+    }
 
     .preencher__nome {
         width: 500px;
@@ -1416,13 +1568,42 @@
     .label__motivo {
         margin-left: 4em;
     }
+
+    .preencher__btn {
+        top: 5915px;
+    }
+
+    .span__erro {
+        margin-left: 150px;
+        top: 5875px;
+    }
 }
 
 @media screen and (min-width: 768px) {
 
+    .informacoes__descricao {
+        font-size: 80px;
+    }
+
+    .informacoes__dev {
+        font-size: 24px;
+    }
+
+    .sobre {
+        height: 550px;
+    }
+
+    .hobbies__tipo {
+        height: 90%;
+    }
+
     .onde__nome {
         height: 250px;
         width: 20%;
+    }
+
+    .cursos {
+        height: 600px;
     }
 
     .projetos {
@@ -1445,19 +1626,24 @@
         width: 600px;
     }
 
+    .slide__imagem {
+        height: 300px;
+        width: 600px;
+    }
+
     .resumo__encriptador {
         display: flex;
         flex-wrap: wrap;
         left: 33%;
         position: absolute;
-        top: 4250px;
+        top: 4070px;
     }
 
     .encriptador__btn {
         height: 40px;
         left: 33%;
         position: absolute;
-        top: 330em;
+        top: 316em;
         width: 180px;
     }
 
@@ -1486,11 +1672,6 @@
         margin-right: 70px;
     }
 
-    .slide__imagem {
-        height: 300px;
-        width: 600px;
-    }
-
     .slider__jogo {
         height: 300px;
         margin: 3em 1em;
@@ -1503,23 +1684,17 @@
         height: 300px;
     }
 
-    .jogo__labels {
-        margin-left: 70px;
-        margin-top: 240px;
-        position: absolute;
-    }
-
     .resumo__jogo {
         left: 30%;
         position: absolute;
-        top: 4870px;
+        top: 4680px;
     }
 
     .jogo__btn {
         height: 40px;
         left: 30%;
         position: absolute;
-        top: 376em;
+        top: 362em;
         width: 180px;
     }
 
@@ -1534,6 +1709,12 @@
 
     .jogo__ancora:active {
         font-size: 13px;
+    }
+
+    .jogo__labels {
+        margin-left: 70px;
+        margin-top: 240px;
+        position: absolute;
     }
 
     .contato {
@@ -1649,18 +1830,26 @@
         height: 40px;
         left: 40%;
         text-align: center;
-        top: 6162px;
+        top: 5960px;
         width: 8em;
     }
 
+    .preencher__btn:hover {
+        font-size: 19px;
+        height: 41px;
+        width: 145px;
+    }
+
     .preencher__btn:active {
-        font-size: 13px;
+        font-size: 17px;
+        height: 39px;
+        width: 143px;
     }
 
     .span__erro {
         font-size: 20px;
         position: absolute;
-        top: 6130px;
+        top: 5910px;
     }
 
     .rodape__autoral {
@@ -1678,6 +1867,7 @@
 }
 
 @media screen and (min-width: 920px) {
+
     .sobre {
         height: 500px;
     }
@@ -1751,6 +1941,14 @@
         margin-left: 120px;
     }
 
+    .resumo__encriptador {
+        top: 4000px;
+    }
+
+    .encriptador__btn {
+        top: 312em;
+    }
+
     .encriptador__labels {
         display: flex;
         justify-content: center;
@@ -1760,32 +1958,19 @@
     }
 
     .labels__btn:not(:last-child) {
-        margin-right: 100px;
-    }
-
-    .resumo__encriptador {
-        top: 3950px;
-    }
-
-    .encriptador__btn {
-        top: 308em;
+        margin-right: 70px;
     }
 
     .slider__jogo {
         margin-left: 120px;
     }
 
-    .jogo__labels {
-        margin-left: 90px;
-        margin-top: 330px;
-    }
-
     .resumo__jogo {
-        top: 4570px;
+        top: 4620px;
     }
 
     .jogo__btn {
-        top: 354em;
+        top: 358em;
     }
 
     .formulario__contener {
@@ -1798,24 +1983,22 @@
     }
 
     .preencher__btn {
-        top: 5865px;
+        top: 5900px;
     }
 
     .span__erro {
-        top: 5815px;
-    }
-
-    .formulario__contener {
-        align-items: flex-end;
-        display: flex;
-        height: 180px;
-        justify-content: end;
-        margin-top: 1em;
-        width: 100%;
+        margin-left: 240px;
+        top: 5855px;
     }
 }
 
 @media screen and (min-width: 1000px) {
+        
+    .lista__itens {
+        text-align: center;
+        width: 200px;
+    }
+
     .tipo__assitir {
         width: 200px;
     }
@@ -1844,19 +2027,19 @@
         width: 800px;
     }
 
+    .slide__imagem {
+        height: 400px;
+        width: 800px;
+    }
+
     .resumo__encriptador {
         left: 43%;
-        top: 4050px;
+        top: 4120px;
     }
 
     .encriptador__btn {
         left: 43%;
-        top: 315em;
-    }
-
-    .slide__imagem {
-        height: 400px;
-        width: 800px;
+        top: 321em;
     }
 
     .slider__jogo {
@@ -1873,12 +2056,12 @@
 
     .resumo__jogo {
         left: 43%;
-        top: 4850px;
+        top: 4920px;
     }
 
     .jogo__btn {
         left: 43%;
-        top: 375em;
+        top: 381em;
     }
 
     .preencher__nome {
@@ -1899,15 +2082,19 @@
     }
 
     .preencher__btn {
-        top: 6160px;
+        top: 6200px;
     }
 
     .span__erro {
-        top: 6110px;
+        top: 6160px;
     }
 }
 
 @media screen and (min-width: 1300px) {
+   
+    .lista__itens {
+        width: 220px;
+    }
 
     .ola {
         height: 13em;
@@ -2031,7 +2218,7 @@
 
     .formacao__onde {
         flex-direction: row;
-        height: 300px;
+        height: 370px;
         justify-content: space-evenly;
     }
 
@@ -2141,28 +2328,6 @@
         font-size: 27px;
     }
 
-    .projetos__resumo {
-        height: 130px;
-    }
-
-    .projetos__descricao {
-        font-size: 21px;
-    }
-
-    .resumo__encriptador {
-        font-size: 18px;
-        left: 1010px;
-        position: absolute;
-        top: 3450px;
-    }
-
-    .resumo__jogo {
-        font-size: 18px;
-        left: 100px;
-        position: absolute;
-        top: 3907px;
-    }
-
     .slider__encriptador {
         height: 400px;
         margin: 2em 7em;
@@ -2177,6 +2342,13 @@
     .slide__imagem {
         height: 400px;
         width: 800px;
+    }
+
+    .resumo__encriptador {
+        font-size: 18px;
+        left: 1010px;
+        position: absolute;
+        top: 3450px;
     }
 
     .encriptador__labels {
@@ -2205,6 +2377,14 @@
         font-size: 17px;
     }
 
+    .encriptador__labels {
+        margin-top: 300px;
+    }
+
+    .labels__btn:not(:last-child) {
+        margin-right: 100px;
+    }
+
     .slider__jogo {
         height: 400px;
         margin-left: 32%;
@@ -2214,6 +2394,13 @@
     .jogo__contener {
         height: 400px;
         width: 100%;
+    }
+
+    .resumo__jogo {
+        font-size: 18px;
+        left: 100px;
+        position: absolute;
+        top: 3907px;
     }
 
     .jogo__btn {
@@ -2238,7 +2425,7 @@
 
     .jogo__labels {
         margin-left: 118px;
-        margin-top: 360px;
+        margin-top: 350px;
     }
 
     .linguagens {
@@ -2249,12 +2436,12 @@
         height: 70px;
     }
 
-    .contener__titulo--size {
-        font-size: 27px;
-    }
-
     .contener__imagens {
         height: 60%;
+    }
+
+    .contener__titulo--size {
+        font-size: 27px;
     }
 
     .imagens__linguagem {
@@ -2305,15 +2492,15 @@
     }
 
     .preencher__contener {
-        width: 50%;
         height: 150px;
+        width: 40%;
     }
 
     .preencher__nome {
         font-size: 18px;
         height: 35px;
         text-align: center;
-        width: 30em;
+        width: 25em;
     }
 
     .label__nome {
@@ -2328,6 +2515,7 @@
         height: 65px;
         margin-bottom: 0;
         margin-top: 1em;
+        width: 28em;
     }
 
     .label__email {
@@ -2338,17 +2526,21 @@
     }
 
     .preencher__contener--left {
-        margin-left: 70px;
+        margin-right: 600px;
         margin-top: 1em;
+        width: 30em;
     }
 
     .preencher__motivo {
         font-size: 18px;
         height: 5em;
+        margin-left: 2em;
+        width: 24em;
     }
 
     .label__motivo {
         font-size: 18px;
+        margin-left: 6em;
         width: 30%;
     }
 
@@ -2365,6 +2557,7 @@
 
     .span__erro {
         font-size: 25px;
+        margin-left: 40%;
         top: 5300px;
     }
 
@@ -2381,18 +2574,19 @@
         margin-top: 1em;
     }
 
+    .imagens--width {
+        height: 60px;
+        width: 60px;
+    }
+
     .rodape__autoral {
         align-items: center;
-        background: linear-gradient(50deg, #191024, #101e25);
-        display: flex;
         height: 100px;
         text-align: center;
     }
 
     .autoral__desenvolvedor {
-        margin-left: 35%;
         margin-top: 0;
         text-align: center;
     }
-
 }
