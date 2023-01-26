@@ -1,4 +1,3 @@
-
 @keyframes tornarMenuVisivel {
     0% {
         font-size: 13px;
@@ -6,19 +5,17 @@
     }
 
     75% {
-
         font-size: 14px;
     }
 
     100% {
-
         font-size: 15px;
     }
 }
 
 .menu__visivel {
-    animation: tornarMenuVisivel 6s ease-in;
     align-items: center;
+    animation: tornarMenuVisivel 6s ease-in;
     background-color: rgb(12, 12, 12);
     display: flex;
     height: 50px;
@@ -36,28 +33,25 @@
 
 @keyframes tornarMenuNaoVisivel {
     25% {
-
         font-size: 15px;
     }
 
     50% {
-
         font-size: 14px;
     }
 
     75% {
-
         font-size: 13px;
     }
 
     100% {
-
         transform: translatex(1350px);
     }
 }
+
 .menu__escondido {
-    animation: tornarMenuNaoVisivel 6s ease-in;
     align-items: center;
+    animation: tornarMenuNaoVisivel 6s ease-in;
     background-color: rgb(12, 12, 12);
     display: flex;
     height: 50px;
@@ -68,93 +62,82 @@
     width: 100%;
 }
 
-
 @keyframes tornarMenuVisivelParaMobile {
     0% {
-
         font-size: 13px;
         transform: translatex(550px);
     }
 
     75% {
-
         font-size: 14px;
     }
 
     100% {
-
         font-size: 15px;
     }
 }
 
 .menu__visivel--width {
-    animation: tornarMenuVisivelMobile 6s ease-in;
     align-items: center;
+    animation: tornarMenuVisivelMobile 6s ease-in;
     background-color: rgb(12, 12, 12);
     display: flex;
-    height: 400px;
     flex-direction: column;
     font-size: 15px;
-    text-align: center;
+    height: 400px;
     justify-content: space-evenly;
-    margin-top: 0.3rem;
     margin-left: 40%;
     margin-right: 30px;
+    margin-top: 0.3rem;
     position: absolute;
+    text-align: center;
     visibility: visible;
     width: 180px;
 }
 
 @keyframes tornarMenuNaoVisivelMobile {
     25% {
-
         font-size: 15px;
     }
 
     50% {
-
         font-size: 14px;
     }
 
     75% {
-
         font-size: 13px;
     }
 
     100% {
-
         transform: translatex(550px);
     }
 }
 
 .menu__escondido--width {
-    animation: tornarMenuNaoVisivelMobile 6s ease-in;
     align-items: center;
+    animation: tornarMenuNaoVisivelMobile 6s ease-in;
     background-color: rgb(12, 12, 12);
     display: flex;
-    height: 400px;
     flex-direction: column;
     font-size: 15px;
+    height: 400px;
     justify-content: space-evenly;
     margin-left: 40%;
-    margin-top: 0.3rem;
     margin-right: 30px;
+    margin-top: 0.3rem;
     position: absolute;
     visibility: visible;
     width: 180px;
 }
 
-
 @keyframes piscar {
 
     0%,
     100% {
-
         opacity: 1;
     }
 
     50% {
-
         opacity: 0;
     }
 }
@@ -190,7 +173,6 @@
 @keyframes deslocarParaDireita {
     0% {
         transform: translatex(0px);
-
     }
 
     40% {
@@ -209,23 +191,19 @@
 
 @keyframes deslocarParaEsquerda {
     0% {
-
         transform: translater(0px);
     }
 
     40% {
-
         transform: translatex(-20px);
     }
 
     60% {
-
         transform: translatex(-40px);
         transition-delay: 3s;
     }
 
     100% {
-
         transform: translatex(-80px);
     }
 }
@@ -240,4 +218,66 @@
 
 .tipo__cultiva {
     animation: deslocarParaDireita 14s ease-in alternate-reverse infinite;
+}
+
+.encriptador__visualizar {
+    opacity: 0;
+}
+
+@keyframes animacaodescricaoh2 {
+    0% {
+        opacity: 10%;
+        visibility: visible;
+    }
+
+    25% {
+        opacity: 25%;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    75% {
+        opacity: 75%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes animacaocombutton {
+    0% {
+        opacity: 10%;
+        visibility: visible;
+    }
+
+    25% {
+        opacity: 25%;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    75% {
+        opacity: 75%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.encriptador__visualizar:hover {
+    animation: animacaodescricaoh2, animacaocombutton both 1.5s;
+}
+
+.jogo__visualizar {
+    opacity: 0;
+}
+
+.jogo__visualizar:hover {
+    animation: animacaodescricaoh2, animacaocombutton both 1.5s;
 }

@@ -18,23 +18,116 @@
     font-size: 28px;
 }
 
-.projetos__resumo {
-    margin: 1em 0;
-    width: 100%;
-}
-
-.projetos__descricao {
+.projetos__encriptador {
+    align-items: center;
     align-items: center;
     display: flex;
-    font-family: 'Arima', cursive;
+    flex-direction: column;
     justify-content: space-around;
-    margin-top: 2em;
 }
 
-.resumo__encriptador {
-    line-height: 22px;
+.encriptador__descricao {
+    display: flex;
 }
 
-.resumo__jogo {
-    line-height: 22px;
+.encriptador__descricao img {
+    border-radius: 20px;
+    height: 250px;
+    margin-top: 145px;
+    width: 400px;
+}
+
+.encriptador__descricao p {
+    background: #161616;
+    border-radius: 20px;
+    line-height: 30px;
+    padding: 30px;
+}
+
+.encriptador__visualizar {
+    height: 250px;
+    left: 73px;
+    position: absolute;
+    text-align: center;
+    top: 3515px;
+    width: 400px;
+}
+
+.encriptador__visualizar h2 {
+    color: #fff;
+    font-family: 'Kalam', cursiva;
+    font-family: 'Old Standard TT', serif;
+    font-size: 25px;
+    left: 100px;
+    position: absolute;
+    text-decoration: underline;
+    top: 100px;
+}
+
+.encriptador__visualizar button {
+    background: #861a33;
+    border-radius: 20px;
+    border: solid 2px rgb(29, 21, 21);
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    height: 40px;
+    left: 125px;
+    position: absolute;
+    top: 135px;
+    width: 160px;
+}
+
+.jogo__descricao {
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.jogo__descricao img {
+    border-radius: 20px;
+    height: 250px;
+    width: 400px;
+}
+
+.jogo__descricao p {
+    background: #161616;
+    border-radius: 20px;
+    line-height: 30px;
+    padding: 30px;
+}
+
+.jogo__visualizar {
+    border-radius: 20px;
+    height: 250px;
+    left: 73px;
+    position: absolute;
+    text-align: center;
+    top: 4140px;
+    width: 400px;
+}
+
+.jogo__visualizar h2 {
+    color: #fff;
+    font-family: 'Kalam', cursiva;
+    font-family: 'Old Standard TT', serif;
+    font-size: 25px;
+    left: 130px;
+    position: absolute;
+    text-decoration: underline;
+    top: 100px;
+}
+
+.jogo__visualizar button {
+    background: #861a33;
+    border-radius: 20px;
+    border: solid 2px rgb(29, 21, 21);
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    height: 40px;
+    left: 125px;
+    position: absolute;
+    top: 135px;
+    width: 160px;
 }

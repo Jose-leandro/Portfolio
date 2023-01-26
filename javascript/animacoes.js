@@ -46,38 +46,38 @@ iconeMenu.addEventListener("click", function () {
 
     var resultadoDaBuscar = menu.classList.toggle("menu__visible");
 
-    if(larguraDoDispositivo >= 1025) {
+    if (larguraDoDispositivo >= 1025) {
         if (resultadoDaBuscar) {
 
             menu.classList.remove("menu__escondido");
             menu.classList.remove("menu__lista");
             menu.classList.add("menu__visivel");
-    
-    
+
+
         } else {
             menu.classList.remove("menu__visivel");
             menu.classList.remove("menu__lista");
             menu.classList.add("menu__escondido");
-    
+
             setInterval(function () {
                 esconderMenu();
             }, 6000);
         }
     }
-      
-    if(larguraDoDispositivo <= 1024) {
+
+    if (larguraDoDispositivo <= 1024) {
         if (resultadoDaBuscar) {
 
             menu.classList.remove("menu__lista");
             menu.classList.remove("menu__escondido--width");
             menu.classList.add("menu__visivel--width");
-    
-    
+
+
         } else {
             menu.classList.remove("menu__lista");
             menu.classList.remove("menu__visivel--width");
             menu.classList.add("menu__escondido--width");
-    
+
             setInterval(function () {
                 esconderMenuParaMobile();
             }, 6000);
@@ -96,7 +96,7 @@ function esconderMenu() {
 // mesma função da esconderMenu mas neste caso para telas sensiíeis ao toque
 function esconderMenuParaMobile() {
     menu.classList.remove("menu__escondido--width");
-    menu.style.visibility="hidden";
+    menu.style.visibility = "hidden";
     menu.classList.add("esconder__menu");
 }
 
@@ -156,4 +156,11 @@ function passarimagdojogo() {
     }
 
     document.getElementById("radio" + quanto).checked = true;
+}
+
+
+let encriptadorImagem = document.querySelector(".encriptador__imagem");
+
+encriptadorImagem.onmouseenter = (event) => {
+    console.log(event.target.id)
 }

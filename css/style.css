@@ -1,6 +1,6 @@
 body {
     background-color: #000000;
-    color: rgb(192, 185, 173);
+    color: #c0b9ad;
     font-size: 18px;
     width: 100%;
 }
@@ -25,10 +25,10 @@ body {
 .informacoes__dev {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     font-family: 'Fredericka the Great', cursive;
     font-family: 'Oswald', sans-serif;
     font-family: 'Shadows Into Light', cursive;
-    flex-wrap: nowrap;
 }
 
 .informacoes__descricao {
