@@ -445,6 +445,87 @@
         font-size: 25px;
     }
 
+    .projetos__encriptador {
+        height: 43%; 
+        display: flex;
+    }
+
+    .encriptador__descricao {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .encriptador__descricao img {
+        margin-top: 0px;
+        width: 80%;
+    }
+
+    .encriptador__descricao p {
+        width: 80%;
+    }
+
+    .encriptador__visualizar {
+        position: absolute;
+        top: 4010px;
+        left: 38px;
+        width: 80%;
+    }
+
+    .encriptador__visualizar h2 {
+        position: absolute;
+        left: 85px;
+    }
+
+    .encriptador__visualizar button {
+        position: absolute;
+        left: 100px;
+    }
+
+    .projeto__jogo {
+        height: 58%;
+    }
+
+    .jogo__descricao {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .jogo__descricao p {
+        height: 1220px;
+    }
+
+    .jogo__descricao img {
+        width: 80%;
+    }
+
+    .jogo__descricao p {
+        width: 80%;
+    }
+
+    .jogo__visualizar {
+        align-items: center;
+        position: absolute;
+        top: 5335px;
+        left: 38px;
+        width: 80%;
+    }
+
+    .jogo__visualizar h2 {
+        position: absolute;
+        left: 85px;
+    }
+
+    .jogo__visualizar button {
+        position: absolute;
+        left: 85px;
+    }
+
     .linguagens {
         height: 550px;
         margin-bottom: 3em;
@@ -602,7 +683,7 @@
         font-size: 14px;
         height: 30px;
         left: 40%;
-        top: 6120px;
+        top: 8150px;
         width: 7em;
     }
 
@@ -610,7 +691,8 @@
         font-size: 16px;
         margin-left: 40px;
         position: absolute;
-        top: 6075px;
+        top: 8100px;
+        left: 55px;
     }
 
     .rodape {
