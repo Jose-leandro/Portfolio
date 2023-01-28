@@ -13,20 +13,20 @@ inputs.forEach(input => {
     })
 });
 
-var span = document.querySelector(".span__erro");
+let span = document.querySelector(".span__erro");
     console.log(span);
     
-    var inputNome = document.querySelector("[data-tipo='nome']");
+    let inputNome = document.querySelector("[data-tipo='nome']");
     
-    var inputEmail = document.querySelector("[data-tipo='email']");
+    let inputEmail = document.querySelector("[data-tipo='email']");
 
-    var inputMotivo = document.querySelector("[data-tipo='motivo']");
+    let inputMotivo = document.querySelector("[data-tipo='motivo']");
 
-    var lableNome = document.querySelector(".label__nome");
+    let lableNome = document.querySelector(".label__nome");
 
-    var lableEmail = document.querySelector(".label__email");
+    let lableEmail = document.querySelector(".label__email");
 
-    var lableMotivo = document.querySelector(".label__motivo");
+    let lableMotivo = document.querySelector(".label__motivo");
 
 function valida(input) {
     const tipoDeInput = input.dataset.tipo;
@@ -101,18 +101,18 @@ function mostraMensagemDeErro(tipoDeInput, input) {
 }
 
 function validandoInputNome() {
-    var inputNome = document.querySelector("[data-tipo='nome']");
+    let inputNome = document.querySelector("[data-tipo='nome']");
   
     valida(inputNome);
 }
 
 function validandoInputEmail() {
-    var inputEmail = document.querySelector("[data-tipo='email']");
+    let inputEmail = document.querySelector("[data-tipo='email']");
 
     valida(inputEmail);
 }
 
 function validandoInputMotivo() {
-    var inputMotivo = document.querySelector("[data-tipo='motivo']");
+    let inputMotivo = document.querySelector("[data-tipo='motivo']");
     valida(inputMotivo);
 }
