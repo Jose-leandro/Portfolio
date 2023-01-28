@@ -384,7 +384,7 @@
     }
 
     .projetos {
-        height: 3600px;
+        height: 4000px;
     }
 
     .projetos__encriptador {
@@ -441,18 +441,13 @@
     }
 
     .jogo__descricao p {
-        height: 1240px;
+        height: 1900px;
         width: 75%;
     }
 
     .jogo__descricao img {
         width: 80%;
         height: 230px;
-    }
-
-    .jogo__descricao p {
-        width: 80%;
-        height: 1550px;
     }
 
     .jogo__visualizar {
@@ -991,7 +986,7 @@
         left: 45px;
         position: absolute;
         text-align: center;
-        top: 4040px;
+        top: 4200px;
         width: 400px;
     }
 
@@ -1050,7 +1045,7 @@
         left: 45px;
         position: absolute;
         text-align: center;
-        top: 5225px;
+        top: 5380px;
         width: 400px;
     }
 
