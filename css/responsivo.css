@@ -1,41 +1,4 @@
 @media screen and (max-width: 480px) {
-    .empresas__alura:active {
-        font-size: 27px;
-    }
-
-    .empresas__oracle:active {
-        font-size: 27px;
-    }
-
-    .icone__menu:active {
-        height: 29px;
-        width: 29px;
-    }
-
-    .icone__menu:hover {
-        height: 31px;
-        width: 31px;
-    }
-
-    .lista__informacoes:last-child {
-        margin-bottom: 2em;
-    }
-
-    .nome__one:active {
-        font-size: 18px;
-    }
-
-    .preencher__btn:active {
-        font-size: 13px;
-    }
-
-    .redesociais__letras:active {
-        font-size: 48px;
-    }
-
-    .redesociais__letras:hover {
-        font-size: 51px;
-    }
 
     .cabecalho__menu {
         height: 50px;
@@ -66,6 +29,16 @@
         right: 4px;
         top: 3px;
         width: 30px;
+    }
+
+    .icone__menu:active {
+        height: 29px;
+        width: 29px;
+    }
+
+    .icone__menu:hover {
+        height: 31px;
+        width: 31px;
     }
 
     .menu__lista {
@@ -112,7 +85,7 @@
     }
 
     .sobre {
-        height: 1060px;
+        height: 340px;
         margin: 2em 0;
     }
 
@@ -130,18 +103,7 @@
     .contener__descricao {
         margin-left: 1em;
         margin-right: 1em;
-    }
-
-    .contener__destacar {
-        margin-left: 2em;
-    }
-
-    .contener__autor {
-        margin-left: 2em;
-    }
-
-    .frase {
-        margin-left: 2em;
+        text-align: center;
     }
 
     .redesociais {
@@ -162,7 +124,7 @@
         margin-top: 0;
     }
 
-    .redesociais__github {
+       .redesociais__github {
         height: 6em;
         width: 4em;
     }
@@ -171,6 +133,14 @@
         font-size: 50px;
         height: 50px;
         margin-left: 1rem;
+    }
+
+    .redesociais__letras:active {
+        font-size: 48px;
+    }
+
+    .redesociais__letras:hover {
+        font-size: 51px;
     }
 
     .github__descricao {
@@ -299,6 +269,10 @@
         font-weight: 100;
     }
 
+    .nome__one:active {
+        font-size: 18px;
+    }
+
     .formacao__descricao {
         margin-bottom: 100px;
         text-align: left;
@@ -315,6 +289,10 @@
         width: 100px;
     }
 
+    .empresas__oracle:active {
+        font-size: 27px;
+    }
+
     .empresas__simbolo {
         font-size: 28px;
     }
@@ -323,6 +301,10 @@
         font-size: 28px;
         height: 30px;
         width: 100px;
+    }
+
+    .empresas__alura:active {
+        font-size: 27px;
     }
 
     .cursos {
@@ -348,6 +330,10 @@
         font-size: 18px;
         height: 20px;
         width: 100%;
+    }
+
+    .lista__informacoes:last-child {
+        margin-bottom: 2em;
     }
 
     .curriculo {
@@ -630,6 +616,10 @@
         width: 7em;
     }
 
+    .preencher__btn:active {
+        font-size: 13px;
+    }
+
     .span__erro {
         font-size: 16px;
         margin-left: 40px;
@@ -762,6 +752,10 @@
     .foto__autor {
         height: 5em;
         width: 5em;
+    }
+
+    .sobre {
+        height: 380px;
     }
 
     .contener__paragrafo {
@@ -1314,7 +1308,7 @@
     }
 
     .sobre {
-        height: 770px;
+        height: 400px;
     }
 
     .descrevendo__lista {
@@ -1342,20 +1336,9 @@
     }
 }
 
-@media screen and (min-width: 520px) {
-    .sobre {
-        height: 770px;
-    }
-
-    .onde__nome {
-        height: 230px;
-        width: 30%;
-    }
-}
-
 @media screen and (min-width: 540px) {
     .sobre {
-        height: 690px;
+        height: 400px;
     }
 
     .descrevendo__informacoes {
@@ -1405,7 +1388,7 @@
 
 @media screen and (min-width: 580px) {
     .sobre {
-        height: 650px;
+        height: 380px;
     }
 
     .descrevendo__informacoes {
@@ -1441,7 +1424,7 @@
 
 @media screen and (min-width: 620px) {
     .sobre {
-        height: 600px;
+        height: 320px;
     }
 
     .onde__nome {
@@ -1639,7 +1622,7 @@
     }
 
     .sobre {
-        height: 550px;
+        height: 300px;
     }
 
     .hobbies__tipo {
@@ -1841,7 +1824,7 @@
 
 @media screen and (min-width: 920px) {
     .sobre {
-        height: 500px;
+        height: 280px;
     }
 
     .projetos__encriptador {
@@ -1923,7 +1906,7 @@
 
 @media screen and (min-width: 960px) {
     .sobre {
-        height: 500px;
+        height: 280px;
     }
 
     .descrevendo__informacoes {
@@ -2174,12 +2157,16 @@
     }
 
     .sobre {
-        height: 410px;
+        height: 290px;
     }
 
     .contener__paragrafo {
         font-size: 27px;
         margin-left: 9%;
+    }
+
+    .contener__descricao {
+        width: 60%;
     }
 
     .hobbies {

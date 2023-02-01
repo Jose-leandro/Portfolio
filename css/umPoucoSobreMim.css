@@ -15,36 +15,19 @@
 }
 
 .sobre__contener--height {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     margin-top: 3em;
 }
 
 .contener__descricao {
+    background: #161616;
+    border-radius: 20px;
     font-size: 18px;
     line-height: 25px;
-    margin-bottom: 1rem;
-    margin-left: 4em;
-    margin-right: 3em;
+    padding: 20px;
     text-align: start;
+    width: 80%;
 }
 
-.cotener__destacar {
-    margin-left: 5em;
-    margin-top: 2em;
-    text-align: start;
-}
-
-.contener__autor {
-    font-family: 'Fredericka the Great', cursive;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 18px;
-    margin-left: 5em;
-    margin-top: 1em;
-    text-align: start;
-}
-
-.frase {
-    font-size: 18px;
-    margin-left: 5em;
-    margin-top: 1em;
-}
