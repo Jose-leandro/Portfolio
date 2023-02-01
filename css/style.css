@@ -26,9 +26,10 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    font-family: 'Fredericka the Great', cursive;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Kalam', cursiva;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sem serifa;
 }
 
 .informacoes__descricao {
