@@ -124,7 +124,7 @@
         margin-top: 0;
     }
 
-       .redesociais__github {
+    .redesociais__github {
         height: 6em;
         width: 4em;
     }
@@ -195,7 +195,7 @@
     }
 
     .skills {
-        height: 380px;
+        height: 400px;
         margin: 2em 0;
     }
 
@@ -210,7 +210,7 @@
         flex-wrap: wrap;
         height: 220px;
         margin-left: 20px;
-        width: 90%;
+        width: 80%;
     }
 
     .descrevendo__lista {
@@ -219,7 +219,7 @@
         flex-wrap: wrap;
         height: 80%;
         justify-content: space-around;
-        width: 100%;
+        width: 80%;
     }
 
     .descrevendo__item {
@@ -229,10 +229,7 @@
     }
 
     .descrevendo__informacoes {
-        left: 40px;
         margin-bottom: 2em;
-        position: absolute;
-        top: 2100px;
         width: 80%;
     }
 
@@ -374,7 +371,7 @@
     }
 
     .projetos__encriptador {
-        height: 45%; 
+        height: 45%;
         display: flex;
     }
 
@@ -509,32 +506,7 @@
         justify-content: center;
         width: 100%;
     }
-
-    .formulario__contener {
-        align-items: center;
-        display: flex;
-        height: 140px;
-        justify-content: center;
-        margin-top: 4em;
-        width: 100%;
-    }
-
-    .contener__informacao {
-        height: 120px;
-        text-align: center;
-        width: 12em;
-    }
-
-    .informacao__titulo {
-        font-size: 19px;
-        margin-top: 0;
-        text-align: center;
-    }
-
-    .informacao__descricao {
-        font-size: 14px;
-    }
-
+  
     .formulario__preencher {
         align-items: center;
         display: flex;
@@ -799,33 +771,31 @@
         margin-left: 9%;
     }
 
+    .skills {
+        height: 550px;
+    }
+
     .skills__descrevendo {
         align-items: center;
         display: flex;
+        height: 80%;
         flex-direction: column;
-        flex-wrap: wrap;
         margin-left: 20px;
     }
 
     .descrevendo__lista {
         align-items: center;
         display: flex;
-        flex-wrap: wrap;
-        height: 70%;
-        justify-content: space-around;
-        width: 100%;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-evenly;
+        width: 80%;
     }
 
     .descrevendo__item {
         font-size: 22px;
         font-weight: 200;
         padding: 15px 40px;
-    }
-
-    .descrevendo__informacoes {
-        left: 30px;
-        position: absolute;
-        top: 2130px;
     }
 
     .formacao {
@@ -1123,30 +1093,7 @@
         justify-content: center;
         width: 100%;
     }
-
-    .formulario__contener {
-        align-items: center;
-        display: flex;
-        height: 140px;
-        justify-content: center;
-        margin-top: 4em;
-        width: 100%;
-    }
-
-    .contener__informacao {
-        height: 120px;
-        width: 12em;
-    }
-
-    .informacao__titulo {
-        font-size: 19px;
-        margin-top: 0;
-    }
-
-    .informacao__descricao {
-        font-size: 14px;
-    }
-
+       
     .formulario__preencher {
         align-items: center;
         display: flex;
@@ -1311,14 +1258,25 @@
         height: 400px;
     }
 
-    .descrevendo__lista {
-        height: 220px;
+    .skills {
+        height: 650px;
     }
 
-    .descrevendo__informacoes {
-        left: 30px;
-        position: absolute;
-        top: 2180px;
+    .skills__descrevendo {
+        align-items: center;
+        display: flex;
+        height: 80%;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .descrevendo__lista {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-evenly;
+        width: 80%;
     }
 
     .jogo__descricao p {
@@ -1341,10 +1299,8 @@
         height: 400px;
     }
 
-    .descrevendo__informacoes {
-        left: 30px;
-        position: absolute;
-        top: 2130px;
+    .skills {
+        height: 650px;
     }
 
     .onde__nome {
@@ -1391,8 +1347,12 @@
         height: 380px;
     }
 
-    .descrevendo__informacoes {
-        top: 2030px;
+    .skills {
+        height: 700px;
+    }
+
+    .skills__descrevendo {
+        height: 75%;
     }
 
     .onde__nome {
@@ -1697,15 +1657,6 @@
         width: 100%;
     }
 
-    .formulario__contener {
-        align-items: flex-end;
-        display: flex;
-        height: 180px;
-        justify-content: end;
-        margin-top: 1em;
-        width: 100%;
-    }
-
     .contener__informacao {
         height: 170px;
         width: 14em;
@@ -1872,16 +1823,6 @@
 
     .descrevendo__informacoes {
         margin-left: 50px;
-        top: 1900px;
-    }
-
-    .formulario__contener {
-        align-items: flex-end;
-        display: flex;
-        height: 180px;
-        justify-content: end;
-        margin-top: 1em;
-        width: 100%;
     }
 
     .preencher__motivo {
@@ -1911,7 +1852,6 @@
 
     .descrevendo__informacoes {
         margin-left: 5em;
-        top: 1900px;
     }
 
     .onde__nome {
@@ -1932,15 +1872,6 @@
         left: 274px;
         position: absolute;
         top: 4540px;
-    }
-
-    .formulario__contener {
-        align-items: flex-end;
-        display: flex;
-        height: 180px;
-        justify-content: end;
-        margin-top: 1em;
-        width: 100%;
     }
 
     .preencher__btn {
@@ -2205,9 +2136,11 @@
     }
 
     .skills {
-        height: 300px;
+        height: 390px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-
     .skills__titulo {
         height: 70px;
     }
@@ -2217,18 +2150,33 @@
     }
 
     .skills__descrevendo {
-        height: 180px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 60%;
+        margin-left: 0;
+    }
+
+    .descrevendo__lista {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 80%;
     }
 
     .descrevendo__item {
         font-size: 25px;
         font-weight: 300;
         padding: 10px 30px;
+        text-align: center;
+        width: 16%;
     }
 
     .descrevendo__informacoes {
-        left: 320px;
-        top: 1870px;
+        text-align: center;
     }
 
     .formacao {
@@ -2366,7 +2314,7 @@
     .encriptador__visualizar {
         left: 95px;
         position: absolute;
-        top: 3535px;
+        top: 3505px;
     }
 
     .projeto__jogo {
@@ -2392,7 +2340,7 @@
     .jogo__visualizar {
         left: 95px;
         position: absolute;
-        top: 4300px;
+        top: 4270px;
     }
 
     .linguagens {
@@ -2427,29 +2375,7 @@
 
     .contato__formulario {
         width: 100%;
-    }
-
-    .formulario__contener {
-        height: 180px;
-        margin-bottom: 0;
-        margin-top: 4em;
-    }
-
-    .contener__informacao {
-        height: 12em;
-        margin-bottom: 0;
-        margin-right: 2em;
-        margin-top: 0;
-        width: 16em;
-    }
-
-    .informacao__titulo {
-        font-size: 25px;
-    }
-
-    .informacao__descricao {
-        font-size: 18px;
-    }
+    }  
 
     .formulario__preencher {
         display: flex;

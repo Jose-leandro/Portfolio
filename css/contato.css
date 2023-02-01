@@ -8,35 +8,6 @@
     justify-content: space-between;
 }
 
-.formulario__contener {
-    align-items: flex-end;
-    display: flex;
-    justify-content: end;
-    width: 100%;
-}
-
-.contener__informacao {
-    align-items: center;
-    background: linear-gradient(60deg, #2d134e, #213744, #573838);
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    opacity: 100%;
-    transform: rotate(-13deg);
-    transition: 2s;
-}
-
-.contener__informacao:hover {
-    transition: 4s;
-    transform: rotate(0deg);
-}
-
-.informacao__descricao {
-    margin-bottom: 1em;
-    text-align: center;
-}
-
 .formulario__preencher {
     background: linear-gradient(50deg, #2d134e, #213744);
     height: 22em;
