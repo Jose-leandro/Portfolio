@@ -85,7 +85,7 @@
     }
 
     .sobre {
-        height: 340px;
+        height: 430px;
         margin: 2em 0;
     }
 
@@ -101,7 +101,7 @@
     }
 
     .contener__descricao {
-        margin-left: 1em;
+        margin-left: 1.3em;
         margin-right: 1em;
         text-align: center;
     }
@@ -195,7 +195,7 @@
     }
 
     .skills {
-        height: 400px;
+        height: 500px;
         margin: 2em 0;
     }
 
@@ -208,7 +208,7 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        height: 220px;
+        height: 290px;
         margin-left: 20px;
         width: 80%;
     }
@@ -217,7 +217,7 @@
         align-items: center;
         display: flex;
         flex-wrap: wrap;
-        height: 80%;
+        height: 100%;
         justify-content: space-around;
         width: 80%;
     }
@@ -230,6 +230,8 @@
 
     .descrevendo__informacoes {
         margin-bottom: 2em;
+        margin-left: 0.6em;
+        text-align: center;
         width: 80%;
     }
 
@@ -584,7 +586,7 @@
         font-size: 14px;
         height: 30px;
         left: 35%;
-        top: 8740px;
+        top: 8420px;
         width: 7em;
     }
 
@@ -594,10 +596,11 @@
 
     .span__erro {
         font-size: 16px;
-        margin-left: 40px;
+        margin-left: 0;
         position: absolute;
-        top: 8700px;
+        top: 8380px;
         text-align: center;
+        width: 100%;
     }
 
     .rodape {
