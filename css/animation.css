@@ -220,7 +220,7 @@
     animation: deslocarParaDireita 14s ease-in alternate-reverse infinite;
 }
 
-.encriptador__visualizar {
+.projeto__contener__encriptador__visualizar {
     opacity: 0;
 }
 
@@ -270,14 +270,22 @@
     }
 }
 
-.encriptador__visualizar:hover {
+.projeto__contener__encriptador__visualizar:hover {
     animation: animacaodescricaoh2, animacaocombutton both 1.5s;
 }
 
-.jogo__visualizar {
+.projeto__contener__jogo__visualizar {
     opacity: 0;
 }
 
-.jogo__visualizar:hover {
+.projeto__contener__jogo__visualizar:hover {
+    animation: animacaodescricaoh2, animacaocombutton both 1.5s;
+}
+
+.projeto__contener__ecommerce__visualizar {
+    opacity: 0;
+}
+
+.projeto__contener__ecommerce__visualizar:hover {
     animation: animacaodescricaoh2, animacaocombutton both 1.5s;
 }

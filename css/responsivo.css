@@ -368,16 +368,16 @@
         font-size: 14px;
     }
 
-    .projetos {
+    .projeto {
         height: 4000px;
     }
 
-    .projetos__encriptador {
+    .projeto__contener__encriptador{
         height: 45%;
         display: flex;
     }
 
-    .encriptador__descricao {
+    .projeto__contener__encriptador__descricao {
         display: flex;
         height: 100%;
         flex-direction: column;
@@ -385,17 +385,17 @@
         align-items: center;
     }
 
-    .encriptador__descricao img {
+    .projeto__contener__encriptador__descricao img {
         height: 230px;
         margin-top: 0;
         width: 80%;
     }
 
-    .encriptador__descricao p {
+    .projeto__contener__encriptador__descricao p {
         width: 75%;
     }
 
-    .encriptador__visualizar {
+    .projeto__contener__encriptador__visualizar {
         height: 230px;
         position: absolute;
         top: 4010px;
@@ -403,21 +403,15 @@
         width: 80%;
     }
 
-    .encriptador__visualizar h2 {
-        position: absolute;
-        left: 42px;
+    .projeto__contener__encriptador__visualizar h2 {
+      
     }
 
-    .encriptador__visualizar button {
-        position: absolute;
-        left: 45px;
-    }
-
-    .projeto__jogo {
+    .projeto__contener__jogo {
         height: 55%;
     }
 
-    .jogo__descricao {
+    .projeto__contener__jogo__descricao {
         align-items: center;
         display: flex;
         height: 100%;
@@ -425,33 +419,24 @@
         justify-content: space-evenly;
     }
 
-    .jogo__descricao p {
+    .projeto__contener__jogo__descricao p {
         height: 1900px;
         width: 75%;
     }
 
-    .jogo__descricao img {
+    .projeto__contener__jogo__descricao img {
         width: 80%;
         height: 230px;
     }
 
-    .jogo__visualizar {
+    .projeto__contener__jogo__visualizar {
         align-items: center;
         height: 230px;
-        position: absolute;
-        top: 5625px;
-        left: 34px;
         width: 80%;
     }
 
-    .jogo__visualizar h2 {
-        position: absolute;
-        left: 45px;
-    }
-
-    .jogo__visualizar button {
-        position: absolute;
-        left: 45px;
+    .projeto__contener__jogo__visualizar h2 {
+        
     }
 
     .linguagens {
@@ -508,7 +493,7 @@
         justify-content: center;
         width: 100%;
     }
-  
+
     .formulario__preencher {
         align-items: center;
         display: flex;
@@ -910,25 +895,25 @@
         font-size: 20px;
     }
 
-    .projetos {
+    .projeto {
         height: 2760px;
         margin-bottom: 3em;
     }
 
-    .projetos__titulo {
+    .projeto__titulo {
         height: 40px;
         margin: 1em 0;
     }
 
-    .titulo__projetos--color {
+    .projeto__titulo__texto {
         font-size: 27px;
     }
 
-    .projetos__encriptador {
+    .projeto__contener__encriptador{
         height: 42%;
     }
 
-    .encriptador__descricao {
+    .projeto__contener__encriptador__descricao {
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -936,19 +921,19 @@
         justify-content: space-evenly;
     }
 
-    .encriptador__descricao img {
+    .projeto__contener__encriptador__descricao img {
         border-radius: 20px;
         height: 250px;
         margin-top: 0;
         width: 400px;
     }
 
-    .encriptador__descricao p {
+    .projeto__contener__encriptador__descricao p {
         height: 700px;
         width: 80%;
     }
 
-    .encriptador__visualizar {
+    .projeto__contener__encriptador__visualizar {
         height: 250px;
         left: 45px;
         position: absolute;
@@ -957,36 +942,19 @@
         width: 400px;
     }
 
-    .encriptador__visualizar h2 {
+    .projeto__contener__encriptador__visualizar h2 {
         color: #fff;
         font-family: 'Kalam', cursiva;
         font-family: 'Old Standard TT', serif;
         font-size: 25px;
-        left: 100px;
-        position: absolute;
         text-decoration: underline;
-        top: 100px;
     }
 
-    .encriptador__visualizar button {
-        background: #861a33;
-        border-radius: 20px;
-        border: solid 2px rgb(29, 21, 21);
-        color: #fff;
-        cursor: pointer;
-        font-size: 15px;
-        height: 40px;
-        left: 125px;
-        position: absolute;
-        top: 135px;
-        width: 160px;
-    }
-
-    .projeto__jogo {
+    .projeto__contener__jogo {
         height: 58%;
     }
 
-    .jogo__descricao {
+    .projeto__contener__jogo__descricao {
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -994,19 +962,19 @@
         justify-content: space-evenly;
     }
 
-    .jogo__descricao img {
+    .projeto__contener__jogo__descricao img {
         border-radius: 20px;
         height: 250px;
         margin-top: 0;
         width: 400px;
     }
 
-    .jogo__descricao p {
+    .projeto__contener__jogo__descricao p {
         height: 1060px;
         width: 80%;
     }
 
-    .jogo__visualizar {
+    .projeto__contener__jogo__visualizar {
         border-radius: 20px;
         height: 250px;
         left: 45px;
@@ -1016,29 +984,18 @@
         width: 400px;
     }
 
-    .jogo__visualizar h2 {
+    .projeto__contener__jogo__visualizar h2 {
         color: #fff;
         font-family: 'Kalam', cursiva;
         font-family: 'Old Standard TT', serif;
         font-size: 25px;
-        left: 130px;
-        position: absolute;
+        
         text-decoration: underline;
-        top: 100px;
+       
     }
 
-    .jogo__visualizar button {
-        background: #861a33;
-        border-radius: 20px;
-        border: solid 2px rgb(29, 21, 21);
-        color: #fff;
-        cursor: pointer;
-        font-size: 15px;
-        height: 40px;
-        left: 125px;
-        position: absolute;
-        top: 135px;
-        width: 160px;
+    .projeto__contener__jogo__visualizar button {
+
     }
 
     .linguagens {
@@ -1096,7 +1053,7 @@
         justify-content: center;
         width: 100%;
     }
-       
+
     .formulario__preencher {
         align-items: center;
         display: flex;
@@ -1282,7 +1239,7 @@
         width: 80%;
     }
 
-    .jogo__descricao p {
+    .projeto__contener__jogo__descricao p {
         height: 1120px;
     }
 
@@ -1311,13 +1268,13 @@
         width: 30%;
     }
 
-    .encriptador__visualizar {
+    .projeto__contener__encriptador__visualizar {
         left: 65px;
         position: absolute;
         top: 3963px;
     }
 
-    .jogo__visualizar {
+    .projeto__contener__jogo__visualizar {
         left: 72px;
         position: absolute;
         top: 5150px;
@@ -1363,13 +1320,13 @@
         width: 30%;
     }
 
-    .encriptador__visualizar {
+    .projeto__contener__encriptador__visualizar {
         left: 80px;
         position: absolute;
         top: 3925px;
     }
 
-    .jogo__visualizar {
+    .projeto__contener__jogo__visualizar {
         left: 82px;
         position: absolute;
         top: 5110px;
@@ -1395,50 +1352,50 @@
         width: 30%;
     }
 
-    .projetos {
+    .projeto {
         height: 2390px;
     }
 
-    .projetos__encriptador {
+    .projeto__contener__encriptador{
         height: 42%;
         margin-bottom: 20px;
     }
 
-    .encriptador__descricao {
+    .projeto__contener__encriptador__descricao {
         display: flex;
         height: 100%;
         justify-content: space-evenly;
         margin-top: 1em;
     }
 
-    .encriptador__descricao p {
+    .projeto__contener__encriptador__descricao p {
         height: 600px;
         width: 80%;
     }
 
-    .encriptador__visualizar {
+    .projeto__contener__encriptador__visualizar {
         left: 112px;
         position: absolute;
         top: 3870px;
     }
 
-    .projeto__jogo {
+    .projeto__contener__jogo {
         height: 58%;
     }
 
-    .jogo__descricao {
+    .projeto__contener__jogo__descricao {
         display: flex;
         height: 100%;
         justify-content: space-evenly;
         margin-top: 0;
     }
 
-    .jogo__descricao p {
+    .projeto__contener__jogo__descricao p {
         height: 950px;
         width: 80%;
     }
 
-    .jogo__visualizar {
+    .projeto__contener__jogo__visualizar {
         left: 110px;
         position: absolute;
         top: 4890px;
@@ -1480,41 +1437,41 @@
         height: 180px;
     }
 
-    .projetos {
+    .projeto {
         height: 2400px;
     }
 
-    .projetos__encriptador {
+    .projeto__contener__encriptador{
         height: 43%;
     }
 
-    .encriptador__descricao {
+    .projeto__contener__encriptador__descricao {
         height: 100%;
     }
 
-    .encriptador__descricao p {
+    .projeto__contener__encriptador__descricao p {
         height: 500px;
     }
 
-    .encriptador__visualizar {
+    .projeto__contener__encriptador__visualizar {
         left: 160px;
         position: absolute;
         top: 3955px;
     }
 
-    .projeto__jogo {
+    .projeto__contener__jogo {
         height: 58%;
     }
 
-    .jogo__descricao {
+    .projeto__contener__jogo__descricao {
         height: 100%;
     }
 
-    .jogo__descricao p {
+    .projeto__contener__jogo__descricao p {
         height: 828px;
     }
 
-    .jogo__visualizar {
+    .projeto__contener__jogo__visualizar {
         left: 159px;
         position: absolute;
         top: 5015px;
@@ -1601,47 +1558,47 @@
         height: 600px;
     }
 
-    .projetos {
+    .projeto {
         height: 2170px;
     }
 
-    .projetos__encriptador {
+    .projeto__contener__encriptador{
         height: 43%;
         margin-bottom: 0;
     }
 
-    .encriptador__descricao {
+    .projeto__contener__encriptador__descricao {
         display: flex;
         height: 90%;
         justify-content: space-between;
         margin-top: 0;
     }
 
-    .encriptador__descricao p {
+    .projeto__contener__encriptador__descricao p {
         height: 470px;
     }
 
-    .encriptador__visualizar {
+    .projeto__contener__encriptador__visualizar {
         left: 185px;
         position: absolute;
         top: 3670px;
     }
 
-    .projeto__jogo {
+    .projeto__contener__jogo {
         height: 58%;
     }
 
-    .jogo__descricao {
+    .projeto__contener__jogo__descricao {
         display: flex;
         height: 100%;
         justify-content: space-evenly;
     }
 
-    .jogo__descricao p {
+    .projeto__contener__jogo__descricao p {
         height: 799px;
     }
 
-    .jogo__visualizar {
+    .projeto__contener__jogo__visualizar {
         left: 180px;
         position: absolute;
         top: 4562px;
@@ -1781,44 +1738,44 @@
         height: 280px;
     }
 
-    .projetos__encriptador {
+    .projeto__contener__encriptador{
         height: 43%;
         margin-bottom: 0;
     }
 
-    .encriptador__descricao {
+    .projeto__contener__encriptador__descricao {
         display: flex;
         height: 100%;
         justify-content: space-evenly;
     }
 
-    .encriptador__descricao p {
+    .projeto__contener__encriptador__descricao p {
         height: 410px;
         width: 80%;
     }
 
-    .encriptador__visualizar {
+    .projeto__contener__encriptador__visualizar {
         left: 255px;
         position: absolute;
         top: 3640px;
     }
 
-    .projeto__jogo {
+    .projeto__contener__jogo {
         height: 58%;
     }
 
-    .jogo__descricao {
+    .projeto__contener__jogo__descricao {
         display: flex;
         height: 100%;
         justify-content: space-evenly;
     }
 
-    .jogo__descricao p {
+    .projeto__contener__jogo__descricao p {
         height: 736px;
         width: 80%;
     }
 
-    .jogo__visualizar {
+    .projeto__contener__jogo__visualizar {
         left: 260px;
         position: absolute;
         top: 4540px;
@@ -1865,13 +1822,13 @@
         height: 600px;
     }
 
-    .encriptador__visualizar {
+    .projeto__contener__encriptador__visualizar {
         left: 272px;
         position: absolute;
         top: 3640px;
     }
 
-    .jogo__visualizar {
+    .projeto__contener__jogo__visualizar {
         left: 274px;
         position: absolute;
         top: 4540px;
@@ -1905,42 +1862,42 @@
         width: 150px;
     }
 
-    .projetos {
+    .projeto {
         height: 2000px;
         margin-bottom: 0;
     }
 
-    .projetos__encriptador {
+    .projeto__contener__encriptador{
         height: 43%;
     }
 
-    .encriptador__descricao {
+    .projeto__contener__encriptador__descricao {
         height: 100%;
     }
 
-    .encriptador__descricao p {
+    .projeto__contener__encriptador__descricao p {
         height: 380px;
     }
 
-    .encriptador__visualizar {
+    .projeto__contener__encriptador__visualizar {
         left: 300px;
         position: absolute;
         top: 3640px;
     }
 
-    .projeto__jogo {
+    .projeto__contener__jogo {
         height: 58%;
     }
 
-    .jogo__descricao {
+    .projeto__contener__jogo__descricao {
         height: 100%;
     }
 
-    .jogo__descricao p {
+    .projeto__contener__jogo__descricao p {
         height: 710px;
     }
 
-    .jogo__visualizar {
+    .projeto__contener__jogo__visualizar {
         left: 294px;
         position: absolute;
         top: 4480px;
@@ -1973,42 +1930,42 @@
 }
 
 @media screen and (min-width: 1100px) {
-    .projetos {
+    .projeto {
         height: 2100px;
         margin-bottom: 2em;
     }
 
-    .projetos__encriptador {
+    .projeto__contener__encriptador{
         height: 43%;
     }
 
-    .encriptador__descricao {
+    .projeto__contener__encriptador__descricao {
         height: 100%;
     }
 
-    .encriptador__descricao p {
+    .projeto__contener__encriptador__descricao p {
         height: 344px;
     }
 
-    .encriptador__visualizar {
+    .projeto__contener__encriptador__visualizar {
         left: 345px;
         position: absolute;
         top: 3660px;
     }
 
-    .projeto__jogo {
+    .projeto__contener__jogo {
         height: 58%;
     }
 
-    .jogo__descricao {
+    .projeto__contener__jogo__descricao {
         height: 100%;
     }
 
-    .jogo__descricao p {
+    .projeto__contener__jogo__descricao p {
         height: 625px;
     }
 
-    .jogo__visualizar {
+    .projeto__contener__jogo__visualizar {
         left: 345px;
         position: absolute;
         top: 4566px;
@@ -2144,6 +2101,7 @@
         flex-direction: column;
         align-items: center;
     }
+
     .skills__titulo {
         height: 70px;
     }
@@ -2282,68 +2240,113 @@
         font-size: 20px;
     }
 
-    .projetos {
-        height: 1670px;
+    .projeto {
+        width: 100%;
+        height: 1000px;
     }
 
-    .projetos__titulo {
+    .projeto__titulo {
         height: 50px;
     }
 
-    .titulo__projetos--color {
+    .projeto__titulo__texto {
         font-size: 27px;
     }
 
-    .projetos__encriptador {
-        height: 620px;
+    .projeto__contener {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
     }
 
-    .encriptador__descricao {
+    .projeto__contener__encriptador{
+        height: 620px;
+        width: 33%;
+    }
+
+    .projeto__contener__encriptador__descricao {
         flex-direction: row;
         height: 100%;
         justify-content: space-evenly;
         width: 100%;
     }
 
-    .encriptador__descricao img {
+    .projeto__contener__encriptador__descricao img {
         margin-top: 0;
     }
 
-    .encriptador__descricao p {
+    .projeto__contener__encriptador__descricao p {
         height: 490px;
         width: 600px;
     }
 
-    .encriptador__visualizar {
-        left: 95px;
+    .projeto__contener__encriptador__visualizar {
+        left: 24px;
         position: absolute;
         top: 3505px;
     }
 
-    .projeto__jogo {
+    .projeto__contener__jogo {
         height: 620px;
+        width: 33%;
     }
 
-    .jogo__descricao {
+    .projeto__contener__jogo__descricao {
         align-items: center;
         flex-direction: row;
         height: 100%;
         justify-content: space-evenly;
     }
 
-    .jogo__descricao img {
+    .projeto__contener__jogo__descricao img {
         margin-top: 0px;
     }
 
-    .jogo__descricao p {
+    .projeto__contener__jogo__descricao p {
         height: 818px;
         width: 600px;
     }
 
-    .jogo__visualizar {
-        left: 95px;
+    .projeto__contener__jogo__visualizar {
+        left: 470px;
         position: absolute;
-        top: 4270px;
+        top: 3510px;
+    }
+    
+    .projeto__contener__ecommerce {
+        height: 620px;
+        width: 33%;
+    }
+
+    .descricao__e-commecer {
+        align-items: center;
+        flex-direction: row;
+        height: 100%;
+        justify-content: space-evenly;
+    }
+
+    .projeto__contener__ecommerce__descricao {
+        align-items: center;
+        flex-direction: row;
+        height: 100%;
+        justify-content: space-evenly;
+    }
+
+    .projeto__contener__ecommerce__descricao img {
+        margin-top: 0px;
+    }
+
+    .projeto__contener__ecommerce__descricao p {
+        height: 818px;
+        width: 600px;
+    }
+
+    .projeto__contener__ecommerce__visualizar {
+        right: 30px;
+        position: absolute;
+        top: 3500px;
     }
 
     .linguagens {
@@ -2378,7 +2381,7 @@
 
     .contato__formulario {
         width: 100%;
-    }  
+    }
 
     .formulario__preencher {
         display: flex;
