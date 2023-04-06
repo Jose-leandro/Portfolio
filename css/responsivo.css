@@ -1,4 +1,41 @@
 @media screen and (max-width: 480px) {
+    .empresas__alura:active {
+        font-size: 27px;
+    }
+
+    .empresas__oracle:active {
+        font-size: 27px;
+    }
+
+    .icone__menu:active {
+        height: 29px;
+        width: 29px;
+    }
+
+    .icone__menu:hover {
+        height: 31px;
+        width: 31px;
+    }
+
+    .lista__informacoes:last-child {
+        margin-bottom: 2em;
+    }
+
+    .nome__one:active {
+        font-size: 18px;
+    }
+
+    .preencher__btn:active {
+        font-size: 13px;
+    }
+
+    .redesociais__letras:active {
+        font-size: 48px;
+    }
+
+    .redesociais__letras:hover {
+        font-size: 51px;
+    }
 
     .cabecalho__menu {
         height: 50px;
@@ -29,16 +66,6 @@
         right: 4px;
         top: 3px;
         width: 30px;
-    }
-
-    .icone__menu:active {
-        height: 29px;
-        width: 29px;
-    }
-
-    .icone__menu:hover {
-        height: 31px;
-        width: 31px;
     }
 
     .menu__lista {
@@ -133,14 +160,6 @@
         font-size: 50px;
         height: 50px;
         margin-left: 1rem;
-    }
-
-    .redesociais__letras:active {
-        font-size: 48px;
-    }
-
-    .redesociais__letras:hover {
-        font-size: 51px;
     }
 
     .github__descricao {
@@ -268,10 +287,6 @@
         font-weight: 100;
     }
 
-    .nome__one:active {
-        font-size: 18px;
-    }
-
     .formacao__descricao {
         margin-bottom: 100px;
         text-align: left;
@@ -288,10 +303,6 @@
         width: 100px;
     }
 
-    .empresas__oracle:active {
-        font-size: 27px;
-    }
-
     .empresas__simbolo {
         font-size: 28px;
     }
@@ -300,10 +311,6 @@
         font-size: 28px;
         height: 30px;
         width: 100px;
-    }
-
-    .empresas__alura:active {
-        font-size: 27px;
     }
 
     .cursos {
@@ -329,10 +336,6 @@
         font-size: 18px;
         height: 20px;
         width: 100%;
-    }
-
-    .lista__informacoes:last-child {
-        margin-bottom: 2em;
     }
 
     .curriculo {
@@ -369,74 +372,201 @@
     }
 
     .projeto {
-        height: 4000px;
+        height: 880px;
     }
 
-    .projeto__contener__encriptador{
-        height: 45%;
+    .projeto__contener {
         display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .projeto__contener__encriptador {
+        display: flex;
+        height: 270px;
+        width: 100%;
     }
 
     .projeto__contener__encriptador__descricao {
-        display: flex;
-        height: 100%;
-        flex-direction: column;
-        justify-content: space-evenly;
         align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-evenly;
+        width: 100%;
     }
 
-    .projeto__contener__encriptador__descricao img {
-        height: 230px;
+    .projeto__contener__encriptador__descricao__img {
+        height: 144px;
         margin-top: 0;
-        width: 80%;
+        width: 70%;
     }
 
-    .projeto__contener__encriptador__descricao p {
-        width: 75%;
+    .projeto__contener__encriptador__descricao__popup__contener {
+        top: 3680px;
+        width: 93%;
+    }
+
+    .projeto__contener__encriptador__descricao__popup__contener p {
+        display: flex;
+        font-size: 16px;
+        line-height: 25px;
+        margin-left: 10px;
+        margin-right: 0;
+        text-align: left;
+        width: 90%;
     }
 
     .projeto__contener__encriptador__visualizar {
-        height: 230px;
-        position: absolute;
-        top: 4010px;
-        left: 38px;
-        width: 80%;
+        height: 140px;
+        width: 70%;
     }
 
     .projeto__contener__encriptador__visualizar h2 {
-      
+        font-size: 15px;
+        margin-top: 7px;
+        padding: 5px 20px;
+    }
+
+    .projeto__contener__encriptador__visualizar__btn {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .projeto__contener__encriptador__visualizar button {
+        border-radius: 15px;
+        font-size: 12px;
+        height: 25px;
+        margin-top: 5px;
+        padding: 0;
+        width: 80px;
     }
 
     .projeto__contener__jogo {
-        height: 55%;
+        height: 270px;
     }
 
     .projeto__contener__jogo__descricao {
         align-items: center;
         display: flex;
-        height: 100%;
         flex-direction: column;
+        height: 100%;
         justify-content: space-evenly;
     }
 
-    .projeto__contener__jogo__descricao p {
-        height: 1900px;
-        width: 75%;
+    .projeto__contener__jogo__descricao__img {
+        height: 144px;
+        width: 70%;
     }
 
-    .projeto__contener__jogo__descricao img {
-        width: 80%;
-        height: 230px;
+    .projeto__contener__jogo__descricao__popup__contener {
+        top: 3680px;
+        width: 88%;
+    }
+
+    .projeto__contener__jogo__descricao__popup__contener p {
+        display: flex;
+        font-size: 16px;
+        line-height: 25px;
+        margin-left: 10px;
+        margin-right: 0;
+        text-align: left;
+        width: 90%;
     }
 
     .projeto__contener__jogo__visualizar {
-        align-items: center;
-        height: 230px;
-        width: 80%;
+        height: 144px;
+        width: 214px;
     }
 
     .projeto__contener__jogo__visualizar h2 {
-        
+        font-size: 15px;
+        margin-top: 7px;
+        padding: 5px 20px;
+    }
+
+    .projeto__contener__jogo__visualizar__btn {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .projeto__contener__jogo__visualizar button {
+        border-radius: 15px;
+        font-size: 12px;
+        height: 25px;
+        margin-top: 5px;
+        padding: 0;
+        width: 80px;
+    }
+
+    .projeto__contener__ecommerce {
+        height: 270px;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .projeto__contener__ecommerce__descricao {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projeto__contener__ecommerce__descricao__img {
+        height: 144px;
+        width: 70%;
+    }
+
+    .projeto__contener__ecommerce__descricao__popup__contener {
+        top: 3680px;
+        width: 88%;
+    }
+
+    .projeto__contener__ecommerce__descricao__popup__contener p {
+        align-items: center;
+        display: flex;
+        font-size: 16px;
+        line-height: 25px;
+        margin-left: 1em;
+        text-align: left;
+        width: 90%;
+    }
+
+    .projeto__contener__ecommerce__visualizar {
+        height: 144px;
+        width: 214px;
+    }
+
+    .projeto__contener__ecommerce__visualizar h2 {
+        font-size: 15px;
+        margin-top: 7px;
+        padding: 5px 20px;
+    }
+
+    .projeto__contener__ecommerce__visualizar__btn {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .projeto__contener__ecommerce__visualizar button {
+        border-radius: 15px;
+        font-size: 12px;
+        height: 25px;
+        margin-top: 5px;
+        padding: 0;
+        width: 80px;
     }
 
     .linguagens {
@@ -575,16 +705,12 @@
         width: 7em;
     }
 
-    .preencher__btn:active {
-        font-size: 13px;
-    }
-
     .span__erro {
         font-size: 16px;
         margin-left: 0;
         position: absolute;
-        top: 8380px;
         text-align: center;
+        top: 8380px;
         width: 100%;
     }
 
@@ -766,8 +892,8 @@
     .skills__descrevendo {
         align-items: center;
         display: flex;
-        height: 80%;
         flex-direction: column;
+        height: 80%;
         margin-left: 20px;
     }
 
@@ -896,7 +1022,7 @@
     }
 
     .projeto {
-        height: 2760px;
+        height: 1200px;
         margin-bottom: 3em;
     }
 
@@ -909,8 +1035,18 @@
         font-size: 27px;
     }
 
-    .projeto__contener__encriptador{
-        height: 42%;
+    .projeto__contener {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 90%;
+        justify-content: space-evenly;
+    }
+
+    .projeto__contener__encriptador {
+        display: flex;
+        height: 270px;
+        width: 100%;
     }
 
     .projeto__contener__encriptador__descricao {
@@ -919,39 +1055,63 @@
         flex-direction: column;
         height: 100%;
         justify-content: space-evenly;
+        width: 100%;
     }
 
-    .projeto__contener__encriptador__descricao img {
-        border-radius: 20px;
-        height: 250px;
+    .projeto__contener__encriptador__descricao__img {
+        height: 220px;
         margin-top: 0;
-        width: 400px;
+        width: 70%;
     }
 
-    .projeto__contener__encriptador__descricao p {
-        height: 700px;
-        width: 80%;
+    .projeto__contener__encriptador__descricao__popup__contener {
+        margin-left: 2em;
+        top: 4230px;
+        width: 75%;
+    }
+
+    .projeto__contener__encriptador__descricao__popup__contener p {
+        display: flex;
+        font-size: 20px;
+        line-height: 25px;
+        margin-left: 10px;
+        margin-left: 1em;
+        margin-right: 0;
+        text-align: left;
+        width: 90%;
     }
 
     .projeto__contener__encriptador__visualizar {
-        height: 250px;
-        left: 45px;
-        position: absolute;
-        text-align: center;
-        top: 4200px;
-        width: 400px;
+        height: 220px;
+        width: 70%;
     }
 
     .projeto__contener__encriptador__visualizar h2 {
-        color: #fff;
-        font-family: 'Kalam', cursiva;
-        font-family: 'Old Standard TT', serif;
         font-size: 25px;
-        text-decoration: underline;
+        margin-top: 7px;
+        padding: 10px 20px;
+    }
+
+    .projeto__contener__encriptador__visualizar__btn {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 140px;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .projeto__contener__encriptador__visualizar button {
+        border-radius: 15px;
+        font-size: 16px;
+        height: 30px;
+        margin-top: 5px;
+        padding: 5px 20px;
+        width: 120px;
     }
 
     .projeto__contener__jogo {
-        height: 58%;
+        height: 270px;
     }
 
     .projeto__contener__jogo__descricao {
@@ -962,40 +1122,116 @@
         justify-content: space-evenly;
     }
 
-    .projeto__contener__jogo__descricao img {
-        border-radius: 20px;
-        height: 250px;
-        margin-top: 0;
-        width: 400px;
+    .projeto__contener__jogo__descricao__img {
+        height: 220px;
+        width: 70%;
     }
 
-    .projeto__contener__jogo__descricao p {
-        height: 1060px;
-        width: 80%;
+    .projeto__contener__jogo__descricao__popup__contener {
+        margin-left: 2em;
+        top: 4230px;
+        width: 75%;
+    }
+
+    .projeto__contener__jogo__descricao__popup__contener p {
+        display: flex;
+        font-size: 20px;
+        line-height: 25px;
+        margin-left: 10px;
+        margin-left: 1em;
+        margin-right: 0;
+        text-align: left;
+        width: 90%;
     }
 
     .projeto__contener__jogo__visualizar {
-        border-radius: 20px;
-        height: 250px;
-        left: 45px;
-        position: absolute;
-        text-align: center;
-        top: 5380px;
-        width: 400px;
+        height: 220px;
+        width: 70%;
     }
 
     .projeto__contener__jogo__visualizar h2 {
-        color: #fff;
-        font-family: 'Kalam', cursiva;
-        font-family: 'Old Standard TT', serif;
         font-size: 25px;
-        
-        text-decoration: underline;
-       
+        margin-top: 7px;
+        padding: 10px 20px;
+    }
+
+    .projeto__contener__jogo__visualizar__btn {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 140px;
+        justify-content: space-evenly;
+        width: 100%;
     }
 
     .projeto__contener__jogo__visualizar button {
+        border-radius: 15px;
+        font-size: 16px;
+        height: 30px;
+        margin-top: 5px;
+        padding: 5px 20px;
+        width: 120px;
+    }
 
+    .projeto__contener__ecommerce {
+        height: 270px;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .projeto__contener__ecommerce__descricao {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projeto__contener__ecommerce__descricao__img {
+        height: 220px;
+        width: 70%;
+    }
+
+    .projeto__contener__ecommerce__descricao__popup__contener {
+        margin-left: 2em;
+        top: 4230px;
+        width: 75%;
+    }
+
+    .projeto__contener__ecommerce__descricao__popup__contener p {
+        align-items: center;
+        display: flex;
+        font-size: 20px;
+        line-height: 25px;
+        margin-left: 1em;
+        text-align: left;
+        width: 90%;
+    }
+
+    .projeto__contener__ecommerce__visualizar {
+        height: 220px;
+        width: 70%;
+    }
+
+    .projeto__contener__ecommerce__visualizar h2 {
+        font-size: 23px;
+        margin-top: 7px;
+    }
+
+    .projeto__contener__ecommerce__visualizar__btn {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 140px;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .projeto__contener__ecommerce__visualizar button {
+        border-radius: 15px;
+        font-size: 16px;
+        height: 30px;
+        margin-top: 5px;
+        padding: 5px 20px;
+        width: 120px;
     }
 
     .linguagens {
@@ -1225,8 +1461,8 @@
     .skills__descrevendo {
         align-items: center;
         display: flex;
-        height: 80%;
         flex-direction: column;
+        height: 80%;
         margin-left: 20px;
     }
 
@@ -1237,10 +1473,6 @@
         height: 100%;
         justify-content: space-evenly;
         width: 80%;
-    }
-
-    .projeto__contener__jogo__descricao p {
-        height: 1120px;
     }
 
     .preencher__btn {
@@ -1266,18 +1498,6 @@
     .onde__nome {
         height: 230px;
         width: 30%;
-    }
-
-    .projeto__contener__encriptador__visualizar {
-        left: 65px;
-        position: absolute;
-        top: 3963px;
-    }
-
-    .projeto__contener__jogo__visualizar {
-        left: 72px;
-        position: absolute;
-        top: 5150px;
     }
 
     .preencher__motivo {
@@ -1320,16 +1540,16 @@
         width: 30%;
     }
 
-    .projeto__contener__encriptador__visualizar {
-        left: 80px;
-        position: absolute;
-        top: 3925px;
+    .projeto__contener__encriptador__descricao__popup__contener {
+        margin-left: 0;
+        top: 4240px;
+        width: 75%;
     }
 
-    .projeto__contener__jogo__visualizar {
-        left: 82px;
-        position: absolute;
-        top: 5110px;
+    .projeto__contener__ecommerce__descricao__popup__contener {
+        margin-left: 0;
+        top: 4230px;
+        width: 75%;
     }
 
     .preencher__btn {
@@ -1352,129 +1572,73 @@
         width: 30%;
     }
 
-    .projeto {
-        height: 2390px;
-    }
-
-    .projeto__contener__encriptador{
-        height: 42%;
-        margin-bottom: 20px;
-    }
-
-    .projeto__contener__encriptador__descricao {
-        display: flex;
-        height: 100%;
-        justify-content: space-evenly;
-        margin-top: 1em;
-    }
-
-    .projeto__contener__encriptador__descricao p {
-        height: 600px;
-        width: 80%;
-    }
-
-    .projeto__contener__encriptador__visualizar {
-        left: 112px;
-        position: absolute;
-        top: 3870px;
-    }
-
-    .projeto__contener__jogo {
-        height: 58%;
-    }
-
-    .projeto__contener__jogo__descricao {
-        display: flex;
-        height: 100%;
-        justify-content: space-evenly;
+    .projeto__contener__encriptador__descricao__img {
+        height: 280px;
         margin-top: 0;
-    }
-
-    .projeto__contener__jogo__descricao p {
-        height: 950px;
-        width: 80%;
-    }
-
-    .projeto__contener__jogo__visualizar {
-        left: 110px;
-        position: absolute;
-        top: 4890px;
-    }
-
-    .label__nome {
-        margin-left: 7em;
-    }
-
-    .label__email {
-        margin-left: 7em;
-    }
-
-    .preencher__motivo {
-        margin-left: 3em;
-        width: 300px;
-    }
-
-    .label__motivo {
-        margin-left: 5em;
-    }
-
-    .preencher__btn {
-        top: 7100px;
-    }
-
-    .span__erro {
-        left: 30px;
-        top: 7065px;
-    }
-}
-
-@media screen and (min-width: 730px) {
-    .ola {
-        height: 200px;
-    }
-
-    .ola__contener {
-        height: 180px;
-    }
-
-    .projeto {
-        height: 2400px;
-    }
-
-    .projeto__contener__encriptador{
-        height: 43%;
-    }
-
-    .projeto__contener__encriptador__descricao {
-        height: 100%;
-    }
-
-    .projeto__contener__encriptador__descricao p {
-        height: 500px;
+        width: 70%;
     }
 
     .projeto__contener__encriptador__visualizar {
-        left: 160px;
-        position: absolute;
-        top: 3955px;
+        height: 280px;
+        width: 70%;
     }
 
-    .projeto__contener__jogo {
-        height: 58%;
+    .projeto__contener__encriptador__visualizar__btn {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 170px;
+        justify-content: space-evenly;
+        width: 100%;
     }
 
-    .projeto__contener__jogo__descricao {
-        height: 100%;
+    .projeto__contener__encriptador__visualizar button {
+        border-radius: 15px;
+        font-size: 16px;
+        height: 45px;
+        margin-top: 5px;
+        padding: 5px 20px;
+        width: 120px;
     }
 
-    .projeto__contener__jogo__descricao p {
-        height: 828px;
+    .projeto__contener__jogo__descricao__img {
+        height: 280px;
+        margin-top: 0;
+        width: 70%;
     }
 
     .projeto__contener__jogo__visualizar {
-        left: 159px;
-        position: absolute;
-        top: 5015px;
+        height: 280px;
+    }
+
+    .projeto__contener__jogo__visualizar__btn {
+        height: 170px;
+    }
+
+    .projeto__contener__jogo__visualizar button {
+        height: 45px;
+        padding: 5px 20px;
+        width: 120px;
+    }
+
+    .projeto__contener__ecommerce__descricao__img {
+        height: 280px;
+        margin-top: 0;
+        width: 70%;
+    }
+
+    .projeto__contener__ecommerce__visualizar {
+        height: 280px;
+    }
+
+    .projeto__contener__ecommerce__visualizar__btn {
+        height: 170px;
+    }
+
+    .projeto__contener__ecommerce__visualizar button {
+        height: 45px;
+        padding: 5px 20px;
+        width: 120px;
     }
 
     .preencher__nome {
@@ -1559,33 +1723,53 @@
     }
 
     .projeto {
-        height: 2170px;
+        height: 1300px;
     }
 
-    .projeto__contener__encriptador{
-        height: 43%;
+    .projeto__contener {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .projeto__contener__encriptador {
+        height: 380px;
         margin-bottom: 0;
+        width: 100%;
     }
 
     .projeto__contener__encriptador__descricao {
-        display: flex;
-        height: 90%;
-        justify-content: space-between;
-        margin-top: 0;
+        flex-direction: row;
+        height: 100%;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .projeto__contener__encriptador__descricao__img {
+        height: 250px;
+        width: 400px;
+    }
+
+    .projeto__contener__encriptador__descricao__popup__contener {
+        top: 4150px;
+        width: 80%;
     }
 
     .projeto__contener__encriptador__descricao p {
-        height: 470px;
+        margin-left: 1.5em;
+        width: 90%;
     }
 
     .projeto__contener__encriptador__visualizar {
-        left: 185px;
-        position: absolute;
-        top: 3670px;
+        height: 250px;
+        width: 400px;
     }
 
     .projeto__contener__jogo {
-        height: 58%;
+        height: 380px;
+        margin-bottom: 0;
+        width: 100%;
     }
 
     .projeto__contener__jogo__descricao {
@@ -1594,14 +1778,58 @@
         justify-content: space-evenly;
     }
 
+    .projeto__contener__jogo__descricao__img {
+        height: 250px;
+        width: 400px;
+    }
+
+    .projeto__contener__jogo__descricao__popup__contener {
+        top: 4150px;
+        width: 80%;
+    }
+
     .projeto__contener__jogo__descricao p {
-        height: 799px;
+        margin-left: 1.5em;
+        margin-top: 1em;
+        width: 90%;
     }
 
     .projeto__contener__jogo__visualizar {
-        left: 180px;
+        height: 250px;
+        width: 400px;
+    }
+
+    .projeto__contener__ecommerce {
+        height: 380px;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .projeto__contener__ecommerce__descricao {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projeto__contener__ecommerce__descricao__img {
+        height: 250px;
+        width: 400px;
+    }
+
+    .projeto__contener__ecommerce__descricao__popup__contener {
         position: absolute;
-        top: 4562px;
+        top: 4150px;
+        width: 80%;
+    }
+
+    .projeto__contener__ecommerce__descricao p {
+        margin-left: 1.5em;
+        width: 90%;
+    }
+
+    .projeto__contener__ecommerce__visualizar {
+        height: 250px;
+        width: 400px;
     }
 
     .contato {
@@ -1738,49 +1966,6 @@
         height: 280px;
     }
 
-    .projeto__contener__encriptador{
-        height: 43%;
-        margin-bottom: 0;
-    }
-
-    .projeto__contener__encriptador__descricao {
-        display: flex;
-        height: 100%;
-        justify-content: space-evenly;
-    }
-
-    .projeto__contener__encriptador__descricao p {
-        height: 410px;
-        width: 80%;
-    }
-
-    .projeto__contener__encriptador__visualizar {
-        left: 255px;
-        position: absolute;
-        top: 3640px;
-    }
-
-    .projeto__contener__jogo {
-        height: 58%;
-    }
-
-    .projeto__contener__jogo__descricao {
-        display: flex;
-        height: 100%;
-        justify-content: space-evenly;
-    }
-
-    .projeto__contener__jogo__descricao p {
-        height: 736px;
-        width: 80%;
-    }
-
-    .projeto__contener__jogo__visualizar {
-        left: 260px;
-        position: absolute;
-        top: 4540px;
-    }
-
     .descrevendo__informacoes {
         margin-left: 50px;
     }
@@ -1822,18 +2007,6 @@
         height: 600px;
     }
 
-    .projeto__contener__encriptador__visualizar {
-        left: 272px;
-        position: absolute;
-        top: 3640px;
-    }
-
-    .projeto__contener__jogo__visualizar {
-        left: 274px;
-        position: absolute;
-        top: 4540px;
-    }
-
     .preencher__btn {
         top: 5900px;
     }
@@ -1860,47 +2033,6 @@
 
     .tipo__cultiva {
         width: 150px;
-    }
-
-    .projeto {
-        height: 2000px;
-        margin-bottom: 0;
-    }
-
-    .projeto__contener__encriptador{
-        height: 43%;
-    }
-
-    .projeto__contener__encriptador__descricao {
-        height: 100%;
-    }
-
-    .projeto__contener__encriptador__descricao p {
-        height: 380px;
-    }
-
-    .projeto__contener__encriptador__visualizar {
-        left: 300px;
-        position: absolute;
-        top: 3640px;
-    }
-
-    .projeto__contener__jogo {
-        height: 58%;
-    }
-
-    .projeto__contener__jogo__descricao {
-        height: 100%;
-    }
-
-    .projeto__contener__jogo__descricao p {
-        height: 710px;
-    }
-
-    .projeto__contener__jogo__visualizar {
-        left: 294px;
-        position: absolute;
-        top: 4480px;
     }
 
     .preencher__nome {
@@ -1930,47 +2062,6 @@
 }
 
 @media screen and (min-width: 1100px) {
-    .projeto {
-        height: 2100px;
-        margin-bottom: 2em;
-    }
-
-    .projeto__contener__encriptador{
-        height: 43%;
-    }
-
-    .projeto__contener__encriptador__descricao {
-        height: 100%;
-    }
-
-    .projeto__contener__encriptador__descricao p {
-        height: 344px;
-    }
-
-    .projeto__contener__encriptador__visualizar {
-        left: 345px;
-        position: absolute;
-        top: 3660px;
-    }
-
-    .projeto__contener__jogo {
-        height: 58%;
-    }
-
-    .projeto__contener__jogo__descricao {
-        height: 100%;
-    }
-
-    .projeto__contener__jogo__descricao p {
-        height: 625px;
-    }
-
-    .projeto__contener__jogo__visualizar {
-        left: 345px;
-        position: absolute;
-        top: 4566px;
-    }
-
     .preencher__contener--left {
         margin-left: 80px;
     }
@@ -1990,6 +2081,7 @@
 }
 
 @media screen and (min-width: 1300px) {
+
     .contener__paragrafo:hover {
         font-size: 28px;
     }
@@ -2096,10 +2188,10 @@
     }
 
     .skills {
-        height: 390px;
+        align-items: center;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        height: 390px;
     }
 
     .skills__titulo {
@@ -2121,9 +2213,9 @@
     .descrevendo__lista {
         align-items: center;
         display: flex;
-        height: 100%;
         flex-direction: row;
         flex-wrap: wrap;
+        height: 100%;
         justify-content: space-evenly;
         width: 80%;
     }
@@ -2241,8 +2333,8 @@
     }
 
     .projeto {
+        height: 670px;
         width: 100%;
-        height: 1000px;
     }
 
     .projeto__titulo {
@@ -2254,14 +2346,14 @@
     }
 
     .projeto__contener {
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-        flex-wrap: wrap;
         align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 
-    .projeto__contener__encriptador{
+    .projeto__contener__encriptador {
         height: 620px;
         width: 33%;
     }
@@ -2273,19 +2365,33 @@
         width: 100%;
     }
 
-    .projeto__contener__encriptador__descricao img {
-        margin-top: 0;
+    .projeto__contener__encriptador__descricao__img {
+        height: 250px;
+        width: 400px;
     }
 
-    .projeto__contener__encriptador__descricao p {
-        height: 490px;
-        width: 600px;
+    .projeto__contener__encriptador__descricao__popup__contener {
+        left: 450px;
+        padding: 10px;
+        top: auto;
+        width: 62%;
     }
 
-    .projeto__contener__encriptador__visualizar {
-        left: 24px;
-        position: absolute;
-        top: 3505px;
+    .projeto__contener__encriptador__descricao__popup__contener p {
+        align-items: flex-start;
+        width: 90%;
+    }
+
+    .projeto__contener__encriptador__visualizar__btn {
+        flex-direction: row;
+        height: 60px;
+        width: 100%;
+    }
+
+    .projeto__contener__encriptador__visualizar button {
+        font-size: 15px;
+        height: 40px;
+        width: 120px;
     }
 
     .projeto__contener__jogo {
@@ -2294,37 +2400,44 @@
     }
 
     .projeto__contener__jogo__descricao {
-        align-items: center;
         flex-direction: row;
         height: 100%;
         justify-content: space-evenly;
+        width: 100%;
     }
 
-    .projeto__contener__jogo__descricao img {
-        margin-top: 0px;
+    .projeto__contener__jogo__descricao__img {
+        height: 250px;
+        width: 400px;
     }
 
-    .projeto__contener__jogo__descricao p {
-        height: 818px;
-        width: 600px;
+    .projeto__contener__jogo__descricao__popup__contener {
+        left: 450px;
+        top: auto;
+        width: 60%;
     }
 
-    .projeto__contener__jogo__visualizar {
-        left: 470px;
-        position: absolute;
-        top: 3510px;
+    .projeto__contener__jogo__descricao__popup__contener p {
+        width: 93%;
     }
-    
+
+    .projeto__contener__jogo__visualizar__btn {
+        flex-direction: row;
+        height: 60px;
+        width: 100%;
+    }
+
+    .projeto__contener__jogo__visualizar button {
+        font-size: 15px;
+        height: 40px;
+        width: 120px;
+    }
+
     .projeto__contener__ecommerce {
         height: 620px;
+        margin-left: 0;
+        margin-top: 0;
         width: 33%;
-    }
-
-    .descricao__e-commecer {
-        align-items: center;
-        flex-direction: row;
-        height: 100%;
-        justify-content: space-evenly;
     }
 
     .projeto__contener__ecommerce__descricao {
@@ -2332,21 +2445,37 @@
         flex-direction: row;
         height: 100%;
         justify-content: space-evenly;
+        width: 100%;
     }
 
-    .projeto__contener__ecommerce__descricao img {
-        margin-top: 0px;
+    .projeto__contener__ecommerce__descricao__img {
+        height: 250px;
+        width: 400px;
     }
 
-    .projeto__contener__ecommerce__descricao p {
-        height: 818px;
-        width: 600px;
-    }
-
-    .projeto__contener__ecommerce__visualizar {
-        right: 30px;
+    .projeto__contener__ecommerce__descricao__popup__contener {
+        left: 460px;
+        padding: 10px;
         position: absolute;
-        top: 3500px;
+        top: auto;
+        width: 63%;
+    }
+
+    .projeto__contener__ecommerce__descricao__popup__contener p {
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .projeto__contener__ecommerce__visualizar__btn {
+        flex-direction: row;
+        height: 60px;
+        width: 100%;
+    }
+
+    .projeto__contener__ecommerec__visualizar button {
+        font-size: 15px;
+        height: 40px;
+        width: 120px;
     }
 
     .linguagens {

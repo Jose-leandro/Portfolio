@@ -19,7 +19,8 @@
 }
 
 .projeto__contener {
-    width: 95%;
+    height: 100%;
+    width: 100%;
 }
 
 .projeto__contener__encriptador {
@@ -34,49 +35,115 @@
     display: flex;
 }
 
-.projeto__contener__encriptador__descricao img {
+.projeto__contener__encriptador__descricao__img {
+    border-radius: 20px;
     border: 2px solid #3a3636;
-    border-radius: 20px;
     height: 250px;
-    margin-top: 145px;
     width: 400px;
 }
 
-.projeto__contener__encriptador__descricao p {
+.projeto__contener__encriptador__descricao__popup__contener {
     background: #161616;
-    border-radius: 20px;
-    line-height: 30px;
-    padding: 30px;
-    display: none;
+    border-radius: 30px;
+    height: auto;
+    left: auto;
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
 }
 
-.projeto__contener__encriptador__visualizar {
-    border-radius: 20px;
-    height: 250px;
+.projeto__contener__encriptador__descricao__popup__contener__h1 {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 100%;
+}
+
+.projeto__contener__encriptador__descricao__popup__contener__h1__x {
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 0.5em;
     text-align: center;
-    width: 400px;
+    width: 8%;
+}
+
+.projeto__contener__encriptador__descricao__popup__contener__h1__x:hover {
+    font-size: 19px;
+}
+
+.projeto__contener__encriptador__descricao__popup__contener__h1__x:active {
+    font-size: 17px;
+}
+
+.projeto__contener__encriptador__descricao__popup__contener p {
+    align-items: center;
+    display: flex;
+    height: auto;
+    line-height: 25px;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.projeto__contener__encriptador__descricao__popup__contener__tecnologias {
+    align-items: center;
+    background: #161616;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.projeto__contener__encriptador__descricao__popup__contener__tecnologias div {
     align-items: center;
+    display: flex;
+    height: 60px;
+    margin: 8px 0;
+}
+
+.projeto__contener__encriptador__descricao__popup__contener__tecnologias h1 {
+    font-size: 20px;
+    width: 96%;
+}
+
+.projeto__contener__encriptador__descricao__popup__contener__tecnologias__img {
+    height: 40px;
+    margin: 0 20px;
+    width: 40px;
+}
+
+.projeto__contener__encriptador__descricao__popup__contener__tecnologias__img:hover {
+    margin-bottom: 0.4em;
+}
+
+.projeto__contener__encriptador__visualizar {
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-evenly;
+    left: auto;
+    position: absolute;
+    text-align: center;
+    top: auto;
+    width: 400px;
 }
 
 .projeto__contener__encriptador__visualizar h2 {
+    background: #272525;
+    border-radius: 15px;
     color: #fff;
     font-family: 'Kalam', cursiva;
     font-family: 'Old Standard TT', serif;
     font-size: 25px;
-    background: #272525;
-    border-radius: 15px;
-    text-decoration: underline;
     padding: 10px 20px;
+    text-decoration: underline;
 }
 
 .projeto__contener__encriptador__visualizar__btn {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
-    height: 60px;
 }
 
 .projeto__contener__encriptador__visualizar button {
@@ -85,9 +152,6 @@
     border: solid 2px #1d1515;
     color: #fff;
     cursor: pointer;
-    font-size: 15px;
-    height: 40px;
-    width: 100px;
 }
 
 .projeto__contener__jogo {
@@ -98,54 +162,121 @@
 }
 
 .projeto__contener__jogo__descricao {
-    align-items: center;
     display: flex;
-    height: 100%;
-    width: 700px;
+    width: 100%;
 }
 
-.projeto__contener__jogo__descricao img {
+.projeto__contener__jogo__descricao__img {
+    border-radius: 20px;
     border: 2px solid #3a3636;
-    border-radius: 20px;
     height: 250px;
     width: 400px;
 }
 
-.projeto__contener__jogo__descricao p {
+.projeto__contener__jogo__descricao__popup__contener {
     background: #161616;
-    border-radius: 20px;
-    line-height: 30px;
-    padding: 30px;
-    display: none;
+    border-radius: 30px;
+    height: auto;
+    left: auto;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    top: 3350px;
+    visibility: hidden;
+    width: 62%;
 }
 
-.projeto__contener__jogo__visualizar {
-    border-radius: 20px;
-    height: 250px;
+.projeto__contener__jogo__descricao__popup__contener__h1 {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 100%;
+}
+
+.projeto__contener__jogo__descricao__popup__contener__h1__x {
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 0.5em;
     text-align: center;
-    width: 400px;
+    width: 8%;
+}
+
+.projeto__contener__jogo__descricao__popup__contener__h1__x:hover {
+    font-size: 19px;
+}
+
+.projeto__contener__jogo__descricao__popup__contener__h1__x:active {
+    font-size: 17px;
+}
+
+.projeto__contener__jogo__descricao__popup__contener p {
+    display: flex;
+    height: auto;
+    line-height: 25px;
+    margin-bottom: 2em;
+    text-align: left;
+}
+
+.projeto__contener__jogo__descricao__popup__contener__tecnologias {
+    align-items: center;
+    background: #161616;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.projeto__contener__jogo__descricao__popup__contener__tecnologias div {
     align-items: center;
+    display: flex;
+    height: 60px;
+    margin: 8px 0;
+}
+
+.projeto__contener__jogo__descricao__popup__contener__tecnologias h1 {
+    font-size: 20px;
+    width: 96%;
+}
+
+.projeto__contener__jogo__descricao__popup__contener__tecnologias__img {
+    height: 40px;
+    margin: 0 20px;
+    width: 40px;
+}
+
+.projeto__contener__jogo__descricao__popup__contener__tecnologias__img:hover {
+    margin-bottom: 0.4em;
+}
+
+.projeto__contener__jogo__visualizar {
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-evenly;
+    left: auto;
+    position: absolute;
+    text-align: center;
+    top: auto;
+    width: 400px;
 }
 
 .projeto__contener__jogo__visualizar h2 {
+    background: #363434;
+    border-radius: 15px;
     color: #fff;
     font-family: 'Kalam', cursiva;
     font-family: 'Old Standard TT', serif;
     font-size: 25px;
-    background: #363434;
-    border-radius: 15px;
-    text-decoration: underline;
     padding: 10px 20px;
+    text-decoration: underline;
 }
 
 .projeto__contener__jogo__visualizar__btn {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
-    height: 60px;
 }
 
 .projeto__contener__jogo__visualizar button {
@@ -154,9 +285,6 @@
     border: solid 2px #1d1515;
     color: #fff;
     cursor: pointer;
-    font-size: 15px;
-    height: 40px;
-    width: 100px;
 }
 
 .projeto__contener__ecommerce {
@@ -167,54 +295,118 @@
 }
 
 .projeto__contener__ecommerce__descricao {
-    align-items: center;
     display: flex;
-    height: 100%;
-    width: 700px;
+    width: 100%;
 }
 
-.projeto__contener__ecommerce__descricao img {
+.projeto__contener__ecommerce__descricao__img {
     border-radius: 20px;
     border: 2px solid #3a3636;
-    height: 250px;
-    width: 400px;
 }
 
-.projeto__contener__ecommerce__descricao p {
+.projeto__contener__ecommerce__descricao__popup__contener {
     background: #161616;
-    border-radius: 20px;
-    line-height: 30px;
-    padding: 30px;
-    display: none;
+    border-radius: 30px;
+    height: auto;
+    left: auto;
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
 }
 
-.projeto__contener__ecommerce__visualizar {
-    border-radius: 20px;
-    height: 250px;
+.projeto__contener__ecommerce__descricao__popup__contener__h1 {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 100%;
+}
+
+.projeto__contener__ecommerce__descricao__popup__contener__h1__x {
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 0.5em;
     text-align: center;
-    width: 400px;
+    width: 8%;
+}
+
+.projeto__contener__ecommerce__descricao__popup__contener__h1__x:hover {
+    font-size: 19px;
+}
+
+.projeto__contener__ecommerce__descricao__popup__contener__h1__x:active {
+    font-size: 17px;
+}
+
+.projeto__contener__ecommerce__descricao__popup__contener p {
+    align-items: center;
+    display: flex;
+    height: auto;
+    line-height: 25px;
+    margin-bottom: 2em;
+    text-align: left;
+}
+
+.projeto__contener__ecommerce__descricao__popup__contener__tecnologias {
+    align-items: center;
+    background: #161616;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.projeto__contener__ecommerce__descricao__popup__contener__tecnologias div {
     align-items: center;
+    display: flex;
+    height: 60px;
+    margin: 8px 0;
+}
+
+.projeto__contener__ecommerce__descricao__popup__contener__tecnologias h1 {
+    font-size: 20px;
+    width: 96%;
+}
+
+.projeto__contener__ecommerce__descricao__popup__contener__tecnologias__img {
+    height: 40px;
+    margin: 0 20px;
+    width: 40px;
+}
+
+.projeto__contener__ecommerce__descricao__popup__contener__tecnologias__img:hover {
+    margin-bottom: 0.4em;
+}
+
+.projeto__contener__ecommerce__visualizar {
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-evenly;
+    left: auto;
+    position: absolute;
+    text-align: center;
+    top: auto;
+    width: 400px;
 }
 
 .projeto__contener__ecommerce__visualizar h2 {
+    background: #444242;
+    border-radius: 15px;
     color: #fff;
     font-family: 'Kalam', cursiva;
     font-family: 'Old Standard TT', serif;
     font-size: 25px;
-    background: #444242;
-    border-radius: 15px;
-    text-decoration: underline;
     padding: 10px 20px;
+    text-decoration: underline;
+    width: auto;
 }
 
 .projeto__contener__ecommerce__visualizar__btn {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
-    height: 60px;
 }
 
 .projeto__contener__ecommerce__visualizar button {
@@ -223,7 +415,4 @@
     border: solid 2px #1d1515;
     color: #fff;
     cursor: pointer;
-    font-size: 15px;
-    height: 40px;
-    width: 100px;
 }
