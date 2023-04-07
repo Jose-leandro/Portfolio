@@ -5,30 +5,61 @@
 .contato__formulario {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #645d5d1a;
+    /* border: 1px solid #a39e9e30; */
+    border-radius: 55px;
+    height: 100%;
 }
 
 .formulario__preencher {
-    background: linear-gradient(50deg, #2d134e, #213744);
-    height: 22em;
+    height: 100%;
+    width: 100%;
 }
 
-.preencher__contener {
-    align-items: flex-start;
+.formulario__preencher div {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.formulario__preencher input {
+    background-color: transparent;
+    border-radius: 6px;
+    text-align: center;
+    border-radius: 55px;
+    border: 1px solid #a39e9e30;
+    height: 40px;
+    color: #fff;
+}
+
+.formulario__preencher input::placeholder  {
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.formulario__preencher input:focus {
+    border: #000;
+   
+}
+
+.formulario__preencher label {
+    color: #c0b9ad9e;
+    margin-bottom: 1em;
+    font-family: cursive;
 }
 
 .preencher__nome {
-    border: 1px solid;
-    border-color: #000;
-    background-color: #484574;
-    border-radius: 6px;
-    margin: 52px 20px 10px 20px;
+    width: 30%;
 }
 
 .label__nome {
     text-align: left;
+    width: 30%;
+    margin-left: 1.2em;
 }
 
 .erro__nome {
@@ -36,16 +67,11 @@
 }
 
 .contener__nome {
-    color: #7c1b1f; 
+    color: #7c1b1f;
 }
 
 .preencher__email {
-    border: 1px solid;
-    border-color: #000;
-    background-color: #484574;
-    border-radius: 6px;
-    text-align: center;
-    width: 30em;
+   width: 40%;
 }
 
 .erro__email {
@@ -54,24 +80,16 @@
 
 .label__email {
     text-align: left;
+    width: 40%;
+    margin-left: 1.2em;
 }
 
 .contener__email {
-    color:  #7c1b1f;
-}
-
-.preencher__contener--left {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
+    color: #7c1b1f;
 }
 
 .preencher__motivo {
-    border: 1px solid;
-    border-color: #000;
-    background-color: #484574;
-    border-radius: 6px;
-    text-align: center;
+  width: 60%;
 }
 
 .erro__motivo {
@@ -80,30 +98,45 @@
 
 .label__motivo {
     text-align: left;
+    width: 60%;
+    margin-left: 1.2em;
 }
 
 .contener__motivo {
-   color: #7c1b1f;
+    color: #7c1b1f;
 }
 
 .preencher__btn {
-    background-color: #1a5aa3;
-    border-radius: 6px;
-    position: absolute;
-    width: 9em;
+    background: transparent;
+    border-radius: 55px;
+    padding: 20px 60px;
+    color: #c0b9ad9e;
+    margin-bottom: 1em;
+    border: 1px solid #a39e9e30;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 15px;
 }
 
 .preencher__btn:hover {
-    font-size: 19px;
+    border: 1px solid #a39e9e12;
+    background: #ffffff0a;
 }
 
 .preencher__btn:active {
-    font-size: 17px;
+    border: 1px solid #a39e9e0a;
+    background: #ffffff03;
 }
 
 .span__erro {
-    color: #7c1b1f;
-    position: absolute;
+    color: #c0b9ad9e;
     text-align: center;
     visibility: hidden;
+    margin-bottom: 2em;
+    background: #161616;
+    padding: 15px 20px;
+    border-radius: 55px;
+    font-family: cursive;
+    font-size: 16px;
+    width: 30%;
 }

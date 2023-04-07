@@ -408,33 +408,31 @@
         <section class="contato" id="contato">
             <form class="contato__formulario">
                 <div class="formulario__preencher">
-                    <div class="preencher__contener">
+                    <div>
+                        <label for="nome" class="label__nome">Nome</label>
                         <input name="nome" id="nome" type="text" data-tipo="nome"
                             pattern="(?!.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,30}" class="preencher__nome"
                             placeholder="Digite seu nome" required
                             title="O seu nome nao ter números ou caracteres especiais">
-                        <label for="nome" class="label__nome">Nome</label>
                     </div>
-
-                    <div class="preencher__contener">
-                        <input name="email" type="email" id="email" data-tipo="email" class="preencher__email"
-                            pattern="(?!*.[\s!#$%^&*_=+-]).{6,30}" placeholder="exmplo@provedor.com" required
-                            title="Digite um email válido ex: seunome@seuprovedor.com">
+                    <div>
                         <label for="email" class="label__email">Email</label>
+                        <input name="email" type="email" id="email" data-tipo="email" class="preencher__email"
+                            pattern="(?!*.[\s!#$%^&*_=+-]).{6,30}" placeholder=" Digite o seu endereço de email" required
+                            title="Digite um email válido ex: seunome@seuprovedor.com">
                     </div>
-
-                    <div class="preencher__contener--left">
+                    <div>
+                        <label for="motivo" class="label__motivo">Mensagem</label>
                         <input name="porque" type="text" id="motivo" class="preencher__motivo" data-tipo="motivo"
                             pattern="(?!.*[0-9])(?!.*[ !@#$%^&*~[_}=.>'(+-])).{6,30}"
-                            placeholder="Razão que levou a este contato" required
+                            placeholder="Digite sua a mensagem" required
                             title="O motivo não dever ter numeros ou caracteres especiais">
-                        <label for="motivo" class="label__motivo">Motivo</label>
                     </div>
                 </div>
 
-                <button type="submit" class="preencher__btn">Enviar</button>
-
                 <span class="span__erro"></span>
+
+                <button type="submit" class="preencher__btn">Enviar</button>
             </form>
         </section>
     </main>

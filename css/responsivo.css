@@ -25,10 +25,6 @@
         font-size: 18px;
     }
 
-    .preencher__btn:active {
-        font-size: 13px;
-    }
-
     .redesociais__letras:active {
         font-size: 48px;
     }
@@ -616,14 +612,6 @@
         width: 100%;
     }
 
-    .contato__formulario {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        justify-content: center;
-        width: 100%;
-    }
-
     .formulario__preencher {
         align-items: center;
         display: flex;
@@ -633,85 +621,32 @@
         margin-top: 0;
     }
 
-    .preencher__contener {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        height: 80px;
-        width: 100%;
-    }
-
     .preencher__nome {
-        font-size: 14px;
-        height: 45px;
-        margin-top: 1em;
-        text-align: center;
-        width: 200px;
+        width: 50%;
     }
 
     .label__nome {
-        font-size: 15px;
-        margin-bottom: 0;
-        margin-left: 6em;
-        width: 60%;
+        width: 50%;
     }
 
     .preencher__email {
-        font-size: 14px;
-        height: 50px;
-        margin-bottom: 2em;
-        margin-top: 0;
-        width: 200px;
+        width: 70%;
     }
 
     .label__email {
-        font-size: 15px;
-        margin-bottom: 0;
-        margin-left: 6em;
-        margin-top: 0;
-        text-align: left;
-        width: 60%;
-    }
-
-    .preencher__contener--left {
-        margin-bottom: 60px;
-        margin-left: 0;
-        margin-top: 1em;
         width: 70%;
     }
 
     .preencher__motivo {
-        font-size: 14px;
-        height: 60px;
-        margin-left: 0;
-        width: 200px;
+        width: 85%;
     }
 
     .label__motivo {
-        font-size: 14px;
-        height: 30px;
-        margin-bottom: 1em;
-        margin-left: 3em;
-        margin-top: 2em;
-        width: 60%;
-    }
-
-    .preencher__btn {
-        border-radius: 15px;
-        font-size: 14px;
-        height: 30px;
-        left: 35%;
-        top: 8420px;
-        width: 7em;
+        width: 85%;
     }
 
     .span__erro {
-        font-size: 16px;
-        margin-left: 0;
-        position: absolute;
-        text-align: center;
-        top: 8380px;
-        width: 100%;
+        width: 60%;
     }
 
     .rodape {
@@ -800,10 +735,6 @@
 
     .nome__one:active {
         font-size: 18px;
-    }
-
-    .preencher__btn:active {
-        font-size: 13px;
     }
 
     .ola {
@@ -1282,14 +1213,6 @@
         width: 100%;
     }
 
-    .contato__formulario {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        justify-content: center;
-        width: 100%;
-    }
-
     .formulario__preencher {
         align-items: center;
         display: flex;
@@ -1297,82 +1220,6 @@
         height: 100%;
         justify-content: space-evenly;
         margin-top: 0;
-    }
-
-    .preencher__contener {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        height: 80px;
-        width: 100%;
-    }
-
-    .preencher__nome {
-        font-size: 14px;
-        height: 55px;
-        margin-top: 1em;
-        text-align: center;
-        width: 300px;
-    }
-
-    .label__nome {
-        font-size: 15px;
-        margin-bottom: 0;
-        margin-left: 5em;
-        width: 60%;
-    }
-
-    .preencher__email {
-        font-size: 14px;
-        height: 65px;
-        margin-bottom: 2em;
-        margin-top: 0;
-        width: 300px;
-    }
-
-    .label__email {
-        font-size: 15px;
-        margin-bottom: 0;
-        margin-left: 5em;
-        margin-top: 0;
-        width: 60%;
-    }
-
-    .preencher__contener--left {
-        margin-bottom: 60px;
-        margin-left: 0;
-        margin-top: 1em;
-        width: 64%;
-    }
-
-    .preencher__motivo {
-        font-size: 14px;
-        height: 70px;
-        width: 300px;
-    }
-
-    .label__motivo {
-        font-size: 14px;
-        height: 30px;
-        margin-bottom: 1em;
-        margin-left: 2em;
-        margin-top: 2em;
-        width: 60%;
-    }
-
-    .preencher__btn {
-        border-radius: 15px;
-        font-size: 14px;
-        height: 30px;
-        left: 40%;
-        top: 6040px;
-        width: 7em;
-    }
-
-    .span__erro {
-        font-size: 20px;
-        position: absolute;
-        top: 6000px;
     }
 
     .rodape {
@@ -1439,16 +1286,6 @@
 }
 
 @media screen and (min-width: 500px) {
-    .preencher__btn:active {
-        height: 29px;
-        width: 97px;
-    }
-
-    .preencher__btn:hover {
-        font-size: 15px;
-        height: 31px;
-        width: 99px;
-    }
 
     .sobre {
         height: 400px;
@@ -1474,16 +1311,6 @@
         justify-content: space-evenly;
         width: 80%;
     }
-
-    .preencher__btn {
-        position: absolute;
-        top: 7650px;
-    }
-
-    .span__erro {
-        margin-left: 66px;
-        top: 7620px;
-    }
 }
 
 @media screen and (min-width: 540px) {
@@ -1498,27 +1325,6 @@
     .onde__nome {
         height: 230px;
         width: 30%;
-    }
-
-    .preencher__motivo {
-        margin-left: 1em;
-        width: 300px;
-    }
-
-    .label__motivo {
-        margin-left: 3em;
-    }
-
-    .preencher__btn {
-        top: 7570px;
-        width: 7em;
-    }
-
-    .span__erro {
-        font-size: 20px;
-        margin-left: 90px;
-        position: absolute;
-        top: 7530px;
     }
 }
 
@@ -1550,15 +1356,6 @@
         margin-left: 0;
         top: 4230px;
         width: 75%;
-    }
-
-    .preencher__btn {
-        top: 7528px;
-    }
-
-    .span__erro {
-        margin-left: 110px;
-        top: 7490px;
     }
 }
 
@@ -1640,62 +1437,9 @@
         padding: 5px 20px;
         width: 120px;
     }
-
-    .preencher__nome {
-        width: 500px;
-    }
-
-    .label__nome {
-        margin-left: 2em;
-        width: 60%;
-    }
-
-    .preencher__email {
-        width: 500px;
-    }
-
-    .label__email {
-        margin-left: 2em;
-        margin-top: 0;
-        width: 60%;
-    }
-
-    .preencher__contener--left {
-        margin-left: 0;
-        width: 70%;
-    }
-
-    .preencher__motivo {
-        margin-left: 0;
-        width: 500px;
-    }
-
-    .label__motivo {
-        margin-left: 4em;
-    }
-
-    .preencher__btn {
-        top: 7170px;
-    }
-
-    .span__erro {
-        margin-left: 150px;
-        top: 7130px;
-    }
 }
 
 @media screen and (min-width: 768px) {
-    .preencher__btn:active {
-        font-size: 17px;
-        height: 39px;
-        width: 143px;
-    }
-
-    .preencher__btn:hover {
-        font-size: 19px;
-        height: 41px;
-        width: 145px;
-    }
 
     .informacoes__descricao {
         font-size: 80px;
@@ -1837,14 +1581,6 @@
         width: 100%;
     }
 
-    .contato__formulario {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        justify-content: center;
-        width: 100%;
-    }
-
     .contener__informacao {
         height: 170px;
         width: 14em;
@@ -1865,86 +1601,6 @@
         height: 100%;
         justify-content: space-evenly;
         margin-top: 0;
-    }
-
-    .preencher__contener {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        height: 100px;
-        width: 100%;
-    }
-
-    .preencher__nome {
-        font-size: 18px;
-        height: 30px;
-        margin-top: 1em;
-        text-align: center;
-        width: 500px;
-    }
-
-    .label__nome {
-        font-size: 18px;
-        margin-bottom: 0;
-        margin-left: 3em;
-        width: 60%;
-    }
-
-    .preencher__email {
-        font-size: 18px;
-        height: 45px;
-        margin-bottom: 2em;
-        margin-top: 0;
-        width: 500px;
-    }
-
-    .label__email {
-        font-size: 18px;
-        margin-bottom: 0;
-        margin-left: 3em;
-        margin-top: 0;
-        text-align: left;
-        width: 60%;
-    }
-
-    .preencher__contener--left {
-        margin-bottom: 60px;
-        margin-left: 0;
-        margin-top: 1em;
-        width: 70%;
-    }
-
-    .preencher__motivo {
-        font-size: 18px;
-        height: 70px;
-        margin-left: 2em;
-        width: 500px;
-    }
-
-    .label__motivo {
-        font-size: 18px;
-        height: 30px;
-        margin-bottom: 1em;
-        margin-left: 5em;
-        margin-top: 2em;
-        width: 60%;
-    }
-
-    .preencher__btn {
-        border-radius: 15px;
-        font-size: 18px;
-        height: 40px;
-        left: 40%;
-        text-align: center;
-        top: 6710px;
-        width: 8em;
-    }
-
-    .span__erro {
-        font-size: 20px;
-        margin-left: 200px;
-        position: absolute;
-        top: 6670px;
     }
 
     .rodape__autoral {
@@ -1969,25 +1625,6 @@
     .descrevendo__informacoes {
         margin-left: 50px;
     }
-
-    .preencher__motivo {
-        margin-left: 4em;
-    }
-
-    .label__motivo {
-        margin-left: 5em;
-    }
-
-    .preencher__btn {
-        position: absolute;
-        top: 6670px;
-    }
-
-    .span__erro {
-        margin-left: 300px;
-        position: absolute;
-        top: 6630px;
-    }
 }
 
 @media screen and (min-width: 960px) {
@@ -2005,15 +1642,6 @@
 
     .cursos {
         height: 600px;
-    }
-
-    .preencher__btn {
-        top: 5900px;
-    }
-
-    .span__erro {
-        margin-left: 240px;
-        top: 5855px;
     }
 }
 
@@ -2034,50 +1662,6 @@
     .tipo__cultiva {
         width: 150px;
     }
-
-    .preencher__nome {
-        width: 700px;
-    }
-
-    .preencher__email {
-        width: 700px;
-    }
-
-    .preencher__motivo {
-        margin-left: 0;
-        width: 700px;
-    }
-
-    .label__motivo {
-        margin-left: 5em;
-    }
-
-    .preencher__btn {
-        top: 6550px;
-    }
-
-    .span__erro {
-        top: 6510px;
-    }
-}
-
-@media screen and (min-width: 1100px) {
-    .preencher__contener--left {
-        margin-left: 80px;
-    }
-
-    .label__motivo {
-        margin-left: 53px;
-    }
-
-    .preencher__btn {
-        top: 6650px;
-    }
-
-    .span__erro {
-        left: 180px;
-        top: 6610px;
-    }
 }
 
 @media screen and (min-width: 1300px) {
@@ -2096,10 +1680,6 @@
 
     .nome__one:active {
         font-size: 19px;
-    }
-
-    .preencher__btn:active {
-        font-size: 17px;
     }
 
     .lista__itens {
@@ -2506,83 +2086,6 @@
 
     .contato {
         height: 650px;
-    }
-
-    .contato__formulario {
-        width: 100%;
-    }
-
-    .formulario__preencher {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-
-    .preencher__contener {
-        height: 150px;
-        width: 40%;
-    }
-
-    .preencher__nome {
-        font-size: 18px;
-        height: 35px;
-        text-align: center;
-        width: 25em;
-    }
-
-    .label__nome {
-        font-size: 18px;
-        margin-left: 1em;
-        margin-top: 1em;
-        width: 60%;
-    }
-
-    .preencher__email {
-        font-size: 18px;
-        height: 65px;
-        margin-bottom: 0;
-        margin-top: 1em;
-        width: 28em;
-    }
-
-    .label__email {
-        font-size: 18px;
-        margin-left: 0;
-        margin-top: 2em;
-        width: 60%;
-    }
-
-    .preencher__contener--left {
-        margin-right: 600px;
-        margin-top: 1em;
-        width: 30em;
-    }
-
-    .preencher__motivo {
-        font-size: 18px;
-        height: 5em;
-        margin-left: 2em;
-        width: 24em;
-    }
-
-    .label__motivo {
-        font-size: 18px;
-        margin-left: 6em;
-        width: 30%;
-    }
-
-    .preencher__btn {
-        font-size: 18px;
-        height: 2em;
-        left: 910px;
-        top: 5868px;
-    }
-
-    .span__erro {
-        font-size: 25px;
-        margin-left: 35%;
-        top: 5980px;
     }
 
     .rodape {
