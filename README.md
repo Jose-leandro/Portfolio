@@ -4,7 +4,7 @@
 
 <div align="center">
   
-![Portfólio JosèLeandro](https://user-images.githubusercontent.com/104599482/212998914-932783b4-fb30-43f4-9392-d555bbcb4530.png)
+![Captura de tela 2023-02-11 122457](https://user-images.githubusercontent.com/104599482/230514899-98f6527b-20db-4060-beaa-6c59667105ed.png)
   
  </div>
 
