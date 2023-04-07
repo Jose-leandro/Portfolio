@@ -243,13 +243,6 @@
         padding: 10px 30px;
     }
 
-    .descrevendo__informacoes {
-        margin-bottom: 2em;
-        margin-left: 0.6em;
-        text-align: center;
-        width: 80%;
-    }
-
     .formacao {
         height: 550px;
         margin: 2em 0;
@@ -649,20 +642,6 @@
         width: 60%;
     }
 
-    .rodape {
-        align-items: center;
-        display: flex;
-        height: 100px;
-        text-align: center;
-    }
-
-    .desenvolvedor {
-        font-size: 16px;
-        margin-bottom: 20px;
-        margin-left: 20px;
-        margin-top: 0;
-    }
-
     .main__contener {
         height: 1000px;
     }
@@ -702,17 +681,23 @@
         width: 100%;
     }
 
-    .rodape__autoral {
-        align-items: center;
-        background: linear-gradient(50deg, #191024, #101e25);
+    .rodape div {
+        width: 80%;
+        font-size: 16px;
         display: flex;
-        height: 100px;
-        text-align: center;
+        justify-content: space-evenly;
     }
 
-    .autoral__desenvolvedor {
-        margin-top: 0;
-        text-align: center;
+    .rodape img {
+        margin-right: 0.6em;
+    }
+
+    .imagens__autorais:hover {
+        font-size: 17px;
+    }
+
+    .imagens__autorais:active {
+        font-size: 15px;
     }
 }
 
@@ -1227,15 +1212,6 @@
         text-align: center;
     }
 
-    .desenvolvedor {
-        margin-left: 20px;
-        margin-top: 0;
-    }
-
-    .imagens__autorais {
-        margin-top: 1em;
-    }
-
     .main__contener {
         height: 1000px;
     }
@@ -1282,6 +1258,16 @@
     .autoral__desenvolvedor {
         margin-left: 30%;
         margin-top: 0;
+    }
+    
+    .rodape div {
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .rodape img {
+        margin-right: 0.6em;
     }
 }
 
@@ -1622,18 +1608,11 @@
         height: 280px;
     }
 
-    .descrevendo__informacoes {
-        margin-left: 50px;
-    }
 }
 
 @media screen and (min-width: 960px) {
     .sobre {
         height: 280px;
-    }
-
-    .descrevendo__informacoes {
-        margin-left: 5em;
     }
 
     .onde__nome {
@@ -1806,10 +1785,6 @@
         padding: 10px 30px;
         text-align: center;
         width: 16%;
-    }
-
-    .descrevendo__informacoes {
-        text-align: center;
     }
 
     .formacao {
@@ -2091,14 +2066,6 @@
     .rodape {
         font-size: 18px;
         height: 120px;
-    }
-
-    .desenvolvedor {
-        margin-top: 1em;
-    }
-
-    .imagens__autorais {
-        margin-top: 1em;
     }
 
     .imagens--width {

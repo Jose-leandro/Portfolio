@@ -49,12 +49,27 @@ body {
 
 .rodape {
     align-items: center;
-    background: linear-gradient(50deg, #191024, #101e25);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
+    align-items: center;
     width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+
+.rodape div {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.rodape img {
+    width: 35px;
+    height: 35px;
 }
 
 .desenvolvedor {
@@ -65,10 +80,10 @@ body {
     text-decoration: underline;
 }
 
-.rodape__ancora {
-    color: rgb(192, 185, 173);
+.imagens__autorais:hover {
+    font-size: 19px;
 }
 
-.rodape__ancora:hover {
-    font-size: 19px;
+.rodape__ancora {
+    color: rgb(192, 185, 173);
 }
