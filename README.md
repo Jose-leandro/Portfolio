@@ -4,7 +4,7 @@
 
 <div align="center">
   
-![Captura de tela 2023-02-11 122457](https://user-images.githubusercontent.com/104599482/230514899-98f6527b-20db-4060-beaa-6c59667105ed.png)
+
   
  </div>
 
@@ -18,7 +18,7 @@ Ela descrever o primeiro contato que você terá com o projeto.
 
 <div>
 
-  ![Captura de tela 2023-01-17 170243](https://user-images.githubusercontent.com/104599482/213000478-8ab8e90e-8453-42cd-a5b8-89e942f187cb.png)
+![Captura de tela 2023-02-11 122457](https://user-images.githubusercontent.com/104599482/230514899-98f6527b-20db-4060-beaa-6c59667105ed.png)
     
 </div>
 
