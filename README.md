@@ -1,6 +1,6 @@
 
 
- # <h1 align="center">Portfólio - JoséLeandro</h1>
+ # <h1 align="center">Portfólio - José Leandro</h1>
 
 <div align="center">
   
