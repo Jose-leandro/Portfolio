@@ -84,6 +84,10 @@ body {
     font-size: 19px;
 }
 
+.imagens__autorais:active {
+    font-size: 16px;
+}
+
 .rodape__ancora {
     color: rgb(192, 185, 173);
 }

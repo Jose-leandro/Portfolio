@@ -210,39 +210,12 @@
     }
 
     .skills {
-        height: 500px;
-        margin: 2em 0;
     }
 
     .titulo__nome--color {
         font-size: 25px;
     }
-
-    .skills__descrevendo {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        height: 290px;
-        margin-left: 20px;
-        width: 80%;
-    }
-
-    .descrevendo__lista {
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-        height: 100%;
-        justify-content: space-around;
-        width: 80%;
-    }
-
-    .descrevendo__item {
-        font-size: 18px;
-        font-weight: 200;
-        padding: 10px 30px;
-    }
-
+    
     .formacao {
         height: 550px;
         margin: 2em 0;
@@ -589,10 +562,8 @@
     }
 
     .imagens__linguagem {
-        height: 70px;
         margin-bottom: 1em;
         margin-top: 1em;
-        width: 70px;
     }
 
     .imagens__nome {
@@ -799,33 +770,6 @@
     .titulo__nome--color {
         font-size: 27px;
         margin-left: 9%;
-    }
-
-    .skills {
-        height: 550px;
-    }
-
-    .skills__descrevendo {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        height: 80%;
-        margin-left: 20px;
-    }
-
-    .descrevendo__lista {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        justify-content: space-evenly;
-        width: 80%;
-    }
-
-    .descrevendo__item {
-        font-size: 22px;
-        font-weight: 200;
-        padding: 15px 40px;
     }
 
     .formacao {
@@ -1180,10 +1124,8 @@
     }
 
     .imagens__linguagem {
-        height: 70px;
         margin-bottom: 1em;
         margin-top: 1em;
-        width: 70px;
     }
 
     .imagens__nome {
@@ -1277,35 +1219,11 @@
         height: 400px;
     }
 
-    .skills {
-        height: 650px;
-    }
-
-    .skills__descrevendo {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        height: 80%;
-        margin-left: 20px;
-    }
-
-    .descrevendo__lista {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        justify-content: space-evenly;
-        width: 80%;
-    }
 }
 
 @media screen and (min-width: 540px) {
     .sobre {
         height: 400px;
-    }
-
-    .skills {
-        height: 650px;
     }
 
     .onde__nome {
@@ -1317,14 +1235,6 @@
 @media screen and (min-width: 580px) {
     .sobre {
         height: 380px;
-    }
-
-    .skills {
-        height: 700px;
-    }
-
-    .skills__descrevendo {
-        height: 75%;
     }
 
     .onde__nome {
@@ -1747,44 +1657,11 @@
     }
 
     .skills {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        height: 390px;
+    
     }
 
     .skills__titulo {
-        height: 70px;
-    }
-
-    .titulo__nome--color {
-        font-size: 27px;
-    }
-
-    .skills__descrevendo {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        height: 60%;
-        margin-left: 0;
-    }
-
-    .descrevendo__lista {
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        height: 100%;
-        justify-content: space-evenly;
-        width: 80%;
-    }
-
-    .descrevendo__item {
-        font-size: 25px;
-        font-weight: 300;
-        padding: 10px 30px;
-        text-align: center;
-        width: 16%;
+        
     }
 
     .formacao {
@@ -2049,11 +1926,6 @@
         font-size: 27px;
     }
 
-    .imagens__linguagem {
-        height: 100px;
-        width: 100px;
-    }
-
     .imagens__nome {
         font-size: 25px;
         height: 40px;
@@ -2063,24 +1935,12 @@
         height: 650px;
     }
 
-    .rodape {
-        font-size: 18px;
-        height: 120px;
+    .rodape div {
+        width: 38%;
     }
 
     .imagens--width {
         height: 60px;
         width: 60px;
-    }
-
-    .rodape__autoral {
-        align-items: center;
-        height: 100px;
-        text-align: center;
-    }
-
-    .autoral__desenvolvedor {
-        margin-top: 0;
-        text-align: center;
     }
 }
