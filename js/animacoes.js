@@ -1,40 +1,3 @@
-// está função tem como objetivo criar um efeito de máquina de digitar
-let souDevJunior = document.querySelector(".informacoes__dev");
-animaction(souDevJunior);
-function animaction(elemento) {
-    let textoDaClassSouDevJunior = elemento.innerHTML.split("");
-    elemento.innerHTML = "";
-    textoDaClassSouDevJunior.forEach((letra, i) => {
-        setTimeout(function () {
-            elemento.innerHTML += letra;
-        }, 200 * i);
-    });
-}
-
-setInterval(function () {
-    animaction(souDevJunior);
-}, 10000);
-
-
-// já está tem como função aumentar e diminur minha a foto do desenvolvedor
-let foto = document.querySelector(".foto__autor");
-function aumentarTamnhoDaFotoDePerfil() {
-    setInterval(function () {
-        foto.classList.add("foto__animacao");
-    }, 8000);
-    setInterval(function () {
-        foto.classList.remove("foto__animacao");
-        foto.style.transition = "1s";
-    }, 12000);
-
-} aumentarTamnhoDaFotoDePerfil();
-
-setInterval(function () {
-    aumentarTamnhoDaFotoDePerfil();
-}, 15000);
-
-
-
 // O propósito desta é cria a animação com o menu
 let larguraDoDispositivo = window.screen.width;
 console.log(larguraDoDispositivo);
@@ -52,7 +15,6 @@ iconeMenu.addEventListener("click", function () {
             menu.classList.remove("menu__escondido");
             menu.classList.remove("menu__lista");
             menu.classList.add("menu__visivel");
-
 
         } else {
             menu.classList.remove("menu__visivel");
@@ -99,43 +61,5 @@ function esconderMenuParaMobile() {
     menu.style.visibility = "hidden";
     menu.classList.add("esconder__menu");
 }
+     
 
-
-//função está eu crie para também produzir um efeito ou animação de máquina de escrever 
-let redeSocialGithub = document.querySelector(".github__descricao");
-animaction(redeSocialGithub);
-
-function animaction(elemento) {
-    let textoDaClassGithubDescricao = elemento.innerHTML.split("");
-
-    elemento.innerHTML = "";
-    textoDaClassGithubDescricao.forEach((letra, i) => {
-        setTimeout(function () {
-            elemento.innerHTML += letra;
-        }, 200 * i);
-    });
-}
-
-setInterval(function () {
-    animaction(redeSocialGithub);
-}, 10000);
-
-
-
-// a crie para produzir o mesmo efeito de animacao de maquina de digitar
-let redeSocialLinkedin = document.querySelector(".linkedin__descricao");
-animactioncomgit(redeSocialLinkedin);
-
-function animactioncomgit(elemento) {
-    let textoDaClassLinkedinDescricao = elemento.innerHTML.split("");
-    elemento.innerHTML = "";
-    textoDaClassLinkedinDescricao.forEach((letra, i) => {
-        setTimeout(function () {
-            elemento.innerHTML += letra;
-        }, 200 * i);
-    });
-}
-
-setInterval(function () {
-    animaction(redeSocialLinkedin);
-}, 10000);

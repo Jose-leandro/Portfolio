@@ -25,14 +25,6 @@
         font-size: 18px;
     }
 
-    .redesociais__letras:active {
-        font-size: 48px;
-    }
-
-    .redesociais__letras:hover {
-        font-size: 51px;
-    }
-
     .cabecalho__menu {
         height: 50px;
         position: absolute;
@@ -71,151 +63,6 @@
         margin-right: 2em;
     }
 
-    .ola {
-        height: 6em;
-        width: 100%;
-    }
-
-    .contener__informacoes {
-        align-items: center;
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-    }
-
-    .informacoes__descricao {
-        font-size: 2em;
-        margin-left: 20px;
-        width: 60px;
-    }
-
-    .informacoes__dev {
-        font-size: 18px;
-        margin-left: 1em;
-        margin-right: 10px;
-        width: 50%;
-    }
-
-    .ola__foto {
-        height: 100%;
-        margin-right: 0;
-        width: 8em;
-    }
-
-    .foto__autor {
-        height: 4em;
-        width: 4em;
-    }
-
-    .sobre {
-        height: 430px;
-        margin: 2em 0;
-    }
-
-    .contener__paragrafo {
-        font-size: 25px;
-        margin-left: 9%;
-    }
-
-    .sobre__contener--height {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .contener__descricao {
-        margin-left: 1.3em;
-        margin-right: 1em;
-        text-align: center;
-    }
-
-    .redesociais {
-        height: 220px;
-        margin: 2em 0;
-    }
-
-    .redesociais__contener {
-        margin: 1em 0;
-    }
-
-    .contener__redesociais {
-        font-size: 25px;
-    }
-
-    .redesociais__nomes {
-        margin-bottom: 2em;
-        margin-top: 0;
-    }
-
-    .redesociais__github {
-        height: 6em;
-        width: 4em;
-    }
-
-    .redesociais__letras {
-        font-size: 50px;
-        height: 50px;
-        margin-left: 1rem;
-    }
-
-    .github__descricao {
-        font-size: 12px;
-        margin-left: 1rem;
-    }
-
-    .redesociais__linkedin {
-        height: 6em;
-        width: 4em;
-    }
-
-    .linkedin__descricao {
-        font-size: 12px;
-        margin-left: 1rem;
-    }
-
-    .hobbies {
-        height: 300px;
-        margin: 2em 0;
-    }
-
-    .contener__titulo {
-        height: 40px;
-        margin: 1em 0;
-    }
-
-    .titulo__nome {
-        font-size: 25px;
-        margin-left: 9%;
-    }
-
-    .hobbies__tipo {
-        height: 230px;
-        margin-bottom: 1em;
-        width: 100%;
-    }
-
-    .tipo__assitir {
-        font-size: 18px;
-        padding: 10px 20px;
-    }
-
-    .tipo__ler {
-        font-size: 18px;
-        padding: 10px 35px;
-    }
-
-    .tipo__cultiva {
-        font-size: 18px;
-        padding: 10px 35px;
-    }
-
-    .skills {
-    }
-
-    .titulo__nome--color {
-        font-size: 25px;
-    }
-    
     .formacao {
         height: 550px;
         margin: 2em 0;
@@ -653,10 +500,10 @@
     }
 
     .rodape div {
-        width: 80%;
-        font-size: 16px;
         display: flex;
+        font-size: 16px;
         justify-content: space-evenly;
+        width: 80%;
     }
 
     .rodape img {
@@ -691,85 +538,6 @@
 
     .nome__one:active {
         font-size: 18px;
-    }
-
-    .ola {
-        height: 150px;
-    }
-
-    .contener__informacoes {
-        align-items: center;
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-    }
-
-    .informacoes__descricao {
-        font-size: 3em;
-        margin-left: 1em;
-        width: 4em;
-    }
-
-    .informacoes__dev {
-        font-size: 20px;
-        margin-left: 0;
-        margin-right: 1em;
-        width: 100%;
-    }
-
-    .ola__foto {
-        height: 100%;
-        width: 5em;
-    }
-
-    .foto__autor {
-        height: 5em;
-        width: 5em;
-    }
-
-    .sobre {
-        height: 380px;
-    }
-
-    .contener__paragrafo {
-        font-size: 27px;
-        margin-left: 9%;
-    }
-
-    .hobbies {
-        height: 380px;
-        margin: 2em 0;
-    }
-
-    .titulo__nome {
-        font-size: 25px;
-        margin-left: 9%;
-    }
-
-    .hobbies__tipo {
-        height: 280px;
-        margin-bottom: 1em;
-        width: 100%;
-    }
-
-    .tipo__assitir {
-        font-size: 20px;
-        padding: 20px 30px;
-    }
-
-    .tipo__ler {
-        font-size: 20px;
-        padding: 20px 45px;
-    }
-
-    .tipo__cultiva {
-        font-size: 20px;
-        padding: 20px 45px;
-    }
-
-    .titulo__nome--color {
-        font-size: 27px;
-        margin-left: 9%;
     }
 
     .formacao {
@@ -1201,11 +969,11 @@
         margin-left: 30%;
         margin-top: 0;
     }
-    
+
     .rodape div {
-        width: 80%;
         display: flex;
         justify-content: space-evenly;
+        width: 80%;
     }
 
     .rodape img {
@@ -1213,29 +981,8 @@
     }
 }
 
-@media screen and (min-width: 500px) {
-
-    .sobre {
-        height: 400px;
-    }
-
-}
-
-@media screen and (min-width: 540px) {
-    .sobre {
-        height: 400px;
-    }
-
-    .onde__nome {
-        height: 230px;
-        width: 30%;
-    }
-}
 
 @media screen and (min-width: 580px) {
-    .sobre {
-        height: 380px;
-    }
 
     .onde__nome {
         height: 230px;
@@ -1256,9 +1003,6 @@
 }
 
 @media screen and (min-width: 620px) {
-    .sobre {
-        height: 320px;
-    }
 
     .onde__nome {
         height: 250px;
@@ -1336,21 +1080,12 @@
 }
 
 @media screen and (min-width: 768px) {
-
     .informacoes__descricao {
         font-size: 80px;
     }
 
     .informacoes__dev {
         font-size: 24px;
-    }
-
-    .sobre {
-        height: 300px;
-    }
-
-    .hobbies__tipo {
-        height: 90%;
     }
 
     .onde__nome {
@@ -1513,18 +1248,7 @@
     }
 }
 
-@media screen and (min-width: 920px) {
-    .sobre {
-        height: 280px;
-    }
-
-}
-
 @media screen and (min-width: 960px) {
-    .sobre {
-        height: 280px;
-    }
-
     .onde__nome {
         width: 150px;
     }
@@ -1534,31 +1258,7 @@
     }
 }
 
-@media screen and (min-width: 1000px) {
-    .lista__itens {
-        text-align: center;
-        width: 200px;
-    }
-
-    .tipo__assitir {
-        width: 200px;
-    }
-
-    .tipo__ler {
-        width: 100px;
-    }
-
-    .tipo__cultiva {
-        width: 150px;
-    }
-}
-
 @media screen and (min-width: 1300px) {
-
-    .contener__paragrafo:hover {
-        font-size: 28px;
-    }
-
     .empresas__alura:active {
         font-size: 48px;
     }
@@ -1573,95 +1273,6 @@
 
     .lista__itens {
         width: 220px;
-    }
-
-    .ola {
-        height: 13em;
-    }
-
-    .ola__contener {
-        height: 100%;
-    }
-
-    .contener__informacoes {
-        width: 50%;
-    }
-
-    .informacoes__dev {
-        font-size: 22px;
-        margin-left: 2em;
-        margin-right: 4em;
-        width: 50%;
-    }
-
-    .informacoes__descricao {
-        font-size: 5em;
-        width: 2em;
-    }
-
-    .ola__foto {
-        width: 12em;
-    }
-
-    .foto__autor {
-        height: 10em;
-        width: 10em;
-    }
-
-    .sobre {
-        height: 290px;
-    }
-
-    .contener__paragrafo {
-        font-size: 27px;
-        margin-left: 9%;
-    }
-
-    .contener__descricao {
-        width: 60%;
-    }
-
-    .hobbies {
-        height: 450px;
-    }
-
-    .contener__titulo {
-        height: 50px;
-        margin: 2em 0;
-        width: 100%;
-    }
-
-    .titulo__nome {
-        font-size: 27px;
-    }
-
-    .hobbies__tipo {
-        height: 330px;
-        margin-bottom: 1em;
-        width: 100%;
-    }
-
-    .tipo__assitir {
-        font-size: 30px;
-        padding: 20px 100px;
-    }
-
-    .tipo__ler {
-        font-size: 30px;
-        padding: 20px 80px;
-    }
-
-    .tipo__cultiva {
-        font-size: 30px;
-        padding: 20px 120px;
-    }
-
-    .skills {
-    
-    }
-
-    .skills__titulo {
-        
     }
 
     .formacao {

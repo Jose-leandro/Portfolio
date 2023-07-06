@@ -1,0 +1,55 @@
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre-mim__contener {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.sobre-mim__titulo h3 {
+    background: #223e54;
+    border-radius: 30px;
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    margin-left: 3em;
+    padding: 6px 0px;
+    text-align: center;
+    width: 133px;
+}
+
+.contener__descricao {
+    background: #15191c;
+    border-radius: 20px;
+    line-height: 25px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .sobre-mim {
+        height: auto;
+        width: 300px;
+    }
+
+    .sobre-mim__titulo {
+        margin: 0px 0px 23px 0px
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .sobre-mim {
+        height: auto;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 787px) {
+    .sobre-mim {
+        align-self: end;
+        height: auto;
+        width: 47%;
+    }
+}

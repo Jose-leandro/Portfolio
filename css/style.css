@@ -1,75 +1,39 @@
 body {
-    background-color: #000000;
-    color: #c0b9ad;
+    background-color: #0D1216;
+    color: #b5bbc9;
     font-size: 18px;
     width: 100%;
 }
 
-.ola {
-    width: 100%;
-}
-
-.ola__contener {
-    background: linear-gradient(50deg, #000000, #003989, #993399);
+.main {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.contener__informacoes {
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-}
-
-.informacoes__dev {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    font-family: 'Kalam', cursiva;
-    font-family: 'Old Standard TT', serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Source Sans Pro', sem serifa;
-}
-
-.informacoes__descricao {
-    display: inline-block;
-    font-family: 'Fredericka the Great', cursive;
-}
-
-.ola__foto {
-    align-items: center;
-    display: flex;
-}
-
-.foto__autor {
-    border-radius: 30px;
-    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .rodape {
     align-items: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    text-align: center;
-    align-items: center;
-    width: 100%;
     height: auto;
+    justify-content: space-evenly;
     padding: 50px 0;
+    text-align: center;
+    width: 100%;
 }
 
 .rodape div {
+    align-items: center;
     display: flex;
     height: 50px;
-    align-items: center;
     justify-content: space-evenly;
     width: 40%;
 }
 
 .rodape img {
-    width: 35px;
     height: 35px;
+    width: 35px;
 }
 
 .desenvolvedor {
