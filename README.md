@@ -18,7 +18,8 @@ Ela descrever o primeiro contato que você terá com o projeto.
 
 <div>
 
-![Captura de tela 2023-02-11 122457](https://user-images.githubusercontent.com/104599482/230514899-98f6527b-20db-4060-beaa-6c59667105ed.png)
+![Screenshot 2023-07-06 210351](https://github.com/Joseleandro7i/projeto-one-protifolio/assets/104599482/89dabb83-a90f-49f9-a8e2-b555b0d03ba2)
+
     
 </div>
 
