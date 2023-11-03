@@ -25,44 +25,6 @@
         font-size: 18px;
     }
 
-    .cabecalho__menu {
-        height: 50px;
-        position: absolute;
-        width: 100%;
-    }
-
-    .menu__lista {
-        display: flex;
-        flex-direction: column;
-        height: 400px;
-        margin-left: 50%;
-        margin-top: 40px;
-        width: 200px;
-    }
-
-    .lista__itens {
-        width: 70%;
-    }
-
-    .lista__ancora {
-        font-size: 14px;
-    }
-
-    .icone__menu {
-        height: 30px;
-        position: absolute;
-        right: 4px;
-        top: 3px;
-        width: 30px;
-    }
-
-    .menu__lista {
-        display: flex;
-        flex-direction: column;
-        margin-left: 38%;
-        margin-right: 2em;
-    }
-
     .formacao {
         height: 550px;
         margin: 2em 0;
@@ -1269,10 +1231,6 @@
 
     .nome__one:active {
         font-size: 19px;
-    }
-
-    .lista__itens {
-        width: 220px;
     }
 
     .formacao {

@@ -30,13 +30,10 @@
 }
 
 .onde__nome {
-    align-items: center;
-    background: linear-gradient(70deg, #202c52, #285eb1, #4e2b79);
+    background: #15191c;
     border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     line-height: 25px;
+    padding: 20px;
 }
 
 .nome__one {
@@ -101,7 +98,7 @@
 }
 
 .descricao__minha {
-    background: #161616;
+    background: #15191c;
     border-radius: 20px;
     line-height: 25px;
     padding: 20px;
