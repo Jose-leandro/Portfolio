@@ -10,19 +10,20 @@
     width: 100%;
 }
 
-.sobre-mim__titulo h3 {
-    background: #223e54;
-    border-radius: 30px;
-    font-family: 'EB Garamond', serif;
-    font-size: 30px;
+.sobre-mim h3 {
+    background: #171a1c;
+    border-radius: 20px;
+    box-shadow: #000000e8 0px 20px 30px -10px;
+    font-family: 'Lora', serif;
+    font-size: 26px;
     margin-bottom: 0.6em;
-    margin-left: 3em;
+    margin-left: 0.8em;
     padding: 6px 0px;
     text-align: center;
-    width: 133px;
+    width: 166px;
 }
 
-.contener__descricao {
+.sobre-mim p {
     background: #15191c;
     border-radius: 20px;
     line-height: 25px;
@@ -33,10 +34,6 @@
     .sobre-mim {
         height: auto;
         width: 300px;
-    }
-
-    .sobre-mim__titulo {
-        margin: 0px 0px 23px 0px
     }
 }
 

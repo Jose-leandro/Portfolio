@@ -90,10 +90,6 @@
         width: 100%;
     }
 
-    .titulo__descricao {
-        font-size: 25px;
-    }
-
     .nome__curso {
         font-size: 14px;
         height: 25px;
@@ -111,15 +107,6 @@
 
     .curriculo {
         height: 300px;
-    }
-
-    .curriculo__titulo {
-        height: 30px;
-        margin: 2em 0;
-    }
-
-    .titulo__descricao--color {
-        font-size: 25px;
     }
 
     .curriculo__meu {
@@ -567,14 +554,6 @@
         height: 800px;
     }
 
-    .cursos__titulo {
-        height: 30px;
-    }
-
-    .titulo__descricao {
-        font-size: 27px;
-    }
-
     .lista__informacoes {
         font-size: 22px;
         height: 20px;
@@ -583,14 +562,6 @@
 
     .curriculo {
         height: 250px;
-    }
-
-    .curriculo__titulo {
-        height: 60px;
-    }
-
-    .titulo__descricao--color {
-        font-size: 27px;
     }
 
     .curriculo__meu {
@@ -614,15 +585,6 @@
     .projeto {
         height: 1200px;
         margin-bottom: 3em;
-    }
-
-    .projeto__titulo {
-        height: 40px;
-        margin: 1em 0;
-    }
-
-    .projeto__titulo__texto {
-        font-size: 27px;
     }
 
     .projeto__contener {
@@ -1295,24 +1257,8 @@
         height: 500px;
     }
 
-    .cursos__titulo {
-        height: 30px;
-    }
-
-    .titulo__descricao {
-        font-size: 27px;
-    }
-
     .curriculo {
         height: 250px;
-    }
-
-    .curriculo__titulo {
-        height: 60px;
-    }
-
-    .titulo__descricao--color {
-        font-size: 27px;
     }
 
     .curriculo__meu {
@@ -1336,14 +1282,6 @@
     .projeto {
         height: 670px;
         width: 100%;
-    }
-
-    .projeto__titulo {
-        height: 50px;
-    }
-
-    .projeto__titulo__texto {
-        font-size: 27px;
     }
 
     .projeto__contener {

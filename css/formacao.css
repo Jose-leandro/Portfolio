@@ -1,21 +1,18 @@
 .formacao {
     margin: 2em 0;
-    width: 100%;
 }
 
-.formacao__nome {
-    margin: 2em 0;
-    width: 100%;
-}
-
-.nome__formacoes {
-    color: #7944b9;
-    font-weight: bold;
-    margin-left: 9%;
-}
-
-.nome__formacoes:hover {
-    font-size: 28px;
+.formacao h4 {
+    background: #171a1c;
+    border-radius: 20px;
+    box-shadow: #000000e8 0px 20px 30px -10px;
+    font-family: 'Lora', serif;
+    font-size: 26px;
+    margin-bottom: 0.6em;
+    margin-left: 0.8em;
+    padding: 6px 0px;
+    text-align: center;
+    width: 166px;
 }
 
 .formacao__onde {

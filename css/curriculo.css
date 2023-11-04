@@ -3,19 +3,17 @@
     margin: 2em 0;
 }
 
-.curriculo__titulo {
-    margin: 2em 0;
-    width: 100%;
-}
-
-.titulo__descricao--color {
-    font-weight: bold;
-    margin-left: 9%;
-    color: #3749bb;
-}
-
-.titulo__descricao--color:hover {
-    font-size: 28px;
+.curriculo p {
+    background: #171a1c;
+    border-radius: 20px;
+    box-shadow: #000000e8 0px 20px 30px -10px;
+    font-family: 'Lora', serif;
+    font-size: 26px;
+    margin-bottom: 0.6em;
+    margin-left: 0.8em;
+    padding: 6px 0px;
+    text-align: center;
+    width: 166px;
 }
 
 .curriculo__meu {
