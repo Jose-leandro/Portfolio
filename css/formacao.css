@@ -1,5 +1,11 @@
 .formacao {
-    margin: 2em 0;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: space-around;
+    margin: 1em 0;
+    width: 100%;
 }
 
 .formacao h4 {
@@ -15,88 +21,73 @@
     width: 166px;
 }
 
-.formacao__onde {
+.formacao div:last-child {
+    align-items: center;
     display: flex;
-    height: 300px;
-    margin-top: 3em;
-    width: 100%;
+    height: 150px;
+    justify-content: center;
 }
 
-.onde__ancora {
-    text-decoration: none;
+.formacao h5 {
+    font-family: 'Lora', serif;
+    font-size: 35px;
+    padding: 0px 30px;
+    width: auto;
 }
 
-.onde__nome {
+.formacao p {
     background: #15191c;
     border-radius: 20px;
-    line-height: 25px;
+    line-height: normal;
     padding: 20px;
+    white-space-collapse: break-spaces;
+    width: 55%;
 }
 
-.nome__one {
-    color: #c0b9ad;
-    cursor: pointer;
-    font-weight: bold;
-    text-align: center;
+@media screen and (max-width: 440px) {
+    .formacao {
+        height: 835px;
+    }
+
+    .formacao div:last-child {
+        flex-direction: column;
+        height: 790px;
+        justify-content: space-evenly;
+    }
+
+    .formacao p {
+        width: 75%;
+    }
 }
 
-.nome__one:hover {
-    font-size: 21px;
+@media screen and (min-width: 441px) {
+    .formacao {
+        height: 550px;
+    }
+
+    .formacao div:last-child {
+        flex-direction: column;
+        height: 500px;
+        justify-content: space-evenly;
+    }
+
+    .formacao p {
+        width: 80%;
+    }
 }
 
-.nome__one:active {
-    font-size: 19px;
-}
+@media screen and (min-width: 1000px) {
+    .formacao {
+        height: 350px;
+    }
 
-.formacao__descricao {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
+    .formacao div:last-child {
+        flex-direction: row;
+        height: 150px;
+        justify-content: center;
+    }
 
-.descricao__empresas {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    width: 100%;
-}
-
-.empresas__ancora {
-    color: #c0b9ad;
-    text-decoration: none;
-}
-
-.empresas__oracle {
-    text-align: center;
-}
-
-.empresas__oracle:hover {
-    font-size: 51px;
-} 
-
-.empresas__oracle:active {
-    font-size: 48px;
-}
-
-.empresas__simbolo {
-    text-align: center;
-}
-
-.empresas__alura {
-    text-align: center;
-}
-
-.empresas__alura:hover {
-    font-size: 51px;
-}
-
-.empresas__alura:active {
-    font-size: 48px;
-}
-
-.descricao__minha {
-    background: #15191c;
-    border-radius: 20px;
-    line-height: 25px;
-    padding: 20px;
+    .formacao p {
+        width: 55%;
+    }
 }

@@ -1,88 +1,4 @@
 @media screen and (max-width: 480px) {
-    .empresas__alura:active {
-        font-size: 27px;
-    }
-
-    .empresas__oracle:active {
-        font-size: 27px;
-    }
-
-    .icone__menu:active {
-        height: 29px;
-        width: 29px;
-    }
-
-    .icone__menu:hover {
-        height: 31px;
-        width: 31px;
-    }
-
-    .lista__informacoes:last-child {
-        margin-bottom: 2em;
-    }
-
-    .nome__one:active {
-        font-size: 18px;
-    }
-
-    .formacao {
-        height: 550px;
-        margin: 2em 0;
-    }
-
-    .formacao__nome {
-        height: 35px;
-    }
-
-    .nome__formacoes {
-        font-size: 25px;
-    }
-
-    .formacao__onde {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        justify-content: space-between;
-        margin-top: 0;
-        width: 100%;
-    }
-
-    .onde__nome {
-        height: 180px;
-        width: 30%;
-    }
-
-    .nome__one {
-        font-size: 19px;
-        font-weight: 100;
-    }
-
-    .formacao__descricao {
-        margin-bottom: 100px;
-        text-align: left;
-        width: 90%;
-    }
-
-    .descricao__empresas {
-        height: 70px;
-    }
-
-    .empresas__oracle {
-        font-size: 28px;
-        height: 30px;
-        width: 100px;
-    }
-
-    .empresas__simbolo {
-        font-size: 28px;
-    }
-
-    .empresas__alura {
-        font-size: 28px;
-        height: 30px;
-        width: 100px;
-    }
 
     .cursos {
         height: 700px;
@@ -469,87 +385,6 @@
 }
 
 @media screen and (min-width: 480px) {
-    .empresas__alura:active {
-        font-size: 27px;
-    }
-
-    .empresas__oracle:active {
-        font-size: 27px;
-    }
-
-    .imagens__ancora:active {
-        font-size: 17px;
-    }
-
-    .lista__informacoes:last-child {
-        margin-bottom: 2em;
-    }
-
-    .nome__one:active {
-        font-size: 18px;
-    }
-
-    .formacao {
-        height: 550px;
-        margin: 2em 0;
-    }
-
-    .formacao__nome {
-        height: 60px;
-        margin-bottom: 1em;
-    }
-
-    .nome__formacoes {
-        font-size: 27px;
-        margin-left: 9%;
-    }
-
-    .formacao__onde {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        justify-content: space-around;
-        margin-top: 0;
-        width: 100%;
-    }
-
-    .onde__nome {
-        height: 180px;
-        width: 30%;
-    }
-
-    .nome__one {
-        font-size: 19px;
-        font-weight: 100;
-    }
-
-    .formacao__descricao {
-        margin-bottom: 100px;
-        text-align: left;
-        width: 90%;
-    }
-
-    .descricao__empresas {
-        height: 70px;
-    }
-
-    .empresas__oracle {
-        font-size: 28px;
-        height: 30px;
-        width: 60px;
-    }
-
-    .empresas__simbolo {
-        font-size: 28px;
-    }
-
-    .empresas__alura {
-        font-size: 28px;
-        height: 30px;
-        width: 60px;
-    }
-
     .cursos {
         height: 800px;
     }
@@ -908,11 +743,6 @@
 
 @media screen and (min-width: 580px) {
 
-    .onde__nome {
-        height: 230px;
-        width: 30%;
-    }
-
     .projeto__contener__encriptador__descricao__popup__contener {
         margin-left: 0;
         top: 4240px;
@@ -927,11 +757,6 @@
 }
 
 @media screen and (min-width: 620px) {
-
-    .onde__nome {
-        height: 250px;
-        width: 30%;
-    }
 
     .projeto__contener__encriptador__descricao__img {
         height: 280px;
@@ -1010,11 +835,6 @@
 
     .informacoes__dev {
         font-size: 24px;
-    }
-
-    .onde__nome {
-        height: 250px;
-        width: 20%;
     }
 
     .cursos {
@@ -1146,10 +966,6 @@
         margin-top: 0;
     }
 
-    .informacao__descricao {
-        font-size: 16px;
-    }
-
     .formulario__preencher {
         align-items: center;
         display: flex;
@@ -1173,9 +989,6 @@
 }
 
 @media screen and (min-width: 960px) {
-    .onde__nome {
-        width: 150px;
-    }
 
     .cursos {
         height: 600px;
@@ -1183,76 +996,6 @@
 }
 
 @media screen and (min-width: 1300px) {
-    .empresas__alura:active {
-        font-size: 48px;
-    }
-
-    .empresas__oracle:active {
-        font-size: 48px;
-    }
-
-    .nome__one:active {
-        font-size: 19px;
-    }
-
-    .formacao {
-        height: 450px;
-    }
-
-    .formacao__nome {
-        height: 50px;
-    }
-
-    .nome__formacoes {
-        font-size: 27px;
-    }
-
-    .formacao__onde {
-        flex-direction: row;
-        height: 370px;
-        justify-content: space-evenly;
-    }
-
-    .onde__nome {
-        height: 300px;
-        width: 15%;
-    }
-
-    .nome__one {
-        font-size: 20px;
-    }
-
-    .formacao__descricao {
-        height: 100%;
-        justify-content: space-evenly;
-        width: 400px;
-    }
-
-    .descricao__empresas {
-        height: 80px;
-    }
-
-    .empresas__oracle {
-        font-size: 50px;
-        height: 60px;
-        width: 150px;
-    }
-
-    .empresas__simbolo {
-        font-size: 50px;
-        width: 40px;
-    }
-
-    .empresas__alura {
-        font-size: 50px;
-        height: 60px;
-        width: 150px;
-    }
-
-    .descricao__minha {
-        font-size: 18px;
-    }
-
     .cursos {
         height: 500px;
     }
