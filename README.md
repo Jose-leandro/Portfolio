@@ -1,44 +1,65 @@
 
+# <h1 align="center">Portfólio - José Leandro</h1>
 
- # <h1 align="center">Portfólio - José Leandro</h1>
-
-<div align="center">
-  
-
-  
- </div>
-
+### Estado do projeto
  
- ## *Descrição do projeto*
-
-Este é o meu portfólio, um espaço onde abordo um pouco sobre mim, minhas hard e soft skills, e quais tecnologias aprendi, mas o mais importante são os meus projetos que desenvolvi, pois é por meio deles que literalmente coloco a mão na massa, aplico o que aprendi e aprimoro a minha compreensão sobre as tecnologias que escolhi adquirir para  atuar como desenvolvedor front-end.
-
-> ### A imagem a seguir
-Ela descrever o primeiro contato que você terá com o projeto.
-
-<div>
-
-![Screenshot 2023-07-06 210351](https://github.com/Joseleandro7i/projeto-one-protifolio/assets/104599482/89dabb83-a90f-49f9-a8e2-b555b0d03ba2)
-
+   :construction: Projeto concluído :construction:
     
-</div>
+   <p>Embora o projeto esteja concluído, estou constantemente aperfeiçoando-o, corrigindo problemas, adicionando novas funcionalidades e refinando o design, com o objetivo de  
+   torná-lo ainda mais atraente, esteticamente agradável e funcional.</p>
 
-## *Estado do projeto*
+### Features
 
-### :construction: Projeto em desenvolvimento :construction:
+- [ ] Criação de uma tela de carregamento inicial.
+- [ ] Criação de um ícone animado em que irá representar o carregamento do site chamado de “spinner de carregamento” ou “loader”.
+
+### Hospedagem do projeto
+
+Para dar vida ao meu projeto, escolhi a poderosa plataforma de hospedagem Vercel, Sinta-se à vontade para explorar cada detalhe e funcionalidade deste projeto clicando neste
+[Link](https://projeto-one-protifolio.vercel.app/)
+
+
+### Tecnologias utilizadas no projeto
+
+Neste projeto, você encontrará uma sinfonia de tecnologias, sendo cada uma delas desempenhando um papel vital e único essa são as tecnologias presente:
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)   ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)  
+
+
+### Contribuições
+
+ Contribuições são sempre bem-vindas! Se você deseja contribuir para o aprimoramento deste projeto, siga os passos abaixo:
  
-<p>O projeto ser encontra concluído, mas regularmente estou corrigindo bags, desenvolvendo novas funcionalidades e alterando o desing do projeto.</p>
+  1. Faça um Fork do Projeto
+ 
+  2. Configure em Sua Máquina
+ 
+  3. Realize Suas Modificações e Sugestões
+     
+      Agora você está pronto para fazer suas modificações e implementar suas sugestões para o projeto. Sinta-se à vontade para explorar, corrigir problemas e adicionar recursos.
+ 
+ 4. Envie um Pull Request
+ 
+      Após ter feito as alterações necessárias no projeto, crie o seu Pull Request, certifique-se de descrever suas alterações e os problemas que elas resolvem.
+ 
+ 5. Aguarde a Análise
+ 
+      Agora, sua contribuição será revisada, caso esteja tudo certo, seu Pull Request pode ser aprovado e fundido ao projeto após a revisão.
+ 
+ Agradeço antecipadamente por suas sugestões e por ajudar a tornar este projeto ainda mais incrível. 
 
-## *Hospedagem do projeto*
 
-Para hospedar o meu projeto utilizei uma das muitas funcionalidades do GitHub, o GitHub Pages é um serviço de hospedagem de site estático, ou seja sites seria projetos em que
-foram utilizados apenas CSS, HTML e JavaScript, na qual a hospedagem será apartir do repositorio do projeto, você poderá visualizar o projeto atrvés deste 
-[Link](https://joseleandro7i.github.io/projeto-one-protifolio/)
+### Autor
 
+ <p>Desenvolvido por José leandro</p>
 
-## *Tecnologias utilizadas no projeto*
+ <img src="https://github.com/Joseleandro7i/Calculadora-OES/assets/104599482/aa4ab3f4-e5a8-4958-bcdd-3307242019f8" width="130px;"/>
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)    ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)   ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+ <p>Se você quer acompanhar a minha jornada de aprimoramento do meu Portfólio, ou mesmo apenas deseja entrar em contato, por favor, sinta-se à vontade para utilizar esses canais de comunicação. Estou entusiasmado para estabelecer conexões significativas e compartilhar interesses em comum.</p>
 
-Neste projeto que desenvolvi, ser encontra tecnologias como HTML5, CSS3, JavaScript, Git e GitHub, na qual cada uma destas tecnologias, tevê uma determinada função, por exemplo, HTML para organizar e estrutura os elementos da página, CSS para estilizar os elementos escritos na linguagem de marcação neste caso HTML5, JavaScript para dá dinamismo e implementar itens com complexidade, Git para controlar o meu histórico de alterações do projeto e GitHub para armazenar, torná acessível meu código-fonte e hospedagem através do GitHub Pages.
+ [![Linkedin Badge](https://img.shields.io/badge/-Leandro-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/josé-leandro-do-nascimento/) 
+
+[![Gmail Badge](https://img.shields.io/badge/-jose.leandro.nasciment@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jose.leandro.nasciment@gmail.com)](mailto:jose.leandro.nasciment@gmail.com)
+
+    Agradeço e tenha um bom dia.
 
