@@ -1,6 +1,11 @@
 
 # <h1 align="center">Portfólio - José Leandro</h1>
 
+### Descrição do projeto
+
+ <p>Olá, muito obrigado por visitar o meu portfólio, ele é uma vitrine onde exibo meus melhores projetos, minhas competências técnicas e pessoais, os conhecimentos que adquiri, bem como compartilho sobre mim, aqui você pode conferir os projetos que desenvolvi, utilizando e aprimorando diferentes tecnologias, com o objetivo de aprender e dominar cada uma delas, além da minha formação acadêmica, cursos realizados e muito mais. O meu propósito é demonstrar o meu potencial e a minha atração e facinio pelo que faço e pelo que quero ser no futuro, espero que você goste do meu portfólio e que ele te inspire de alguma forma.
+</p>
+
 ### Estado do projeto
  
    :construction: Projeto concluído :construction:
