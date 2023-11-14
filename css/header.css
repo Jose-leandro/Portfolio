@@ -2,7 +2,7 @@ header {
     height: 40px;
 }
 
-ul {
+header ul {
  display: flex;
  flex-direction: row;
  justify-content: end;
@@ -10,7 +10,7 @@ ul {
  height: 100%;
 }
 
-li {
+header li {
     padding: 0px 7%;
     font-family: 'Lora', serif;
     font-size: 18px;

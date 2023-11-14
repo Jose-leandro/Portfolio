@@ -1,26 +1,5 @@
 @media screen and (max-width: 480px) {
 
-    .cursos {
-        height: 700px;
-        margin: 2em 0;
-        width: 100%;
-    }
-
-    .nome__curso {
-        font-size: 14px;
-        height: 25px;
-        margin-top: 1em;
-        padding: 20px 10px;
-        text-align: center;
-        width: 120px;
-    }
-
-    .lista__informacoes {
-        font-size: 18px;
-        height: 20px;
-        width: 100%;
-    }
-
     .curriculo {
         height: 300px;
     }
@@ -385,15 +364,6 @@
 }
 
 @media screen and (min-width: 480px) {
-    .cursos {
-        height: 800px;
-    }
-
-    .lista__informacoes {
-        font-size: 22px;
-        height: 20px;
-        width: 100%;
-    }
 
     .curriculo {
         height: 250px;
@@ -829,17 +799,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    .informacoes__descricao {
-        font-size: 80px;
-    }
-
-    .informacoes__dev {
-        font-size: 24px;
-    }
-
-    .cursos {
-        height: 600px;
-    }
 
     .projeto {
         height: 1300px;
@@ -988,17 +947,7 @@
     }
 }
 
-@media screen and (min-width: 960px) {
-
-    .cursos {
-        height: 600px;
-    }
-}
-
 @media screen and (min-width: 1300px) {
-    .cursos {
-        height: 500px;
-    }
 
     .curriculo {
         height: 250px;
