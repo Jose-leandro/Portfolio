@@ -1,5 +1,6 @@
 
-# <h1 align="center">Portfólio - José Leandro</h1>
+![Portfólio - José leandro](https://github.com/Joseleandro7i/projeto-one-protifolio/assets/104599482/ac1706c5-b955-4cd8-a9ae-30d96fe126a9)
+
 
 ### Descrição do projeto
 
