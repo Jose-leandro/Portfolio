@@ -25,7 +25,7 @@ O meu propósito é demonstrar o meu potencial e  uma visão do que anseio me 
 ### Hospedagem do projeto
 
 Para dar vida ao meu projeto, escolhi a poderosa plataforma de hospedagem Vercel, Sinta-se à vontade para explorar cada detalhe e funcionalidade deste projeto clicando neste
-[Link](https://projeto-one-protifolio.vercel.app/)
+[Link](https://portfolio-joseleandro.vercel.app/)
 
 
 ### Tecnologias utilizadas no projeto
