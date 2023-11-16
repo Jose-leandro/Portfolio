@@ -1,6 +1,5 @@
 
-![Portfólio - José leandro](https://github.com/Joseleandro7i/projeto-one-protifolio/assets/104599482/ac1706c5-b955-4cd8-a9ae-30d96fe126a9)
-
+![Portfólio - José leandro](https://github.com/Jose-leandro/portfolio-joseleandro/assets/104599482/fbaa81b4-ce38-495b-9445-6cc1faf39cd8)
 
 ### Descrição do projeto
 
@@ -63,7 +62,7 @@ Neste projeto, você encontrará uma sinfonia de tecnologias, sendo cada uma del
 
  <p>Desenvolvido por José leandro</p>
 
- <img src="https://github.com/Joseleandro7i/Calculadora-OES/assets/104599482/aa4ab3f4-e5a8-4958-bcdd-3307242019f8" width="130px;"/>
+ <img src="https://github.com/Jose-leandro/Calculadora-OES/assets/104599482/aa4ab3f4-e5a8-4958-bcdd-3307242019f8" width="130px;"/>
 
  <p>Se você quer acompanhar a minha jornada de aprimoramento do meu Portfólio, ou mesmo apenas deseja entrar em contato, por favor, sinta-se à vontade para utilizar esses canais de comunicação. Estou entusiasmado para estabelecer conexões significativas e compartilhar interesses em comum.</p>
 
