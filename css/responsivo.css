@@ -4,26 +4,6 @@
         height: 300px;
     }
 
-    .curriculo__meu {
-        display: flex;
-        flex-direction: column;
-        height: 70%;
-        justify-content: space-between;
-        margin-bottom: 2em;
-        margin-top: 1em;
-    }
-
-    .curriculo__btn {
-        border-radius: 30px;
-        font-size: 18px;
-        padding: 6px;
-        width: 150px;
-    }
-
-    .curriculo__ancora {
-        font-size: 14px;
-    }
-
     .projeto {
         height: 880px;
     }
@@ -367,20 +347,6 @@
 
     .curriculo {
         height: 250px;
-    }
-
-    .curriculo__meu {
-        height: 55px;
-    }
-
-    .curriculo__btn {
-        font-size: 20px;
-        padding: 8px;
-        width: 200px;
-    }
-
-    .curriculo__ancora {
-        font-size: 18px;
     }
 
     h2 {
@@ -951,20 +917,6 @@
 
     .curriculo {
         height: 250px;
-    }
-
-    .curriculo__meu {
-        height: 55px;
-    }
-
-    .curriculo__btn {
-        font-size: 20px;
-        padding: 8px;
-        width: 200px;
-    }
-
-    .curriculo__ancora {
-        font-size: 18px;
     }
 
     h2 {
