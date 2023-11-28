@@ -22,6 +22,8 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Shalimar&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -183,20 +185,93 @@
 
                 <p>Currículo</p>
             </div>
-            <h1>Olá, tudo bem? No momento, meu currículo está temporariamente indisponível, pois estou trabalhando em um novo design para o currículo, bem como atualização das informações contidas nele. Agradeço a sua compreensão e desejo-lhe um bom dia.</h1>
+            <h1>Olá, tudo bem? No momento, meu currículo está temporariamente indisponível, pois estou trabalhando em um
+                novo design para o currículo, bem como atualização das informações contidas nele. Agradeço a sua
+                compreensão e desejo-lhe um bom dia.</h1>
         </section>
 
         <section class="projeto" id="projetos">
-            <div>
+            <div class="projeto__titulo">
                 <h5>Projetos</h5>
             </div>
-            <div class="projeto__contener">
-                <div class="projeto__contener__encriptador">
-                    <div class="projeto__contener__encriptador__descricao">
-                        <img class="projeto__contener__encriptador__descricao__img" src="img/Encriptador.png">
-                        <div class="projeto__contener__encriptador__descricao__popup__contener">
-                            <div class="projeto__contener__encriptador__descricao__popup__contener__h1">
-                                <h1 class="projeto__contener__encriptador__descricao__popup__contener__h1__x">X</h1>
+            <div class="projetos__container">
+                <div class="container__calculadora-oes">
+                    <div class="container__calculadora-oes--div">
+
+                        <div class="calculadora-oes__informacoes">
+                            <img class="calculadora-oes__img" src="img/calculadoraoes.png">
+                            <div class="calculadora-oes__titulo-botoes">
+                                <h2>Calculadora OES</h2>
+                                <div>
+                                    <button
+                                        onclick="visivelCalculadoraOesDescricao()">Descrição</button>
+                                    <a href="https://calculadora-oes.vercel.app/">
+                                        <button>Visualizar</button>
+                                    </a>
+                                    <a href="https://github.com/Jose-leandro/Calculadora-OES">
+                                        <button>Repositório</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="calculadora-oes__descricao">
+                            <div class="descricao__container">
+                                <button class="container__button-calculadora-oes">X</button>
+                            </div>
+                            <p>
+                                Calculadora OES é a ferramenta que tornará seus cálculos matemáticos simples e
+                                eficientes. Imagine-se em uma jornada descomplicada, onde as operações se tornam tão
+                                intuitivas quanto navegar na internet. Com uma interface e design simples, mas
+                                funcional, ela oferece o que você precisa para realizar suas operações matemáticas
+                                fundamentais.<br><br>
+
+                                Reconheço que, atualmente, a Calculadora OES pode parecer simples e conter alguns
+                                pequenos erros. No entanto, estou empolgado em anunciar que tenho grandes planos. Em
+                                breve, esta calculadora se transformará em algo incrível, com funcionalidades
+                                aprimoradas, uma interface ainda mais intuitiva e, é claro, menos bugs. Estou
+                                comprometido em evoluir continuamente para proporcionar a melhor experiência possível
+                                para você na realização de seus cálculos.
+                            </p>
+                            <div class="descricao__tecnologias">
+                                <div>
+                                    <h2>Tecnologias</h2>
+                                </div>
+                                <div>
+                                    <img src="img/react.png">
+                                    <img src="img/nodejs.png">
+                                    <img src="img/javascript.png">
+                                    <img src="img/html.png">
+                                    <img src="img/css.png">
+                                    <img src="img/git.png">
+                                    <img src="img/github.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__encriptador">
+                    <div class="container__encriptador--div">
+
+                        <div class="encriptador__informacoes">
+                            <img class="encriptador__img" src="img/Encriptador.png">
+                            <div class="encriptador__titulo-botoes">
+                                <h2>Encriptador-letras</h2>
+                                <div>
+                                    <button onclick="visivelEncriptadorDescricao()">Descrição</button>
+                                    <a href="https://jose-leandro.github.io/Encriptador-letras/">
+                                        <button>Visualizar</button>
+                                    </a>
+                                    <a href="https://github.com/Jose-leandro/Encriptador-letras">
+                                        <button>Repositório</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="encriptador__descricao">
+                            <div class="descricao__container">
+                                <button class="container__button-encriptador">X</button>
                             </div>
                             <p>"O meu projeto "encriptador de letras", o desenvolvi com a finalidade de criptografar
                                 e
@@ -211,45 +286,43 @@
                                 por
                                 "lnt" ou "r" por "gqt".
                             </p>
-                            <div class="projeto__contener__encriptador__descricao__popup__contener__tecnologias">
+                            <div class="descricao__tecnologias">
                                 <div>
-                                    <h1>Tecnologias que estão presente neste projeto</h1>
+                                    <h2>Tecnologias</h2>
                                 </div>
                                 <div>
-                                    <img class="projeto__contener__encriptador__descricao__popup__contener__tecnologias__img"
-                                        src="img/html.png">
-                                    <img class="projeto__contener__encriptador__descricao__popup__contener__tecnologias__img"
-                                        src="img/css.png">
-                                    <img class="projeto__contener__encriptador__descricao__popup__contener__tecnologias__img"
-                                        src="img/javascript.png">
-                                    <img class="projeto__contener__encriptador__descricao__popup__contener__tecnologias__img"
-                                        src="img/git.png">
-                                    <img class="projeto__contener__encriptador__descricao__popup__contener__tecnologias__img"
-                                        src="img/github.png">
+                                    <img src="img/html.png">
+                                    <img src="img/css.png">
+                                    <img src="img/javascript.png">
+                                    <img src="img/git.png">
+                                    <img src="img/github.png">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="projeto__contener__encriptador__visualizar">
-                        <h2>Encriptador-letras</h2>
-                        <div class="projeto__contener__encriptador__visualizar__btn">
-                            <button class="projeto__contener__encriptador__visualizar__btn__descricao"
-                                onclick="visivelPopupDescricaoProjetoEncriptador()">Descrição</button>
-                            <a href="https://joseleandro7i.github.io/Encriptador-letras/">
-                                <button>Visualizar</button>
-                            </a>
-                            <a href="https://github.com/Joseleandro7i/Encriptador-letras">
-                                <button>Repositório</button>
-                            </a>
-                        </div>
-                    </div>
                 </div>
-                <div class="projeto__contener__jogo">
-                    <div class="projeto__contener__jogo__descricao">
-                        <img class="projeto__contener__jogo__descricao__img" src="img/jogoinicio.png">
-                        <div class="projeto__contener__jogo__descricao__popup__contener">
-                            <div class="projeto__contener__jogo__descricao__popup__contener__h1">
-                                <h1 class="projeto__contener__jogo__descricao__popup__contener__h1__x">X</h1>
+                <div class="container__jogo">
+                    <div class="container__jogo--div">
+
+                        <div class="jogo__informacoes">
+                            <img class="jogo__img" src="img/jogoinicio.png">
+                            <div class="jogo__titulo-botoes">
+                                <h2>Jogo-da-forca</h2>
+                                <div>
+                                    <button onclick="visivelJogoDescricao()">Descrição</button>
+                                    <a href="https://jose-leandro.github.io/jogo-da-forca/">
+                                        <button>Visualizar</button>
+                                    </a>
+                                    <a href="https://github.com/Jose-leandro/jogo-da-forca">
+                                        <button>Repositório</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="jogo__descricao">
+                            <div class="descricao__container">
+                                <button class="container__button-jogo">X</button>
                             </div>
                             <p>
                                 Este projeto que desenvolvi possui o propósito de recriar um jogo tão popular e
@@ -278,45 +351,44 @@
                                 vencer o
                                 jogo
                             </p>
-                            <div class="projeto__contener__jogo__descricao__popup__contener__tecnologias">
+                            <div class="descricao__tecnologias">
                                 <div>
-                                    <h1>Tecnologias que estão presente neste projeto</h1>
+                                    <h2>Tecnologias</h2>
                                 </div>
                                 <div>
-                                    <img class="projeto__contener__jogo__descricao__popup__contener__tecnologias__img"
-                                        src="img/html.png">
-                                    <img class="projeto__contener__jogo__descricao__popup__contener__tecnologias__img"
-                                        src="img/css.png">
-                                    <img class="projeto__contener__jogo__descricao__popup__contener__tecnologias__img"
-                                        src="img/javascript.png">
-                                    <img class="projeto__contener__jogo__descricao__popup__contener__tecnologias__img"
-                                        src="img/git.png">
-                                    <img class="projeto__contener__jogo__descricao__popup__contener__tecnologias__img"
-                                        src="img/github.png">
+                                    <img src="img/html.png">
+                                    <img src="img/css.png">
+                                    <img src="img/javascript.png">
+                                    <img src="img/git.png">
+                                    <img src="img/github.png">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="projeto__contener__jogo__visualizar">
-                        <h2>Jogo-da-forca</h2>
-                        <div class="projeto__contener__jogo__visualizar__btn">
-                            <button class="projeto__contener__jogo__visualizar__btn__descricao"
-                                onclick="visivelPopupDescricaoProjetoJogo()">Descrição</button>
-                            <a href="https://joseleandro7i.github.io/jogo-da-forca/">
-                                <button>Visualizar</button>
-                            </a>
-                            <a href="https://github.com/Joseleandro7i/jogo-da-forca">
-                                <button>Repositório</button>
-                            </a>
-                        </div>
-                    </div>
                 </div>
-                <div class="projeto__contener__ecommerce">
-                    <div class="projeto__contener__ecommerce__descricao">
-                        <img class="projeto__contener__ecommerce__descricao__img" src="img/projeto_e-commecer.png">
-                        <div class="projeto__contener__ecommerce__descricao__popup__contener">
-                            <div class="projeto__contener__ecommerce__descricao__popup__contener__h1">
-                                <h1 class="projeto__contener__ecommerce__descricao__popup__contener__h1__x">X</h1>
+                <div class="container__ecommerce">
+                    <div class="container__ecommerce--div">
+
+                        <div class="ecommerce__informacoes">
+                            <img class="ecommerce__img" src="img/projeto_e-commecer.png">
+                            <div class="ecommerce__titulo-botoes">
+                                <h2>E-commerce - AstronômicoO</h2>
+                                <div>
+                                    <button
+                                        onclick="visivelEcommerceDescricao()">Descrição</button>
+                                    <a href="https://jose-leandro.github.io/e-commerce-astronomicoo/">
+                                        <button>Visualizar</button>
+                                    </a>
+                                    <a href="https://github.com/Jose-leandro/e-commerce-astronomicoo">
+                                        <button>Repositório</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ecommerce__descricao">
+                            <div class="descricao__container">
+                                <button class="container__button-ecommecer">X</button>
                             </div>
                             <p>
                                 "E-commerce - AstronômicoO"<br><br>
@@ -336,36 +408,115 @@
                                 estão em funcionamento e também torna-lo
                                 ainda mais incrível
                             </p>
-                            <div class="projeto__contener__ecommerce__descricao__popup__contener__tecnologias">
+                            <div class="descricao__tecnologias">
                                 <div>
-                                    <h1>Tecnologias que estão presente neste projeto</h1>
+                                    <h2>Tecnologias</h2>
                                 </div>
                                 <div>
-                                    <img class="projeto__contener__ecommerce__descricao__popup__contener__tecnologias__img"
-                                        src="img/html.png">
-                                    <img class="projeto__contener__ecommerce__descricao__popup__contener__tecnologias__img"
-                                        src="img/css.png">
-                                    <img class="projeto__contener__ecommerce__descricao__popup__contener__tecnologias__img"
-                                        src="img/javascript.png">
-                                    <img class="projeto__contener__ecommerce__descricao__popup__contener__tecnologias__img"
-                                        src="img/git.png">
-                                    <img class="projeto__contener__ecommerce__descricao__popup__contener__tecnologias__img"
-                                        src="img/github.png">
+                                    <img src="img/html.png">
+                                    <img src="img/css.png">
+                                    <img src="img/javascript.png">
+                                    <img src="img/git.png">
+                                    <img src="img/github.png">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="projeto__contener__ecommerce__visualizar">
-                        <h2>E-commerce - AstronômicoO</h2>
-                        <div class="projeto__contener__ecommerce__visualizar__btn">
-                            <button class="projeto__contener__ecommerce__visualizar__btn__descricao"
-                                onclick="visivelPopupDescricaoProjetoEcommerce()">Descrição</button>
-                            <a href="https://joseleandro7i.github.io/e-commerce-astronomicoo/">
-                                <button>Visualizar</button>
-                            </a>
-                            <a href="https://github.com/Joseleandro7i/e-commerce-astronomicoo">
-                                <button>Repositório</button>
-                            </a>
+                </div>
+                <div class="container__upload-ai">
+                    <div class="container__upload-ai--div">
+
+                        <div class="upload-ai__informacoes">
+                            <img class="upload-ai__img" src="img/upload-ai.png">
+                            <div class="upload-ai__titulo-botoes">
+                                <h2>Upload-Ai</h2>
+                                <div>
+                                    <button
+                                        onclick="visivelUploadAiDescricao()">Descrição</button>
+                                    <a href="https://upload-ai-jose-leandro.vercel.app/">
+                                        <button>Visualizar</button>
+                                    </a>
+                                    <a href="https://github.com/Jose-leandro/Upload-AI">
+                                        <button>Repositório</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="upload-ai__descricao">
+                            <div class="descricao__container">
+                                <button class="container__button-upload-ai">X</button>
+                            </div>
+                            <p>
+                                "Upload AI Server" em conjunto com "Upload AI" é uma ferramenta de upload de vídeos para
+                                o YouTube que não só simplifica o processo,
+                                mas também gera títulos cativantes, descrições envolventes, e isso é apenas o começo, no
+                                futuro, essa ferramenta terá ainda mais recursos incríveis.
+                            </p>
+                            <div class="descricao__tecnologias">
+                                <div>
+                                    <h2>Tecnologias</h2>
+                                </div>
+                                <div>
+                                    <img src="img/openai.png">
+                                    <img src="img/react.png">
+                                    <img src="img/nodejs.png">
+                                    <img src="img\ffmpeg.png">
+                                    <img src="img/tailwindcss.png">
+                                    <img src="img/javascript.png">
+                                    <img src="img/typescript.png">
+                                    <img src="img/html.png">
+                                    <img src="img/css.png">
+                                    <img src="img/git.png">
+                                    <img src="img/github.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__listar">
+                    <div  class="container__listar--div">
+
+                        <div class="listar__informacoes">
+                            <img class="listar__img" src="img/listar.png">
+                            <div class="listar__titulo-botoes">
+                                <h2>Listar</h2>
+                                <div>
+                                    <button
+                                        onclick="visivelListarDescricao()">Descrição</button>
+                                    <a href="https://jose-leandro.github.io/LisTar/">
+                                        <button>Visualizar</button>
+                                    </a>
+                                    <a href="https://github.com/Jose-leandro/LisTar">
+                                        <button>Repositório</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="listar__descricao">
+                            <div class="descricao__container">
+                                <button class="container__button-listar">X</button>
+                            </div>
+                            <p>
+                                LisTar é um grande, incrível e lindo gerenciador de listas de tarefas, que lhe permitir
+                                controle, facilidade e rapidez no gerenciamento das suas listas de tarefas, seja ela uma
+                                lista de compras, de afazeres diários, metas, objetivos e entre outras, e você que
+                                decide qual será sua lista de tarefas, uma curiosidade sobre o nome do projeto "LisTar",
+                                é resultado da abreviação das 3 primeiras letras de "lista" e "tarefa".
+                            </p>
+                            <div class="descricao__tecnologias">
+                                <div>
+                                    <h2>Tecnologias</h2>
+                                </div>
+                                <div>
+                                    <img src="img/sass.png">
+                                    <img src="img/javascript.png">
+                                    <img src="img/html.png">
+                                    <img src="img/css.png">
+                                    <img src="img/git.png">
+                                    <img src="img/github.png">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -417,4 +568,4 @@
 
 <script src="js/validacoes.js"></script>
 <script src="js/formacao.js"></script>
-<script src="js/descricaoDosProjetos.js"></script>
+<script src="js/projetos.js"></script>

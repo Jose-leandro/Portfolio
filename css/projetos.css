@@ -1,5 +1,16 @@
 .projeto {
     margin: 2em 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.projeto__titulo {
+    width: 100%;
 }
 
 .projeto h5 {
@@ -15,65 +26,138 @@
     width: 166px;
 }
 
-.projeto__contener {
+.projetos__container {
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 1.7em;
+    flex-wrap: wrap;
 }
 
-.projeto__contener__encriptador {
+.container__calculadora-oes,
+.container__encriptador,
+.container__jogo,
+.container__ecommerce,
+.container__listar,
+.container__upload-ai {
+
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 700px;
+    width: auto;
+    height: auto;
+    margin: 25px 0px;
 }
 
-.projeto__contener__encriptador__descricao {
+.container__calculadora-oes--div,
+.container__encriptador--div,
+.container__jogo--div,
+.container__ecommerce--div,
+.container__listar--div,
+.container__upload-ai--div {
+
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
 }
 
-.projeto__contener__encriptador__descricao__img {
+.calculadora-oes__informacoes,
+.encriptador__informacoes,
+.jogo__informacoes,
+.ecommerce__informacoes,
+.listar__informacoes,
+.upload-ai__informacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 41vh;
+}
+
+.calculadora-oes__img,
+.encriptador__img,
+.jogo__img,
+.ecommerce__img,
+.listar__img,
+.upload-ai__img {
+
     border-radius: 20px;
-    border: 2px solid #3a3636;
+    border: 1.9px solid #343a3f;
     height: 250px;
     width: 400px;
 }
 
-.projeto__contener__encriptador__descricao__popup__contener {
-    background: #161616;
-    border-radius: 30px;
-    height: auto;
-    left: auto;
-    position: absolute;
+.calculadora-oes__descricao,
+.encriptador__descricao,
+.jogo__descricao,
+.ecommerce__descricao,
+.listar__descricao,
+.upload-ai__descricao {
+
+    background: transparent;
+    border: 1.9px solid #2f3b45;
+    border-radius: 10px;
+    padding: 20px 30px;
     text-align: center;
-    visibility: hidden;
+    height: auto;
+    text-align: center;
+    display: none;
+    width: 51%;
+    margin-top: 2em;
 }
 
-.projeto__contener__encriptador__descricao__popup__contener__h1 {
-    align-items: flex-end;
+.descricao__container {
     display: flex;
     flex-direction: column;
-    height: 40px;
-    width: 100%;
+    align-items: flex-end;
 }
 
-.projeto__contener__encriptador__descricao__popup__contener__h1__x {
+.calculadora-oes__descricao button,
+.encriptador__descricao button,
+.jogo__descricao button,
+.ecommerce__descricao button,
+.listar__descricao button,
+.upload-ai__descricao button {
+
     cursor: pointer;
-    font-size: 18px;
-    margin-top: 0.5em;
-    text-align: center;
-    width: 8%;
+    background: transparent;
+    border: 1.9px solid #2f3b45;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
 }
 
-.projeto__contener__encriptador__descricao__popup__contener__h1__x:hover {
-    font-size: 19px;
+.calculadora-oes__descricao button:hover,
+.encriptador__descricao button:hover,
+.jogo__descricao button:hover,
+.ecommerce__descricao button:hover,
+.listar__descricao button:hover,
+.upload-ai__descricao button:hover {
+
+    border-radius: 2px;
 }
 
-.projeto__contener__encriptador__descricao__popup__contener__h1__x:active {
-    font-size: 17px;
+.calculadora-oes__descricao button:active,
+.encriptador__descricao button:active,
+.jogo__descricao button:active,
+.ecommerce__descricao button:active,
+.listar__descricao button:active,
+.upload-ai__descricao button:active {
+
+    border-radius: 7px;
 }
 
-.projeto__contener__encriptador__descricao__popup__contener p {
+.calculadora-oes__descricao p,
+.encriptador__descricao p,
+.jogo__descricao p,
+.ecommerce__descricao p,
+.listar__descricao p,
+.upload-ai__descricao p {
+
     align-items: center;
     display: flex;
     height: auto;
@@ -82,38 +166,39 @@
     text-align: left;
 }
 
-.projeto__contener__encriptador__descricao__popup__contener__tecnologias {
-    align-items: center;
-    background: #161616;
-    border-radius: 30px;
+.descricao__tecnologias {
+    height: 130px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.projeto__contener__encriptador__descricao__popup__contener__tecnologias div {
-    align-items: center;
+.descricao__tecnologias div:first-child {
     display: flex;
-    height: 60px;
-    margin: 8px 0;
+    justify-content: flex-start;
 }
 
-.projeto__contener__encriptador__descricao__popup__contener__tecnologias h1 {
-    font-size: 20px;
-    width: 96%;
+.descricao__tecnologias h2 {
+    border-radius: 15px;
+    background: #15191c;
+    padding: 10px 20px;
 }
 
-.projeto__contener__encriptador__descricao__popup__contener__tecnologias__img {
+.descricao__tecnologias img {
     height: 40px;
     margin: 0 20px;
     width: 40px;
+    border: 1.9px solid #343a3f;
+    border-radius: 10px;
 }
 
-.projeto__contener__encriptador__descricao__popup__contener__tecnologias__img:hover {
-    margin-bottom: 0.4em;
-}
+.calculadora-oes__titulo-botoes,
+.encriptador__titulo-botoes,
+.jogo__titulo-botoes,
+.ecommerce__titulo-botoes,
+.listar__titulo-botoes,
+.upload-ai__titulo-botoes {
 
-.projeto__contener__encriptador__visualizar {
     align-items: center;
     border-radius: 20px;
     display: flex;
@@ -125,291 +210,152 @@
     text-align: center;
     top: auto;
     width: 400px;
+    background-color: #0d1216b3;
+    opacity: 0%;
 }
 
-.projeto__contener__encriptador__visualizar h2 {
-    background: #272525;
-    border-radius: 15px;
+.calculadora-oes__titulo-botoes:hover,
+.encriptador__titulo-botoes:hover,
+.jogo__titulo-botoes:hover,
+.ecommerce__titulo-botoes:hover,
+.listar__titulo-botoes:hover,
+.upload-ai__titulo-botoes:hover {
+
+    opacity: 100%;
+}
+
+.calculadora-oes__titulo-botoes h2,
+.encriptador__titulo-botoes h2,
+.jogo__titulo-botoes h2,
+.ecommerce__titulo-botoes h2,
+.listar__titulo-botoes h2,
+.upload-ai__titulo-botoes h2 {
+
+    background: #171a1c;
+    box-shadow: #000000e8 0px 20px 30px -10px;
+    border-radius: 10px;
+    text-align: center;
     color: #fff;
-    font-family: 'Kalam', cursiva;
-    font-family: 'Old Standard TT', serif;
-    font-size: 25px;
+    font-family: 'Noto Serif JP', serif;
     padding: 10px 20px;
-    text-decoration: underline;
 }
 
-.projeto__contener__encriptador__visualizar__btn {
+.calculadora-oes__titulo-botoes div,
+.encriptador__titulo-botoes div,
+.jogo__titulo-botoes div,
+.ecommerce__titulo-botoes div,
+.listar__titulo-botoes div,
+.upload-ai__titulo-botoes div {
+
     display: flex;
     justify-content: space-evenly;
 }
 
-.projeto__contener__encriptador__visualizar button {
-    background: #861a33;
+.calculadora-oes__titulo-botoes button,
+.encriptador__titulo-botoes button,
+.jogo__titulo-botoes button,
+.ecommerce__titulo-botoes button,
+.listar__titulo-botoes button,
+.upload-ai__titulo-botoes button {
+
+    background: #1c2124;
+    border: none;
     border-radius: 15px;
-    border: solid 2px #1d1515;
-    color: #fff;
-    cursor: pointer;
-}
-
-.projeto__contener__jogo {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.projeto__contener__jogo__descricao {
-    display: flex;
-    width: 100%;
-}
-
-.projeto__contener__jogo__descricao__img {
-    border-radius: 20px;
-    border: 2px solid #3a3636;
-    height: 250px;
-    width: 400px;
-}
-
-.projeto__contener__jogo__descricao__popup__contener {
-    background: #161616;
-    border-radius: 30px;
-    height: auto;
-    left: auto;
-    padding: 10px;
-    position: absolute;
     text-align: center;
-    top: 3350px;
-    visibility: hidden;
-    width: 62%;
-}
-
-.projeto__contener__jogo__descricao__popup__contener__h1 {
-    align-items: flex-end;
-    display: flex;
-    flex-direction: column;
-    height: 40px;
-    width: 100%;
-}
-
-.projeto__contener__jogo__descricao__popup__contener__h1__x {
-    cursor: pointer;
-    font-size: 18px;
-    margin-top: 0.5em;
-    text-align: center;
-    width: 8%;
-}
-
-.projeto__contener__jogo__descricao__popup__contener__h1__x:hover {
-    font-size: 19px;
-}
-
-.projeto__contener__jogo__descricao__popup__contener__h1__x:active {
-    font-size: 17px;
-}
-
-.projeto__contener__jogo__descricao__popup__contener p {
-    display: flex;
-    height: auto;
-    line-height: 25px;
-    margin-bottom: 2em;
-    text-align: left;
-}
-
-.projeto__contener__jogo__descricao__popup__contener__tecnologias {
-    align-items: center;
-    background: #161616;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.projeto__contener__jogo__descricao__popup__contener__tecnologias div {
-    align-items: center;
-    display: flex;
-    height: 60px;
-    margin: 8px 0;
-}
-
-.projeto__contener__jogo__descricao__popup__contener__tecnologias h1 {
-    font-size: 20px;
-    width: 96%;
-}
-
-.projeto__contener__jogo__descricao__popup__contener__tecnologias__img {
-    height: 40px;
-    margin: 0 20px;
-    width: 40px;
-}
-
-.projeto__contener__jogo__descricao__popup__contener__tecnologias__img:hover {
-    margin-bottom: 0.4em;
-}
-
-.projeto__contener__jogo__visualizar {
-    align-items: center;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    height: 250px;
-    justify-content: space-evenly;
-    left: auto;
-    position: absolute;
-    text-align: center;
-    top: auto;
-    width: 400px;
-}
-
-.projeto__contener__jogo__visualizar h2 {
-    background: #363434;
-    border-radius: 15px;
-    color: #fff;
-    font-family: 'Kalam', cursiva;
-    font-family: 'Old Standard TT', serif;
-    font-size: 25px;
     padding: 10px 20px;
-    text-decoration: underline;
-}
-
-.projeto__contener__jogo__visualizar__btn {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.projeto__contener__jogo__visualizar button {
-    background: #861a33;
-    border-radius: 15px;
-    border: solid 2px #1d1515;
     color: #fff;
-    cursor: pointer;
-}
-
-.projeto__contener__ecommerce {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.projeto__contener__ecommerce__descricao {
-    display: flex;
-    width: 100%;
-}
-
-.projeto__contener__ecommerce__descricao__img {
-    border-radius: 20px;
-    border: 2px solid #3a3636;
-}
-
-.projeto__contener__ecommerce__descricao__popup__contener {
-    background: #161616;
-    border-radius: 30px;
+    font-size: 15px;
+    font-family: 'Noto Serif JP', serif;
+    border: 1.9px solid #343a3f;
     height: auto;
-    left: auto;
-    position: absolute;
-    text-align: center;
-    visibility: hidden;
-}
-
-.projeto__contener__ecommerce__descricao__popup__contener__h1 {
-    align-items: flex-end;
-    display: flex;
-    flex-direction: column;
-    height: 40px;
-    width: 100%;
-}
-
-.projeto__contener__ecommerce__descricao__popup__contener__h1__x {
+    margin: 0px 7px;
     cursor: pointer;
-    font-size: 18px;
-    margin-top: 0.5em;
-    text-align: center;
-    width: 8%;
 }
 
-.projeto__contener__ecommerce__descricao__popup__contener__h1__x:hover {
-    font-size: 19px;
+@media screen and (max-width: 480px) {
+    .projeto {
+        align-items: flex-start;
+    }
+
+    .projetos__container {
+        align-items: center;
+    }
+
+    .container__calculadora-oes,
+    .container__encriptador,
+    .container__jogo,
+    .container__ecommerce,
+    .container__listar,
+    .container__upload-ai {
+
+        width: 90%;
+    }
+
+    .calculadora-oes__img,
+    .encriptador__img,
+    .jogo__img,
+    .ecommerce__img,
+    .listar__img,
+    .upload-ai__img {
+
+        height: 200px;
+        width: 100%;
+    }
+
+    .calculadora-oes__titulo-botoes,
+    .encriptador__titulo-botoes,
+    .jogo__titulo-botoes,
+    .ecommerce__titulo-botoes,
+    .listar__titulo-botoes,
+    .upload-ai__titulo-botoes {
+
+        height: 200px;
+        width: 86%;
+    }
+
+    .calculadora-oes__titulo-botoes button,
+    .encriptador__titulo-botoes button,
+    .jogo__titulo-botoes button,
+    .ecommerce__titulo-botoes button,
+    .listar__titulo-botoes button,
+    .upload-ai__titulo-botoes button {
+
+        padding: 5px 2px;
+        font-size: 14px;
+    }
+
+    .calculadora-oes__descricao,
+    .encriptador__descricao,
+    .jogo__descricao,
+    .ecommerce__descricao,
+    .listar__descricao,
+    .upload-ai__descricao {
+
+        width: 71%;
+    }
+
+    .descricao__tecnologias {
+        height: 200px;
+    }
 }
 
-.projeto__contener__ecommerce__descricao__popup__contener__h1__x:active {
-    font-size: 17px;
-}
+@media screen and (min-width: 481px) {
 
-.projeto__contener__ecommerce__descricao__popup__contener p {
-    align-items: center;
-    display: flex;
-    height: auto;
-    line-height: 25px;
-    margin-bottom: 2em;
-    text-align: left;
-}
+    .projetos__container {
+        align-items: center;
+    }
 
-.projeto__contener__ecommerce__descricao__popup__contener__tecnologias {
-    align-items: center;
-    background: #161616;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
+    .calculadora-oes__descricao,
+    .encriptador__descricao,
+    .jogo__descricao,
+    .ecommerce__descricao,
+    .listar__descricao,
+    .upload-ai__descricao {
 
-.projeto__contener__ecommerce__descricao__popup__contener__tecnologias div {
-    align-items: center;
-    display: flex;
-    height: 60px;
-    margin: 8px 0;
-}
+        width: 71%;
+    }
 
-.projeto__contener__ecommerce__descricao__popup__contener__tecnologias h1 {
-    font-size: 20px;
-    width: 96%;
-}
-
-.projeto__contener__ecommerce__descricao__popup__contener__tecnologias__img {
-    height: 40px;
-    margin: 0 20px;
-    width: 40px;
-}
-
-.projeto__contener__ecommerce__descricao__popup__contener__tecnologias__img:hover {
-    margin-bottom: 0.4em;
-}
-
-.projeto__contener__ecommerce__visualizar {
-    align-items: center;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    height: 250px;
-    justify-content: space-evenly;
-    left: auto;
-    position: absolute;
-    text-align: center;
-    top: auto;
-    width: 400px;
-}
-
-.projeto__contener__ecommerce__visualizar h2 {
-    background: #444242;
-    border-radius: 15px;
-    color: #fff;
-    font-family: 'Kalam', cursiva;
-    font-family: 'Old Standard TT', serif;
-    font-size: 25px;
-    padding: 10px 20px;
-    text-decoration: underline;
-    width: auto;
-}
-
-.projeto__contener__ecommerce__visualizar__btn {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.projeto__contener__ecommerce__visualizar button {
-    background: #861a33;
-    border-radius: 15px;
-    border: solid 2px #1d1515;
-    color: #fff;
-    cursor: pointer;
+    .descricao__tecnologias {
+        height: 180px;
+    }
 }
