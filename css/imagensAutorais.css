@@ -1,22 +1,29 @@
 body {
-    background-color: #000000;
-    color: rgb(192, 185, 173);
+    background-color: #0D1216;
+    color: #b5bbc9;
+    font-size: 18px;
+    width: 100%;
 }
 
 .main__contener {
     align-items: center;
     display: flex;
-    flex-direction: column;
-    height: 700px;
+    flex-direction: row;
+    height: auto;
     justify-content: space-evenly;
     margin-bottom: 2em;
     margin-top: 2em;
+    flex-wrap: wrap;
 }
 
 .imagens__autorais {
     height: 150px;
     margin-bottom: 3em;
+    flex-direction: column;
     text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
 }
 
 .autorais__titulo {
@@ -26,8 +33,7 @@ body {
 
 .autorais__informacoes {
     font-size: 18px;
-    margin-bottom: 3em;
-    margin-top: 4em;
+    width: 80%;
 }
 
 .contener__icone {
@@ -36,7 +42,23 @@ body {
     justify-content: space-around;
     margin-bottom: 2em;
     margin-top: 4em;
-    width: 100%;
+    align-items: center;
+    width: 30%;
+}
+
+.contener__icone a {
+    color: #b5bbc9;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.contener__icone a:hover {
+    background: #171a1c;
+    border-radius: 10px;
+    padding: 8px 10px;
 }
 
 .informacoes {
@@ -51,11 +73,6 @@ body {
 
 .imagens__ancora:hover {
     font-size: 19px;
-}
-
-.rodape__autoral {
-    background: linear-gradient(50deg, #191024, #101e25);
-    display: flex;
 }
 
 .autoral__desenvolvedor {
