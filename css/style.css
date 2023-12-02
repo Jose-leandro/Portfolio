@@ -5,6 +5,13 @@ body {
     width: 100%;
 }
 
+h6 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 .main {
     display: flex;
     flex-wrap: wrap;

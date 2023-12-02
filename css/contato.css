@@ -1,141 +1,200 @@
-.contato {
-    width: 100%;
-}
+    .contato {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
 
-.contato__formulario {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    background: #645d5d1a;
-    border-radius: 55px;
-    height: 100%;
-}
+    .contato__titulo {
+        width: 100%;
+    }
 
-.formulario__preencher {
-    height: 100%;
-    width: 100%;
-}
+    .contato__container {
+        align-items: center;
+        display: flex;
+        height: 450px;
+        justify-content: space-evenly;
+        width: 100%;
+    }
 
-.formulario__preencher div {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    align-items: center;
-}
+    .container__form {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        width: 55%;
+    }
 
-.formulario__preencher input {
-    background-color: transparent;
-    border-radius: 6px;
-    text-align: center;
-    border-radius: 55px;
-    border: 1px solid #a39e9e30;
-    height: 40px;
-    color: #fff;
-}
+    .form__titulo {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.4em;
+        margin-bottom: 1.4em;
+    }
 
-.formulario__preencher input::placeholder  {
-    font-size: 15px;
-    font-family: cursive;
-}
+    .contato__titulo h5 {
+        background: #171a1c;
+        border-radius: 20px;
+        box-shadow: #000000e8 0px 20px 30px -10px;
+        font-family: 'Lora', serif;
+        font-size: 26px;
+        margin-bottom: 0.6em;
+        margin-left: 0.8em;
+        padding: 6px 0px;
+        text-align: center;
+        width: 166px;
+    }
 
-.formulario__preencher input:focus {
-    border: #000;
-   
-}
+    .form__titulo h6 {
+        background: #171a1c;
+        border-radius: 11px;
+        box-shadow: #000000e8 0px 20px 30px -10px;
+        font-family: 'Lora', serif;
+        font-size: 24px;
+        left: auto;
+        margin-bottom: 0.6em;
+        margin-left: 0.8em;
+        padding: 10px 10px;
+        position: absolute;
+        text-align: center;
+        top: auto;
+        width: auto;
+    }
 
-.formulario__preencher label {
-    color: #c0b9ad9e;
-    margin-bottom: 1em;
-    font-family: cursive;
-}
+    .form__label-input {
+        background: transparent;
+        border: 1.9px solid #2f3b45;
+        border-radius: 10px;
+        height: auto;
+        margin-left: 1.2em;
+        padding: 20px 30px;
+        width: 70%;
+    }
 
-.preencher__nome {
-    width: 30%;
-}
+    .form__label-input div {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+    }
 
-.label__nome {
-    text-align: left;
-    width: 30%;
-    margin-left: 1.2em;
-}
+    .form__label-input label {
+        font-family: 'Lora', serif;
+        font-size: 16.5px;
+    }
 
-.erro__nome {
-    border-color: #7c1b1f;
-}
+    .form__label-input input {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1.9px solid #222528;
+        color: #fff;
+        font-size: 15px;
+        height: 30px;
+        margin: 12px 0px 20px 10px;
+        width: auto;
+    }
 
-.contener__nome {
-    color: #7c1b1f;
-}
+    .form__label-input input:focus {
+        border-bottom: 2px solid #2e3135;
+        outline: none;
+        padding: 0px 2px;
+        width: 102%;
+    }
 
-.preencher__email {
-   width: 40%;
-}
+    .form__label-input input::placeholder {
+        color: #5f6264;
+        font-size: 15px;
+    }
 
-.erro__email {
-    border-color: #7c1b1f;
-}
+    .form__agradecimentos {
+        align-items: end;
+        background: transparent;
+        border: 1.9px solid #2f3b45;
+        border-radius: 10px;
+        display: flex;
+        display: none;
+        flex-direction: column;
+        height: auto;
+        justify-content: space-evenly;
+        padding: 20px 40px;
+        width: 30%;
+    }
 
-.label__email {
-    text-align: left;
-    width: 40%;
-    margin-left: 1.2em;
-}
+    .form__agradecimentos h6 {
+        align-items: center;
+        background: transparent;
+        border: 1.9px solid #2f3b45;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Lora', serif;
+        font-size: 16.5px;
+        height: 20px;
+        justify-content: center;
+        margin: 0px;
+        width: 25px;
+    }
 
-.contener__email {
-    color: #7c1b1f;
-}
+    .form__agradecimentos h6:hover {
+        border-radius: 6px;
+        width: 25.5px;
+    }
 
-.preencher__motivo {
-  width: 60%;
-}
+    .form__agradecimentos h6:active {
+        border-radius: 4px;
+        width: 24.8px;
+    }
 
-.erro__motivo {
-    border-color: #7c1b1f;
-}
+    .form__agradecimentos p {
+        text-align: left;
+        width: 100%;
+    }
 
-.label__motivo {
-    text-align: left;
-    width: 60%;
-    margin-left: 1.2em;
-}
+    .contato__container span {
+        background: #271e21;
+        border-radius: 9px;
+        display: none;
+        margin-top: 1em;
+        padding: 10px 10px;
+    }
 
-.contener__motivo {
-    color: #7c1b1f;
-}
+    .contato__container a {
+        background-color: transparent;
+        border: 1.9px solid #222528;
+        border-radius: 10px;
+        color: #b5bbc9;
+        cursor: pointer;
+        height: auto;
+        margin-top: 1.5em;
+        padding: 10px 40px;
+        width: auto;
+    }
 
-.preencher__btn {
-    background: transparent;
-    border-radius: 55px;
-    padding: 20px 60px;
-    color: #c0b9ad9e;
-    margin-bottom: 1em;
-    border: 1px solid #a39e9e30;
-    cursor: pointer;
-    font-family: cursive;
-    font-size: 15px;
-}
+    .contato__container a:hover {
+        background: #1a1c1c;
+        border-radius: 11px;
+    }
 
-.preencher__btn:hover {
-    border: 1px solid #a39e9e12;
-    background: #ffffff0a;
-}
+    .contato__container a:active {
+        background: #151818;
+        border-radius: 9px;
+    }
 
-.preencher__btn:active {
-    border: 1px solid #a39e9e0a;
-    background: #ffffff03;
-}
+    @media screen and (max-width: 760px) {
+        .contato {
+            height: 700px;
+        }
 
-.span__erro {
-    color: #c0b9ad9e;
-    text-align: center;
-    visibility: hidden;
-    margin-bottom: 2em;
-    background: #161616;
-    padding: 15px 20px;
-    border-radius: 55px;
-    font-family: cursive;
-    font-size: 16px;
-    width: 30%;
-}
+        .contato__container {
+            flex-direction: column-reverse;
+            height: auto;
+        }
+
+        .form__agradecimentos {
+            margin-bottom: 2em;
+            margin-top: 2em;
+        }
+    }
