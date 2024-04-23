@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jose-leandro/Portfolio.git"
+  },
+  "author": "José leandro",
+  "license": "MIT license",
+  "bugs": {
+    "url": "https://github.com/Jose-leandro/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Jose-leandro/Portfolio#readme",
+  "dependencies": {
+    "next": "^14.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
