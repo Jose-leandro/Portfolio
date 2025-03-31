@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import PropTypes from "prop-types";
+import { useRef } from "react";
 
 // Extract styles into a constant for readability
 const imageStyles = `
@@ -10,6 +11,10 @@ const imageStyles = `
 
 // ProjectImage component
 function ProjectImage({ src, imageRef }) {
+
+  imageRef = useRef(null);
+  console.log(src, imageRef)
+
   return (
     <Image
       className={imageStyles}

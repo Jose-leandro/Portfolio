@@ -14,13 +14,13 @@ export const useToggleVisibility = (initialState) => {
 
     setVisibility((previousState) => {
       const newState = { ...previousState };
+
+      the error it's in thsi part
       Object.keys(newState).forEach((key) => {
-        newState[key] = key === projectKey
-          ? previousState[projectKey]
-          : isClicked
-          ? true
-          : !previousState[key];
+        newState[key] = key === projectKey ? previousState[projectKey] : isClicked ? true : !previousState[key]
       });
+
+      console.log(newState)
       return newState;
     });
   };

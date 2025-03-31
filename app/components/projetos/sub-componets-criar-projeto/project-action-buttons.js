@@ -25,21 +25,13 @@ const getButtonClass = (isActive, isHovered) => clsx(
 );
 
 /**
+ * @param projectData.projectData
  * @param {Object} projectData - The data related to the project.
- * @param {string} projectData.referenceElementPosition - The ID for positioning the element.
- * @param {string} projectData.ProjectName - The name of the project to display.
- * @param {string} [projectData.urlDeploy] - The URL to deploy the project.
- * @param {string} [projectData.urlRepository] - The URL to the project's repository.
- * @param {function} projectData.toggleDescription - Click handler for the description button.
  * @returns {JSX.Element} The rendered component.
  */
-function ProjectActionButtons( projectData ) {
-
-  const  {
-    referenceElementPosition, ProjectName, urlDeploy, urlRepository, toggleDescription } = projectData;
-
-  const handleVisualizarClick = () => openLink(urlDeploy);
-  const handleRepositorioClick = () => openLink(urlRepository);
+function ProjectActionButtons({ projectData }) {
+  const handleVisualizarClick = () => openLink(projectData.urlDeploy);
+  const handleRepositorioClick = () => openLink(projectData.urlRepository);
 
   const buttons = [
     { label: "Descrição", onClick: handleVisualizarClick },
@@ -50,10 +42,9 @@ function ProjectActionButtons( projectData ) {
   return (
     <div className="items-center rounded-2xl flex flex-col h-44 w-[90%] md:w-[95%] xl:h-[256px]
      justify-evenly absolute text-center top-auto xl:w-[410px] bg-dark-clear opacity-0 
-     hover:opacity-100" id={referenceElementPosition} ref={referenceElementPosition} >
+     hover:opacity-100" id={projectData.referenceElementPosition} ref={projectData.referenceElementPosition} >
 
-      <h2 className={headingClass} >
-        {ProjectName} </h2>
+      <h2 className={headingClass}> {projectData.ProjectName} </h2>
 
       <div className="flex justify-evenly w-full">
         {buttons.map((button) => (
@@ -67,13 +58,6 @@ function ProjectActionButtons( projectData ) {
 
 // PropTypes validation
 ProjectActionButtons.propTypes = {
-  projectData: PropTypes.shape({
-    referenceElementPosition: PropTypes.string.isRequired,
-    ProjectName: PropTypes.string.isRequired,
-    urlDeploy: PropTypes.string,
-    urlRepository: PropTypes.string,
-    toggleDescription: PropTypes.func.isRequired,
-  }).isRequired,
 };
 
 // Default props for fallback values

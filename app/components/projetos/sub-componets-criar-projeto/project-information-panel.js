@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import ProjectTechnologies from "./project-technologies";
 
 function ProjectInformationPanel({ projectData, isVisible, onClosePanel }) {
-  const { projectDescription, technologies } = projectData;
 
   return (
     <div className={`bg-transparent border-[1.9px] border-solid border-custom-white 
@@ -19,11 +18,11 @@ function ProjectInformationPanel({ projectData, isVisible, onClosePanel }) {
 
       {/* Project Description */}
       <p className="flex items-center leading-6 mb-4 text-left">
-        {projectDescription}
+        {projectData.projectDescription}
       </p>
 
       {/* Technologies */}
-      <ProjectTechnologies tecnologias={technologies} />
+      <ProjectTechnologies tecnologias={projectData.technologies} />
     </div>
   );
 }

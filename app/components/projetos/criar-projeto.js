@@ -20,27 +20,26 @@ const CriarProjetos = ({
   state,
   toggleDescription,
 }) => {
-  console.log(projectData)
+  console.log(state)
   // Automatically handle positioning logic
-  useAutoRespon(
-    projectData.refElemSuporte?.current,
-    projectData.referenceElementPosicionar?.current
-  );
+  // useAutoRespon(
+  //   projectData.refElemSuporte?.current,
+  //   projectData.referenceElementPosicionar?.current
+  // );
 
   // Do not render if `projectData` is missing
-  if (!projectData) {return undefined;}
+  if (!projectData) { return undefined; }
 
   return (
-    <div
-      className={`h-auto w-auto mt-auto xl:mx-4 2xl:mx-0 justify-evenly flex-col items-center ${
-        state ? 'flex' : 'hidden'
-      }`}
-    >
-      <ProjectSection
-        projectData={projectData}
-        toggleDescription={toggleDescription}
-      />
-    </div>
+    // <div
+    //   className={`h-auto w-auto mt-auto xl:mx-4 2xl:mx-0 justify-evenly flex-col items-center ${state ? 'flex' : 'hidden'
+    //     }`}
+    // >
+    <ProjectSection
+      projectData={projectData}
+      toggleDescription={toggleDescription}
+    />
+    // </div>
   );
 };
 

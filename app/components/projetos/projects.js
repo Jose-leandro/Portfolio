@@ -40,6 +40,8 @@ ProjectList.propTypes = {
 export default function Projects() {
   const projectKeys = ['calculadora', 'gedf', 'reanotes', 'spotifyimersaofrontend'];
   const { data, error } = useFetchProjects(projectKeys);
+  // console.log(error)
+
   const { visibility, toggleVisibility } = useToggleVisibility({
     calculadora: true,
     gedf: true,
@@ -47,10 +49,10 @@ export default function Projects() {
     spotifyimersaofrontend: true,
   });
 
-  if (error) { return <div className="error">Error fetching projects: {error.message}</div> }
+  // if (error) { return <div className="error">Error fetching projects: {error.message}</div> }
 
-   // Handle loading state
-   if (!data || Object.keys(data).length === 0) {
+  // Handle loading state
+  if (!data || Object.keys(data).length === 0) {
     return <div className="loading">Loading projects...</div>;
   }
 
