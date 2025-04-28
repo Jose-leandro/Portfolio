@@ -13,9 +13,10 @@ import { domine } from '../styles/fonts';
  * @returns {React.ReactElement} Renderiza o card de um curso.
  */
 export function CourseCard({ imageSrc, title, date, courses }) {
+  return (
   <div className="flex items-center bg-transparent border-[1px]
    border-solid border-custom-white rounded-xl flex-col
-   justify-evenly mb-2 w-11/12 ml-2 py-5 px-7" >
+   justify-evenly mb-2 w-auto ml-2 py-5 px-7" >
 
     <Image
       className="w-16 mb-2"
@@ -41,6 +42,7 @@ export function CourseCard({ imageSrc, title, date, courses }) {
       </ul>
     </div>
   </div>
+    )
 }
 
 CourseCard.propTypes = {
