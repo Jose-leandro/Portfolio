@@ -13,7 +13,7 @@ const imageStyles = `
 function ProjectImage({ src, imageRef }) {
 
   imageRef = useRef(null);
-  console.log(src, imageRef)
+  // console.log(src, imageRef)
 
   return (
     <Image

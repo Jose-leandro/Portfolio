@@ -15,10 +15,16 @@ export const dataCourses = [
       ],
     },
     {
-      imageSrc: '/img/banco-de-dados.png',
-      title: 'SQL com MySQL Server da Oracle - ONE',
-      date: '11 de dezembro de 2022',
-      courses: ['Consultas SQL: Avançando No SQL Com MYSQL'],
+      imageSrc: '/img/soft-skills.png',
+      title: 'Desenvolvimento Pessoal - ONE',
+      date: '27 de setembro de 2022',
+      courses: [
+        'Hábitos: da produtividade metas pessoais',
+        'Foco: Trazendo mais resultados para o dia a dia',
+        'LinkedIn: Como fazer o seu perfil trabalhar para você',
+        'Pitch entrevistas: Faça apresentações de impacto',
+        'Produtividade parte 2: organização e prioridade',
+      ],
     },
     {
       imageSrc: '/img/inteligência-artificial.png',
@@ -32,20 +38,14 @@ export const dataCourses = [
       date: '20 de setembro de 2022',
       courses: [
         'Organização de Equipes Ágeis: os papéis existentes em uma equipe',
-        'Agilidade : promovendo a transformação ágil',
+        'Agilidade: promovendo a transformação ágil',
       ],
     },
     {
-      imageSrc: '/img/soft-skills.png',
-      title: 'Desenvolvimento Pessoal - ONE',
-      date: '27 de setembro de 2022',
-      courses: [
-        'Hábitos : da produtividade metas pessoais',
-        'Foco: Trazendo mais resultados para o dia a dia',
-        'LinkedIn: Como fazer o seu perfil trabalhar para você',
-        'Pitch entrevistas: Faça apresentações de impacto',
-        'Produtividade parte 2: organização e prioridade',
-      ],
+      imageSrc: '/img/banco-de-dados.png',
+      title: 'SQL com MySQL Server da Oracle - ONE',
+      date: '11 de dezembro de 2022',
+      courses: ['Consultas SQL: Avançando No SQL Com MYSQL'],
     },
   ];
   

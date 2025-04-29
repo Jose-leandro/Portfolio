@@ -8,6 +8,15 @@ import { useFetchProjects } from '../../../hooks/use-fetch-projects';
 
 
 function ProjectList({ projects, visibility, toggleVisibility }) {
+  console.log(visibility)
+  const keysVisibility = Object.keys(visibility);
+console.log(keysVisibility); 
+console.log(projects)
+
+Object.keys(projects || {}).map((key) => {
+  console.log(key)
+})
+
   return (
     <div className="flex justify-evenly items-start flex-wrap">
       {Object.keys(projects || {}).map((key) =>
@@ -15,7 +24,7 @@ function ProjectList({ projects, visibility, toggleVisibility }) {
           <CriarProjetos
             key={key}
             projectData={projects[key]}
-            state={visibility[key]}
+            visibility={visibility[key]} have one error in thsi parte
             toggleDescription={toggleVisibility(key)}
           />
         ) : (
@@ -48,6 +57,8 @@ export default function Projects() {
     reanotes: true,
     spotifyimersaofrontend: true,
   });
+
+  console.log(visibility)
 
   // if (error) { return <div className="error">Error fetching projects: {error.message}</div> }
 

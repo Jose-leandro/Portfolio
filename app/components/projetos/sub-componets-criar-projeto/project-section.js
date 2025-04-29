@@ -4,7 +4,7 @@ import ProjectActionButtons from "./project-action-buttons";
 import ProjectInformationPanel from "./project-information-panel";
 import ProjectImage from "./project-image-display";
 
-export default function ProjectSection(projectData) {
+export default function ProjectSection(projectData, toggleVisibility) {
 
   const id = projectData.projectData[0].id
   const imgProjeto = projectData.projectData[0].imgProjeto
@@ -16,8 +16,8 @@ export default function ProjectSection(projectData) {
         imageRef={projectData.projectData[0].refElemSuporte}
       />
 
-      {/* <ProjectActionButtons projectData={projectData.projectData[0]} /> */}
-      {/* <ProjectInformationPanel projectData={projectData.projectData[0]} isVisible /> */}
+      <ProjectActionButtons projectData={projectData.projectData[0]} /> 
+      <ProjectInformationPanel projectData={projectData.projectData[0]} toggleVisibility={toggleVisibility} />
 
     </div>
   );

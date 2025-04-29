@@ -7,39 +7,41 @@ import withProjectLogic from './with-project-logic';
 /**
  * The `CriarProjetos` component is responsible for rendering a section 
  * to create or display project details. It integrates positioning logic 
- * and dynamic rendering based on state.
+ * and dynamic rendering based on visibility.
  *
  * @param {Object} props - The component props.
  * @param props.projectData
- * @param props.state
- * @param props.toggleDescription
+ * @param props.visibility
+ * @param props.toggleVisibility
  * @returns {React.Element | null} - The rendered component or `null` if `projectData` is missing.
  */
 const CriarProjetos = ({
   projectData,
-  state,
-  toggleDescription,
+  visibility,
+  toggleVisibility,
 }) => {
-  console.log(state)
+  console.log(projectData)
+  console.log(toggleVisibility)
+  console.log(visibility)
   // Automatically handle positioning logic
-  // useAutoRespon(
-  //   projectData.refElemSuporte?.current,
-  //   projectData.referenceElementPosicionar?.current
-  // );
+  useAutoRespon(
+    projectData.refElemSuporte?.current,
+    projectData.referenceElementPosicionar?.current
+  );
 
   // Do not render if `projectData` is missing
   if (!projectData) { return undefined; }
 
   return (
-    // <div
-    //   className={`h-auto w-auto mt-auto xl:mx-4 2xl:mx-0 justify-evenly flex-col items-center ${state ? 'flex' : 'hidden'
-    //     }`}
-    // >
+    <div
+      className={`h-auto w-auto mt-auto xl:mx-4 2xl:mx-0 justify-evenly flex-col items-center ${visibility ? 'flex' : 'hidden'
+        }`}
+    >
     <ProjectSection
       projectData={projectData}
-      toggleDescription={toggleDescription}
+      toggleVisibility={toggleVisibility}
     />
-    // </div>
+    </div>
   );
 };
 
@@ -61,8 +63,8 @@ CriarProjetos.propTypes = {
       })
     ).isRequired,
   }).isRequired,
-  state: PropTypes.bool.isRequired,
-  toggleDescription: PropTypes.func.isRequired,
+  visibility: PropTypes.bool.isRequired,
+  toggleVisibility: PropTypes.func.isRequired,
 };
 
 // Wrap the component with additional logic

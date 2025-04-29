@@ -7,23 +7,23 @@ import { useState } from 'react';
  */
 export const useToggleVisibility = (initialState) => {
   const [visibility, setVisibility] = useState(initialState);
-  const [isClicked, setIsClicked] = useState(false);
 
   const toggleVisibility = (projectKey) => {
-    setIsClicked((previousState) => !previousState);
-
     setVisibility((previousState) => {
       const newState = { ...previousState };
 
-      the error it's in thsi part
       Object.keys(newState).forEach((key) => {
-        newState[key] = key === projectKey ? previousState[projectKey] : isClicked ? true : !previousState[key]
+        if (key === projectKey) {
+          newState[key] = !previousState[key]; // Toggle only the clicked project
+        } else {
+          newState[key] = true; // Others stay true
+        }
       });
 
-      console.log(newState)
       return newState;
     });
   };
 
   return { visibility, toggleVisibility };
 };
+
