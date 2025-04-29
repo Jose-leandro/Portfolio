@@ -1,3 +1,3 @@
-export const MineCopywrite = "&copy; Construido e desenvolvido por José leandro do nascimento"
+export const MineCopywrite = "© Construido e desenvolvido por José Leandro do Nascimento";
 
 export const IMAGE_DIMENSIONS = { height: 60, width: 60 };
