@@ -11,11 +11,7 @@ export default function Document() {
   return (
     <Html lang="pt-BR">
       <Head>
-        <link
-          rel="icon"
-          type="image/x-icon"
-          href="/img/logo.png"
-        />
+      <link rel="icon" href="/logo.png" />
         <link
           href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
           rel="stylesheet"
