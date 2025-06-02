@@ -12,4 +12,13 @@ export const SOCIAL_LINKS = [
     },
   ];
   
-  
+export const SOCIAL_BUTTON = [
+  {
+    href: "#projects",
+    name: "Explore My Work"
+  },
+  {
+    href: "#contact-me",
+    name: "Contact Me"
+  }
+]

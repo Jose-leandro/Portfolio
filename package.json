@@ -11,7 +11,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env PORT=4000 next dev",
+    "dev": "cross-env PORT=5000 next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint \"./**/*.{js,ts,jsx,tsx}\"",
