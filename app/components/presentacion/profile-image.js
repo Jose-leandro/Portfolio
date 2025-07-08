@@ -4,6 +4,9 @@ import PropTypes from 'prop-types';
 
 /**
  * Component for displaying a profile image.
+ * @param root0
+ * @param root0.src
+ * @param root0.alt
  */
 const ProfileImage = ({ src, alt }) => (
     <Image

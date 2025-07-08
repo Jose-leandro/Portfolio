@@ -14,6 +14,7 @@ export default function withProjectLogic(WrappedComponent) {
   /**
    * The EnhancedComponent with project logic and references.
    * @param {Object} props - Props passed to the enhanced component.
+   * @param props.handleClickProjeto
    * @returns {React.ReactElement} The rendered enhanced component.
    */
   function EnhancedComponent({ handleClickProjeto, ...restProperties }) {

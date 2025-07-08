@@ -3,6 +3,7 @@ import { notificationMessage } from "./notification-message";
 
 /**
  * Atualiza o link mailto com a entrada do usuário.
+ * @param FormData
  */
 export const malitoChange = (FormData) => {
   const { mensagem, nome, assunto } = FormData;

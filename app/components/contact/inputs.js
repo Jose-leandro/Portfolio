@@ -4,9 +4,9 @@ import { domine } from "../../styles/fonts";
 /**
  * InputField Component: Represents a single input field with its label.
  */
-const InputField = React.memo(function InputField({
+const InputField = React.memo(({
     field, value, reference, onChange, onBlur
-  }) {
+  }) => {
     return (
       <div className="flex flex-col h-auto my-3 w-11/12">
         <label
@@ -19,7 +19,7 @@ const InputField = React.memo(function InputField({
         <input
           type={field.type || "text"}
           name={field.name}
-          ref={(el) => (reference.current[field.name] = el)}
+          ref={(element) => (reference.current[field.name] = element)}
           value={value}
           onChange={onChange}
           onBlur={onBlur}
@@ -40,6 +40,12 @@ const InputField = React.memo(function InputField({
 
 /**
  * Inputs Component: Renders a list of input fields based on the provided configuration.
+ * @param root0
+ * @param root0.fields
+ * @param root0.formState
+ * @param root0.references
+ * @param root0.handleChange
+ * @param root0.handleBlur
  */
 export default function Inputs({ fields, formState, references, handleChange, handleBlur }) {
     const memoizedFields = useMemo(() => fields, [fields]);

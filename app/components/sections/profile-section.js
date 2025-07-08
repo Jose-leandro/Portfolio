@@ -40,7 +40,7 @@ SocialLink.propTypes = {
  * @param {Object} props - Component props.
  * @param {string} props.src - Source URL of the image.
  * @param {string} props.alt - Alt text for the image.
- * @return {React.ReactElement} The rendered profile image.
+ * @returns {React.ReactElement} The rendered profile image.
  */
 const ProfileImage = ({ src, alt }) => (
   <Image
@@ -64,7 +64,7 @@ ProfileImage.propTypes = {
  * @param {Object} props - Component props.
  * @param {string} props.className - Additional CSS classes for styling.
  * @param {React.ReactNode} props.children - The text content to display.
- * @return {React.ReactElement} The rendered header text.
+ * @returns {React.ReactElement} The rendered header text.
  */
 const HeaderText = ({ children }) => (
   <h1

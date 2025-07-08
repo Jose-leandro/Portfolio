@@ -2,16 +2,12 @@ import { useState, useEffect } from "react";
 
 export const useFetchProjects = (projectKeys) => {
   const [data, setData] = useState({});
-  const [error, setError] = useState(null);
+  const [error, setError] = useState(undefined);
 
   useEffect(() => {
-    if (!projectKeys || projectKeys.length === 0) {
-      console.warn("No project keys provided.");
-      return;
-    }
+    if (!projectKeys || projectKeys.length === 0) { return; }
 
     const baseUrl = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000";
-    console.log("Base URL:", baseUrl);
 
     const fetchProjects = async () => {
       try {
@@ -25,8 +21,6 @@ export const useFetchProjects = (projectKeys) => {
           })
         );
 
-        console.log("Fetched Responses:", responses);
-
         const newProjectData = responses.reduce((accumulator, result, index) => {
           if (result && typeof result === "object") {
             accumulator[projectKeys[index]] = result;
@@ -38,17 +32,14 @@ export const useFetchProjects = (projectKeys) => {
         }, {});
 
         setData(newProjectData);
-      } catch (error_) {
-        console.error("Fetch error:", error_);
-        setError(error_);
-      }
+      } catch (error_) { setError(error_); }
     };
 
     fetchProjects();
-  }, []);
+  }, [projectKeys]);
 
   // eslint-disable-next-line unicorn/no-null
-  if (error == null || error == undefined) {
+  if (error == undefined || error == undefined) {
     return { data }
   }
 

@@ -1,11 +1,11 @@
 import { useRef } from "react";
 
  /**
-   * Assign a reference to a specific key.
-   * @param {string} key - The key to associate with the reference.
+  * Assign a reference to a specific key.
+  * @param {string} key - The key to associate with the reference.
   * @param {string} references - The references have all refs
-   * @returns {(element: HTMLElement | null) => void} A function to assign or clean up the reference.
-   */
+  * @returns {(element: HTMLElement | null) => void} A function to assign or clean up the reference.
+  */
  const assignReference = (key, references) => (element) => {
   if (!key) { console.warn("assignReference: Key must be a non-empty string."); return; }
    // Clean up the reference if the element is unmounted 

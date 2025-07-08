@@ -26,7 +26,11 @@ const getButtonClass = (isActive, isHovered) => clsx(
 
 /**
  * @param projectKeys.projectKeys
+ * @param projectData.projectData
  * @param {Object} projectData - The data related to the project.
+ * @param projectData.projectKeys
+ * @param projectData.toggleVisibility
+ * @param projectData.toggleVisibilityDescription
  * @returns {JSX.Element} The rendered component.
  */
 export default function ProjectActionButtons({ projectData, projectKeys, toggleVisibility, toggleVisibilityDescription }) {

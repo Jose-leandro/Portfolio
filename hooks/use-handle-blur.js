@@ -69,9 +69,6 @@ export const useCreateHandleBlur = (setFormValidity, formValidity, setIsFormVali
 
       validateInput(input, setFormValidity, formValidity);
 
-      // Example usage of additionalArg
-      console.log("Additional Argument:", additionalArgument);
-
       setIsFormValid(Object.values(formValidity).every(Boolean));
     },
     [setFormValidity, formValidity, setIsFormValid]

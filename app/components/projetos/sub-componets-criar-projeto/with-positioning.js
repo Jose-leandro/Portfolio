@@ -9,14 +9,14 @@ import PropTypes from "prop-types";
  * @returns {React.FunctionComponent} - The wrapped component with positioning functionality.
  */
 const withPositioning = (WrappedComponent) => {
-  const WithPositioning = ({ referenceElementPosicionar, assignPositionReference, ...props }) => {
+  const WithPositioning = ({ referenceElementPosicionar, assignPositionReference, ...properties }) => {
     if (!referenceElementPosicionar) {
       console.warn("withPositioning: Missing `referenceElementPosicionar` prop. Ensure it is provided.");
     }
 
     return (
       <div id={referenceElementPosicionar || undefined} ref={assignPositionReference}>
-        <WrappedComponent {...props} />
+        <WrappedComponent {...properties} />
       </div>
     );
   };

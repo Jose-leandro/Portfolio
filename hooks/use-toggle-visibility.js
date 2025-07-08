@@ -18,11 +18,8 @@ export const useToggleVisibility = () => {
       const newState = {};
 
       // Set all to false except the selected one
-      Object.keys(previousState).forEach((key) => {
-        newState[key] = key === projectKey;
-      });
+      Object.keys(previousState).forEach((key) => { newState[key] = key === projectKey; });
 
-      console.log("New state:", newState);
       return newState;
     });
   };
@@ -30,24 +27,12 @@ export const useToggleVisibility = () => {
   // ✅ NEW FUNCTION: Set all to true
   const resetVisibility = () => {
     const newState = {};
-    Object.keys(initialState).forEach((key) => {
-      newState[key] = true;
-    });
+    Object.keys(initialState).forEach((key) => { newState[key] = true; });
     setVisibility(newState);
   };
 
-  return {
-    visibility,
-    toggleVisibility,
-    resetVisibility, // ✅ Export the new function
-  };
+  return { visibility, toggleVisibility, resetVisibility };
 };
-
-
-
-
-
-
 
 
 export const useToggleVisibilityDescription = () => {
@@ -72,15 +57,9 @@ export const useToggleVisibilityDescription = () => {
     });
   };
 
-   // 🔴 Reset all to false (used when clicking "X" to close)
-   const resetVisibilityDescription = () => {
-    setVisibilityDescription(initialStateDescription);
-  };
+  // 🔴 Reset all to false (used when clicking "X" to close)
+  const resetVisibilityDescription = () => { setVisibilityDescription(initialStateDescription) };
 
-  return {
-    visibilityDescription,
-    toggleVisibilityDescription,
-    resetVisibilityDescription
-  };
+  return { visibilityDescription, toggleVisibilityDescription, resetVisibilityDescription };
 };
 

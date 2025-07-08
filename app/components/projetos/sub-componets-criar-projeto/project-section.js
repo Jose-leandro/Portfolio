@@ -18,12 +18,30 @@ export default function ProjectSection({ projectData, projectKeys, toggleDescrip
       />
 
       <ProjectActionButtons projectData={projectData} projectKeys={projectKeys} toggleVisibility={toggleVisibility} toggleVisibilityDescription={toggleVisibilityDescription} />
-      <ProjectInformationPanel projectData={projectData} toggleVisibility={toggleVisibility} visibility={visibility} resetVisibility={resetVisibility} visibilityDescription={visibilityDescription}  toggleVisibilityDescription={toggleVisibilityDescription} projectKeys={projectKeys}  resetVisibilityDescription={resetVisibilityDescription} />
+      <ProjectInformationPanel projectData={projectData} toggleVisibility={toggleVisibility} visibility={visibility} resetVisibility={resetVisibility} visibilityDescription={visibilityDescription} toggleVisibilityDescription={toggleVisibilityDescription} projectKeys={projectKeys} resetVisibilityDescription={resetVisibilityDescription} />
 
     </div>
   );
 }
 
-// Define prop types for better clarity and validation
-// ProjectSection.propTypes = {
-// };
+// ✅ Fix: Add PropTypes validation
+ProjectSection.propTypes = {
+  projectData: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      imgProjeto: PropTypes.string.isRequired,
+      refElemSuporte: PropTypes.oneOfType([
+        PropTypes.func,
+        PropTypes.shape({ current: PropTypes.any })
+      ])
+    })
+  ).isRequired,
+  projectKeys: PropTypes.object.isRequired,
+  toggleDescription: PropTypes.func.isRequired,
+  visibility: PropTypes.bool.isRequired,
+  toggleVisibility: PropTypes.func.isRequired,
+  resetVisibility: PropTypes.func.isRequired,
+  visibilityDescription: PropTypes.bool.isRequired,
+  toggleVisibilityDescription: PropTypes.func.isRequired,
+  resetVisibilityDescription: PropTypes.func.isRequired
+};

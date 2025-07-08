@@ -10,10 +10,16 @@ import withProjectLogic from './with-project-logic';
  * and dynamic rendering based on visibility.
  *
  * @param {Object} props - The component props.
- * @param props.projectData
- * @param props.visibility
- * @param props.toggleDescription
- * @returns {React.Element | null} - The rendered component or `null` if `projectData` is missing.
+ * @param {Object} props.projectData - Project data object.
+ * @param {boolean} props.visibility - Visibility flag.
+ * @param {function} props.toggleDescription - Function to toggle description.
+ * @param {Object} props.projectKeys - Keys related to the project.
+ * @param {function} props.toggleVisibility - Function to toggle visibility.
+ * @param {function} props.resetVisibility - Function to reset visibility.
+ * @param {boolean} props.visibilityDescription - Visibility for description.
+ * @param {function} props.toggleVisibilityDescription - Toggles description visibility.
+ * @param {function} props.resetVisibilityDescription - Resets description visibility.
+ * @returns {React.Element | null} The rendered component or null if no projectData.
  */
 const CriarProjetos = ({
   projectKeys,
@@ -70,6 +76,12 @@ CriarProjetos.propTypes = {
   }).isRequired,
   visibility: PropTypes.bool.isRequired,
   toggleDescription: PropTypes.func.isRequired,
+  projectKeys: PropTypes.object.isRequired,
+  toggleVisibility: PropTypes.func.isRequired,
+  resetVisibility: PropTypes.func.isRequired,
+  visibilityDescription: PropTypes.bool.isRequired,
+  toggleVisibilityDescription: PropTypes.func.isRequired,
+  resetVisibilityDescription: PropTypes.func.isRequired,
 };
 
 // Wrap the component with additional logic

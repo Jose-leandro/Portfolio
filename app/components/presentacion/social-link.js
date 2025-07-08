@@ -4,6 +4,10 @@ import PropTypes from 'prop-types';
 
 /**
  * Component for displaying a social media link with an icon.
+ * @param root0
+ * @param root0.href
+ * @param root0.src
+ * @param root0.alt
  */
 const SocialLink = ({ href, src, alt }) => (
   <a href={href}>
