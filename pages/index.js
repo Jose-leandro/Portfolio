@@ -30,7 +30,7 @@ export default function Index() {
         <Formation />
         <Courses />
         <Projects />
-        <Contact />
+        {/* <Contact /> */}
       </main>
 
       <Footer />
