@@ -66,17 +66,16 @@ ProfileImage.propTypes = {
  * @param {React.ReactNode} props.children - The text content to display.
  * @return {React.ReactElement} The rendered header text.
  */
-const HeaderText = ({ className, children }) => (
+const HeaderText = ({ children }) => (
   <h1
-    className={`${className} mt-3 text-3xl w-3/4 
-  text-center md:text-4xl ${domine.className}`}
+    className={`mt-3 text-3xl w-3/4 
+  text-center md:text-4xl`}
   >
     {children}
   </h1>
 );
 
 HeaderText.propTypes = {
-  className: PropTypes.string.isRequired,
   children: PropTypes.string.isRequired,
 };
 
