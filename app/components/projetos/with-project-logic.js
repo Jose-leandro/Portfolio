@@ -14,27 +14,19 @@ export default function withProjectLogic(WrappedComponent) {
   /**
    * The EnhancedComponent with project logic and references.
    * @param {Object} props - Props passed to the enhanced component.
-   * @param {function} props.handleClickProjeto - Function to handle project click events.
    * @returns {React.ReactElement} The rendered enhanced component.
    */
   function EnhancedComponent({ handleClickProjeto, ...restProperties }) {
     const { assignReference, getReference, getAllReferences } = useElementReferences();
-    const { isVisibleProject, toggleDescription, closeDescription } = useProjectVisibility(handleClickProjeto);
 
     return (
       <WrappedComponent
         {...restProperties}
         assignReferenceCallback={assignReference} getSingleReference={getReference}
-        getAllReferences={getAllReferences} isVisibleProject={isVisibleProject}
-        toggleDescription={toggleDescription} closeDescription={closeDescription}
+        getAllReferences={getAllReferences}
       />
     );
   }
-
-  // Define PropTypes for the EnhancedComponent
-  EnhancedComponent.propTypes = {
-    handleClickProjeto: PropTypes.func.isRequired,
-  };
 
   return EnhancedComponent;
 }

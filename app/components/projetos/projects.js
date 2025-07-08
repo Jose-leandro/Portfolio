@@ -1,31 +1,28 @@
 'use client';
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { domine } from '../../styles/fonts';
 import CriarProjetos from './criar-projeto';
-import { useToggleVisibility } from '../../../hooks/use-toggle-visibility';
 import { useFetchProjects } from '../../../hooks/use-fetch-projects';
+import { useToggleVisibility, useToggleVisibilityDescription } from '../../../hooks/use-toggle-visibility';
 
-
-function ProjectList({ projects, visibility, toggleVisibility }) {
-  console.log(visibility)
-  const keysVisibility = Object.keys(visibility);
-console.log(keysVisibility); 
-console.log(projects)
-
-Object.keys(projects || {}).map((key) => {
-  console.log(key)
-})
+function ProjectList({ projects, visibility, toggleVisibility, resetVisibility, visibilityDescription, toggleVisibilityDescription, resetVisibilityDescription }) {
 
   return (
     <div className="flex justify-evenly items-start flex-wrap">
       {Object.keys(projects || {}).map((key) =>
-        projects[key] ? (
+        projects[key] ? (          
+        
           <CriarProjetos
             key={key}
+            projectKeys={key}
             projectData={projects[key]}
-            visibility={visibility[key]} have one error in thsi parte
-            toggleDescription={toggleVisibility(key)}
+            visibility={visibility[key]}
+            toggleVisibility={toggleVisibility}
+            resetVisibility={resetVisibility}
+            visibilityDescription={visibilityDescription[key]}
+            toggleVisibilityDescription={toggleVisibilityDescription}
+            resetVisibilityDescription={resetVisibilityDescription}
           />
         ) : (
           <div key={key} className="error">Error: {key} data is not valid</div>
@@ -36,9 +33,13 @@ Object.keys(projects || {}).map((key) => {
 }
 
 ProjectList.propTypes = {
-  data: PropTypes.objectOf(PropTypes.object).isRequired,
+  projects: PropTypes.objectOf(PropTypes.object).isRequired,
   visibility: PropTypes.objectOf(PropTypes.bool).isRequired,
   toggleVisibility: PropTypes.func.isRequired,
+  resetVisibility: PropTypes.func.isRequired,
+  visibilityDescription: PropTypes.objectOf(PropTypes.bool).isRequired,
+  toggleVisibilityDescription: PropTypes.func.isRequired,
+  resetVisibilityDescription: PropTypes.func.isRequired,
 };
 
 /**
@@ -51,14 +52,11 @@ export default function Projects() {
   const { data, error } = useFetchProjects(projectKeys);
   // console.log(error)
 
-  const { visibility, toggleVisibility } = useToggleVisibility({
-    calculadora: true,
-    gedf: true,
-    reanotes: true,
-    spotifyimersaofrontend: true,
-  });
+  const { visibility, toggleVisibility, resetVisibility } = useToggleVisibility()
 
-  console.log(visibility)
+  // console.log(visibility)
+
+  const { toggleVisibilityDescription, visibilityDescription, resetVisibilityDescription } = useToggleVisibilityDescription();
 
   // if (error) { return <div className="error">Error fetching projects: {error.message}</div> }
 
@@ -74,7 +72,7 @@ export default function Projects() {
           Projetos
         </h5>
       </div>
-      <ProjectList projects={data} visibility={visibility} toggleVisibility={toggleVisibility} />
+      <ProjectList projects={data} visibility={visibility} toggleVisibility={toggleVisibility} resetVisibility={resetVisibility} visibilityDescription={visibilityDescription}  toggleVisibilityDescription={toggleVisibilityDescription} resetVisibilityDescription={resetVisibilityDescription} />
     </section>
   );
 }

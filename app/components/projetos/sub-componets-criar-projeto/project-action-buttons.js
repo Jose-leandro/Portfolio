@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PropTypes from "prop-types";
-import withPositioning from "./with-positioning";
+// import withPositioning from "./with-positioning";
 import ActionButton from "./sub-compoanet-project-action-buttons/action-button";
 import clsx from 'clsx';
 
@@ -25,26 +25,47 @@ const getButtonClass = (isActive, isHovered) => clsx(
 );
 
 /**
- * @param projectData.projectData
+ * @param projectKeys.projectKeys
  * @param {Object} projectData - The data related to the project.
  * @returns {JSX.Element} The rendered component.
  */
-function ProjectActionButtons({ projectData }) {
-  const handleVisualizarClick = () => openLink(projectData.urlDeploy);
-  const handleRepositorioClick = () => openLink(projectData.urlRepository);
+export default function ProjectActionButtons({ projectData, projectKeys, toggleVisibility, toggleVisibilityDescription }) {
+  // console.log(projectKeys
+
+  
+
+  const handleVisualizarClick = () => openLink(projectData[0].urlDeploy);
+  const handleRepositorioClick = () => openLink(projectData[0].urlRepository);
+
+  
+  const handleDescriptionClick = () => {
+    toggleVisibility(projectKeys)
+    toggleVisibilityDescription(projectKeys); // ✅ this updates the state
+
+    // console.log(visibilityDescription)
+  };
 
   const buttons = [
-    { label: "Descrição", onClick: handleVisualizarClick },
+    { label: "Descrição", onClick: handleDescriptionClick },
     { label: "Visualizar", onClick: handleVisualizarClick },
     { label: "Repositório", onClick: handleRepositorioClick }
   ];
 
+  // console.log(projectKeys)
+
+  // console.log("projectKeys:", projectKeys);
+  // console.log("projectKeys.projectData:", projectKeys?.projectData);
+
+
+
   return (
     <div className="items-center rounded-2xl flex flex-col h-44 w-[90%] md:w-[95%] xl:h-[256px]
      justify-evenly absolute text-center top-auto xl:w-[410px] bg-dark-clear opacity-0 
-     hover:opacity-100" id={projectData.referenceElementPosition} ref={projectData.referenceElementPosition} >
+     hover:opacity-100"
+    //  id={projectKeys.projectData[0].referenceElementPosition} ref={projectKeys.projectData[0].referenceElementPosition}
+    >
 
-      <h2 className={headingClass}> {projectData.ProjectName} </h2>
+      <h2 className={headingClass}> {projectData[0].nomeProjeto} </h2>
 
       <div className="flex justify-evenly w-full">
         {buttons.map((button) => (
@@ -56,17 +77,9 @@ function ProjectActionButtons({ projectData }) {
 }
 
 
-// PropTypes validation
-ProjectActionButtons.propTypes = {
-};
-
-// Default props for fallback values
-ProjectActionButtons.defaultProps = {
-  projectData: {
-    urlDeploy: undefined,
-    urlRepository: undefined,
-  },
-};
+// // PropTypes validation
+// ProjectActionButtons.propTypes = {
+// };
 
 // Wrap the component with the HOC during export
-export default withPositioning(ProjectActionButtons);
+// export default withPositioning(ProjectActionButtons);

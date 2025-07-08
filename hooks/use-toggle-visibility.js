@@ -1,29 +1,86 @@
 import { useState } from 'react';
 
-/**
- * Custom hook to manage the visibility of projects.
- * @param {Object} initialState - Initial visibility state for each project.
- * @returns {Object} - State and handlers for visibility toggling.
- */
-export const useToggleVisibility = (initialState) => {
+export const useToggleVisibility = () => {
+  const initialState = {
+    calculadora: true,
+    gedf: true,
+    reanotes: true,
+    spotifyimersaofrontend: true,
+  };
+
   const [visibility, setVisibility] = useState(initialState);
 
+  // Toggle visibility of one project (make only it visible)
   const toggleVisibility = (projectKey) => {
-    setVisibility((previousState) => {
-      const newState = { ...previousState };
+    console.log("Toggling:", projectKey);
 
-      Object.keys(newState).forEach((key) => {
-        if (key === projectKey) {
-          newState[key] = !previousState[key]; // Toggle only the clicked project
-        } else {
-          newState[key] = true; // Others stay true
-        }
+    setVisibility((previousState) => {
+      const newState = {};
+
+      // Set all to false except the selected one
+      Object.keys(previousState).forEach((key) => {
+        newState[key] = key === projectKey;
       });
 
+      console.log("New state:", newState);
       return newState;
     });
   };
 
-  return { visibility, toggleVisibility };
+  // ✅ NEW FUNCTION: Set all to true
+  const resetVisibility = () => {
+    const newState = {};
+    Object.keys(initialState).forEach((key) => {
+      newState[key] = true;
+    });
+    setVisibility(newState);
+  };
+
+  return {
+    visibility,
+    toggleVisibility,
+    resetVisibility, // ✅ Export the new function
+  };
+};
+
+
+
+
+
+
+
+
+export const useToggleVisibilityDescription = () => {
+  const initialStateDescription = {
+    calculadora: false,
+    gedf: false,
+    reanotes: false,
+    spotifyimersaofrontend: false,
+  };
+
+  const [visibilityDescription, setVisibilityDescription] = useState(initialStateDescription);
+
+  const toggleVisibilityDescription = (projectKey) => {
+    setVisibilityDescription(() => {
+      return {
+        calculadora: false,
+        gedf: false,
+        reanotes: false,
+        spotifyimersaofrontend: false,
+        [projectKey]: true, // sets selected key to true
+      };
+    });
+  };
+
+   // 🔴 Reset all to false (used when clicking "X" to close)
+   const resetVisibilityDescription = () => {
+    setVisibilityDescription(initialStateDescription);
+  };
+
+  return {
+    visibilityDescription,
+    toggleVisibilityDescription,
+    resetVisibilityDescription
+  };
 };
 

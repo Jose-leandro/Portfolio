@@ -42,8 +42,4 @@ export default function ProjectTechnologies({ tecnologias }) {
       })
     ).isRequired,
   };
-
-  ProjectTechnologies.defaultProps = {
-    tecnologias: {},
-  };
   

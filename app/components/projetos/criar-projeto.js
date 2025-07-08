@@ -12,22 +12,20 @@ import withProjectLogic from './with-project-logic';
  * @param {Object} props - The component props.
  * @param props.projectData
  * @param props.visibility
- * @param props.toggleVisibility
+ * @param props.toggleDescription
  * @returns {React.Element | null} - The rendered component or `null` if `projectData` is missing.
  */
 const CriarProjetos = ({
+  projectKeys,
   projectData,
   visibility,
+  toggleDescription,
   toggleVisibility,
+  resetVisibility,
+  visibilityDescription,
+  toggleVisibilityDescription,
+  resetVisibilityDescription
 }) => {
-  console.log(projectData)
-  console.log(toggleVisibility)
-  console.log(visibility)
-  // Automatically handle positioning logic
-  useAutoRespon(
-    projectData.refElemSuporte?.current,
-    projectData.referenceElementPosicionar?.current
-  );
 
   // Do not render if `projectData` is missing
   if (!projectData) { return undefined; }
@@ -37,10 +35,17 @@ const CriarProjetos = ({
       className={`h-auto w-auto mt-auto xl:mx-4 2xl:mx-0 justify-evenly flex-col items-center ${visibility ? 'flex' : 'hidden'
         }`}
     >
-    <ProjectSection
-      projectData={projectData}
-      toggleVisibility={toggleVisibility}
-    />
+      <ProjectSection
+        projectData={projectData}
+        projectKeys={projectKeys}
+        toggleDescription={toggleDescription}
+        visibility={visibility}
+        toggleVisibility={toggleVisibility}
+        resetVisibility={resetVisibility}
+        visibilityDescription={visibilityDescription}
+        toggleVisibilityDescription={toggleVisibilityDescription}
+        resetVisibilityDescription={resetVisibilityDescription}
+      />
     </div>
   );
 };
@@ -64,7 +69,7 @@ CriarProjetos.propTypes = {
     ).isRequired,
   }).isRequired,
   visibility: PropTypes.bool.isRequired,
-  toggleVisibility: PropTypes.func.isRequired,
+  toggleDescription: PropTypes.func.isRequired,
 };
 
 // Wrap the component with additional logic
