@@ -1,14 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import ProjectTechnologies from "./project-technologies";
 
-function ProjectInformationPanel({ projectData, toggleVisibility, visibility, resetVisibility, visibilityDescription, toggleVisibilityDescription, projectKeys, resetVisibilityDescription}) {
+function ProjectInformationPanel({ projectData, resetVisibility, visibilityDescription, resetVisibilityDescription}) {
 
-  // useEffect(()=> {
-  //   console.log(visibilityDescription)
-  // }, [visibilityDescription])
-
-  const handleDescriptionClick = () => {
+  function handleDescriptionClick() {
     resetVisibility()
     resetVisibilityDescription(); 
   };
@@ -38,12 +34,15 @@ function ProjectInformationPanel({ projectData, toggleVisibility, visibility, re
 
 // PropTypes
 ProjectInformationPanel.propTypes = {
-  projectData: PropTypes.shape({
-    projectDescription: PropTypes.string.isRequired,
-    technologies: PropTypes.arrayOf(PropTypes.string),
-  }).isRequired,
-  toggleDescription: PropTypes.bool,
-  onClosePanel: PropTypes.func.isRequired,
+  projectData: PropTypes.arrayOf(
+    PropTypes.shape({
+      textoDescricao: PropTypes.string.isRequired,
+      numerosImagens: PropTypes.arrayOf(PropTypes.string).isRequired,
+    })
+  ).isRequired,
+  resetVisibility: PropTypes.func.isRequired,
+  resetVisibilityDescription: PropTypes.func.isRequired,
+  visibilityDescription: PropTypes.bool.isRequired,
 };
 
 export default ProjectInformationPanel;

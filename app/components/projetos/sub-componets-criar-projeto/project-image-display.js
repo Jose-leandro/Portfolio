@@ -25,3 +25,12 @@ export default function ProjectImage({ src, imageRef }) {
     </div>
   );
 }
+
+ProjectImage.propTypes = {
+  src: PropTypes.string.isRequired,
+  imageRef: PropTypes.oneOfType([
+    PropTypes.func,
+    PropTypes.shape({ current: PropTypes.instanceOf(Element) }),
+  ]),
+};
+

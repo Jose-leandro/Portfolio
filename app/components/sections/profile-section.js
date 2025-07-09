@@ -62,7 +62,6 @@ ProfileImage.propTypes = {
  * Component for displaying header text with a specific style.
  *
  * @param {Object} props - Component props.
- * @param {string} props.className - Additional CSS classes for styling.
  * @param {React.ReactNode} props.children - The text content to display.
  * @returns {React.ReactElement} The rendered header text.
  */

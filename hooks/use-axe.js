@@ -2,10 +2,15 @@ import { useEffect } from 'react';
 
 const useAxe = () => {
   useEffect(() => {
-    if (process.env.NODE_ENV === 'development' && typeof window !== 'undefined') {
-      import('@axe-core/react').then(axe => {
-        const React = require('react');
-        const ReactDOM = require('react-dom');
+    if (
+      process.env.NODE_ENV === 'development' &&
+      typeof window !== 'undefined'
+    ) {
+      Promise.all([
+        import('react'),
+        import('react-dom'),
+        import('@axe-core/react')
+      ]).then(([React, ReactDOM, axe]) => {
         axe.default(React, ReactDOM, 1000);
       });
     }

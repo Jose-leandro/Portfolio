@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ProjectSection from './sub-componets-criar-projeto/project-section';
-import useAutoRespon from '../../../lib/useAutoRespon';
 import withProjectLogic from './with-project-logic';
 
 /**
@@ -21,17 +20,8 @@ import withProjectLogic from './with-project-logic';
  * @param {function} props.resetVisibilityDescription - Resets description visibility.
  * @returns {React.Element | null} The rendered component or null if no projectData.
  */
-const CriarProjetos = ({
-  projectKeys,
-  projectData,
-  visibility,
-  toggleDescription,
-  toggleVisibility,
-  resetVisibility,
-  visibilityDescription,
-  toggleVisibilityDescription,
-  resetVisibilityDescription
-}) => {
+const CriarProjetos = ({ projectKeys, projectData, visibility, toggleDescription, toggleVisibility,
+  resetVisibility, visibilityDescription, toggleVisibilityDescription, resetVisibilityDescription }) => {
 
   // Do not render if `projectData` is missing
   if (!projectData) { return undefined; }

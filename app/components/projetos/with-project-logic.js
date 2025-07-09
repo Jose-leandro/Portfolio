@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import useElementReferences from './sub-componets-criar-projeto/use-element-references';
-import useProjectVisibility from '../../../hooks/use-project-vssibility';
 
 /**
  * Higher-Order Component (HOC) that enhances a wrapped component with project logic.
@@ -17,7 +16,7 @@ export default function withProjectLogic(WrappedComponent) {
    * @param props.handleClickProjeto
    * @returns {React.ReactElement} The rendered enhanced component.
    */
-  function EnhancedComponent({ handleClickProjeto, ...restProperties }) {
+  function EnhancedComponent({ ...restProperties }) {
     const { assignReference, getReference, getAllReferences } = useElementReferences();
 
     return (

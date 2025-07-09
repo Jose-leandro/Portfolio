@@ -1,25 +1,17 @@
 import { useState } from 'react';
 
 export const useToggleVisibility = () => {
-  const initialState = {
-    calculadora: true,
-    gedf: true,
-    reanotes: true,
-    spotifyimersaofrontend: true,
-  };
+  const initialState = { calculadora: true, gedf: true, reanotes: true, spotifyimersaofrontend: true };
 
   const [visibility, setVisibility] = useState(initialState);
-
   // Toggle visibility of one project (make only it visible)
   const toggleVisibility = (projectKey) => {
-    console.log("Toggling:", projectKey);
 
     setVisibility((previousState) => {
       const newState = {};
 
       // Set all to false except the selected one
       Object.keys(previousState).forEach((key) => { newState[key] = key === projectKey; });
-
       return newState;
     });
   };

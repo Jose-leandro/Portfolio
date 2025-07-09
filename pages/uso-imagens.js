@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import FooterImagens from '../app/components/use-imagens/footer-imagens';
-import { descriptionUseOfImagens, metaImagens } from '../app/constants/date-use-imagens';
+import { metaImagens } from '../app/constants/date-use-imagens';
 import MainImagens from '../app/components/use-imagens/main-imagens';
 
 /**

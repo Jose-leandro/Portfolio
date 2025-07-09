@@ -6,7 +6,6 @@ import Presentation from '../app/components/presentation';
 import { META_DESCRIPTION } from '../app/constants/date-index';
 import Formation from '../app/components/formation';
 import Courses from '../app/components/courses';
-import Contact from '../app/components/contact';
 import Projects from '../app/components/projetos/projects';
 
 /**

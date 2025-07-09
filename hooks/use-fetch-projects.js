@@ -14,20 +14,13 @@ export const useFetchProjects = (projectKeys) => {
         const responses = await Promise.all(
           projectKeys.map(async (key) => {
             const response = await fetch(`${baseUrl}/${key}`);
-            if (!response.ok) {
-              throw new Error(`Error fetching ${key}: ${response.statusText}`);
-            }
+            if (!response.ok) { throw new Error(`Error fetching ${key}: ${response.statusText}`) }
             return response.json();
           })
         );
 
         const newProjectData = responses.reduce((accumulator, result, index) => {
-          if (result && typeof result === "object") {
-            accumulator[projectKeys[index]] = result;
-          } else {
-            console.warn(`Unexpected response for ${projectKeys[index]}`, result);
-            accumulator[projectKeys[index]] = undefined;
-          }
+          if (result && typeof result === "object") { accumulator[projectKeys[index]] = result } else { accumulator[projectKeys[index]] = undefined; }
           return accumulator;
         }, {});
 
@@ -39,9 +32,7 @@ export const useFetchProjects = (projectKeys) => {
   }, [projectKeys]);
 
   // eslint-disable-next-line unicorn/no-null
-  if (error == undefined || error == undefined) {
-    return { data }
-  }
+  if (error == undefined || error == undefined) { return { data }}
 
   return { data, error }
 };
