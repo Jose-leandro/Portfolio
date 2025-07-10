@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev-json_server",
+  "outputDirectory": ".next",
+  "framework": "nextjs"
+}
