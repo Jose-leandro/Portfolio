@@ -20,7 +20,7 @@
     "dev-json_server": "concurrently \"npm run dev\" \"npm run json-server\"",
     "prepare": "husky",
     "preinstall": "npx npm-force-resolutions",
-    "build-vercel": "npm install && next build && npm run dev-json_server"
+    "vercel": "next build && npm run dev-json_server"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
