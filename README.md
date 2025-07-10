@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 
 ![Portfólio - José leandro](https://github.com/user-attachments/assets/2613ae8c-8569-4487-b4ca-8d5ecd88fc50)
+=======
+![Portfólio - José leandro](https://github.com/Jose-leandro/portfolio-joseleandro/assets/104599482/fbaa81b4-ce38-495b-9445-6cc1faf39cd8)
+>>>>>>> develop
 
 # Welcome to My Portfolio 🌟
  ![GitHub release (latest by date)](https://img.shields.io/github/v/release/jose-leandro/Portfolio)
@@ -8,6 +12,7 @@
 
 ## 🎯 Project Overview
 
+<<<<<<< HEAD
 Hello, welcome to my portfolio! Imagine it as a bright stage where I present to you my most brilliant projects, my technical skills and my personal competencies, but on this stage I also display and reveal a little more about who I am - my hobbies, my desires, my interests and my goals.
 
 Browse and discover the projects I have developed, each of them an opportunity to learn and master different technologies. You will also find details about my academic background, courses taken and much more.
@@ -42,11 +47,18 @@ My purpose is to demonstrate my potential and a vision of what I aspire to becom
 
 **🏛️ Clean Architecture:** Structuring projects with clean architecture principles, ensuring scalability and long-term maintainability.
 
+=======
+Navegue e descubra os projetos que desenvolvi, cada um deles uma oportunidade para aprender e dominar diferentes tecnologias. Você também encontrará detalhes sobre minha formação acadêmica, cursos realizados e muito mais.
+
+O meu propósito é demonstrar o meu potencial e  uma visão do que anseio me tornar no futuro, espero que você goste do meu portfólio e que ele te inspire de alguma forma.
+
+</p>
+>>>>>>> develop
 
 ### Estado do projeto
- 
-   :construction: Projeto concluído :construction:
-    
+
+:construction: Projeto concluído :construction:
+
    <p>Embora o projeto esteja concluído, estou constantemente aperfeiçoando-o, corrigindo problemas, adicionando novas funcionalidades e refinando o design, com o objetivo de  
    torná-lo ainda mais atraente, esteticamente agradável e funcional.</p>
 
@@ -60,36 +72,33 @@ My purpose is to demonstrate my potential and a vision of what I aspire to becom
 Para dar vida ao meu projeto, escolhi a poderosa plataforma de hospedagem Vercel, Sinta-se à vontade para explorar cada detalhe e funcionalidade deste projeto clicando neste
 [Link](https://portfolio-joseleandro.vercel.app/)
 
-
 ### Tecnologias utilizadas no projeto
 
 Neste projeto, você encontrará uma sinfonia de tecnologias, sendo cada uma delas desempenhando um papel vital e único essa são as tecnologias presente:
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)   ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)  
-
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 ### Contribuições
 
- Contribuições são sempre bem-vindas! Se você deseja contribuir para o aprimoramento deste projeto, siga os passos abaixo:
- 
-  1. Faça um Fork do Projeto
- 
-  2. Configure em Sua Máquina
- 
-  3. Realize Suas Modificações e Sugestões
-     
-      Agora você está pronto para fazer suas modificações e implementar suas sugestões para o projeto. Sinta-se à vontade para explorar, corrigir problemas e adicionar recursos.
- 
- 4. Envie um Pull Request
- 
-      Após ter feito as alterações necessárias no projeto, crie o seu Pull Request, certifique-se de descrever suas alterações e os problemas que elas resolvem.
- 
- 5. Aguarde a Análise
- 
-      Agora, sua contribuição será revisada, caso esteja tudo certo, seu Pull Request pode ser aprovado e fundido ao projeto após a revisão.
- 
- Agradeço antecipadamente por suas sugestões e por ajudar a tornar este projeto ainda mais incrível. 
+Contribuições são sempre bem-vindas! Se você deseja contribuir para o aprimoramento deste projeto, siga os passos abaixo:
 
+1. Faça um Fork do Projeto
+
+2. Configure em Sua Máquina
+
+3. Realize Suas Modificações e Sugestões
+
+   Agora você está pronto para fazer suas modificações e implementar suas sugestões para o projeto. Sinta-se à vontade para explorar, corrigir problemas e adicionar recursos.
+
+4. Envie um Pull Request
+
+   Após ter feito as alterações necessárias no projeto, crie o seu Pull Request, certifique-se de descrever suas alterações e os problemas que elas resolvem.
+
+5. Aguarde a Análise
+
+   Agora, sua contribuição será revisada, caso esteja tudo certo, seu Pull Request pode ser aprovado e fundido ao projeto após a revisão.
+
+Agradeço antecipadamente por suas sugestões e por ajudar a tornar este projeto ainda mais incrível.
 
 ### Autor
 
@@ -99,9 +108,8 @@ Neste projeto, você encontrará uma sinfonia de tecnologias, sendo cada uma del
 
  <p>Se você quer acompanhar a minha jornada de aprimoramento do meu Portfólio, ou mesmo apenas deseja entrar em contato, por favor, sinta-se à vontade para utilizar esses canais de comunicação. Estou entusiasmado para estabelecer conexões significativas e compartilhar interesses em comum.</p>
 
- [![Linkedin Badge](https://img.shields.io/badge/-Leandro-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/josé-leandro-do-nascimento/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Leandro-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/josé-leandro-do-nascimento/)
 
 [![Gmail Badge](https://img.shields.io/badge/-jose.leandro.nasciment@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jose.leandro.nasciment@gmail.com)](mailto:jose.leandro.nasciment@gmail.com)
 
     Agradeço e tenha um bom dia.
-

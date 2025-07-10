@@ -35,4 +35,10 @@ yarn-error.log*
 next-env.d.ts
 
 # my lib
-lib
+lib/MPPValidacao.js
+
+#Note Add For me
+anotacion.tex
+
+# my lib for auto reponsividad, but i am developer
+lib/use-auto-respon.js

@@ -1,18 +1,46 @@
 {
   "name": "portfolio",
-  "version": "0.0.3",
-  "description": "",
+  "version": "0.0.4",
+  "description": "Hello, and welcome to my portfolio! Think of it as a spotlight on a stage, where I showcase my brightest projects, technical skills, and personal strengths. But this stage also reveals more about who I am—my hobbies, passions, interests, and aspirations.",
+  "keywords": [
+    "portfolio",
+    "web development",
+    "react",
+    "tailwind css",
+    "next.js"
+  ],
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env PORT=4000 next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "json-server": "json-server --watch api-projetos/projetos.json --port 8000",
-    "start-vercel": "npm run dev && npm run json-server"
+    "lint": "eslint \"./**/*.{js,ts,jsx,tsx}\"",
+    "check-updates": "npx npm-check-updates",
+    "json-server": "cross-env JSON_PORT=8000 json-server --watch api-projetos/projetos.json --port 8000",
+    "dev-json_server": "concurrently \"npm run dev\" \"npm run json-server\"",
+    "prepare": "husky",
+    "preinstall": "npx npm-force-resolutions",
+    "prepush": "cross-env NODE_OPTIONS='--max_old_space_size=4096' husky-run pre-push"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.css": [
+      "prettier --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "engines": {
+    "node": ">=20.0.0"
   },
   "repository": {
-    "type": "git",
+    "type": "GitHub",
     "url": "git+https://github.com/Jose-leandro/Portfolio.git"
   },
   "author": "José leandro",
@@ -22,14 +50,55 @@
   },
   "homepage": "https://github.com/Jose-leandro/Portfolio#readme",
   "dependencies": {
-    "next": "^14.2.3",
+    "@axe-core/react": "^4.10.0",
+    "clsx": "^2.1.1",
+    "concurrently": "^9.0.1",
+    "eslint-plugin-no-magics": "^1.0.7",
+    "next": "^14.2.13",
+    "npm-force-resolutions": "^0.0.10",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "sonner": "^1.4.41"
+    "sonner": "^1.5.0",
+    "string-width": "^4.2.3"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.3"
+    "@eslint/config-array": "^0.18.0",
+    "@eslint/object-schema": "^2.1.4",
+    "autoprefixer": "^10.4.20",
+    "axe-core": "^4.10.2",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.57.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-next": "^14.2.13",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-clean-code": "^0.1.12",
+    "eslint-plugin-jsdoc": "^50.4.3",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-prettier": "^5.5.1",
+    "eslint-plugin-promise": "^7.1.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-unicorn": "^56.0.0",
+    "glob": "^11.0.0",
+    "globals": "^15.9.0",
+    "husky": "^9.1.6",
+    "json-server": "^1.0.0-beta.3",
+    "lint-staged": "^15.2.10",
+    "postcss": "^8.4.47",
+    "prettier": "^3.3.3",
+    "rimraf": "^6.0.1",
+    "tailwindcss": "^3.4.13"
+  },
+  "resolutions": {
+    "@humanwhocodes/config-array": "0.12.0",
+    "rimraf": "4.0.0"
+  },
+  "overrides": {
+    "eslint-config-next": {
+      "eslint": "^8.57.1"
+    },
+    "eslint-plugin-jsx-a11y": {
+      "eslint": "^8.57.1"
+    }
   }
 }

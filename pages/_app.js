@@ -2,22 +2,32 @@ import React from 'react';
 import '../app/styles/reset.css';
 import '../app/styles/globals.css';
 import RootLayout from '../app/layout';
-
+import PropTypes from 'prop-types';
+import useAxe from '../hooks/use-axe';
 
 /**
- * MyApp é o componente de aplicativo personalizado para Next.js. Ele encapsula todos os componentes da página com um componente de layout.
- * 
- * @param {Object} props - As propriedades passadas para o componente App.
- * @param {React.ComponentType} props. Componente - O componente de página ativa.
- * @param {Object} props.pageProps - Os props iniciais pré-carregados para a página ativa.
- * @returns {React.ReactElement} O elemento React que representa o aplicativo.
+ * MyApp is the custom App component for Next.js.
+ * It wraps all page components with the main layout component.
+ *
+ * @param {Object} props - The component props.
+ * @param {React.ElementType} props.Component - The page component to be rendered.
+ * @param {Object} props.pageProps - The initial props preloaded for the active page.
+ * @returns {React.ReactElement} The React element representing the application.
  */
-function MyApp({Component, pageProps}) {
+
+function MyApp({ Component, pageProps }) {
+  useAxe()
+
   return (
     <RootLayout>
       <Component {...pageProps} />
     </RootLayout>
   );
 }
+
+MyApp.propTypes = {
+  Component: PropTypes.elementType.isRequired,
+  pageProps: PropTypes.object.isRequired,
+};
 
 export default MyApp;

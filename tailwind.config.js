@@ -1,5 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+// eslint-disable-next-line no-undef
 module.exports = {
+  mode: 'jit',
+  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './app/components/**/*.{js,ts,jsx,tsx}'],
   content: [
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -9,7 +12,7 @@ module.exports = {
     extend: {
       colors: {
         'custom-blue': '#8ca0e1',
-        'dark': '#080a0e',
+        dark: '#080a0e',
         'ligth-blue': '#2a2961',
         'bg-default-dark': '#0D1117',
         'custom-white': '#2f3b45',
@@ -22,14 +25,21 @@ module.exports = {
       },
       fontFamily: {
         sans: [
-          'ui-sans-serif', 'system-ui', '-apple-system',
-          'BlinkMacSystemFont', 'Segoe UI', 'Roboto',
-          'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif'],
+          'ui-sans-serif',
+          'system-ui',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          'Segoe UI',
+          'Roboto',
+          'Helvetica Neue',
+          'Arial',
+          'Noto Sans',
+          'sans-serif',
+        ],
         serif: ['Noto Serif JP', 'serif'],
+        domine: ['Domine', 'serif'], 
       },
     },
   },
   plugins: [],
 };
-
-

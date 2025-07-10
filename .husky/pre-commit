@@ -1,0 +1,16 @@
+echo "Running Prettier..."
+npx prettier --write . || true
+echo "Prettier done!"
+
+echo "Running Lint..."
+npm run lint || true
+echo "Lint done!"
+
+echo "Checking for outdated packages..."
+npm outdated || true
+echo "Outdated packages check complete!"
+
+
+
+
+
