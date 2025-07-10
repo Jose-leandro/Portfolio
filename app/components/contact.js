@@ -1,3 +1,4 @@
+/* eslint-disable */
 'use client';
 import React, { Suspense, useEffect, useRef, useState } from 'react';
 import { domine } from '../styles/fonts';

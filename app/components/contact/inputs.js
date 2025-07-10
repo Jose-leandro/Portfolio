@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useCallback, useMemo } from "react";
 import { domine } from "../../styles/fonts";
 

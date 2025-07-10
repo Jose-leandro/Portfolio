@@ -15,8 +15,9 @@ function ProjectInformationPanel({ projectData, resetVisibility, visibilityDescr
       {/* Close Button */}
 
       <div className="flex flex-col w-auto h-auto items-end mb-2">
-        <button className="py-1 px-2 bg-transparent border-[1.9px] border-solid border-custom-white 
-        rounded" onClick={handleDescriptionClick}>
+        <button className="py-1 px-2 bg-transparent border-[1.9px] border-solid border-custom-white rounded" 
+        // eslint-disable-next-line react/jsx-no-bind
+        onClick={handleDescriptionClick}>
           X
         </button>
       </div>

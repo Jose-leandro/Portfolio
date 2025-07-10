@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import useElementReferences from './sub-componets-criar-projeto/use-element-references';
 
 /**
