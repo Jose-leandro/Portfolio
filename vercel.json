@@ -1,5 +1,7 @@
 {
   "buildCommand": "npm run build",
+  "json-server": "cross-env JSON_PORT=8000 json-server --watch api-projetos/projetos.json --port 8000",
+  "dev-json_server": "concurrently \"npm run dev\" \"npm run json-server\"",
   "devCommand": "npm run dev-json_server",
   "outputDirectory": ".next",
   "framework": "nextjs"
