@@ -1,20 +1,17 @@
 import { useEffect } from 'react';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const useAxe = () => {
+export default function useAxe() {
   useEffect(() => {
-    if (
-      process.env.NODE_ENV === 'development' &&
-      typeof window !== 'undefined'
-    ) {
-      Promise.all([
-        import('react'),
-        import('react-dom'),
-        import('@axe-core/react')
-      ]).then(([React, ReactDOM, axe]) => {
+    if (process.env.NODE_ENV !== 'production') {
+      import('@axe-core/react').then((axe) => {
         axe.default(React, ReactDOM, 1000);
       });
     }
   }, []);
-};
+}
+;
 
-export default useAxe;
+
+

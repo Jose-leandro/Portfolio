@@ -8,6 +8,7 @@ import PropTypes from 'prop-types';
  * @param root0.href
  * @param root0.src
  * @param root0.alt
+ * @returns React.JSX.Element
  */
 const SocialLink = ({ href, src, alt }) => (
   <a href={href}>

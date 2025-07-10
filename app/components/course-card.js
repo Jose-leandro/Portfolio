@@ -14,9 +14,8 @@ import { domine } from '../styles/fonts';
  */
 export function CourseCard({ imageSrc, title, date, courses }) {
   return (
-  <div className="flex items-center bg-transparent border-[1px]
-   border-solid border-custom-white rounded-xl flex-col
-   justify-evenly mb-2 w-auto ml-2 py-5 px-7" >
+  <div className="flex items-center bg-transparent border-[1px] border-solid border-custom-white rounded-xl flex-col
+  justify-evenly mb-2 w-auto ml-2 py-5 px-7" >
 
     <Image
       className="w-16 mb-2"
@@ -25,8 +24,7 @@ export function CourseCard({ imageSrc, title, date, courses }) {
       width={64}
       height={64} />
 
-    <h1 className={`mb-2 text-xl sm:text-[18px] ${domine.className}`} >
-      {title} </h1>
+    <h1 className={`mb-2 text-xl sm:text-[18px] ${domine.className}`} > {title} </h1>
 
     <h2 className="mb-3">Concluído em {date}</h2>
 

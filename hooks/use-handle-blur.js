@@ -43,9 +43,8 @@ const updateErrorDisplay = (input, errorMessage) => {
  * Validates an input field and updates form validity state.
  * @param {HTMLInputElement} input - The input element to validate.
  * @param {Function} setFormValidity - State updater for individual field validity.
- * @param {Object} formValidity - Current form validity state.
  */
-const validateInput = (input, setFormValidity, formValidity) => {
+const validateInput = (input, setFormValidity) => {
   const tipoDeInput = input.dataset.tipo;
   const isValid = input.validity.valid;
 
@@ -64,7 +63,7 @@ const validateInput = (input, setFormValidity, formValidity) => {
 // passing additional arguments, with curry the function
 export const useCreateHandleBlur = (setFormValidity, formValidity, setIsFormValid) =>
   useCallback(
-    (event, additionalArgument) => {
+    (event) => {
       const input = event.target;
 
       validateInput(input, setFormValidity, formValidity);

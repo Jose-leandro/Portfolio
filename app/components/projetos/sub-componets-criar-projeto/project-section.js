@@ -4,7 +4,7 @@ import ProjectActionButtons from "./project-action-buttons";
 import ProjectInformationPanel from "./project-information-panel";
 import ProjectImage from "./project-image-display";
 
-export default function ProjectSection({ projectData, projectKeys, toggleDescription, visibility, toggleVisibility, resetVisibility, visibilityDescription, toggleVisibilityDescription, resetVisibilityDescription }) {
+export default function ProjectSection({ projectData, projectKeys, visibility, toggleVisibility, resetVisibility, visibilityDescription, toggleVisibilityDescription, resetVisibilityDescription }) {
 
   const id = projectData[0].id
   const imgProjeto = projectData[0].imgProjeto

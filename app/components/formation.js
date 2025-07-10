@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { domine } from '../styles/fonts';
 import Card from './card';
 import { FORMATIONS } from '../constants/formacao-data';

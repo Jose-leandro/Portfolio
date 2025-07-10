@@ -1,5 +1,5 @@
 'use client';
-import React, { useEffect } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { domine } from '../../styles/fonts';
 import CriarProjetos from './criar-projeto';
@@ -49,7 +49,7 @@ ProjectList.propTypes = {
  */
 export default function Projects() {
   const projectKeys = ['calculadora', 'gedf', 'reanotes', 'spotifyimersaofrontend'];
-  const { data, error } = useFetchProjects(projectKeys);
+  const { data } = useFetchProjects(projectKeys);
   // console.log(error)
 
   const { visibility, toggleVisibility, resetVisibility } = useToggleVisibility()

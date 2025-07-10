@@ -7,6 +7,7 @@ import PropTypes from 'prop-types';
  * @param root0
  * @param root0.src
  * @param root0.alt
+ * @returns React.JSX.Element
  */
 const ProfileImage = ({ src, alt }) => (
     <Image

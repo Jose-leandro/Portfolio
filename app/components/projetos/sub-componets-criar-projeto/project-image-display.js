@@ -30,7 +30,8 @@ ProjectImage.propTypes = {
   src: PropTypes.string.isRequired,
   imageRef: PropTypes.oneOfType([
     PropTypes.func,
-    PropTypes.shape({ current: PropTypes.instanceOf(Element) }),
+    PropTypes.shape({ current: PropTypes.any }),
   ]),
 };
+
 
