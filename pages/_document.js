@@ -12,7 +12,7 @@ export default function Document() {
   return (
     <Html lang="pt-BR">
       <Head>
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="/img/logo.png" />
         <link
           href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
           rel="stylesheet"

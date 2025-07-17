@@ -11,13 +11,11 @@
   ],
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env PORT=4000 next dev",
+    "dev": "cross-env PORT=4000 next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "eslint \"./**/*.{js,ts,jsx,tsx}\"",
     "check-updates": "npx npm-check-updates",
-    "json-server": "cross-env JSON_PORT=8000 json-server --watch api-projetos/projetos.json --port 8000",
-    "dev-json_server": "concurrently \"npm run dev\" \"npm run json-server\"",
     "prepare": "husky",
     "preinstall": "npx npm-force-resolutions",
     "vercel": "next build && npm run dev-json_server"
@@ -82,7 +80,6 @@
     "glob": "^11.0.0",
     "globals": "^15.9.0",
     "husky": "^9.1.6",
-    "json-server": "^1.0.0-beta.3",
     "lint-staged": "^15.2.10",
     "postcss": "^8.4.47",
     "prettier": "^3.3.3",

@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { domine } from '../../styles/fonts';
 import CriarProjetos from './criar-projeto';
-import { useFetchProjects } from '../../../hooks/use-fetch-projects';
+import projects from "../../../src/data/projects.json";
 import { useToggleVisibility, useToggleVisibilityDescription } from '../../../hooks/use-toggle-visibility';
 
 function ProjectList({ projects, visibility, toggleVisibility, resetVisibility, visibilityDescription, toggleVisibilityDescription, resetVisibilityDescription }) {
@@ -11,8 +11,8 @@ function ProjectList({ projects, visibility, toggleVisibility, resetVisibility, 
   return (
     <div className="flex justify-evenly items-start flex-wrap">
       {Object.keys(projects || {}).map((key) =>
-        projects[key] ? (          
-        
+        projects[key] ? (
+
           <CriarProjetos
             key={key}
             projectKeys={key}
@@ -49,7 +49,6 @@ ProjectList.propTypes = {
  */
 export default function Projects() {
   const projectKeys = ['calculadora', 'gedf', 'reanotes', 'spotifyimersaofrontend'];
-  const { data } = useFetchProjects(projectKeys);
   // console.log(error)
 
   const { visibility, toggleVisibility, resetVisibility } = useToggleVisibility()
@@ -61,7 +60,7 @@ export default function Projects() {
   // if (error) { return <div className="error">Error fetching projects: {error.message}</div> }
 
   // Handle loading state
-  if (!data || Object.keys(data).length === 0) {
+  if (!projects || Object.keys(projects).length === 0) {
     return <div className="loading">Loading projects...</div>;
   }
 
@@ -72,7 +71,7 @@ export default function Projects() {
           Projetos
         </h5>
       </div>
-      <ProjectList projects={data} visibility={visibility} toggleVisibility={toggleVisibility} resetVisibility={resetVisibility} visibilityDescription={visibilityDescription}  toggleVisibilityDescription={toggleVisibilityDescription} resetVisibilityDescription={resetVisibilityDescription} />
+      <ProjectList projects={projects} visibility={visibility} toggleVisibility={toggleVisibility} resetVisibility={resetVisibility} visibilityDescription={visibilityDescription} toggleVisibilityDescription={toggleVisibilityDescription} resetVisibilityDescription={resetVisibilityDescription} />
     </section>
   );
 }
