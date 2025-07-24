@@ -71,7 +71,7 @@ export default function Projects() {
           Projetos
         </h5>
       </div>
-      <ProjectList projects={projects} visibility={visibility} toggleVisibility={toggleVisibility} resetVisibility={resetVisibility} visibilityDescription={visibilityDescription} toggleVisibilityDescription={toggleVisibilityDescription} resetVisibilityDescription={resetVisibilityDescription} />
+      <ProjectList projectKeys={projectKeys} projects={projects} visibility={visibility} toggleVisibility={toggleVisibility} resetVisibility={resetVisibility} visibilityDescription={visibilityDescription} toggleVisibilityDescription={toggleVisibilityDescription} resetVisibilityDescription={resetVisibilityDescription} />
     </section>
   );
 }
